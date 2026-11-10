@@ -291,7 +291,7 @@
     {
       "id": "firefly", "name": "Adobe Firefly", "alias": "设计师工作流", "category": "image_platform", "type": "closed",
       "org": "Adobe", "desc": "与 Photoshop / Illustrator 深度集成，训练数据来源与商业使用合规性是最大卖点，适合企业设计团队。",
-      "links": {"home": "https://firefly.adobe.com/", "docs": "https://www.adobe.com/products/firefly/features/ai-image-generator.html"},
+      "links": {"home": "https://firefly.adobe.com/", "docs": "https://firefly.adobe.com/generate/images"},
       "license": "商业订阅", "tags": ["商用合规", "PS 集成", "企业"], "added": "2026-11-10",
       "scores": {"ease": 5, "cost": 2, "quality": 4, "cn": 3, "ecosystem": 5, "efficiency": 5}, "heat_baseline": 88
     },
@@ -445,7 +445,7 @@
     {
       "id": "firefly-video", "name": "Adobe Firefly Video", "alias": "合规商用视频", "category": "video_platform", "type": "closed",
       "org": "Adobe", "desc": "面向企业合规工作流的生成式视频，与 Premiere / Firefly 素材链路集成，版权策略明确。",
-      "links": {"home": "https://www.adobe.com/products/firefly/features/ai-video-generator.html", "docs": "https://www.adobe.com/products/firefly/plans.html"},
+      "links": {"home": "https://firefly.adobe.com/generate/video", "docs": "https://firefly.adobe.com/"},
       "license": "订阅 / 积分", "tags": ["商用合规", "企业", "剪辑集成"], "added": "2026-11-10",
       "scores": {"ease": 4, "cost": 2, "quality": 4, "cn": 2, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 76
     },

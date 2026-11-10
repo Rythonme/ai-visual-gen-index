@@ -46,6 +46,9 @@ def check_one(url: str, timeout: int) -> str:
         except urllib.error.HTTPError as exc:
             code = exc.code
             if code in (404, 410) or 500 <= code < 600:
+                # 部分站点对 HEAD 直接返回 404 但 GET 正常，先回退 GET 复核再判失效
+                if method == "HEAD":
+                    continue
                 return "fail"
             if code in (403, 405, 429) and method == "HEAD":
                 continue  # 部分站点拒绝 HEAD，回退 GET 再试
