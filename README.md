@@ -1,10 +1,10 @@
 # AI 视觉生成资源榜 · AI Visual Generation Index
 
-> 收罗并展示目前 **AI 生图 / 生视频** 领域的工具、模型与平台资源，按 **热度** 与 **实用性** 制作排名榜，每周自动更新。
+> 收罗并展示目前 **AI 生图 / 生视频** 领域的工具、模型与平台资源，按 **热度** 与 **实用性** 制作排名榜，**每日自动检索新资源、自动收录进榜并刷新全站数据**。
 >
 > **本项目只做整理归纳与展示：不托管、不下载、不分发任何模型权重、数据集或素材，全部资源仅提供官方超链接。**
 
-[![每周更新榜单](https://github.com/Rythonme/ai-visual-gen-index/actions/workflows/weekly-update.yml/badge.svg)](https://github.com/Rythonme/ai-visual-gen-index/actions/workflows/weekly-update.yml)
+[![每日自动更新榜单](https://github.com/Rythonme/ai-visual-gen-index/actions/workflows/weekly-update.yml/badge.svg)](https://github.com/Rythonme/ai-visual-gen-index/actions/workflows/weekly-update.yml)
 [![部署榜单网站](https://github.com/Rythonme/ai-visual-gen-index/actions/workflows/pages.yml/badge.svg)](https://github.com/Rythonme/ai-visual-gen-index/actions/workflows/pages.yml)
 ![收录资源](https://img.shields.io/badge/收录-90%2B%20项-blue)
 ![许可](https://img.shields.io/badge/license-MIT%20%2F%20CC%20BY%204.0-green)
@@ -16,19 +16,20 @@
 
 ## 一、这个项目解决什么
 
-AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 GitHub、Hugging Face、官网、评测榜和社区里。本项目把散落的入口收拢成一份**可检索、可排序、可复算、每周自动刷新**的中文导航：
+AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 GitHub、Hugging Face、官网、评测榜和社区里。本项目把散落的入口收拢成一份**可检索、可排序、可复算、每日自动发现新资源并刷新**的中文导航：
 
 - **只给链接**：每个条目都指向官方仓库 / 官网 / 模型卡 / 文档，不下载、不镜像、不转存任何素材；
 - **双维度排名**：既看社区热度（GitHub Stars、增速、维护活跃度、HF 下载/点赞），也看实用性（易上手、成本与许可、输出质量、中文支持、生态文档、硬件效率）；
-- **五类榜单**：综合榜、热度榜、实用榜、上升榜、开源榜（仅开放权重项目），另有 7 个分类速览；
-- **每周自动更新**：GitHub Actions 定时抓取公开 API → 重算分数 → 生成榜单/README/周报/历史快照 → 自动提交 → 自动部署网站。
+- **六类榜单**：综合榜、热度榜、实用榜、上升榜、开源榜、新收录榜（自动发现的最新项目），另有 7 个分类速览；
+- **每日自动更新与收录**：GitHub Actions 每日检索近 120 天新建项目 → 护栏过滤后**自动收录进榜** → 抓取公开 API 重算分数 → 生成榜单 / README / 周报 / 历史快照 → 自动提交 → 自动部署网站；
+- **自动收录有护栏、可复核**：Star 阈值、生图生视频关键词白名单、营销与接口封装类黑名单、归档/Fork 排除、两层清单去重、每轮与总量上限，全部公开在 `data/config.json → auto_admit`；自动条目带「自动收录 · 待复核」标记，人工清单永不被脚本改写。
 
 ---
 
 ## 二、榜单（自动生成）
 
 <!-- BEGIN AUTO-GENERATED RANKING -->
-> **榜单数据更新时间：2026-11-11 00:11 (UTC+8)** ｜ 第 2026-W46 周 ｜ 共收录 **90** 项资源，其中开源/开放权重 **52** 项。
+> **榜单数据更新时间：2026-11-11 00:46 (UTC+8)** ｜ 第 2026-W46 周 ｜ 共收录 **98** 项资源，其中开源/开放权重 **60** 项、自动收录待复核 **8** 项。
 > 本区块由 `scripts/build.py` 自动生成，请勿手动编辑；完整可筛选榜单见 [在线网站](https://rythonme.github.io/ai-visual-gen-index/)。
 
 ### 🏆 综合榜 Top 20（热度 45% + 实用性 55%）
@@ -122,9 +123,22 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 | 9 | **Fooocus** | 工具框架 | 74.4 | 87.2 | **81.4** | [GitHub](https://github.com/lllyasviel/Fooocus) · [官网](https://github.com/lllyasviel/Fooocus) |
 | 10 | **Z-Image** | 生图模型 | 68.3 | 92.0 | **81.3** | [GitHub](https://github.com/Tongyi-MAI/Z-Image) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo) · [文档](https://github.com/Tongyi-MAI/Z-Image#readme) |
 
+### 🆕 新收录榜 Top 10（自动发现，按收录新鲜度 / 综合分）
+
+| # | 资源 | 分类 | 热度 | 实用 | 综合 | 官方链接 |
+|---|---|---|---|---|---|---|
+| 1 | **open-higgsfield** | 工具框架 | 71.2 | 57.6 | **63.7** | [GitHub](https://github.com/wide-trace/open-higgsfield) · [官网](https://github.com/wide-trace/open-higgsfield) |
+| 2 | **Qwen-Image-2.1** | 生图模型 | 65.5 | 57.6 | **61.2** | [GitHub](https://github.com/QwenLM/Qwen-Image-2.1) · [官网](https://github.com/QwenLM/Qwen-Image-2.1) |
+| 3 | **ComfyUI-MiniMaxH3-Easy** | 工具框架 | 61.1 | 57.6 | **59.2** | [GitHub](https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy) · [官网](https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy) |
+| 4 | **SparkDiffusion** | 生视频模型 | 60.4 | 57.6 | **58.9** | [GitHub](https://github.com/AlibabaResearch/SparkDiffusion) · [官网](https://github.com/AlibabaResearch/SparkDiffusion) |
+| 5 | **qwenimage-ncnn-vulkan** | 控制增强 | 56.5 | 57.6 | **57.1** | [GitHub](https://github.com/nihui/qwenimage-ncnn-vulkan) · [官网](https://github.com/nihui/qwenimage-ncnn-vulkan) |
+| 6 | **MAGI-2-preview** | 生视频模型 | 56.3 | 57.6 | **57.0** | [GitHub](https://github.com/SandAI-org/MAGI-2-preview) · [官网](https://github.com/SandAI-org/MAGI-2-preview) |
+| 7 | **DreamX-Creator** | 生视频模型 | 53.9 | 57.6 | **55.9** | [GitHub](https://github.com/AMAP-ML/DreamX-Creator) · [官网](https://github.com/AMAP-ML/DreamX-Creator) |
+| 8 | **HRDiT** | 生图模型 | 52.0 | 57.6 | **55.1** | [GitHub](https://github.com/zylwithxy/HRDiT) · [官网](https://github.com/zylwithxy/HRDiT) |
+
 ### 分类速览（各类别综合分 Top 5）
 
-<details><summary>生图模型（16 项）</summary>
+<details><summary>生图模型（18 项）</summary>
 
 | # | 资源 | 分类 | 热度 | 实用 | 综合 | 官方链接 |
 |---|---|---|---|---|---|---|
@@ -136,7 +150,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 
 </details>
 
-<details><summary>生视频模型（17 项）</summary>
+<details><summary>生视频模型（20 项）</summary>
 
 | # | 资源 | 分类 | 热度 | 实用 | 综合 | 官方链接 |
 |---|---|---|---|---|---|---|
@@ -172,7 +186,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 
 </details>
 
-<details><summary>工具框架（11 项）</summary>
+<details><summary>工具框架（13 项）</summary>
 
 | # | 资源 | 分类 | 热度 | 实用 | 综合 | 官方链接 |
 |---|---|---|---|---|---|---|
@@ -184,7 +198,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 
 </details>
 
-<details><summary>控制增强（8 项）</summary>
+<details><summary>控制增强（9 项）</summary>
 
 | # | 资源 | 分类 | 热度 | 实用 | 综合 | 官方链接 |
 |---|---|---|---|---|---|---|
@@ -208,7 +222,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 
 </details>
 
-> **口径说明**：热度分来自 GitHub / Hugging Face 公开 API（无仓库的闭源产品使用人工基线），实用性分来自六维人工打分，综合分按权重合成；算法与权重全部公开在 [`data/config.json`](data/config.json)。评分含主观判断，请结合自己的硬件、预算与许可需求判断。
+> **口径说明**：热度分来自 GitHub / Hugging Face 公开 API（无仓库的闭源产品使用人工基线），实用性分来自六维人工打分，综合分按权重合成；算法与权重全部公开在 [`data/config.json`](data/config.json)。新资源经关键词护栏自动收录，使用保守默认分并标注「待复核」，详见 [`reports/candidates.md`](reports/candidates.md)。评分含主观判断，请结合自己的硬件、预算与许可需求判断。
 <!-- END AUTO-GENERATED RANKING -->
 
 > 💡 网页版支持 **搜索、分类筛选、开源/闭源筛选、四种榜单切换、Star 趋势迷你图**；本 README 只展示精简版。
@@ -229,7 +243,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 
 - **有 GitHub 仓库**：以上四项加权合成，数据来自 [GitHub REST API](https://docs.github.com/en/rest) 与 [Hugging Face Hub API](https://huggingface.co/docs/hub/api) 的**公开元数据**，只读不下载。API 限流时会回退读取 GitHub 仓库公开页面内嵌的 Star / Fork / 许可证数字（仍只是读一个网页的公开元数据，不 clone、不下载任何素材），并在卡片上标注来源。
 - **闭源平台 / 无仓库资源**（Midjourney、可灵、即梦、评测榜等）：GitHub Stars 天然不适用，改用 `data/tools.json` 中人工维护的 `heat_baseline` 基线，网站上会明确标注「人工基线」，不与开源项目混算口径。
-- API 抓取失败或匿名限额耗尽时，自动回退到 `data/metrics_cache.json` 缓存或 `seed_stars` 基线值，并标注数据来源，**保证榜单每周都能生成**。
+- API 抓取失败或匿名限额耗尽时，自动回退到 `data/metrics_cache.json` 缓存或 `seed_stars` 基线值，并标注数据来源，**保证榜单每日都能生成**。
 
 ### 3.2 实用性分 Practical（0–100）
 
@@ -246,44 +260,52 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 
 `实用性分 = Σ(维度分 × 权重) / 5 × 100`。评分锚点与复核流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
+> **自动收录条目**尚未经过人工六维评审，统一使用 `auto_admit.default_scores` 中的保守默认分（易上手 3 / 成本 4 / 质量 3 / 中文 2 / 生态 2 / 效率 3，约 57 分），因此不会靠「新」冲上综合榜前列；其热度分仍由 GitHub API 真实计算。维护者核实后可把条目转正到 `data/tools.json` 并给出正式评分。
+
 ### 3.3 综合分与上升榜
 
 - **综合分 = 0.45 × 热度分 + 0.55 × 实用性分**（更偏「能不能真的用起来」）
 - **上升榜**：只收录有 GitHub 热度追踪的项目（闭源平台没有公开增速数据，不参与该榜）；有历史快照时用 Star 增速分，历史不足时用维护活跃度代替，周报会注明。
 - **开源榜**：只看 `type: open` 的开放权重 / 开源项目，按综合分单独排名，方便按部署可行性选型。
+- **新收录榜**：自动收录条目与近 60 天零散人工新增条目（同日批量导入不算「新」），按收录新鲜度排序、同批按综合分排序，方便第一时间看到新模型 / 新工具。
 
 > ⚠️ 评分含主观判断，不构成性能背书或采购建议。请结合自己的显卡、预算、许可合规要求（尤其商用场景）判断。
 
 ---
 
-## 四、每周自动更新
+## 四、每日自动更新与自动收录
 
 | 项 | 说明 |
 |---|---|
-| 定时 | `.github/workflows/weekly-update.yml`，`cron: 0 2 * * 1`（**每周一 10:00 北京时间**） |
-| 手动 | 仓库 `Actions → 每周更新榜单 → Run workflow`；也可 `git push` 修改 `data/tools.json` 或 `scripts/**` 立即触发 |
+| 定时 | `.github/workflows/weekly-update.yml`，`cron: 30 0 * * *`（**每日 08:30 北京时间**）；文件名沿用 `weekly-update.yml` 以保持徽章链接稳定 |
+| 手动 | 仓库 `Actions → 每日自动更新榜单 → Run workflow`；也可 `git push` 修改 `data/tools.json` / `data/config.json` / `data/auto_tools.json` / `scripts/**` 立即触发 |
 | 认证 | 使用 Actions 内置 `secrets.GITHUB_TOKEN`（5000 次/小时），**无需配置任何密钥** |
-| 更新内容 | Star/Fork/最近提交/许可证/官方简介（GitHub）、likes/下载量（Hugging Face）、五类榜单、README 榜单区块、周报、历史趋势、外链校验状态、新资源候选清单 |
-| 自动收录？ | ❌ **不会**。新资源只生成候选清单 `reports/candidates.md`，必须人工核实后手工加入 `data/tools.json`，避免营销仓库污染榜单 |
-| 人工边界 | 闭源产品热度基线、实用性六维评分、新增/下架条目 —— 这三类需要人工维护（建议季度复核） |
+| 自动收录 | ✅ **会**。`scripts/discover.py` 每日检索 GitHub 近 120 天新建项目，经护栏过滤后自动写入 `data/auto_tools.json`，由 `build.py` 合并进榜单，并在网站标注「自动收录 · 待复核」 |
+| 护栏 | Star ≥ 300；必须命中生图 / 生视频关键词白名单；排除营销号、接口封装、教程合集、归档与 Fork；与两层清单去重；每轮最多 8 条、自动层总量上限 60 条。全部参数见 `data/config.json → auto_admit` |
+| 更新内容 | Star / Fork / 最近提交 / 许可证 / 官方简介（GitHub）、likes 与下载量（Hugging Face）、六类榜单、README 榜单区块、周报、历史趋势、外链校验状态、自动收录报告 |
+| 人工边界 | 人工清单 `data/tools.json` **永不被脚本改写**；维护者负责把优质自动条目转正、下架误收条目、复核闭源热度基线与六维评分 |
+| 周报 | 每周一的每日运行即为该周周报节点，周报按 ISO 周覆盖生成 |
 | 网站部署 | `.github/workflows/pages.yml`，`docs/**` 变更或手动触发即部署 GitHub Pages |
+
+**分层设计**：人工层 `data/tools.json`（只读、人工维护）＋ 自动层 `data/auto_tools.json`（脚本增量写入、可随时人工删改）→ `build.py` 合并，id 或仓库冲突时人工层优先，因此「转正」不会产生重复条目。
 
 每次运行产出：
 
 ```
+data/auto_tools.json    自动收录层（脚本增量维护）
+data/candidates.json    本轮检索明细（含被拒原因，审计用）
 data/rankings.json      完整榜单数据（可供第三方程序读取）
-data/history.json      近 26 周 Star 与排名快照（趋势图/增速来源）
+data/history.json       近 26 周 Star 与排名快照（趋势图/增速来源）
 data/metrics_cache.json 公开指标缓存（API 失败时兜底）
 data/link_status.json   外链校验结果
-data/candidates.json   新资源候选（人工审核用）
-docs/data.js           网站数据源（script 标签加载，双击 HTML 也能看）
-docs/data.json         网站数据源（JSON 版）
-README.md              自动替换「榜单」区块
-reports/YYYY-Www.md    本周更新报告
-reports/candidates.md  候选清单（人读版）
+docs/data.js            网站数据源（script 标签加载，双击 HTML 也能看）
+docs/data.json          网站数据源（JSON 版）
+README.md               自动替换「榜单」区块
+reports/YYYY-Www.md     本周更新报告
+reports/candidates.md   自动收录报告（人读版）
 ```
 
-> GitHub 会在仓库连续 60 天无活动后暂停 schedule，手动跑一次 workflow 即可恢复。
+> 搜索接口限流不会阻断已有资源的榜单刷新（该步骤设为 `continue-on-error`）；GitHub 会在仓库连续 60 天无活动后暂停 schedule，手动跑一次 workflow 即可恢复。
 
 ---
 
@@ -298,7 +320,9 @@ cd ai-visual-gen-index
 python scripts/build.py            # 生成榜单（自动尝试刷新公开数据）
 python scripts/build.py --no-refresh   # 完全离线，只用缓存/基线
 python scripts/check_links.py      # 校验所有外链
-python scripts/discover.py          # 生成新资源候选清单
+python scripts/discover.py          # 检索并自动收录新资源（写 data/auto_tools.json）
+python scripts/discover.py --dry-run   # 只预览本轮会收录哪些，不写任何文件
+python scripts/build.py            # 合并两层清单后重算榜单
 
 # 直接双击 docs/index.html 即可查看网站（数据由 data.js 提供，无需起服务器）
 ```
@@ -308,16 +332,17 @@ python scripts/discover.py          # 生成新资源候选清单
 ### 目录结构
 
 ```
-├── .github/workflows/    周更 + Pages 部署两条工作流
+├── .github/workflows/    每日更新收录 + Pages 部署两条工作流
 ├── data/
-│   ├── tools.json        ★ 唯一需要人工维护的源文件
-│   ├── config.json       ★ 评分权重、分类、榜单口径
+│   ├── tools.json        ★ 人工层：人工维护，脚本只读
+│   ├── auto_tools.json   ★ 自动层：由 discover.py 增量收录（可人工转正/下架）
+│   ├── config.json       ★ 评分权重、分类、榜单口径、自动收录护栏
 │   ├── rankings.json     生成的完整榜单
 │   ├── history.json      26 周历史快照
 │   └── ...
 ├── scripts/              build.py / check_links.py / discover.py
 ├── docs/                  GitHub Pages 静态网站 + 项目进展看板
-└── reports/              每周报告与候选清单
+└── reports/              每周报告与自动收录报告
 ```
 
 ---
@@ -326,7 +351,7 @@ python scripts/discover.py          # 生成新资源候选清单
 
 收录范围：AI **图像生成 / 视频生成** 的模型、平台、推理工具、控制增强组件，以及模型社区与公开评测榜。收录至少满足：有可访问的官方入口、与该领域直接相关、能说清许可或使用条件。
 
-欢迎通过 Issue / PR 补充遗漏、修正失效链接、复核评分。新增条目请按 [CONTRIBUTING.md](CONTRIBUTING.md) 的字段说明与评分锚点填写 `data/tools.json`，push 后工作流会自动重算榜单。
+欢迎通过 Issue / PR 补充遗漏、修正失效链接、复核评分。新增条目有两种方式：① 按 [CONTRIBUTING.md](CONTRIBUTING.md) 的字段说明与评分锚点直接填写 `data/tools.json`（正式收录）；② 让每日 `discover.py` 自动收录，再在 `data/auto_tools.json` 中核实转正或删除。push 任一层清单都会立即触发工作流重算榜单。
 
 ---
 
@@ -334,7 +359,7 @@ python scripts/discover.py          # 生成新资源候选清单
 
 1. Fork 或 push 本仓库到你的 GitHub 账号；
 2. `Settings → Pages → Build and deployment → Source` 选 **GitHub Actions**；
-3. `Actions → 每周更新榜单 → Run workflow` 跑一次，生成 `data/rankings.json`、`docs/data.js` 与 README 榜单；
+3. `Actions → 每日自动更新榜单 → Run workflow` 跑一次，会自动检索收录新资源并生成 `data/rankings.json`、`docs/data.js` 与 README 榜单；
 4. 网站地址：`https://<你的用户名>.github.io/<仓库名>/`；
 5. 修改 `data/config.json` 里的 `project.owner` 与 `site_url`，以及 README 顶部的徽章/链接。
 

@@ -3,7 +3,8 @@
 AI 视觉生成资源榜 · 榜单构建 / 周更主脚本
 =========================================================
 职责：
-  1. 读取人工维护的 data/tools.json（唯一需要人工改的源文件）；
+  1. 合并人工层 data/tools.json（只读，人工维护）与自动收录层 data/auto_tools.json
+     （由 scripts/discover.py 每次检索后增量写入，带待复核标记）；
   2. 通过 GitHub / Hugging Face 公开 API 拉取热度与项目信息（只读元数据，绝不下载模型或素材）；
   3. 按 data/config.json 中公开的算法计算 热度分 / 实用性分 / 综合分 / 上升分；
   4. 生成 data/rankings.json、docs/data.js、docs/data.json、README 榜单区块、周报与历史快照。
@@ -105,6 +106,31 @@ def parse_github_time(value: str | None):
         return datetime.fromisoformat(value.replace("Z", "+00:00"))
     except ValueError:
         return None
+
+
+# ---------------------------------------------------------------- 资源清单（分层合并）
+def load_tools(config):
+    """
+    人工层 data/tools.json 只读、绝不改写；自动层 data/auto_tools.json 由 discover.py 维护。
+    id 或 GitHub 仓库冲突时人工层优先，保证「转正」后不会出现重复条目。
+    返回 (合并后的清单, 实际生效的自动收录条目数)。
+    """
+    manual = (load_json(DATA / "tools.json", {}) or {}).get("tools", [])
+    ac = config.get("auto_admit") or {}
+    auto = (load_json(DATA / "auto_tools.json", {}) or {}).get("tools", []) if ac.get("enabled") else []
+    manual_ids = {t.get("id") for t in manual}
+    manual_repos = {str(t.get("github", "")).lower() for t in manual if t.get("github")}
+    merged = list(manual)
+    seen_ids, seen_repos = set(manual_ids), set(manual_repos)
+    for t in auto:
+        rid, repo = t.get("id"), str(t.get("github", "")).lower()
+        if not rid or rid in seen_ids or (repo and repo in seen_repos):
+            continue
+        merged.append(t)
+        seen_ids.add(rid)
+        if repo:
+            seen_repos.add(repo)
+    return merged, len(merged) - len(manual)
 
 
 # ---------------------------------------------------------------- 公开数据抓取
@@ -304,6 +330,16 @@ def score_items(tools, config, metrics, history, link_status):
     star_series = history.get("stars", {})
     items = []
 
+    # 识别「同日批量导入」：项目初次建库时 90 条人工条目 added 为同一天，
+    # 不应把整库都算作「新收录」；只有零散人工新增才进入新收录榜。
+    auto_cfg = config.get("auto_admit") or {}
+    batch_threshold = int(auto_cfg.get("recent_batch_threshold", 5))
+    added_counts = {}
+    for t in tools:
+        k = str(t.get("added") or "")[:10]
+        if k:
+            added_counts[k] = added_counts.get(k, 0) + 1
+
     for t in tools:
         practical = sum(wp[k] * float(t["scores"].get(k, 3)) for k in wp) / 5.0 * 100.0
         practical = round(clamp(practical), 1)
@@ -377,6 +413,27 @@ def score_items(tools, config, metrics, history, link_status):
         else:
             link_state = "unknown"
 
+        # 新收录榜：自动收录条目恒为「近期」，人工条目按 added 日期计算新鲜度
+        recent_days = max(1, int(auto_cfg.get("recent_days", 60)))
+        raw_added = str(t.get("admitted_at") or t.get("added") or "")
+        added_dt = None
+        for fmt, cut in (("%Y-%m-%d %H:%M", 16), ("%Y-%m-%d", 10)):
+            try:
+                added_dt = datetime.strptime(raw_added[:cut], fmt)
+                break
+            except (ValueError, TypeError):
+                continue
+        days_since_added = (now_cn().replace(tzinfo=None) - added_dt).days if added_dt else None
+        if days_since_added is not None:
+            days_since_added = max(0, days_since_added)
+        same_day = added_counts.get(str(t.get("added") or "")[:10], 0)
+        is_batch_import = same_day > batch_threshold
+        is_recent = bool(t.get("auto_admitted")) or (
+            days_since_added is not None and days_since_added <= recent_days
+            and not is_batch_import)
+        recency = round(clamp(100.0 - (days_since_added if days_since_added is not None else 9999)
+                              * 100.0 / recent_days), 1)
+
         items.append({
             "id": t["id"],
             "name": t["name"],
@@ -406,6 +463,11 @@ def score_items(tools, config, metrics, history, link_status):
             "data_source": source or "manual",
             "link_state": link_state,
             "spark": series[-12:],
+            "auto_admitted": bool(t.get("auto_admitted")),
+            "admitted_at": t.get("admitted_at", ""),
+            "review_status": t.get("review_status", ""),
+            "is_recent": is_recent,
+            "recency": recency,
         })
     return items
 
@@ -488,7 +550,8 @@ def md_link_list(it):
     return " · ".join(parts) or "—"
 
 
-def md_board_table(items, key, n=10, cat=None, exclude_resource=True, open_only=False, github_only=False):
+def md_board_table(items, key, n=10, cat=None, exclude_resource=True, open_only=False,
+                   github_only=False, recent_only=False):
     pool = [x for x in items if (cat is None or x["category"] == cat)]
     if exclude_resource:
         pool = [x for x in pool if x["type"] != "resource"]
@@ -496,6 +559,8 @@ def md_board_table(items, key, n=10, cat=None, exclude_resource=True, open_only=
         pool = [x for x in pool if x["type"] == "open"]
     if github_only:
         pool = [x for x in pool if x["github"]]
+    if recent_only:
+        pool = [x for x in pool if x["is_recent"]]
     rows = rank_by(pool, key)[:n]
     out = ["| # | 资源 | 分类 | 热度 | 实用 | 综合 | 官方链接 |", "|---|---|---|---|---|---|---|"]
     cat_labels = load_json(DATA / "config.json", {})["categories"]
@@ -512,7 +577,8 @@ def build_readme_block(items, config, stats, week):
     boards = config["boards"]
     lines = [
         BEGIN_MARK,
-        f"> **榜单数据更新时间：{human_time()}** ｜ 第 {week} 周 ｜ 共收录 **{stats['total']}** 项资源，其中开源/开放权重 **{stats['open']}** 项。",
+        f"> **榜单数据更新时间：{human_time()}** ｜ 第 {week} 周 ｜ 共收录 **{stats['total']}** 项资源，"
+        f"其中开源/开放权重 **{stats['open']}** 项、自动收录待复核 **{stats['auto_pending']}** 项。",
         f"> 本区块由 `scripts/build.py` 自动生成，请勿手动编辑；完整可筛选榜单见 [在线网站]({config['project'].get('site_url', 'https://github.com/')})。",
         "",
         "### 🏆 综合榜 Top 20（热度 45% + 实用性 55%）",
@@ -541,6 +607,10 @@ def build_readme_block(items, config, stats, week):
         "",
         md_board_table(items, "overall", 10, open_only=True),
         "",
+        "### 🆕 新收录榜 Top 10（自动发现，按收录新鲜度 / 综合分）",
+        "",
+        md_board_table(items, "recency", 10, recent_only=True),
+        "",
         "### 分类速览（各类别综合分 Top 5）",
         "",
     ]
@@ -551,7 +621,9 @@ def build_readme_block(items, config, stats, week):
         lines += [f"<details><summary>{meta['label']}（{count} 项）</summary>", "", md_board_table(items, "overall", 5, cat=cid, exclude_resource=False), "", "</details>", ""]
     lines += [
         "> **口径说明**：热度分来自 GitHub / Hugging Face 公开 API（无仓库的闭源产品使用人工基线），实用性分来自六维人工打分，"
-        "综合分按权重合成；算法与权重全部公开在 [`data/config.json`](data/config.json)。评分含主观判断，请结合自己的硬件、预算与许可需求判断。",
+        "综合分按权重合成；算法与权重全部公开在 [`data/config.json`](data/config.json)。"
+        "新资源经关键词护栏自动收录，使用保守默认分并标注「待复核」，详见 [`reports/candidates.md`](reports/candidates.md)。"
+        "评分含主观判断，请结合自己的硬件、预算与许可需求判断。",
         END_MARK,
     ]
     return "\n".join(lines)
@@ -618,12 +690,26 @@ def write_weekly_report(items, hist, week, stats, prev_rankings):
     else:
         lines.append("| — | — | 首次构建，暂无可比快照 | — |")
 
-    lines += ["", "## 本周新增收录", ""]
-    if newcomers:
-        for it in newcomers:
+    # 自动收录按「本周收录日期」统计，保证同一周内多次刷新时周报仍完整列出本周新资源
+    week_start = (now_cn() - timedelta(days=now_cn().weekday())).strftime("%Y-%m-%d")
+    auto_new = [it for it in items if it["auto_admitted"]
+                and str(it.get("admitted_at", ""))[:10] >= week_start]
+    manual_new = [it for it in newcomers if not it["auto_admitted"]]
+    lines += ["", "## 本周新增收录", "",
+              f"### 🤖 自动发现并收录（{len(auto_new)}）", ""]
+    if auto_new:
+        for it in auto_new:
+            lines.append(f"- **{it['name']}**（{it['org']}，{it['stars']:,} Stars）— {it['desc']} ｜ {md_link_list(it)}")
+        lines += ["", "> 以上条目由 `scripts/discover.py` 经护栏自动写入 `data/auto_tools.json`，"
+                  "使用保守默认分并标记「待复核」，可在网站「自动收录 / 待复核」筛选中集中复核。"]
+    else:
+        lines.append("- 本轮无符合护栏的新仓库（或为首次构建）。")
+    lines += ["", f"### ✍️ 人工新增（{len(manual_new)}）", ""]
+    if manual_new:
+        for it in manual_new:
             lines.append(f"- **{it['name']}**（{it['org']}）— {it['desc']} ｜ {md_link_list(it)}")
     else:
-        lines.append("- 无（本次为首次构建或清单未新增条目）。人工新增请在 `data/tools.json` 中补充，并在 CONTRIBUTING.md 记录来源。")
+        lines.append("- 无。人工新增请在 `data/tools.json` 中补充，并在 CONTRIBUTING.md 记录来源。")
 
     lines += ["", "## 待复核事项", ""]
     if failures:
@@ -632,6 +718,8 @@ def write_weekly_report(items, hist, week, stats, prev_rankings):
         lines.append("- 链接校验无明确失效项（未校验的链接不计入）。")
     lines += [
         "- 闭源产品的热度为人工基线，建议每季度人工复核一次 `heat_baseline`。",
+        f"- 自动收录层目前 {stats['auto_pending']} 条待复核，建议每周浏览 `reports/candidates.md`，"
+        "把优质条目转正写入 `data/tools.json`，把误收录的从 `data/auto_tools.json` 删除。",
         "- 上升榜在历史快照不足 2 周时以维护活跃度代替增速，属正常现象。",
         "",
         "---",
@@ -646,7 +734,8 @@ def write_weekly_report(items, hist, week, stats, prev_rankings):
     index += [f"- [{f[:-3]}]({f})" for f in files]
     index += ["", "> 报告由 `scripts/build.py` 生成，请勿手动编辑。", ""]
     save_text(REPORTS / "README.md", "\n".join(index))
-    return {"star_changes": len(changes), "new": len(newcomers), "failed_links": len(failures)}
+    return {"star_changes": len(changes), "new": len(auto_new) + len(manual_new),
+            "auto_new": len(auto_new), "failed_links": len(failures)}
 
 
 # ---------------------------------------------------------------- 主流程
@@ -657,19 +746,22 @@ def main():
     args = ap.parse_args()
 
     config = load_json(DATA / "config.json")
-    tools_doc = load_json(DATA / "tools.json")
-    tools = tools_doc["tools"]
-    if not config or not tools:
-        log("错误：data/config.json 或 data/tools.json 缺失/为空")
+    if not config:
+        log("错误：data/config.json 缺失/为空")
+        return 1
+    tools, auto_count = load_tools(config)
+    if not tools:
+        log("错误：data/tools.json 缺失/为空")
         return 1
     if len({t["id"] for t in tools}) != len(tools):
-        log("错误：data/tools.json 存在重复 id，请先修复")
+        log("错误：合并后的资源清单存在重复 id，请先修复 data/auto_tools.json")
         return 1
 
     prev_rankings = load_json(DATA / "rankings.json", {}) or {}
     link_status = load_json(DATA / "link_status.json", {}) or {}
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-    log(f"载入 {len(tools)} 条资源；GitHub {'已认证（内置令牌）' if token else '匿名模式'}")
+    log(f"载入 {len(tools)} 条资源（人工层 {len(tools) - auto_count} + 自动收录 {auto_count}）；"
+        f"GitHub {'已认证（内置令牌）' if token else '匿名模式'}")
 
     metrics = refresh_metrics(tools, token, args)
     save_json(DATA / "metrics_cache.json", metrics)
@@ -688,6 +780,9 @@ def main():
     boards["momentum"] = [x["id"] for x in rank_by(
         [i for i in board_items(items) if i["github"]], "momentum")]
     boards["open_source"] = [x["id"] for x in rank_by([i for i in items if i["type"] == "open"], "overall")]
+    boards["recent"] = [x["id"] for x in rank_by(
+        [i for i in board_items(items) if i["is_recent"]], "recency")]
+    week_start = (now_cn() - timedelta(days=now_cn().weekday())).strftime("%Y-%m-%d")
     stats = {
         "total": len(items),
         "open": sum(1 for x in items if x["type"] == "open"),
@@ -696,10 +791,14 @@ def main():
         "github_tracked": sum(1 for x in items if x["github"]),
         "api_refreshed": sum(1 for x in items if x["data_source"] in ("api", "html")),
         "api_only": sum(1 for x in items if x["data_source"] == "api"),
+        "auto_admitted": sum(1 for x in items if x["auto_admitted"]),
+        "auto_pending": sum(1 for x in items if x["review_status"] == "pending"),
+        "recent_count": len(boards["recent"]),
         "by_category": {cid: sum(1 for x in items if x["category"] == cid) for cid in config["categories"]},
         "new_this_week": len([x for x in items
-                              if prev_rankings.get("items") and
-                              x["id"] not in {p["id"] for p in prev_rankings["items"]}]),
+                              if (x["auto_admitted"] and str(x.get("admitted_at", ""))[:10] >= week_start)
+                              or (prev_rankings.get("items") and not x["auto_admitted"]
+                                  and x["id"] not in {p["id"] for p in prev_rankings["items"]})]),
         "link_checked_at": link_status.get("checked_at", ""),
     }
 
@@ -722,8 +821,8 @@ def main():
     update_readme(build_readme_block(items, config, stats, week))
     report = write_weekly_report(items, hist, week, stats, prev_rankings)
 
-    log(f"完成：{stats['total']} 条资源，公开数据实取 {stats['api_refreshed']} 条"
-        f"（其中 REST API {stats['api_only']} 条），周报 {week}.md")
+    log(f"完成：{stats['total']} 条资源（自动收录 {stats['auto_admitted']} 条），"
+        f"公开数据实取 {stats['api_refreshed']} 条（其中 REST API {stats['api_only']} 条），周报 {week}.md")
     log(f"榜单 Top 3：" + " / ".join(x["name"] for x in rank_by(board_items(items), "overall")[:3]))
     log(f"周报：Star 变化 {report['star_changes']} 项、新增 {report['new']} 项、失效链接 {report['failed_links']} 项")
     return 0

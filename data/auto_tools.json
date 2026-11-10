@@ -1,0 +1,304 @@
+{
+  "generated": "2026-11-11 00:42 (UTC+8)",
+  "note": "本文件由 scripts/discover.py 自动维护；人工核实后可把条目移入 data/tools.json 转正，或直接删掉下架。",
+  "config_version": "2.0",
+  "count": 8,
+  "tools": [
+    {
+      "id": "auto-qwenlm-qwen-image-2-1",
+      "name": "Qwen-Image-2.1",
+      "alias": "自动收录 · 待复核",
+      "category": "image_model",
+      "type": "open",
+      "org": "QwenLM",
+      "desc": "Qwen's most powerful open-source image generation model",
+      "links": {
+        "home": "https://github.com/QwenLM/Qwen-Image-2.1",
+        "github": "https://github.com/QwenLM/Qwen-Image-2.1"
+      },
+      "github": "QwenLM/Qwen-Image-2.1",
+      "license": "详见仓库",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Python"
+      ],
+      "added": "2026-11-11",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 2193,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-11 00:42",
+      "review_status": "pending",
+      "source_query": "\"image generation\" in:description stars:>300",
+      "source_stars": 2193,
+      "source_relevance": 121.8,
+      "source_created": "2026-09-14"
+    },
+    {
+      "id": "auto-sandai-org-magi-2-preview",
+      "name": "MAGI-2-preview",
+      "alias": "自动收录 · 待复核",
+      "category": "video_model",
+      "type": "open",
+      "org": "SandAI-org",
+      "desc": "MAGI-2-preview: Scaling Video Generation Models Efficiently",
+      "links": {
+        "home": "https://github.com/SandAI-org/MAGI-2-preview",
+        "github": "https://github.com/SandAI-org/MAGI-2-preview"
+      },
+      "github": "SandAI-org/MAGI-2-preview",
+      "license": "Apache-2.0",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Python"
+      ],
+      "added": "2026-11-11",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 655,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-11 00:42",
+      "review_status": "pending",
+      "source_query": "\"video generation\" in:description stars:>300",
+      "source_stars": 655,
+      "source_relevance": 119.3,
+      "source_created": "2026-08-04"
+    },
+    {
+      "id": "auto-alibabaresearch-sparkdiffusion",
+      "name": "SparkDiffusion",
+      "alias": "自动收录 · 待复核",
+      "category": "video_model",
+      "type": "open",
+      "org": "AlibabaResearch",
+      "desc": "SparkDiffusion: Accelerating DiT video generation by 265× via joint Sparsity, Distillation, Quantization, etc.",
+      "links": {
+        "home": "https://github.com/AlibabaResearch/SparkDiffusion",
+        "github": "https://github.com/AlibabaResearch/SparkDiffusion"
+      },
+      "github": "AlibabaResearch/SparkDiffusion",
+      "license": "Apache-2.0",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Python"
+      ],
+      "added": "2026-11-11",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 647,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-11 00:42",
+      "review_status": "pending",
+      "source_query": "\"video generation\" in:description stars:>300",
+      "source_stars": 647,
+      "source_relevance": 119.2,
+      "source_created": "2026-09-18"
+    },
+    {
+      "id": "auto-amap-ml-dreamx-creator",
+      "name": "DreamX-Creator",
+      "alias": "自动收录 · 待复核",
+      "category": "video_model",
+      "type": "open",
+      "org": "AMAP-ML",
+      "desc": "Democratizing Native Audio-Video Generation at 2K Resolution",
+      "links": {
+        "home": "https://github.com/AMAP-ML/DreamX-Creator",
+        "github": "https://github.com/AMAP-ML/DreamX-Creator"
+      },
+      "github": "AMAP-ML/DreamX-Creator",
+      "license": "Apache-2.0",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Python"
+      ],
+      "added": "2026-11-11",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 319,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-11 00:42",
+      "review_status": "pending",
+      "source_query": "\"video generation\" in:description stars:>300",
+      "source_stars": 319,
+      "source_relevance": 113.1,
+      "source_created": "2026-09-01"
+    },
+    {
+      "id": "auto-wide-trace-open-higgsfield",
+      "name": "open-higgsfield",
+      "alias": "自动收录 · 待复核",
+      "category": "tool",
+      "type": "open",
+      "org": "wide-trace",
+      "desc": "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.",
+      "links": {
+        "home": "https://github.com/wide-trace/open-higgsfield",
+        "github": "https://github.com/wide-trace/open-higgsfield"
+      },
+      "github": "wide-trace/open-higgsfield",
+      "license": "详见仓库",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "TypeScript"
+      ],
+      "added": "2026-11-11",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 5608,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-11 00:42",
+      "review_status": "pending",
+      "source_query": "\"video generation\" in:description stars:>300",
+      "source_stars": 5608,
+      "source_relevance": 85.0,
+      "source_created": "2026-08-26"
+    },
+    {
+      "id": "auto-nihui-qwenimage-ncnn-vulkan",
+      "name": "qwenimage-ncnn-vulkan",
+      "alias": "自动收录 · 待复核",
+      "category": "edit",
+      "type": "open",
+      "org": "nihui",
+      "desc": "ncnn implementation of Qwen-Image-2.1, with text-to-image, image editing, multi-reference image input and transparent RGBA output",
+      "links": {
+        "home": "https://github.com/nihui/qwenimage-ncnn-vulkan",
+        "github": "https://github.com/nihui/qwenimage-ncnn-vulkan"
+      },
+      "github": "nihui/qwenimage-ncnn-vulkan",
+      "license": "Apache-2.0",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "C++"
+      ],
+      "added": "2026-11-11",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 359,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-11 00:42",
+      "review_status": "pending",
+      "source_query": "\"text-to-image\" in:name,description stars:>200",
+      "source_stars": 359,
+      "source_relevance": 79.1,
+      "source_created": "2026-09-21"
+    },
+    {
+      "id": "auto-zylwithxy-hrdit",
+      "name": "HRDiT",
+      "alias": "自动收录 · 待复核",
+      "category": "image_model",
+      "type": "open",
+      "org": "zylwithxy",
+      "desc": "[ECCV 2026] Official implementation of \"HRDiT: Training-Free High-Resolution Image Generation with Off-the-Shelf Diffusion Transformer Models\"",
+      "links": {
+        "home": "https://github.com/zylwithxy/HRDiT",
+        "github": "https://github.com/zylwithxy/HRDiT"
+      },
+      "github": "zylwithxy/HRDiT",
+      "license": "MIT",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Python"
+      ],
+      "added": "2026-11-11",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 317,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-11 00:42",
+      "review_status": "pending",
+      "source_query": "\"image generation\" in:description stars:>300",
+      "source_stars": 317,
+      "source_relevance": 78.0,
+      "source_created": "2026-08-06"
+    },
+    {
+      "id": "auto-nkxx188-comfyui-minimaxh3-easy",
+      "name": "ComfyUI-MiniMaxH3-Easy",
+      "alias": "自动收录 · 待复核",
+      "category": "tool",
+      "type": "open",
+      "org": "nkxx188",
+      "desc": "The easiest way to use MiniMax H3. One compact workflow for T2V, I2V, first/last-frame, and reference video generation, with a unified multi-media input, powerful @ references, and",
+      "links": {
+        "home": "https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy",
+        "github": "https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy"
+      },
+      "github": "nkxx188/ComfyUI-MiniMaxH3-Easy",
+      "license": "MIT",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "JavaScript"
+      ],
+      "added": "2026-11-11",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 893,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-11 00:42",
+      "review_status": "pending",
+      "source_query": "\"video generation\" in:description stars:>300",
+      "source_stars": 893,
+      "source_relevance": 67.0,
+      "source_created": "2026-08-05"
+    }
+  ]
+}

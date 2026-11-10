@@ -2,7 +2,7 @@
 window.__KANBAN_DATA__ = {
   "project": "AI 视觉生成资源榜 · AI Visual Generation Index",
   "subtitle": "生图 / 生视频资源导航与双维度排名榜 · 每周自动更新",
-  "updated": "2026-11-11 00:15 (UTC+8)",
+  "updated": "2026-11-11 00:50 (UTC+8)",
   "repo": "https://github.com/Rythonme/ai-visual-gen-index",
   "site": "https://rythonme.github.io/ai-visual-gen-index/",
   "workspace": "F:\\00在研项目\\05_Github\\ai-visual-gen-index",
@@ -34,13 +34,13 @@ window.__KANBAN_DATA__ = {
     {
       "id": "T4", "title": "编写每周自动更新脚本与 GitHub Actions", "status": "done", "priority": "高",
       "owner": "WorkBuddy", "updated": "2026-11-10",
-      "desc": "build.py 抓公开 API 元数据并重算榜单、生成 README/周报/历史快照；check_links.py 校验外链；discover.py 只提新资源候选不自动收录；两条工作流分别负责周更与 Pages 部署。",
+      "desc": "build.py 合并人工层与自动收录层后抓公开 API 元数据、重算六类榜单并生成 README/周报/历史快照；discover.py 每日自动检索并按护栏收录新资源；check_links.py 校验外链；两条工作流分别负责每日更新与 Pages 部署。",
       "deliverables": ["scripts/build.py", "scripts/check_links.py", "scripts/discover.py", ".github/workflows/*.yml"]
     },
     {
       "id": "T5", "title": "开发 GitHub Pages 展示网站与进展看板", "status": "done", "priority": "高",
       "owner": "WorkBuddy", "updated": "2026-11-10",
-      "desc": "纯静态零依赖中文网站：五榜切换、搜索、分类/类型/中文筛选、分数条、Star 迷你趋势、官方外链按钮、算法说明；另建本动态看板。",
+      "desc": "纯静态零依赖中文网站：六榜切换（含新收录榜）、搜索、分类/类型/自动收录筛选、分数条、Star 迷你趋势、官方外链按钮、算法与自动收录机制说明；另建本动态看板。",
       "deliverables": ["docs/index.html", "docs/app.js", "docs/style.css", "docs/kanban.html", "docs/kanban_data.js"]
     },
     {
@@ -58,26 +58,33 @@ window.__KANBAN_DATA__ = {
     {
       "id": "T8", "title": "启用 GitHub Pages 与首次周更验证", "status": "done", "priority": "中",
       "owner": "用户 + WorkBuddy", "updated": "2026-11-11",
-      "desc": "Pages 已启用（build_type=workflow），站点返回 200 且标题/静态资源正常；首次 push 自动触发的两条工作流均 success，weekly-update 自动提交 9f470eb 更新 10 个文件（含 README、榜单、周报、候选清单）。",
+      "desc": "Pages 已启用（build_type=workflow），站点返回 200 且标题/静态资源正常；首次 push 自动触发的两条工作流均 success，并两轮自动提交（9f470eb、4647b25）更新榜单/周报/候选清单；云端复验外链 161 ok / 0 fail。更新频率已升级为每日 08:30。",
       "deliverables": ["在线网站可访问", "首份自动周报", "data/candidates.json", "reports/candidates.md"]
     },
     {
-      "id": "T9", "title": "季度复核闭源基线、评分与新资源候选", "status": "todo", "priority": "低",
+      "id": "T9", "title": "复核自动收录条目并转正 / 下架", "status": "todo", "priority": "中",
       "owner": "维护者", "updated": "2026-11-11",
-      "desc": "云端首次发现 24 个候选（如 open-higgsfield、Qwen-Image-2.1、MAGI-2-preview 等），均未被自动收录；需人工逐个核实范畴/官方链接/许可证/评分后才写入 tools.json。另定期复核 heat_baseline 与六维评分。",
-      "deliverables": ["reports/candidates.md 审核记录"]
+      "desc": "首批 8 条已自动收录进榜（Qwen-Image-2.1、MAGI-2-preview、SparkDiffusion、open-higgsfield 等），均带 pending 标记与保守默认分。需逐个核实范畴/官方链接/许可证，优质条目转正写入 tools.json 并给正式六维分，误收的从 auto_tools.json 删除。另季度复核 heat_baseline 与护栏关键词。",
+      "deliverables": ["reports/candidates.md 审核记录", "data/auto_tools.json 复核"]
     },
     {
       "id": "T10", "title": "外链质量复核（Adobe 反爬误报）", "status": "done", "priority": "低",
       "owner": "WorkBuddy", "updated": "2026-11-11",
       "desc": "云端首轮校验 161 ok / 1 fail / 11 unknown，唯一 fail 为 Adobe 官网对爬虫返回 404/403 的误报。已把 4 条 Adobe 链接改用 firefly.adobe.com 官方直达入口（均 200），并让 check_links.py 对 HEAD 404 回退 GET 复核；第二轮云端周更复验结果为 161 ok / 0 fail / 11 unknown。",
       "deliverables": ["data/tools.json", "scripts/check_links.py"]
+    },
+    {
+      "id": "T11", "title": "新资源自动收录 + 每日实时刷新", "status": "done", "priority": "高",
+      "owner": "WorkBuddy", "updated": "2026-11-11",
+      "desc": "按用户要求把「只出候选、绝不自动收录」改为自动进榜：人工层 tools.json 只读 + 自动层 auto_tools.json 增量写入，build.py 合并两层；护栏含 Star 阈值、生图生视频白名单、NSFW / 营销 / 接口封装 / 教程 / Claude Code 工具箱黑名单、简介长度、归档与 Fork 排除、去重、每轮 8 条与总量 60 条上限、官方机构优先的相关性排序；新增「新收录榜」与「自动收录 / 待复核」筛选；cron 由每周改为每日 08:30。本轮实测命中 32 个、自动收录 8 个、护栏拒绝 20 个，榜单由 90 增至 98 条。",
+      "deliverables": ["data/auto_tools.json", "data/config.json → auto_admit", "scripts/discover.py", "scripts/build.py", ".github/workflows/weekly-update.yml", "reports/candidates.md"]
     }
   ],
   "milestones": [
     { "name": "M1 本地仓库完整可用", "status": "done", "date": "2026-11-10", "note": "90 条资源 / 五类榜单 / 周更链路 / 网站 / 看板全部完成并验证" },
     { "name": "M2 GitHub 上线 + Pages 可访问", "status": "done", "date": "2026-11-11", "note": "仓库已推送、Pages 已启用且站点 200 可访问" },
-    { "name": "M3 首次自动周更闭环", "status": "done", "date": "2026-11-11", "note": "两条工作流 success，周更自动提交榜单/周报；50/50 仓库经 API 实取。首次 cron 定时在下周一 10:00" }
+    { "name": "M3 首次自动更新闭环", "status": "done", "date": "2026-11-11", "note": "两条工作流 success，自动提交榜单/周报；58/58 仓库经 API 实取" },
+    { "name": "M4 新资源自动收录上线", "status": "done", "date": "2026-11-11", "note": "每日 08:30 检索收录；首批 8 条自动进榜，六类榜单含新收录榜；护栏实测拦截 20 个误收候选" }
   ],
   "links": [
     { "label": "GitHub 仓库", "url": "https://github.com/Rythonme/ai-visual-gen-index" },

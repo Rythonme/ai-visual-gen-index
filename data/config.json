@@ -8,8 +8,57 @@
     "repo": "Rythonme/ai-visual-gen-index",
     "site_url": "https://rythonme.github.io/ai-visual-gen-index/",
     "timezone": "Asia/Shanghai",
-    "weekly_cron": "0 2 * * 1",
-    "weekly_cron_human": "每周一 10:00（北京时间）"
+    "refresh_cron": "30 0 * * *",
+    "refresh_cron_human": "每日 08:30（北京时间）自动检索新资源、收录并刷新榜单",
+    "weekly_cron": "30 0 * * *",
+    "weekly_cron_human": "每周一的每日运行即为该周周报节点（周报按 ISO 周覆盖生成）"
+  },
+  "auto_admit": {
+    "enabled": true,
+    "version": "2.0",
+    "note": "新资源由 scripts/discover.py 自动检索并写入 data/auto_tools.json，build.py 合并进榜单。人工维护的 data/tools.json 永远不被脚本改写；自动条目带 auto_admitted / review_status=pending 标记，可在网站单独筛选与复核。",
+    "min_stars": 300,
+    "lookback_days": 120,
+    "max_per_run": 8,
+    "max_total": 60,
+    "require_description": true,
+    "min_description_length": 45,
+    "sort_by_relevance": true,
+    "exclude_archived": true,
+    "exclude_forks": true,
+    "preferred_orgs": [
+      "QwenLM", "AlibabaResearch", "AMAP-ML", "Tongyi-MAI", "Wan-Video", "SandAI-org",
+      "Tencent", "Tencent-Hunyuan", "tencent-ailab", "THUDM", "black-forest-labs",
+      "Stability-AI", "Lightricks", "ByteDance-Seed", "MiniMax-AI", "kandinskylab",
+      "InstantX", "PixArt-alpha", "google-deepmind", "OpenAI", "huggingface"
+    ],
+    "relevance_weights": {
+      "keyword_hit": 10, "stars_log": 20, "license": 8,
+      "preferred_org": 45, "plugin_penalty": -40, "benchmark_penalty": -15
+    },
+    "include_keywords": [
+      "image generation", "text-to-image", "text to image", "t2i", "image model", "image diffusion",
+      "video generation", "text-to-video", "text to video", "t2v", "image-to-video", "i2v",
+      "video model", "video diffusion", "image synthesis", "video synthesis",
+      "diffusion model", "diffusion transformer", "stable diffusion", "flux", "comfyui",
+      "controlnet", "ip-adapter", "lora", "image editing", "video editing", "super resolution",
+      "generative image", "generative video", "digital human", "avatar generation",
+      "生图", "生视频", "文生图", "文生视频", "图生视频", "扩散模型"
+    ],
+    "exclude_keywords": [
+      "reverse", "逆向", "逆向封装", "api proxy", "中转", "镜像站", "账号池", "多账号",
+      "openai-compatible", "api wrapper", "key pool", "池轮转", "白嫖", "破解", "代充",
+      "codex skill", "agent skill", "skill for", "-skill", "prompt pack", "prompt composer",
+      "awesome-", "资源汇总", "合集", "教程", "course", "tutorial", "telegram", "discord bot",
+      "nsfw", "uncensored", "18+", "adult", "porn", "成人向", "spicy",
+      "claude code", "claude opus", "agent-skills", "made in code", "no video model", "toolbox of", "film styles",
+      "saas", "template for", "cloudflare workers", "previs", "rigged", "retargeting", "mixamo",
+      "-api", "api for", "api docs", "webhooks", "credits billing"
+    ],
+    "default_scores": { "ease": 3, "cost": 4, "quality": 3, "cn": 2, "ecosystem": 2, "efficiency": 3 },
+    "review_status": "pending",
+    "recent_days": 60,
+    "recent_batch_threshold": 5
   },
   "scoring": {
     "version": "1.0",
@@ -46,7 +95,8 @@
     "heat": { "label": "热度榜", "desc": "社区关注度、增长势头与维护活跃度" },
     "practical": { "label": "实用榜", "desc": "易上手、成本、质量、中文、生态、效率六维" },
     "momentum": { "label": "上升榜", "desc": "仅 GitHub 热度追踪项目 · 近期增长与活跃度" },
-    "open_source": { "label": "开源榜", "desc": "仅开放权重 / 开源项目，按综合分排名" }
+    "open_source": { "label": "开源榜", "desc": "仅开放权重 / 开源项目，按综合分排名" },
+    "recent": { "label": "新收录榜", "desc": "自动发现并收录的最新项目 · 按收录新鲜度排序（同批按综合分）" }
   },
-  "disclaimer": "本榜单为资源导航与社区热度观察，不构成对任何产品的推荐或性能背书；闭源产品的热度为人工基线，开源项目的热度由 GitHub / Hugging Face 公开 API 自动更新。评分含主观判断，欢迎通过 Issue / PR 复核。"
+  "disclaimer": "本榜单为资源导航与社区热度观察，不构成对任何产品的推荐或性能背书；闭源产品的热度为人工基线，开源项目的热度由 GitHub / Hugging Face 公开 API 每日自动更新；新资源经公开护栏自动收录并标注「待复核」，可能存在误收。评分含主观判断，欢迎通过 Issue / PR 复核或下架。"
 }

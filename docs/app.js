@@ -67,13 +67,14 @@
       [stats.open, '开源 / 开放权重'],
       [stats.closed, '闭源平台'],
       [stats.github_tracked, 'GitHub 热度追踪'],
-      [stats.api_refreshed, '本周实取仓库']
+      [stats.api_refreshed, '本次实取仓库'],
+      [stats.auto_pending, '自动收录待复核']
     ];
     document.getElementById('stats').innerHTML = s.map(function (x) {
       return '<div class="stat"><b>' + esc(x[0] == null ? '—' : x[0]) + '</b><span>' + esc(x[1]) + '</span></div>';
     }).join('');
     document.getElementById('updated').textContent =
-      '榜单数据更新时间：' + D.generated + ' ｜ 第 ' + D.week + ' 周 ｜ 每周一 10:00（UTC+8）自动刷新' +
+      '榜单数据更新时间：' + D.generated + ' ｜ 第 ' + D.week + ' 周 ｜ 每日 08:30（UTC+8）自动检索收录并刷新' +
       (stats.link_checked_at ? ' ｜ 外链校验：' + stats.link_checked_at : '');
     var repo = (cfg.project && cfg.project.repo) || '';
     if (repo) {
@@ -129,7 +130,13 @@
       '<table><thead><tr><th>信号</th><th>权重</th><th>口径</th></tr></thead><tbody>' + rows + '</tbody></table>' +
       '<p><strong>实用性分（全部条目）</strong></p>' +
       '<table><thead><tr><th>维度</th><th>权重</th><th>口径</th></tr></thead><tbody>' + prows + '</tbody></table>' +
-      '<p>闭源平台 / 无仓库资源没有 Star 数据，使用人工维护的 <code>heat_baseline</code> 基线，卡片上会标注「人工基线」，不与开源项目混算。</p>';
+      '<p>闭源平台 / 无仓库资源没有 Star 数据，使用人工维护的 <code>heat_baseline</code> 基线，卡片上会标注「人工基线」，不与开源项目混算。</p>' +
+      '<p><strong>新资源自动收录</strong></p>' +
+      '<p>每日通过 GitHub 公开搜索检索近 120 天新建项目，经 Star 阈值、生图 / 生视频关键词白名单、' +
+      '营销与接口封装类黑名单、归档与 Fork 排除、两层清单去重、每轮与总量上限等护栏后，' +
+      '自动写入 <code>data/auto_tools.json</code> 并进入榜单。这类条目使用保守默认六维分、' +
+      '带「自动收录 · 待复核」标记，可在「新收录榜」或类型筛选「自动收录 / 待复核」中集中复核；' +
+      '人工清单 <code>data/tools.json</code> 永远不会被脚本改写。全部护栏参数公开在 <code>data/config.json → auto_admit</code>。</p>';
   }
 
   // ---------- 卡片 ----------
@@ -143,6 +150,7 @@
       ((it.scores && it.scores.cn >= 4) ? '<span class="badge">中文友好</span>' : '') +
       (/Apache|MIT/i.test(it.license || '') ? '<span class="badge open">宽松许可</span>' : '') +
       (isNew ? '<span class="badge new">本周新增</span>' : '') +
+      (it.auto_admitted ? '<span class="badge auto">自动收录 · 待复核</span>' : '') +
       (it.link_state === 'ok' ? '<span class="badge ok">链接已验证</span>' : '');
 
     var meta = '<span>★ <strong>' + (it.github ? fmtNum(it.stars) : '—') + '</strong> Stars</span>';
@@ -175,13 +183,15 @@
     boardIds.forEach(function (id, i) { rankMap[id] = i + 1; });
     var q = state.q.trim().toLowerCase();
     // 主榜只排名工具 / 模型 / 平台；资源评测类仅在明确选择该分类或类型时作为参考入口展示
-    var showRef = state.cat === 'resource' || state.type === 'resource';
+    var showRef = state.cat === 'resource' || state.type === 'resource' || state.type === 'auto';
     var list = items.filter(function (it) {
       if (!showRef && it.type === 'resource') return false;
       if (state.board === 'open_source' && it.type !== 'open') return false;
       if (state.board === 'momentum' && !it.github) return false;
+      if (state.board === 'recent' && !it.is_recent) return false;
       if (state.cat !== 'all' && it.category !== state.cat) return false;
-      if (state.type !== 'all' && it.type !== state.type) return false;
+      if (state.type === 'auto') { if (!it.auto_admitted) return false; }
+      else if (state.type !== 'all' && it.type !== state.type) return false;
       if (state.cnOnly && (!it.scores || it.scores.cn < 4)) return false;
       if (q) {
         var hay = [it.name, it.alias, it.org, it.desc, (it.tags || []).join(' '), it.license].join(' ').toLowerCase();
@@ -189,7 +199,8 @@
       }
       return true;
     });
-    var key = state.board === 'open_source' ? 'overall' : state.board;
+    var key = state.board === 'open_source' ? 'overall'
+      : (state.board === 'recent' ? 'recency' : state.board);
     list.sort(function (a, b) { return (b[key] - a[key]) || (b.overall - a.overall) || a.name.localeCompare(b.name); });
 
     document.getElementById('grid').innerHTML = list.map(function (it) {

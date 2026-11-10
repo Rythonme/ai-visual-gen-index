@@ -1,25 +1,216 @@
 {
-  "generated": "2026-11-11 00:11 (UTC+8)",
+  "generated": "2026-11-11 00:42 (UTC+8)",
   "window": "近 120 天新建（created:>2026-07-14）",
   "queries": [
     "\"image generation\" in:description stars:>300",
     "\"video generation\" in:description stars:>300",
     "\"text-to-image\" in:name,description stars:>200",
     "\"text-to-video\" in:name,description stars:>200",
-    "\"diffusion\" \"comfyui\" in:description stars:>150"
+    "\"diffusion\" \"comfyui\" in:description stars:>150",
+    "\"image model\" in:name,description stars:>200",
+    "\"video model\" in:name,description stars:>200"
   ],
-  "note": "仅为候选，需人工核实相关性、链接与许可证后，再手工加入 data/tools.json。",
-  "candidates": [
+  "note": "符合护栏的候选已自动收录进 data/auto_tools.json 并进入榜单；本文件保留被拒原因供复核。",
+  "stats": {
+    "hit": 32,
+    "admitted_this_run": 8,
+    "rejected": 20,
+    "already_known": 0,
+    "deferred": 4,
+    "retired": 0,
+    "total_auto": 8
+  },
+  "admitted": [
+    {
+      "repo": "QwenLM/Qwen-Image-2.1",
+      "stars": 2193,
+      "category": "image_model",
+      "admitted_at": "2026-11-11 00:42",
+      "url": "https://github.com/QwenLM/Qwen-Image-2.1"
+    },
+    {
+      "repo": "SandAI-org/MAGI-2-preview",
+      "stars": 655,
+      "category": "video_model",
+      "admitted_at": "2026-11-11 00:42",
+      "url": "https://github.com/SandAI-org/MAGI-2-preview"
+    },
+    {
+      "repo": "AlibabaResearch/SparkDiffusion",
+      "stars": 647,
+      "category": "video_model",
+      "admitted_at": "2026-11-11 00:42",
+      "url": "https://github.com/AlibabaResearch/SparkDiffusion"
+    },
+    {
+      "repo": "AMAP-ML/DreamX-Creator",
+      "stars": 319,
+      "category": "video_model",
+      "admitted_at": "2026-11-11 00:42",
+      "url": "https://github.com/AMAP-ML/DreamX-Creator"
+    },
     {
       "repo": "wide-trace/open-higgsfield",
-      "url": "https://github.com/wide-trace/open-higgsfield",
-      "stars": 5607,
-      "description": "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.",
-      "language": "TypeScript",
-      "license": "",
-      "created_at": "2026-08-26",
-      "pushed_at": "2026-09-17",
-      "query": "\"video generation\" in:description stars:>300"
+      "stars": 5608,
+      "category": "tool",
+      "admitted_at": "2026-11-11 00:42",
+      "url": "https://github.com/wide-trace/open-higgsfield"
+    },
+    {
+      "repo": "nihui/qwenimage-ncnn-vulkan",
+      "stars": 359,
+      "category": "edit",
+      "admitted_at": "2026-11-11 00:42",
+      "url": "https://github.com/nihui/qwenimage-ncnn-vulkan"
+    },
+    {
+      "repo": "zylwithxy/HRDiT",
+      "stars": 317,
+      "category": "image_model",
+      "admitted_at": "2026-11-11 00:42",
+      "url": "https://github.com/zylwithxy/HRDiT"
+    },
+    {
+      "repo": "nkxx188/ComfyUI-MiniMaxH3-Easy",
+      "stars": 893,
+      "category": "tool",
+      "admitted_at": "2026-11-11 00:42",
+      "url": "https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy"
+    }
+  ],
+  "rejected": [
+    {
+      "repo": "czg86389-hub/muse2api",
+      "stars": 1153,
+      "reason": "命中排除词「逆向」",
+      "description": "把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-compatible API for Muse.ai with Chat, Image & Video generation."
+    },
+    {
+      "repo": "wideeyededi/uncensored-nsfw-ai-video-api",
+      "stars": 428,
+      "reason": "命中排除词「nsfw」",
+      "description": "Uncensored NSFW API for AI video generation — Seedance Spicy & Wan NSFW docs: 18+ text-to-video / image-to-video, async tasks, webhooks, credits billing. 成人向 AI"
+    },
+    {
+      "repo": "AbrahamPaulJ/nightmare-mobile",
+      "stars": 210,
+      "reason": "Stars 210 低于阈值 300",
+      "description": "On-device, ComfyUI-style node graph for image/video diffusion on Android. Run MiniMax H3 and WAN 2.2 14B on the Qualcomm Hexagon NPU. SD1.5, SDXL, Flux, Z-Image"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "stars": 14388,
+      "reason": "命中排除词「claude code」",
+      "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Cla"
+    },
+    {
+      "repo": "LynnReal-AI/LynnReal-Omni",
+      "stars": 276,
+      "reason": "Stars 276 低于阈值 300",
+      "description": "LynnReal-Omni brings text-to-video, image-to-video, human- and hand-pose guided generation, structural control, omni-reference generation, style transfer, video"
+    },
+    {
+      "repo": "HaD0Yun/CozyClay",
+      "stars": 1692,
+      "reason": "命中排除词「previs」",
+      "description": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model."
+    },
+    {
+      "repo": "Rimagination/h3lite",
+      "stars": 476,
+      "reason": "命中排除词「codex skill」",
+      "description": "A hardware-aware Codex skill for local MiniMax H3 video generation through ComfyUI"
+    },
+    {
+      "repo": "beckettharriman/openfill",
+      "stars": 267,
+      "reason": "Stars 267 低于阈值 300",
+      "description": "Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI."
+    },
+    {
+      "repo": "code-video-model/CodeVideoModel",
+      "stars": 755,
+      "reason": "简介过短（30 < 45 字），信息不足",
+      "description": "Code Video Model Official Repo"
+    },
+    {
+      "repo": "iamyoki/qwen-image-2.1-skill",
+      "stars": 210,
+      "reason": "Stars 210 低于阈值 300",
+      "description": "🎨 Agentic skill for Qwen-Image-2.1: Rewrites and optimizes text-to-image and multi-image editing prompts using official Alibaba specifications. Compatible with "
+    },
+    {
+      "repo": "blendi-remade/prompt2rig",
+      "stars": 567,
+      "reason": "命中排除词「rigged」",
+      "description": "Type a motion, watch a rigged character perform it: fast video model + GVHMR + live Mixamo retargeting, by Patch"
+    },
+    {
+      "repo": "qianshuixia/shrimpreel",
+      "stars": 419,
+      "reason": "命中排除词「saas」",
+      "description": "Open-source template for \"one photo → AI video that follows a viral template\" SaaS sites, one site per trending keyword. Cloudflare Workers + D1/R2/KV/Queues, T"
+    },
+    {
+      "repo": "BMB12d3/minimax-h3-prompt-composer",
+      "stars": 312,
+      "reason": "命中排除词「prompt composer」",
+      "description": "Free offline prompt composer for MiniMax H3 video generation in ComfyUI."
+    },
+    {
+      "repo": "apiframe-ai/seedance-2.0-api",
+      "stars": 253,
+      "reason": "Stars 253 低于阈值 300",
+      "description": "Seedance 2.0 API — text-to-video and image-to-video examples"
+    },
+    {
+      "repo": "TaiT-tt/tait-crt-interface-skill",
+      "stars": 546,
+      "reason": "命中排除词「-skill」",
+      "description": "TaiT-CRT-Interface-Skill is a Codex image generation skill that transforms user-uploaded portraits, photographs, or text descriptions into a retro illustration "
+    },
+    {
+      "repo": "patch-gg/trompe",
+      "stars": 210,
+      "reason": "Stars 210 低于阈值 300",
+      "description": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out."
+    },
+    {
+      "repo": "silverdugongenhance/PromptReel",
+      "stars": 207,
+      "reason": "Stars 207 低于阈值 300",
+      "description": "Free desktop app that turns a text prompt into a short video clip on your own PC. Local AI text-to-video with Wan 2.2: type a scene, pick wide, vertical or squa"
+    },
+    {
+      "repo": "NiluK/worldmodels101",
+      "stars": 205,
+      "reason": "Stars 205 低于阈值 300",
+      "description": "Free interactive course on world models in AI. Nine visual chapters on prediction, latent dynamics, planning, JEPA, video models, and failure modes."
+    },
+    {
+      "repo": "CXP-2024/gpt-anime-denoise",
+      "stars": 206,
+      "reason": "Stars 206 低于阈值 300",
+      "description": "Remove the fish-scale noise GPT image models leave in anime / TV-anime images (ESRGAN @60% + L0 smoothing)"
+    },
+    {
+      "repo": "matlowai/ComfyUI-MAINodes",
+      "stars": 245,
+      "reason": "Stars 245 低于阈值 300",
+      "description": "MatlowAI's MiniMax-H3 ComfyUI nodes: Contact-Sheet diffusion + Motion Lab (test-time de-roping of fast motion)"
+    }
+  ],
+  "retired": [],
+  "candidates": [
+    {
+      "repo": "czg86389-hub/muse2api",
+      "url": "https://github.com/czg86389-hub/muse2api",
+      "stars": 1153,
+      "description": "把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-compatible API for Muse.ai with Chat, Image & Video generation.",
+      "language": "Python",
+      "license": "MIT",
+      "created_at": "2026-09-25",
+      "pushed_at": "2026-11-09"
     },
     {
       "repo": "QwenLM/Qwen-Image-2.1",
@@ -29,30 +220,7 @@
       "language": "Python",
       "license": "NOASSERTION",
       "created_at": "2026-09-14",
-      "pushed_at": "2026-10-14",
-      "query": "\"image generation\" in:description stars:>300"
-    },
-    {
-      "repo": "czg86389-hub/muse2api",
-      "url": "https://github.com/czg86389-hub/muse2api",
-      "stars": 1153,
-      "description": "把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-compatible API for Muse.ai with Chat, Image & Video generation.",
-      "language": "Python",
-      "license": "MIT",
-      "created_at": "2026-09-25",
-      "pushed_at": "2026-11-09",
-      "query": "\"video generation\" in:description stars:>300"
-    },
-    {
-      "repo": "nkxx188/ComfyUI-MiniMaxH3-Easy",
-      "url": "https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy",
-      "stars": 893,
-      "description": "The easiest way to use MiniMax H3. One compact workflow for T2V, I2V, first/last-frame, and reference video generation, with a unified multi-media input, powerful @ references, and inline dialogue blocks. Less wiring. Mo",
-      "language": "JavaScript",
-      "license": "MIT",
-      "created_at": "2026-08-05",
-      "pushed_at": "2026-10-26",
-      "query": "\"video generation\" in:description stars:>300"
+      "pushed_at": "2026-10-14"
     },
     {
       "repo": "SandAI-org/MAGI-2-preview",
@@ -62,8 +230,7 @@
       "language": "Python",
       "license": "Apache-2.0",
       "created_at": "2026-08-04",
-      "pushed_at": "2026-08-06",
-      "query": "\"video generation\" in:description stars:>300"
+      "pushed_at": "2026-08-06"
     },
     {
       "repo": "AlibabaResearch/SparkDiffusion",
@@ -73,85 +240,7 @@
       "language": "Python",
       "license": "Apache-2.0",
       "created_at": "2026-09-18",
-      "pushed_at": "2026-10-26",
-      "query": "\"video generation\" in:description stars:>300"
-    },
-    {
-      "repo": "StreamEval/StreamEval",
-      "url": "https://github.com/StreamEval/StreamEval",
-      "stars": 620,
-      "description": "🔥 The first-ever interactive streaming video generation benchmark.",
-      "language": "Python",
-      "license": "Apache-2.0",
-      "created_at": "2026-10-15",
-      "pushed_at": "2026-10-25",
-      "query": "\"video generation\" in:description stars:>300"
-    },
-    {
-      "repo": "TaiT-tt/tait-crt-interface-skill",
-      "url": "https://github.com/TaiT-tt/tait-crt-interface-skill",
-      "stars": 546,
-      "description": "TaiT-CRT-Interface-Skill is a Codex image generation skill that transforms user-uploaded portraits, photographs, or text descriptions into a retro illustration with the feel of an early CRT computer interface.",
-      "language": "Python",
-      "license": "",
-      "created_at": "2026-08-02",
-      "pushed_at": "2026-08-11",
-      "query": "\"image generation\" in:description stars:>300"
-    },
-    {
-      "repo": "TaoLiveAIGC/TaoMate",
-      "url": "https://github.com/TaoLiveAIGC/TaoMate",
-      "stars": 518,
-      "description": "a real-time digital-human model for long-form audio-video generation",
-      "language": "Python",
-      "license": "NOASSERTION",
-      "created_at": "2026-07-24",
-      "pushed_at": "2026-09-08",
-      "query": "\"video generation\" in:description stars:>300"
-    },
-    {
-      "repo": "Rimagination/h3lite",
-      "url": "https://github.com/Rimagination/h3lite",
-      "stars": 476,
-      "description": "A hardware-aware Codex skill for local MiniMax H3 video generation through ComfyUI",
-      "language": "Python",
-      "license": "MIT",
-      "created_at": "2026-08-13",
-      "pushed_at": "2026-08-23",
-      "query": "\"video generation\" in:description stars:>300"
-    },
-    {
-      "repo": "wideeyededi/uncensored-nsfw-ai-video-api",
-      "url": "https://github.com/wideeyededi/uncensored-nsfw-ai-video-api",
-      "stars": 428,
-      "description": "Uncensored NSFW API for AI video generation — Seedance Spicy & Wan NSFW docs: 18+ text-to-video / image-to-video, async tasks, webhooks, credits billing. 成人向 AI 视频生成 API：Seedance Spicy、Wan NSFW、文生/图生视频、异步任务、积分计费、接入指南。",
-      "language": "",
-      "license": "MIT",
-      "created_at": "2026-11-02",
-      "pushed_at": "2026-11-05",
-      "query": "\"video generation\" in:description stars:>300"
-    },
-    {
-      "repo": "qianshuixia/shrimpreel",
-      "url": "https://github.com/qianshuixia/shrimpreel",
-      "stars": 418,
-      "description": "Open-source template for \"one photo → AI video that follows a viral template\" SaaS sites, one site per trending keyword. Cloudflare Workers + D1/R2/KV/Queues, TanStack Start + Hono, Google sign-in, credit packs (Waffo/Do",
-      "language": "TypeScript",
-      "license": "MIT",
-      "created_at": "2026-10-20",
-      "pushed_at": "2026-11-09",
-      "query": "\"video generation\" in:description stars:>300"
-    },
-    {
-      "repo": "nihui/qwenimage-ncnn-vulkan",
-      "url": "https://github.com/nihui/qwenimage-ncnn-vulkan",
-      "stars": 359,
-      "description": "ncnn implementation of Qwen-Image-2.1, with text-to-image, image editing, multi-reference image input and transparent RGBA output",
-      "language": "C++",
-      "license": "Apache-2.0",
-      "created_at": "2026-09-21",
-      "pushed_at": "2026-11-02",
-      "query": "\"text-to-image\" in:name,description stars:>200"
+      "pushed_at": "2026-10-26"
     },
     {
       "repo": "AMAP-ML/DreamX-Creator",
@@ -161,96 +250,17 @@
       "language": "Python",
       "license": "Apache-2.0",
       "created_at": "2026-09-01",
-      "pushed_at": "2026-09-03",
-      "query": "\"video generation\" in:description stars:>300"
+      "pushed_at": "2026-09-03"
     },
     {
-      "repo": "zylwithxy/HRDiT",
-      "url": "https://github.com/zylwithxy/HRDiT",
-      "stars": 317,
-      "description": "[ECCV 2026] Official implementation of \"HRDiT: Training-Free High-Resolution Image Generation with Off-the-Shelf Diffusion Transformer Models\"",
-      "language": "Python",
-      "license": "MIT",
-      "created_at": "2026-08-06",
-      "pushed_at": "2026-09-01",
-      "query": "\"image generation\" in:description stars:>300"
-    },
-    {
-      "repo": "BMB12d3/minimax-h3-prompt-composer",
-      "url": "https://github.com/BMB12d3/minimax-h3-prompt-composer",
-      "stars": 312,
-      "description": "Free offline prompt composer for MiniMax H3 video generation in ComfyUI.",
-      "language": "HTML",
-      "license": "",
-      "created_at": "2026-08-09",
-      "pushed_at": "2026-08-28",
-      "query": "\"video generation\" in:description stars:>300"
-    },
-    {
-      "repo": "ukr8b3g-cmyk/ComfyUI-H3-Continuum",
-      "url": "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum",
-      "stars": 309,
-      "description": "Seamless long-form MiniMax H3 video generation for ComfyUI with native AV latent continuity, chunked sampling, session resume, and Spectrum/Sage/Sol compatibility.",
-      "language": "Python",
-      "license": "MIT",
-      "created_at": "2026-08-10",
-      "pushed_at": "2026-11-04",
-      "query": "\"video generation\" in:description stars:>300"
-    },
-    {
-      "repo": "LynnReal-AI/LynnReal-Omni",
-      "url": "https://github.com/LynnReal-AI/LynnReal-Omni",
-      "stars": 276,
-      "description": "LynnReal-Omni brings text-to-video, image-to-video, human- and hand-pose guided generation, structural control, omni-reference generation, style transfer, video editing, degraded-video restoration and streaming long-vide",
-      "language": "Python",
-      "license": "NOASSERTION",
-      "created_at": "2026-09-13",
-      "pushed_at": "2026-09-22",
-      "query": "\"text-to-video\" in:name,description stars:>200"
-    },
-    {
-      "repo": "beckettharriman/openfill",
-      "url": "https://github.com/beckettharriman/openfill",
-      "stars": 267,
-      "description": "Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI.",
-      "language": "Python",
-      "license": "Apache-2.0",
-      "created_at": "2026-10-14",
-      "pushed_at": "2026-11-08",
-      "query": "\"text-to-image\" in:name,description stars:>200"
-    },
-    {
-      "repo": "apiframe-ai/seedance-2.0-api",
-      "url": "https://github.com/apiframe-ai/seedance-2.0-api",
-      "stars": 253,
-      "description": "Seedance 2.0 API — text-to-video and image-to-video examples",
+      "repo": "wideeyededi/uncensored-nsfw-ai-video-api",
+      "url": "https://github.com/wideeyededi/uncensored-nsfw-ai-video-api",
+      "stars": 428,
+      "description": "Uncensored NSFW API for AI video generation — Seedance Spicy & Wan NSFW docs: 18+ text-to-video / image-to-video, async tasks, webhooks, credits billing. 成人向 AI 视频生成 API：Seedance Spicy、Wan NSFW、文生/图生视频、异步任务、积分计费、接入指南。",
       "language": "",
-      "license": "",
-      "created_at": "2026-08-14",
-      "pushed_at": "2026-08-14",
-      "query": "\"text-to-video\" in:name,description stars:>200"
-    },
-    {
-      "repo": "matlowai/ComfyUI-MAINodes",
-      "url": "https://github.com/matlowai/ComfyUI-MAINodes",
-      "stars": 245,
-      "description": "MatlowAI's MiniMax-H3 ComfyUI nodes: Contact-Sheet diffusion + Motion Lab (test-time de-roping of fast motion)",
-      "language": "Python",
-      "license": "NOASSERTION",
-      "created_at": "2026-08-08",
-      "pushed_at": "2026-11-10",
-      "query": "\"diffusion\" \"comfyui\" in:description stars:>150"
-    },
-    {
-      "repo": "iamyoki/qwen-image-2.1-skill",
-      "url": "https://github.com/iamyoki/qwen-image-2.1-skill",
-      "stars": 210,
-      "description": "🎨 Agentic skill for Qwen-Image-2.1: Rewrites and optimizes text-to-image and multi-image editing prompts using official Alibaba specifications. Compatible with skills.sh and all AI agents.",
-      "language": "Python",
-      "license": "Apache-2.0",
-      "created_at": "2026-09-21",
-      "pushed_at": "2026-09-22",
-      "query": "\"text-to-image\" in:name,description stars:>200"
+      "license": "MIT",
+      "created_at": "2026-11-02",
+      "pushed_at": "2026-11-05"
     },
     {
       "repo": "AbrahamPaulJ/nightmare-mobile",
@@ -260,8 +270,177 @@
       "language": "Kotlin",
       "license": "NOASSERTION",
       "created_at": "2026-09-07",
-      "pushed_at": "2026-11-10",
-      "query": "\"diffusion\" \"comfyui\" in:description stars:>150"
+      "pushed_at": "2026-11-10"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "stars": 14388,
+      "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具",
+      "language": "JavaScript",
+      "license": "MIT",
+      "created_at": "2026-09-26",
+      "pushed_at": "2026-11-10"
+    },
+    {
+      "repo": "LynnReal-AI/LynnReal-Omni",
+      "url": "https://github.com/LynnReal-AI/LynnReal-Omni",
+      "stars": 276,
+      "description": "LynnReal-Omni brings text-to-video, image-to-video, human- and hand-pose guided generation, structural control, omni-reference generation, style transfer, video editing, degraded-video restoration and streaming long-vide",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "created_at": "2026-09-13",
+      "pushed_at": "2026-09-22"
+    },
+    {
+      "repo": "wide-trace/open-higgsfield",
+      "url": "https://github.com/wide-trace/open-higgsfield",
+      "stars": 5608,
+      "description": "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.",
+      "language": "TypeScript",
+      "license": "",
+      "created_at": "2026-08-26",
+      "pushed_at": "2026-09-17"
+    },
+    {
+      "repo": "HaD0Yun/CozyClay",
+      "url": "https://github.com/HaD0Yun/CozyClay",
+      "stars": 1692,
+      "description": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.",
+      "language": "JavaScript",
+      "license": "AGPL-3.0",
+      "created_at": "2026-07-28",
+      "pushed_at": "2026-11-10"
+    },
+    {
+      "repo": "Rimagination/h3lite",
+      "url": "https://github.com/Rimagination/h3lite",
+      "stars": 476,
+      "description": "A hardware-aware Codex skill for local MiniMax H3 video generation through ComfyUI",
+      "language": "Python",
+      "license": "MIT",
+      "created_at": "2026-08-13",
+      "pushed_at": "2026-08-23"
+    },
+    {
+      "repo": "nihui/qwenimage-ncnn-vulkan",
+      "url": "https://github.com/nihui/qwenimage-ncnn-vulkan",
+      "stars": 359,
+      "description": "ncnn implementation of Qwen-Image-2.1, with text-to-image, image editing, multi-reference image input and transparent RGBA output",
+      "language": "C++",
+      "license": "Apache-2.0",
+      "created_at": "2026-09-21",
+      "pushed_at": "2026-11-02"
+    },
+    {
+      "repo": "zylwithxy/HRDiT",
+      "url": "https://github.com/zylwithxy/HRDiT",
+      "stars": 317,
+      "description": "[ECCV 2026] Official implementation of \"HRDiT: Training-Free High-Resolution Image Generation with Off-the-Shelf Diffusion Transformer Models\"",
+      "language": "Python",
+      "license": "MIT",
+      "created_at": "2026-08-06",
+      "pushed_at": "2026-09-01"
+    },
+    {
+      "repo": "beckettharriman/openfill",
+      "url": "https://github.com/beckettharriman/openfill",
+      "stars": 267,
+      "description": "Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI.",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "created_at": "2026-10-14",
+      "pushed_at": "2026-11-08"
+    },
+    {
+      "repo": "code-video-model/CodeVideoModel",
+      "url": "https://github.com/code-video-model/CodeVideoModel",
+      "stars": 755,
+      "description": "Code Video Model Official Repo",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "created_at": "2026-09-11",
+      "pushed_at": "2026-10-13"
+    },
+    {
+      "repo": "iamyoki/qwen-image-2.1-skill",
+      "url": "https://github.com/iamyoki/qwen-image-2.1-skill",
+      "stars": 210,
+      "description": "🎨 Agentic skill for Qwen-Image-2.1: Rewrites and optimizes text-to-image and multi-image editing prompts using official Alibaba specifications. Compatible with skills.sh and all AI agents.",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "created_at": "2026-09-21",
+      "pushed_at": "2026-09-22"
+    },
+    {
+      "repo": "blendi-remade/prompt2rig",
+      "url": "https://github.com/blendi-remade/prompt2rig",
+      "stars": 567,
+      "description": "Type a motion, watch a rigged character perform it: fast video model + GVHMR + live Mixamo retargeting, by Patch",
+      "language": "JavaScript",
+      "license": "Apache-2.0",
+      "created_at": "2026-10-19",
+      "pushed_at": "2026-11-09"
+    },
+    {
+      "repo": "qianshuixia/shrimpreel",
+      "url": "https://github.com/qianshuixia/shrimpreel",
+      "stars": 419,
+      "description": "Open-source template for \"one photo → AI video that follows a viral template\" SaaS sites, one site per trending keyword. Cloudflare Workers + D1/R2/KV/Queues, TanStack Start + Hono, Google sign-in, credit packs (Waffo/Do",
+      "language": "TypeScript",
+      "license": "MIT",
+      "created_at": "2026-10-20",
+      "pushed_at": "2026-11-09"
+    },
+    {
+      "repo": "BMB12d3/minimax-h3-prompt-composer",
+      "url": "https://github.com/BMB12d3/minimax-h3-prompt-composer",
+      "stars": 312,
+      "description": "Free offline prompt composer for MiniMax H3 video generation in ComfyUI.",
+      "language": "HTML",
+      "license": "",
+      "created_at": "2026-08-09",
+      "pushed_at": "2026-08-28"
+    },
+    {
+      "repo": "apiframe-ai/seedance-2.0-api",
+      "url": "https://github.com/apiframe-ai/seedance-2.0-api",
+      "stars": 253,
+      "description": "Seedance 2.0 API — text-to-video and image-to-video examples",
+      "language": "",
+      "license": "",
+      "created_at": "2026-08-14",
+      "pushed_at": "2026-08-14"
+    },
+    {
+      "repo": "nkxx188/ComfyUI-MiniMaxH3-Easy",
+      "url": "https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy",
+      "stars": 893,
+      "description": "The easiest way to use MiniMax H3. One compact workflow for T2V, I2V, first/last-frame, and reference video generation, with a unified multi-media input, powerful @ references, and inline dialogue blocks. Less wiring. Mo",
+      "language": "JavaScript",
+      "license": "MIT",
+      "created_at": "2026-08-05",
+      "pushed_at": "2026-10-26"
+    },
+    {
+      "repo": "TaiT-tt/tait-crt-interface-skill",
+      "url": "https://github.com/TaiT-tt/tait-crt-interface-skill",
+      "stars": 546,
+      "description": "TaiT-CRT-Interface-Skill is a Codex image generation skill that transforms user-uploaded portraits, photographs, or text descriptions into a retro illustration with the feel of an early CRT computer interface.",
+      "language": "Python",
+      "license": "",
+      "created_at": "2026-08-02",
+      "pushed_at": "2026-08-11"
+    },
+    {
+      "repo": "patch-gg/trompe",
+      "url": "https://github.com/patch-gg/trompe",
+      "stars": 210,
+      "description": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "created_at": "2026-10-25",
+      "pushed_at": "2026-11-09"
     },
     {
       "repo": "silverdugongenhance/PromptReel",
@@ -271,8 +450,77 @@
       "language": "",
       "license": "MIT",
       "created_at": "2026-11-04",
-      "pushed_at": "2026-11-08",
-      "query": "\"text-to-video\" in:name,description stars:>200"
+      "pushed_at": "2026-11-08"
+    },
+    {
+      "repo": "TaoLiveAIGC/TaoMate",
+      "url": "https://github.com/TaoLiveAIGC/TaoMate",
+      "stars": 518,
+      "description": "a real-time digital-human model for long-form audio-video generation",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "created_at": "2026-07-24",
+      "pushed_at": "2026-09-08"
+    },
+    {
+      "repo": "NiluK/worldmodels101",
+      "url": "https://github.com/NiluK/worldmodels101",
+      "stars": 205,
+      "description": "Free interactive course on world models in AI. Nine visual chapters on prediction, latent dynamics, planning, JEPA, video models, and failure modes.",
+      "language": "TypeScript",
+      "license": "CC-BY-SA-4.0",
+      "created_at": "2026-08-19",
+      "pushed_at": "2026-08-24"
+    },
+    {
+      "repo": "StreamEval/StreamEval",
+      "url": "https://github.com/StreamEval/StreamEval",
+      "stars": 620,
+      "description": "🔥 The first-ever interactive streaming video generation benchmark.",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "created_at": "2026-10-15",
+      "pushed_at": "2026-10-25"
+    },
+    {
+      "repo": "CXP-2024/gpt-anime-denoise",
+      "url": "https://github.com/CXP-2024/gpt-anime-denoise",
+      "stars": 206,
+      "description": "Remove the fish-scale noise GPT image models leave in anime / TV-anime images (ESRGAN @60% + L0 smoothing)",
+      "language": "HTML",
+      "license": "NOASSERTION",
+      "created_at": "2026-11-05",
+      "pushed_at": "2026-11-10"
+    },
+    {
+      "repo": "xmarre/ComfyUI-Spectrum-MiniMax-H3",
+      "url": "https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3",
+      "stars": 719,
+      "description": "Training-free Spectrum acceleration for ComfyUI’s native MiniMax H3 audio-video model. Uses Chebyshev ridge feature forecasting to skip selected H3 transformer evaluations, with adaptive scheduling, sampler-aware support",
+      "language": "Python",
+      "license": "GPL-3.0",
+      "created_at": "2026-08-03",
+      "pushed_at": "2026-11-10"
+    },
+    {
+      "repo": "ukr8b3g-cmyk/ComfyUI-H3-Continuum",
+      "url": "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum",
+      "stars": 309,
+      "description": "Seamless long-form MiniMax H3 video generation for ComfyUI with native AV latent continuity, chunked sampling, session resume, and Spectrum/Sage/Sol compatibility.",
+      "language": "Python",
+      "license": "MIT",
+      "created_at": "2026-08-10",
+      "pushed_at": "2026-11-04"
+    },
+    {
+      "repo": "matlowai/ComfyUI-MAINodes",
+      "url": "https://github.com/matlowai/ComfyUI-MAINodes",
+      "stars": 245,
+      "description": "MatlowAI's MiniMax-H3 ComfyUI nodes: Contact-Sheet diffusion + Motion Lab (test-time de-roping of fast motion)",
+      "language": "Python",
+      "license": "NOASSERTION",
+      "created_at": "2026-08-08",
+      "pushed_at": "2026-11-10"
     }
   ]
 }

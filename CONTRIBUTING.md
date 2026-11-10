@@ -4,7 +4,7 @@
 
 1. **只收录链接**：本项目不下载、不镜像、不转存任何模型权重、数据集、图片或视频。新增条目只填 URL 与文字描述。
 2. **官方入口优先**：官网 > 官方 GitHub 仓库 > 官方模型卡（Hugging Face / ModelScope）> 官方文档。不要填转载站、聚合站、网盘、第三方下载页。
-3. **不自动收录**：`scripts/discover.py` 只产出候选清单 `reports/candidates.md`，必须由维护者人工核实后才能写入主清单。
+3. **自动收录 + 人工复核**：`scripts/discover.py` 每日检索并按 `data/config.json → auto_admit` 的护栏自动写入 `data/auto_tools.json` 并进入榜单；自动条目带「自动收录 · 待复核」标记与保守默认分。维护者核实后转正到 `data/tools.json`，误收的直接删除。**主清单 `data/tools.json` 永不被脚本改写**。
 4. **许可要说清**：`license` 字段写不下就写「详见仓库」并在 `desc` 里提示商用限制，不要给出笼统的「可商用」结论。
 
 ## 新增一条（3 步）
@@ -53,8 +53,25 @@ git add data/tools.json && git commit -m "feat: add <资源名>"
 
 push 后 GitHub Actions 会自动重算榜单并部署网站；也可以在 Actions 页手动触发「每周更新榜单」。
 
+## 自动收录条目的转正与下架
+
+`data/auto_tools.json` 中的条目由脚本维护，带 `auto_admitted: true`、`review_status: "pending"`、`admitted_at` 与 `source_query` 等审计字段。网站可用类型筛选「自动收录 / 待复核」或切到「新收录榜」集中查看。
+
+**转正**（已核实、值得给正式评分的项目）：
+
+1. 从 `data/auto_tools.json` 复制该条目到 `data/tools.json`；
+2. 换一个简洁的正式 `id`（去掉 `auto-` 前缀），补写中文 `desc` 与 `alias`；
+3. 按下方锚点给出正式六维 `scores`，补齐 `docs` / `model` / `paper` 等官方链接与 `tags`；
+4. 删除 `auto_admitted` / `admitted_at` / `review_status` / `source_query` / `source_stars` 等自动字段；
+5. 从 `data/auto_tools.json` 删掉原条目。`build.py` 在 id 或仓库冲突时优先采用人工层，即使暂时不删也不会出现重复，但建议清理。
+
+**下架**：直接从 `data/auto_tools.json` 删除该条目。若希望它以后不再被自动收录，可把仓库名或特征词加入 `data/config.json → auto_admit.exclude_keywords`，或先转正到人工层（两层会去重）。
+
+> 护栏误收 / 漏收都欢迎开 Issue。调整 `min_stars`、白名单、黑名单、`max_per_run` 后 push 会立即触发重算。
+
 ## 复核与修正
 
+- **自动收录复核**：每次周更后浏览 `reports/candidates.md`，重点看「本轮自动收录」与「被护栏拒绝」两节；误收的从 `data/auto_tools.json` 删除，漏收的手工加入 `data/tools.json`。
 - **链接失效**：运行 `python scripts/check_links.py`，`data/link_status.json` 中 `fail` 的链接需要人工确认后更新或下架条目（超时/反爬记为 `unknown`，不算失效）。
 - **热度基线**：闭源产品没有 Star 数据，建议每季度复核一次 `heat_baseline`（参考 Artificial Analysis / LMArena 等公开榜单位次与产品热度变化）。
 - **评分争议**：欢迎开 Issue 说明具体维度与理由；维护者复核后调整 `scores`，周报会记录分数变化。
