@@ -2,7 +2,7 @@
 window.__KANBAN_DATA__ = {
   "project": "AI 视觉生成资源榜 · AI Visual Generation Index",
   "subtitle": "生图 / 生视频资源导航与双维度排名榜 · 每周自动更新",
-  "updated": "2026-11-10 21:40 (UTC+8)",
+  "updated": "2026-11-10 21:55 (UTC+8)",
   "repo": "https://github.com/Rythonme/ai-visual-gen-index",
   "site": "https://rythonme.github.io/ai-visual-gen-index/",
   "workspace": "F:\\00在研项目\\05_Github\\ai-visual-gen-index",
@@ -44,15 +44,15 @@ window.__KANBAN_DATA__ = {
       "deliverables": ["docs/index.html", "docs/app.js", "docs/style.css", "docs/kanban.html", "docs/kanban_data.js"]
     },
     {
-      "id": "T6", "title": "本地运行构建脚本并验证产出", "status": "doing", "priority": "高",
+      "id": "T6", "title": "本地运行构建脚本并验证产出", "status": "done", "priority": "高",
       "owner": "WorkBuddy", "updated": "2026-11-10",
-      "desc": "运行 build.py 生成 rankings.json / data.js / README 榜单 / 周报，校验 JSON 与 ID 唯一性、检查网站渲染与链接有效性。",
-      "deliverables": ["data/rankings.json", "docs/data.js", "reports/2026-W46.md"]
+      "desc": "构建全链路跑通：90 条资源、五类榜单、173 个外链 0 失效、50/50 GitHub 仓库取得真实 Star/Fork；Python 与前端 JS 语法校验通过；本地 git 已完成 2 次提交。",
+      "deliverables": ["data/rankings.json", "docs/data.js", "reports/2026-W46.md", "logs/2026-11-10.md"]
     },
     {
       "id": "T7", "title": "初始化 git 仓库并推送到 GitHub", "status": "todo", "priority": "高",
       "owner": "用户 + WorkBuddy", "updated": "2026-11-10",
-      "desc": "用户已选择「生成并协助推送」。本机未发现已登录凭据，需用户提供 GitHub 访问令牌（或自行执行仓库内的一键推送脚本），并确认新仓库名称。",
+      "desc": "用户选择「先在 GitHub 网页新建空仓库」。已核实账号 Rythonme 存在，但目标仓库 ai-visual-gen-index 当前仍为 404；待用户创建并把仓库地址发来后，由 WorkBuddy 执行推送（认证可能需要 PAT 或系统弹窗登录；也可双击 push_to_github.bat 自行推送）。",
       "deliverables": ["远程仓库", "首次 commit / push"]
     },
     {
@@ -69,7 +69,7 @@ window.__KANBAN_DATA__ = {
     }
   ],
   "milestones": [
-    { "name": "M1 本地仓库完整可用", "status": "doing", "date": "2026-11-10", "note": "构建、校验、预览通过" },
+    { "name": "M1 本地仓库完整可用", "status": "done", "date": "2026-11-10", "note": "90 条资源 / 五类榜单 / 周更链路 / 网站 / 看板全部完成并验证" },
     { "name": "M2 GitHub 上线 + Pages 可访问", "status": "todo", "date": "待定", "note": "依赖令牌与 Pages 设置" },
     { "name": "M3 首次自动周更闭环", "status": "todo", "date": "下周一 10:00", "note": "验证 cron 与自动提交" }
   ],
