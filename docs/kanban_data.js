@@ -2,7 +2,7 @@
 window.__KANBAN_DATA__ = {
   "project": "AI 视觉生成资源榜 · AI Visual Generation Index",
   "subtitle": "生图 / 生视频资源导航与双维度排名榜 · 每周自动更新",
-  "updated": "2026-11-11 00:10 (UTC+8)",
+  "updated": "2026-11-11 00:15 (UTC+8)",
   "repo": "https://github.com/Rythonme/ai-visual-gen-index",
   "site": "https://rythonme.github.io/ai-visual-gen-index/",
   "workspace": "F:\\00在研项目\\05_Github\\ai-visual-gen-index",
@@ -70,7 +70,7 @@ window.__KANBAN_DATA__ = {
     {
       "id": "T10", "title": "外链质量复核（Adobe 反爬误报）", "status": "done", "priority": "低",
       "owner": "WorkBuddy", "updated": "2026-11-11",
-      "desc": "云端校验 161 ok / 1 fail / 11 unknown，唯一 fail 为 Adobe 官网对爬虫返回 404/403 的误报。已把 4 条 Adobe 链接改用 firefly.adobe.com 官方直达入口（均 200），并让 check_links.py 对 HEAD 404 回退 GET 复核。",
+      "desc": "云端首轮校验 161 ok / 1 fail / 11 unknown，唯一 fail 为 Adobe 官网对爬虫返回 404/403 的误报。已把 4 条 Adobe 链接改用 firefly.adobe.com 官方直达入口（均 200），并让 check_links.py 对 HEAD 404 回退 GET 复核；第二轮云端周更复验结果为 161 ok / 0 fail / 11 unknown。",
       "deliverables": ["data/tools.json", "scripts/check_links.py"]
     }
   ],
