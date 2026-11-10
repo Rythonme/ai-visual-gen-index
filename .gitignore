@@ -20,3 +20,6 @@ tmp/
 
 # 注意：data/ 下的 rankings.json / history.json / metrics_cache.json /
 # link_status.json / candidates.json 都要提交到仓库（周更结果与离线兜底），不要忽略。
+
+# 用户在本目录内自行 clone 的远端副本：保留但不纳入本仓库
+/ai-visual-gen-index/
