@@ -29,7 +29,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 ## 二、榜单（自动生成）
 
 <!-- BEGIN AUTO-GENERATED RANKING -->
-> **榜单数据更新时间：2026-11-11 00:46 (UTC+8)** ｜ 第 2026-W46 周 ｜ 共收录 **98** 项资源，其中开源/开放权重 **60** 项、自动收录待复核 **8** 项。
+> **榜单数据更新时间：2026-11-11 00:51 (UTC+8)** ｜ 第 2026-W46 周 ｜ 共收录 **102** 项资源，其中开源/开放权重 **63** 项、自动收录待复核 **12** 项。
 > 本区块由 `scripts/build.py` 自动生成，请勿手动编辑；完整可筛选榜单见 [在线网站](https://rythonme.github.io/ai-visual-gen-index/)。
 
 ### 🏆 综合榜 Top 20（热度 45% + 实用性 55%）
@@ -131,10 +131,12 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 | 2 | **Qwen-Image-2.1** | 生图模型 | 65.5 | 57.6 | **61.2** | [GitHub](https://github.com/QwenLM/Qwen-Image-2.1) · [官网](https://github.com/QwenLM/Qwen-Image-2.1) |
 | 3 | **ComfyUI-MiniMaxH3-Easy** | 工具框架 | 61.1 | 57.6 | **59.2** | [GitHub](https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy) · [官网](https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy) |
 | 4 | **SparkDiffusion** | 生视频模型 | 60.4 | 57.6 | **58.9** | [GitHub](https://github.com/AlibabaResearch/SparkDiffusion) · [官网](https://github.com/AlibabaResearch/SparkDiffusion) |
-| 5 | **qwenimage-ncnn-vulkan** | 控制增强 | 56.5 | 57.6 | **57.1** | [GitHub](https://github.com/nihui/qwenimage-ncnn-vulkan) · [官网](https://github.com/nihui/qwenimage-ncnn-vulkan) |
-| 6 | **MAGI-2-preview** | 生视频模型 | 56.3 | 57.6 | **57.0** | [GitHub](https://github.com/SandAI-org/MAGI-2-preview) · [官网](https://github.com/SandAI-org/MAGI-2-preview) |
-| 7 | **DreamX-Creator** | 生视频模型 | 53.9 | 57.6 | **55.9** | [GitHub](https://github.com/AMAP-ML/DreamX-Creator) · [官网](https://github.com/AMAP-ML/DreamX-Creator) |
-| 8 | **HRDiT** | 生图模型 | 52.0 | 57.6 | **55.1** | [GitHub](https://github.com/zylwithxy/HRDiT) · [官网](https://github.com/zylwithxy/HRDiT) |
+| 5 | **ComfyUI-Spectrum-MiniMax-H3** | 工具框架 | 60.2 | 57.6 | **58.8** | [GitHub](https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3) · [官网](https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3) |
+| 6 | **TaoMate** | 生视频模型 | 57.4 | 57.6 | **57.5** | [GitHub](https://github.com/TaoLiveAIGC/TaoMate) · [官网](https://github.com/TaoLiveAIGC/TaoMate) |
+| 7 | **qwenimage-ncnn-vulkan** | 控制增强 | 56.5 | 57.6 | **57.1** | [GitHub](https://github.com/nihui/qwenimage-ncnn-vulkan) · [官网](https://github.com/nihui/qwenimage-ncnn-vulkan) |
+| 8 | **ComfyUI-H3-Continuum** | 工具框架 | 56.3 | 57.6 | **57.0** | [GitHub](https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum) · [官网](https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum) |
+| 9 | **MAGI-2-preview** | 生视频模型 | 56.3 | 57.6 | **57.0** | [GitHub](https://github.com/SandAI-org/MAGI-2-preview) · [官网](https://github.com/SandAI-org/MAGI-2-preview) |
+| 10 | **DreamX-Creator** | 生视频模型 | 53.9 | 57.6 | **55.9** | [GitHub](https://github.com/AMAP-ML/DreamX-Creator) · [官网](https://github.com/AMAP-ML/DreamX-Creator) |
 
 ### 分类速览（各类别综合分 Top 5）
 
@@ -150,7 +152,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 
 </details>
 
-<details><summary>生视频模型（20 项）</summary>
+<details><summary>生视频模型（21 项）</summary>
 
 | # | 资源 | 分类 | 热度 | 实用 | 综合 | 官方链接 |
 |---|---|---|---|---|---|---|
@@ -186,7 +188,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 
 </details>
 
-<details><summary>工具框架（13 项）</summary>
+<details><summary>工具框架（15 项）</summary>
 
 | # | 资源 | 分类 | 热度 | 实用 | 综合 | 官方链接 |
 |---|---|---|---|---|---|---|
@@ -210,7 +212,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 
 </details>
 
-<details><summary>资源评测（10 项）</summary>
+<details><summary>资源评测（11 项）</summary>
 
 | # | 资源 | 分类 | 热度 | 实用 | 综合 | 官方链接 |
 |---|---|---|---|---|---|---|

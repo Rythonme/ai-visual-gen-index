@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-11 00:42 (UTC+8)",
+  "generated": "2026-11-11 00:50 (UTC+8)",
   "note": "本文件由 scripts/discover.py 自动维护；人工核实后可把条目移入 data/tools.json 转正，或直接删掉下架。",
   "config_version": "2.0",
-  "count": 8,
+  "count": 12,
   "tools": [
     {
       "id": "auto-qwenlm-qwen-image-2-1",
@@ -299,6 +299,154 @@
       "source_stars": 893,
       "source_relevance": 67.0,
       "source_created": "2026-08-05"
+    },
+    {
+      "id": "auto-taoliveaigc-taomate",
+      "name": "TaoMate",
+      "alias": "自动收录 · 待复核",
+      "category": "video_model",
+      "type": "open",
+      "org": "TaoLiveAIGC",
+      "desc": "a real-time digital-human model for long-form audio-video generation",
+      "links": {
+        "home": "https://github.com/TaoLiveAIGC/TaoMate",
+        "github": "https://github.com/TaoLiveAIGC/TaoMate"
+      },
+      "github": "TaoLiveAIGC/TaoMate",
+      "license": "详见仓库",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Python"
+      ],
+      "added": "2026-11-11",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 518,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-11 00:50",
+      "review_status": "pending",
+      "source_query": "\"video generation\" in:description stars:>300",
+      "source_stars": 518,
+      "source_relevance": 64.3,
+      "source_created": "2026-07-24"
+    },
+    {
+      "id": "auto-streameval-streameval",
+      "name": "StreamEval",
+      "alias": "自动收录 · 待复核",
+      "category": "resource",
+      "type": "resource",
+      "org": "StreamEval",
+      "desc": "🔥 The first-ever interactive streaming video generation benchmark.",
+      "links": {
+        "home": "https://github.com/StreamEval/StreamEval",
+        "github": "https://github.com/StreamEval/StreamEval"
+      },
+      "github": "StreamEval/StreamEval",
+      "license": "Apache-2.0",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Python"
+      ],
+      "added": "2026-11-11",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 620,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-11 00:50",
+      "review_status": "pending",
+      "source_query": "\"video generation\" in:description stars:>300",
+      "source_stars": 620,
+      "source_relevance": 58.9,
+      "source_created": "2026-10-15"
+    },
+    {
+      "id": "auto-xmarre-comfyui-spectrum-minimax-h3",
+      "name": "ComfyUI-Spectrum-MiniMax-H3",
+      "alias": "自动收录 · 待复核",
+      "category": "tool",
+      "type": "open",
+      "org": "xmarre",
+      "desc": "Training-free Spectrum acceleration for ComfyUI’s native MiniMax H3 audio-video model. Uses Chebyshev ridge feature forecasting to skip selected H3 transformer evaluations, with ad",
+      "links": {
+        "home": "https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3",
+        "github": "https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3"
+      },
+      "github": "xmarre/ComfyUI-Spectrum-MiniMax-H3",
+      "license": "GPL-3.0",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Python"
+      ],
+      "added": "2026-11-11",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 719,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-11 00:50",
+      "review_status": "pending",
+      "source_query": "\"video model\" in:name,description stars:>200",
+      "source_stars": 719,
+      "source_relevance": 45.1,
+      "source_created": "2026-08-03"
+    },
+    {
+      "id": "auto-ukr8b3g-cmyk-comfyui-h3-continuum",
+      "name": "ComfyUI-H3-Continuum",
+      "alias": "自动收录 · 待复核",
+      "category": "tool",
+      "type": "open",
+      "org": "ukr8b3g-cmyk",
+      "desc": "Seamless long-form MiniMax H3 video generation for ComfyUI with native AV latent continuity, chunked sampling, session resume, and Spectrum/Sage/Sol compatibility.",
+      "links": {
+        "home": "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum",
+        "github": "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum"
+      },
+      "github": "ukr8b3g-cmyk/ComfyUI-H3-Continuum",
+      "license": "MIT",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Python"
+      ],
+      "added": "2026-11-11",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 309,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-11 00:50",
+      "review_status": "pending",
+      "source_query": "\"video generation\" in:description stars:>300",
+      "source_stars": 309,
+      "source_relevance": 37.8,
+      "source_created": "2026-08-10"
     }
   ]
 }
