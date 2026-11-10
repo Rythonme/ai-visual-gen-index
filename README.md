@@ -10,7 +10,6 @@
 ![许可](https://img.shields.io/badge/license-MIT%20%2F%20CC%20BY%204.0-green)
 
 🌐 **在线榜单网站（GitHub Pages）**：<https://rythonme.github.io/ai-visual-gen-index/>
-（首次需在仓库 `Settings → Pages → Build and deployment` 选择 **GitHub Actions**，详见下方「部署」）
 📊 **项目进展看板**：[docs/kanban.html](docs/kanban.html) ｜ 🗂 **每周报告**：[reports/README.md](reports/README.md)
 
 ---
