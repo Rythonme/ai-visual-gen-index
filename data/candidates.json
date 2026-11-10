@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11 00:01 (UTC+8)",
+  "generated": "2026-11-11 00:11 (UTC+8)",
   "window": "近 120 天新建（created:>2026-07-14）",
   "queries": [
     "\"image generation\" in:description stars:>300",
@@ -13,7 +13,7 @@
     {
       "repo": "wide-trace/open-higgsfield",
       "url": "https://github.com/wide-trace/open-higgsfield",
-      "stars": 5606,
+      "stars": 5607,
       "description": "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.",
       "language": "TypeScript",
       "license": "",
@@ -211,7 +211,7 @@
     {
       "repo": "beckettharriman/openfill",
       "url": "https://github.com/beckettharriman/openfill",
-      "stars": 266,
+      "stars": 267,
       "description": "Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI.",
       "language": "Python",
       "license": "Apache-2.0",

@@ -7,7 +7,7 @@
       2866
     ],
     "flux1": [
-      26054
+      26055
     ],
     "qwen-image": [
       8474
@@ -82,7 +82,7 @@
       12291
     ],
     "framepack": [
-      17351
+      17352
     ],
     "diffsynth": [
       13353
@@ -187,7 +187,7 @@
       null
     ],
     "comfyui": [
-      146131
+      146135
     ],
     "diffusers": [
       34897
@@ -214,7 +214,7 @@
       4238
     ],
     "moneyprinterturbo": [
-      141888
+      141892
     ],
     "stability-matrix": [
       9009
@@ -1382,7 +1382,7 @@
       ]
     }
   },
-  "updated": "2026-11-11 00:01 (UTC+8)",
+  "updated": "2026-11-11 00:11 (UTC+8)",
   "prev_ids": [
     "flux2",
     "flux1",
@@ -1569,7 +1569,7 @@
   },
   "prev_stars": {
     "flux2": 2866,
-    "flux1": 26054,
+    "flux1": 26055,
     "qwen-image": 8474,
     "z-image": 12140,
     "sdxl": 27341,
@@ -1594,7 +1594,7 @@
     "mochi1": 0,
     "svd": 0,
     "animatediff": 12291,
-    "framepack": 17351,
+    "framepack": 17352,
     "diffsynth": 13353,
     "opens2v": 232,
     "longcat-video": 9399,
@@ -1629,7 +1629,7 @@
     "firefly-video": 0,
     "heygen": 0,
     "synthesia": 0,
-    "comfyui": 146131,
+    "comfyui": 146135,
     "diffusers": 34897,
     "a1111": 165282,
     "swarmui": 4938,
@@ -1638,7 +1638,7 @@
     "ai-toolkit": 12605,
     "comfyui-manager": 16792,
     "comfyui-gguf": 4238,
-    "moneyprinterturbo": 141888,
+    "moneyprinterturbo": 141892,
     "stability-matrix": 9009,
     "controlnet": 34151,
     "ip-adapter": 6713,

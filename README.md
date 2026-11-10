@@ -28,7 +28,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 ## 二、榜单（自动生成）
 
 <!-- BEGIN AUTO-GENERATED RANKING -->
-> **榜单数据更新时间：2026-11-11 00:01 (UTC+8)** ｜ 第 2026-W46 周 ｜ 共收录 **90** 项资源，其中开源/开放权重 **52** 项。
+> **榜单数据更新时间：2026-11-11 00:11 (UTC+8)** ｜ 第 2026-W46 周 ｜ 共收录 **90** 项资源，其中开源/开放权重 **52** 项。
 > 本区块由 `scripts/build.py` 自动生成，请勿手动编辑；完整可筛选榜单见 [在线网站](https://rythonme.github.io/ai-visual-gen-index/)。
 
 ### 🏆 综合榜 Top 20（热度 45% + 实用性 55%）
@@ -53,7 +53,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 | 16 | **Runway** | 生视频平台 | 92.0 | 78.4 | **84.5** | [官网](https://runwayml.com/) · [文档](https://docs.runwayml.com/) |
 | 17 | **Vidu** | 生视频平台 | 84.0 | 84.8 | **84.4** | [官网](https://www.vidu.com/) · [文档](https://www.vidu.studio/) |
 | 18 | **ComfyUI-Manager** | 工具框架 | 77.6 | 89.6 | **84.2** | [GitHub](https://github.com/ltdrdata/ComfyUI-Manager) · [官网](https://github.com/ltdrdata/ComfyUI-Manager) |
-| 19 | **Adobe Firefly** | 生图平台 | 88.0 | 80.0 | **83.6** | [官网](https://firefly.adobe.com/) · [文档](https://www.adobe.com/products/firefly/features/ai-image-generator.html) |
+| 19 | **Adobe Firefly** | 生图平台 | 88.0 | 80.0 | **83.6** | [官网](https://firefly.adobe.com/) · [文档](https://firefly.adobe.com/generate/images) |
 | 20 | **rembg** | 控制增强 | 79.1 | 87.2 | **83.6** | [GitHub](https://github.com/danielgatis/rembg) · [官网](https://github.com/danielgatis/rembg) |
 
 <details><summary>🔥 热度榜 Top 10</summary>

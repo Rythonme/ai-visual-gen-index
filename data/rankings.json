@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-11 00:01 (UTC+8)",
-  "generated_iso": "2026-11-11T00:01:41+08:00",
+  "generated": "2026-11-11 00:11 (UTC+8)",
+  "generated_iso": "2026-11-11T00:11:26+08:00",
   "week": "2026-W46",
   "project": {
     "name": "AI 视觉生成资源榜",
@@ -142,7 +142,7 @@
       "resource": 10
     },
     "new_this_week": 0,
-    "link_checked_at": "2026-11-11 00:01 (UTC+8)"
+    "link_checked_at": "2026-11-11 00:11 (UTC+8)"
   },
   "boards": {
     "overall": [
@@ -507,7 +507,7 @@
         2866
       ],
       "flux1": [
-        26054
+        26055
       ],
       "qwen-image": [
         8474
@@ -582,7 +582,7 @@
         12291
       ],
       "framepack": [
-        17351
+        17352
       ],
       "diffsynth": [
         13353
@@ -687,7 +687,7 @@
         null
       ],
       "comfyui": [
-        146131
+        146135
       ],
       "diffusers": [
         34897
@@ -714,7 +714,7 @@
         4238
       ],
       "moneyprinterturbo": [
-        141888
+        141892
       ],
       "stability-matrix": [
         9009
@@ -1969,7 +1969,7 @@
       "overall": 73.8,
       "momentum": 36.4,
       "growth_pct": null,
-      "stars": 26054,
+      "stars": 26055,
       "forks": 1933,
       "days_since_push": 467,
       "official_description": "Official inference repo for FLUX.1 models",
@@ -1977,7 +1977,7 @@
       "data_source": "api",
       "link_state": "ok",
       "spark": [
-        26054
+        26055
       ]
     },
     {
@@ -3145,7 +3145,7 @@
       "overall": 76.0,
       "momentum": 47.0,
       "growth_pct": null,
-      "stars": 17351,
+      "stars": 17352,
       "forks": 1747,
       "days_since_push": 390,
       "official_description": "Lets make video diffusion practical!",
@@ -3153,7 +3153,7 @@
       "data_source": "api",
       "link_state": "ok",
       "spark": [
-        17351
+        17352
       ]
     },
     {
@@ -3586,7 +3586,7 @@
       "license": "商业订阅",
       "links": {
         "home": "https://firefly.adobe.com/",
-        "docs": "https://www.adobe.com/products/firefly/features/ai-image-generator.html"
+        "docs": "https://firefly.adobe.com/generate/images"
       },
       "github": "",
       "hf_model": "",
@@ -3611,7 +3611,7 @@
       "official_description": "",
       "repo_license": "",
       "data_source": "manual",
-      "link_state": "fail",
+      "link_state": "ok",
       "spark": []
     },
     {
@@ -4550,8 +4550,8 @@
       ],
       "license": "订阅 / 积分",
       "links": {
-        "home": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
-        "docs": "https://www.adobe.com/products/firefly/plans.html"
+        "home": "https://firefly.adobe.com/generate/video",
+        "docs": "https://firefly.adobe.com/"
       },
       "github": "",
       "hf_model": "",
@@ -4703,15 +4703,15 @@
       "overall": 89.5,
       "momentum": 100.0,
       "growth_pct": null,
-      "stars": 146131,
-      "forks": 17404,
+      "stars": 146135,
+      "forks": 17405,
       "days_since_push": 0,
       "official_description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "repo_license": "GPL-3.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
-        146131
+        146135
       ]
     },
     {
@@ -5118,7 +5118,7 @@
       "overall": 86.1,
       "momentum": 100.0,
       "growth_pct": null,
-      "stars": 141888,
+      "stars": 141892,
       "forks": 22654,
       "days_since_push": 0,
       "official_description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
@@ -5126,7 +5126,7 @@
       "data_source": "api",
       "link_state": "ok",
       "spark": [
-        141888
+        141892
       ]
     },
     {

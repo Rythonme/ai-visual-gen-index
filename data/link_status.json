@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11 00:01 (UTC+8)",
+  "checked_at": "2026-11-11 00:11 (UTC+8)",
   "method": "HEAD 优先，405/403 回退 GET；超时与反爬记为 unknown 而非失效",
   "links": {
     "https://ai.google.dev/gemini-api/docs/image-generation": "ok",
@@ -24,6 +24,8 @@
     "https://docs.runwayml.com/": "unknown",
     "https://fal.ai/models": "ok",
     "https://firefly.adobe.com/": "ok",
+    "https://firefly.adobe.com/generate/images": "ok",
+    "https://firefly.adobe.com/generate/video": "ok",
     "https://gemini.google.com/": "ok",
     "https://github.com/AUTOMATIC1111/stable-diffusion-webui": "ok",
     "https://github.com/ByteDance-Seed/Bagel": "ok",
@@ -160,9 +162,6 @@
     "https://stability.ai/": "ok",
     "https://tongyi.aliyun.com/wan/": "ok",
     "https://vchitect.github.io/VBench-project/": "ok",
-    "https://www.adobe.com/products/firefly/features/ai-image-generator.html": "fail",
-    "https://www.adobe.com/products/firefly/features/ai-video-generator.html": "ok",
-    "https://www.adobe.com/products/firefly/plans.html": "ok",
     "https://www.comfy.org/": "ok",
     "https://www.genmo.ai/": "ok",
     "https://www.genmo.ai/blog/mochi-1-a-new-sota-in-open-text-to-video": "ok",
@@ -178,10 +177,8 @@
   },
   "summary": {
     "ok": 161,
-    "fail": 1,
+    "fail": 0,
     "unknown": 11
   },
-  "failed": [
-    "https://www.adobe.com/products/firefly/features/ai-image-generator.html"
-  ]
+  "failed": []
 }

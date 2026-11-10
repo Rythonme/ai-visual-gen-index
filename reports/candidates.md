@@ -1,12 +1,12 @@
 # 新资源候选清单（人工审核）
 
-生成时间：2026-11-11 00:01 (UTC+8) ｜ 检索窗口：近 120 天新建（created:>2026-07-14） ｜ 候选 24 个。
+生成时间：2026-11-11 00:11 (UTC+8) ｜ 检索窗口：近 120 天新建（created:>2026-07-14） ｜ 候选 24 个。
 
 > 这些只是 GitHub 搜索命中的候选，**并未被自动收录**。请逐个核实是否属于 AI 生图 / 生视频范畴、链接是否官方、许可证与实用性评分是否合理，再由维护者手工加入 `data/tools.json`。
 
 | # | 仓库 | Stars | 语言 | 许可证 | 创建 | 简介 |
 |---|---|---|---|---|---|---|
-| 1 | [wide-trace/open-higgsfield](https://github.com/wide-trace/open-higgsfield) | 5,606 | TypeScript |  | 2026-08-26 | A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery. |
+| 1 | [wide-trace/open-higgsfield](https://github.com/wide-trace/open-higgsfield) | 5,607 | TypeScript |  | 2026-08-26 | A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery. |
 | 2 | [QwenLM/Qwen-Image-2.1](https://github.com/QwenLM/Qwen-Image-2.1) | 2,193 | Python | NOASSERTION | 2026-09-14 | Qwen's most powerful open-source image generation model |
 | 3 | [czg86389-hub/muse2api](https://github.com/czg86389-hub/muse2api) | 1,153 | Python | MIT | 2026-09-25 | 把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-compatible API for Muse.ai with Chat, Image & Video generation. |
 | 4 | [nkxx188/ComfyUI-MiniMaxH3-Easy](https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy) | 893 | JavaScript | MIT | 2026-08-05 | The easiest way to use MiniMax H3. One compact workflow for T2V, I2V, first/last-frame, and reference video generation, with a unified multi-media input, powerful @ references, and inline dialogue blocks. Less wiring. Mo |
@@ -24,7 +24,7 @@
 | 16 | [BMB12d3/minimax-h3-prompt-composer](https://github.com/BMB12d3/minimax-h3-prompt-composer) | 312 | HTML |  | 2026-08-09 | Free offline prompt composer for MiniMax H3 video generation in ComfyUI. |
 | 17 | [ukr8b3g-cmyk/ComfyUI-H3-Continuum](https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum) | 309 | Python | MIT | 2026-08-10 | Seamless long-form MiniMax H3 video generation for ComfyUI with native AV latent continuity, chunked sampling, session resume, and Spectrum/Sage/Sol compatibility. |
 | 18 | [LynnReal-AI/LynnReal-Omni](https://github.com/LynnReal-AI/LynnReal-Omni) | 276 | Python | NOASSERTION | 2026-09-13 | LynnReal-Omni brings text-to-video, image-to-video, human- and hand-pose guided generation, structural control, omni-reference generation, style transfer, video editing, degraded-video restoration and streaming long-vide |
-| 19 | [beckettharriman/openfill](https://github.com/beckettharriman/openfill) | 266 | Python | Apache-2.0 | 2026-10-14 | Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI. |
+| 19 | [beckettharriman/openfill](https://github.com/beckettharriman/openfill) | 267 | Python | Apache-2.0 | 2026-10-14 | Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI. |
 | 20 | [apiframe-ai/seedance-2.0-api](https://github.com/apiframe-ai/seedance-2.0-api) | 253 |  |  | 2026-08-14 | Seedance 2.0 API — text-to-video and image-to-video examples |
 | 21 | [matlowai/ComfyUI-MAINodes](https://github.com/matlowai/ComfyUI-MAINodes) | 245 | Python | NOASSERTION | 2026-08-08 | MatlowAI's MiniMax-H3 ComfyUI nodes: Contact-Sheet diffusion + Motion Lab (test-time de-roping of fast motion) |
 | 22 | [iamyoki/qwen-image-2.1-skill](https://github.com/iamyoki/qwen-image-2.1-skill) | 210 | Python | Apache-2.0 | 2026-09-21 | 🎨 Agentic skill for Qwen-Image-2.1: Rewrites and optimizes text-to-image and multi-image editing prompts using official Alibaba specifications. Compatible with skills.sh and all AI agents. |

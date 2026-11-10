@@ -2,10 +2,10 @@
   "repos": {
     "Comfy-Org/ComfyUI": {
       "full_name": "Comfy-Org/ComfyUI",
-      "stars": 146131,
-      "forks": 17404,
+      "stars": 146135,
+      "forks": 17405,
       "open_issues": 5487,
-      "pushed_at": "2026-11-10T15:30:04Z",
+      "pushed_at": "2026-11-10T16:03:03Z",
       "created_at": "2023-01-17T03:15:56Z",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "license": "GPL-3.0",
@@ -13,7 +13,7 @@
       "archived": false,
       "html_url": "https://github.com/Comfy-Org/ComfyUI",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:20+08:00"
+      "fetched_at": "2026-11-11T00:11:02+08:00"
     },
     "facebookresearch/segment-anything": {
       "full_name": "facebookresearch/segment-anything",
@@ -28,7 +28,7 @@
       "archived": false,
       "html_url": "https://github.com/facebookresearch/segment-anything",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:20+08:00"
+      "fetched_at": "2026-11-11T00:11:03+08:00"
     },
     "AUTOMATIC1111/stable-diffusion-webui": {
       "full_name": "AUTOMATIC1111/stable-diffusion-webui",
@@ -43,7 +43,7 @@
       "archived": false,
       "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:20+08:00"
+      "fetched_at": "2026-11-11T00:11:03+08:00"
     },
     "lllyasviel/Fooocus": {
       "full_name": "lllyasviel/Fooocus",
@@ -58,11 +58,11 @@
       "archived": false,
       "html_url": "https://github.com/lllyasviel/Fooocus",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:21+08:00"
+      "fetched_at": "2026-11-11T00:11:04+08:00"
     },
     "harry0703/MoneyPrinterTurbo": {
       "full_name": "harry0703/MoneyPrinterTurbo",
-      "stars": 141888,
+      "stars": 141892,
       "forks": 22654,
       "open_issues": 80,
       "pushed_at": "2026-11-10T02:52:35Z",
@@ -73,7 +73,7 @@
       "archived": false,
       "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:21+08:00"
+      "fetched_at": "2026-11-11T00:11:04+08:00"
     },
     "TencentARC/GFPGAN": {
       "full_name": "TencentARC/GFPGAN",
@@ -88,7 +88,7 @@
       "archived": false,
       "html_url": "https://github.com/TencentARC/GFPGAN",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:21+08:00"
+      "fetched_at": "2026-11-11T00:11:04+08:00"
     },
     "lllyasviel/ControlNet": {
       "full_name": "lllyasviel/ControlNet",
@@ -103,7 +103,7 @@
       "archived": false,
       "html_url": "https://github.com/lllyasviel/ControlNet",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:22+08:00"
+      "fetched_at": "2026-11-11T00:11:05+08:00"
     },
     "huggingface/diffusers": {
       "full_name": "huggingface/diffusers",
@@ -118,7 +118,7 @@
       "archived": false,
       "html_url": "https://github.com/huggingface/diffusers",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:22+08:00"
+      "fetched_at": "2026-11-11T00:11:05+08:00"
     },
     "xinntao/Real-ESRGAN": {
       "full_name": "xinntao/Real-ESRGAN",
@@ -133,7 +133,7 @@
       "archived": false,
       "html_url": "https://github.com/xinntao/Real-ESRGAN",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:23+08:00"
+      "fetched_at": "2026-11-11T00:11:06+08:00"
     },
     "hpcaitech/Open-Sora": {
       "full_name": "hpcaitech/Open-Sora",
@@ -148,11 +148,11 @@
       "archived": false,
       "html_url": "https://github.com/hpcaitech/Open-Sora",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:23+08:00"
+      "fetched_at": "2026-11-11T00:11:06+08:00"
     },
     "black-forest-labs/flux": {
       "full_name": "black-forest-labs/flux",
-      "stars": 26054,
+      "stars": 26055,
       "forks": 1933,
       "open_issues": 222,
       "pushed_at": "2025-07-31T13:58:55Z",
@@ -163,7 +163,7 @@
       "archived": false,
       "html_url": "https://github.com/black-forest-labs/flux",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:23+08:00"
+      "fetched_at": "2026-11-11T00:11:07+08:00"
     },
     "Wan-Video/Wan2.2": {
       "full_name": "Wan-Video/Wan2.2",
@@ -178,7 +178,7 @@
       "archived": false,
       "html_url": "https://github.com/Wan-Video/Wan2.2",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:24+08:00"
+      "fetched_at": "2026-11-11T00:11:07+08:00"
     },
     "danielgatis/rembg": {
       "full_name": "danielgatis/rembg",
@@ -193,7 +193,7 @@
       "archived": false,
       "html_url": "https://github.com/danielgatis/rembg",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:24+08:00"
+      "fetched_at": "2026-11-11T00:11:08+08:00"
     },
     "Wan-Video/Wan2.1": {
       "full_name": "Wan-Video/Wan2.1",
@@ -208,7 +208,7 @@
       "archived": false,
       "html_url": "https://github.com/Wan-Video/Wan2.1",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:25+08:00"
+      "fetched_at": "2026-11-11T00:11:08+08:00"
     },
     "Stability-AI/generative-models": {
       "full_name": "Stability-AI/generative-models",
@@ -223,11 +223,11 @@
       "archived": false,
       "html_url": "https://github.com/Stability-AI/generative-models",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:25+08:00"
+      "fetched_at": "2026-11-11T00:11:09+08:00"
     },
     "lllyasviel/FramePack": {
       "full_name": "lllyasviel/FramePack",
-      "stars": 17351,
+      "stars": 17352,
       "forks": 1747,
       "open_issues": 496,
       "pushed_at": "2025-10-16T01:28:50Z",
@@ -238,7 +238,7 @@
       "archived": false,
       "html_url": "https://github.com/lllyasviel/FramePack",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:25+08:00"
+      "fetched_at": "2026-11-11T00:11:09+08:00"
     },
     "guoyww/AnimateDiff": {
       "full_name": "guoyww/AnimateDiff",
@@ -253,7 +253,7 @@
       "archived": false,
       "html_url": "https://github.com/guoyww/AnimateDiff",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:26+08:00"
+      "fetched_at": "2026-11-11T00:11:10+08:00"
     },
     "ltdrdata/ComfyUI-Manager": {
       "full_name": "Comfy-Org/ComfyUI-Manager",
@@ -268,7 +268,7 @@
       "archived": false,
       "html_url": "https://github.com/Comfy-Org/ComfyUI-Manager",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:29+08:00"
+      "fetched_at": "2026-11-11T00:11:11+08:00"
     },
     "zai-org/CogVideo": {
       "full_name": "zai-org/CogVideo",
@@ -283,7 +283,7 @@
       "archived": false,
       "html_url": "https://github.com/zai-org/CogVideo",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:29+08:00"
+      "fetched_at": "2026-11-11T00:11:12+08:00"
     },
     "modelscope/DiffSynth-Studio": {
       "full_name": "modelscope/DiffSynth-Studio",
@@ -298,7 +298,7 @@
       "archived": false,
       "html_url": "https://github.com/modelscope/DiffSynth-Studio",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:29+08:00"
+      "fetched_at": "2026-11-11T00:11:12+08:00"
     },
     "Tencent-Hunyuan/HunyuanVideo": {
       "full_name": "Tencent-Hunyuan/HunyuanVideo",
@@ -313,7 +313,7 @@
       "archived": false,
       "html_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:30+08:00"
+      "fetched_at": "2026-11-11T00:11:13+08:00"
     },
     "Tongyi-MAI/Z-Image": {
       "full_name": "Tongyi-MAI/Z-Image",
@@ -328,7 +328,7 @@
       "archived": false,
       "html_url": "https://github.com/Tongyi-MAI/Z-Image",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:30+08:00"
+      "fetched_at": "2026-11-11T00:11:13+08:00"
     },
     "invoke-ai/InvokeAI": {
       "full_name": "invoke-ai/InvokeAI",
@@ -343,7 +343,7 @@
       "archived": false,
       "html_url": "https://github.com/invoke-ai/InvokeAI",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:31+08:00"
+      "fetched_at": "2026-11-11T00:11:14+08:00"
     },
     "Lightricks/LTX-Video": {
       "full_name": "Lightricks/LTX-Video",
@@ -358,7 +358,7 @@
       "archived": false,
       "html_url": "https://github.com/Lightricks/LTX-Video",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:31+08:00"
+      "fetched_at": "2026-11-11T00:11:14+08:00"
     },
     "NVlabs/Sana": {
       "full_name": "NVlabs/Sana",
@@ -373,7 +373,7 @@
       "archived": false,
       "html_url": "https://github.com/NVlabs/Sana",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:31+08:00"
+      "fetched_at": "2026-11-11T00:11:14+08:00"
     },
     "ostris/ai-toolkit": {
       "full_name": "ostris/ai-toolkit",
@@ -388,7 +388,7 @@
       "archived": false,
       "html_url": "https://github.com/ostris/ai-toolkit",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:32+08:00"
+      "fetched_at": "2026-11-11T00:11:15+08:00"
     },
     "QwenLM/Qwen-Image": {
       "full_name": "QwenLM/Qwen-Image",
@@ -403,7 +403,7 @@
       "archived": false,
       "html_url": "https://github.com/QwenLM/Qwen-Image",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:32+08:00"
+      "fetched_at": "2026-11-11T00:11:15+08:00"
     },
     "Lightricks/LTX-2": {
       "full_name": "Lightricks/LTX-2",
@@ -418,7 +418,7 @@
       "archived": false,
       "html_url": "https://github.com/Lightricks/LTX-2",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:32+08:00"
+      "fetched_at": "2026-11-11T00:11:16+08:00"
     },
     "deepseek-ai/Janus": {
       "full_name": "deepseek-ai/Janus",
@@ -433,7 +433,7 @@
       "archived": false,
       "html_url": "https://github.com/deepseek-ai/Janus",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:33+08:00"
+      "fetched_at": "2026-11-11T00:11:16+08:00"
     },
     "LykosAI/StabilityMatrix": {
       "full_name": "LykosAI/StabilityMatrix",
@@ -448,7 +448,7 @@
       "archived": false,
       "html_url": "https://github.com/LykosAI/StabilityMatrix",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:33+08:00"
+      "fetched_at": "2026-11-11T00:11:17+08:00"
     },
     "ToTheBeginning/PuLID": {
       "full_name": "ToTheBeginning/PuLID",
@@ -463,7 +463,7 @@
       "archived": false,
       "html_url": "https://github.com/ToTheBeginning/PuLID",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:34+08:00"
+      "fetched_at": "2026-11-11T00:11:18+08:00"
     },
     "PixArt-alpha/PixArt": {
       "full_name": "PixArt-alpha/PixArt-alpha",
@@ -478,7 +478,7 @@
       "archived": false,
       "html_url": "https://github.com/PixArt-alpha/PixArt-alpha",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:35+08:00"
+      "fetched_at": "2026-11-11T00:11:18+08:00"
     },
     "ByteDance-Seed/Bagel": {
       "full_name": "ByteDance-Seed/Bagel",
@@ -493,7 +493,7 @@
       "archived": false,
       "html_url": "https://github.com/ByteDance-Seed/Bagel",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:35+08:00"
+      "fetched_at": "2026-11-11T00:11:19+08:00"
     },
     "kijai/ComfyUI-WanVideoWrapper": {
       "full_name": "kijai/ComfyUI-WanVideoWrapper",
@@ -508,7 +508,7 @@
       "archived": false,
       "html_url": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:35+08:00"
+      "fetched_at": "2026-11-11T00:11:19+08:00"
     },
     "city96/ComfyUI-GGUF": {
       "full_name": "city96/ComfyUI-GGUF",
@@ -523,7 +523,7 @@
       "archived": false,
       "html_url": "https://github.com/city96/ComfyUI-GGUF",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:36+08:00"
+      "fetched_at": "2026-11-11T00:11:20+08:00"
     },
     "Kwai-Kolors/Kolors": {
       "full_name": "Kwai-Kolors/Kolors",
@@ -538,7 +538,7 @@
       "archived": false,
       "html_url": "https://github.com/Kwai-Kolors/Kolors",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:00+08:00"
+      "fetched_at": "2026-11-11T00:11:20+08:00"
     },
     "MiniMax-AI/MiniMax-H3": {
       "full_name": "MiniMax-AI/MiniMax-H3",
@@ -553,7 +553,7 @@
       "archived": false,
       "html_url": "https://github.com/MiniMax-AI/MiniMax-H3",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:37+08:00"
+      "fetched_at": "2026-11-11T00:11:21+08:00"
     },
     "Tencent-Hunyuan/HunyuanImage-3.0": {
       "full_name": "Tencent-Hunyuan/HunyuanImage-3.0",
@@ -568,7 +568,7 @@
       "archived": false,
       "html_url": "https://github.com/Tencent-Hunyuan/HunyuanImage-3.0",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:37+08:00"
+      "fetched_at": "2026-11-11T00:11:21+08:00"
     },
     "black-forest-labs/flux2": {
       "full_name": "black-forest-labs/flux2",
@@ -583,7 +583,7 @@
       "archived": false,
       "html_url": "https://github.com/black-forest-labs/flux2",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:37+08:00"
+      "fetched_at": "2026-11-11T00:11:22+08:00"
     },
     "HiDream-ai/HiDream-I1": {
       "full_name": "HiDream-ai/HiDream-I1",
@@ -598,7 +598,7 @@
       "archived": false,
       "html_url": "https://github.com/HiDream-ai/HiDream-I1",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:38+08:00"
+      "fetched_at": "2026-11-11T00:11:22+08:00"
     },
     "meituan-longcat/LongCat-Video": {
       "full_name": "meituan-longcat/LongCat-Video",
@@ -613,7 +613,7 @@
       "archived": false,
       "html_url": "https://github.com/meituan-longcat/LongCat-Video",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:02+08:00"
+      "fetched_at": "2026-11-11T00:11:22+08:00"
     },
     "Stability-AI/sd3.5": {
       "full_name": "Stability-AI/sd3.5",
@@ -628,7 +628,7 @@
       "archived": false,
       "html_url": "https://github.com/Stability-AI/sd3.5",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:39+08:00"
+      "fetched_at": "2026-11-11T00:11:23+08:00"
     },
     "PKU-YuanGroup/OpenS2V-Nexus": {
       "full_name": "PKU-YuanGroup/OpenS2V-Nexus",
@@ -643,7 +643,7 @@
       "archived": false,
       "html_url": "https://github.com/PKU-YuanGroup/OpenS2V-Nexus",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:39+08:00"
+      "fetched_at": "2026-11-11T00:11:24+08:00"
     },
     "kandinskylab/kandinsky-5": {
       "full_name": "kandinskylab/kandinsky-5",
@@ -658,7 +658,7 @@
       "archived": false,
       "html_url": "https://github.com/kandinskylab/kandinsky-5",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:40+08:00"
+      "fetched_at": "2026-11-11T00:11:24+08:00"
     },
     "zai-org/GLM-Image": {
       "full_name": "zai-org/GLM-Image",
@@ -673,7 +673,7 @@
       "archived": false,
       "html_url": "https://github.com/zai-org/GLM-Image",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:40+08:00"
+      "fetched_at": "2026-11-11T00:11:24+08:00"
     },
     "zai-org/SCAIL": {
       "full_name": "zai-org/SCAIL",
@@ -688,7 +688,7 @@
       "archived": false,
       "html_url": "https://github.com/zai-org/SCAIL",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:40+08:00"
+      "fetched_at": "2026-11-11T00:11:25+08:00"
     },
     "meituan-longcat/LongCat-Image": {
       "full_name": "meituan-longcat/LongCat-Image",
@@ -703,7 +703,7 @@
       "archived": false,
       "html_url": "https://github.com/meituan-longcat/LongCat-Image",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:41+08:00"
+      "fetched_at": "2026-11-11T00:11:25+08:00"
     },
     "tencent-ailab/IP-Adapter": {
       "full_name": "tencent-ailab/IP-Adapter",
@@ -718,7 +718,7 @@
       "archived": false,
       "html_url": "https://github.com/tencent-ailab/IP-Adapter",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:26+08:00"
+      "fetched_at": "2026-11-11T00:11:10+08:00"
     },
     "instantX-research/InstantID": {
       "full_name": "instantX-research/InstantID",
@@ -733,7 +733,7 @@
       "archived": false,
       "html_url": "https://github.com/instantX-research/InstantID",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:27+08:00"
+      "fetched_at": "2026-11-11T00:11:11+08:00"
     },
     "Stability-AI/StableSwarmUI": {
       "full_name": "Stability-AI/StableSwarmUI",
@@ -748,7 +748,7 @@
       "archived": false,
       "html_url": "https://github.com/Stability-AI/StableSwarmUI",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:34+08:00"
+      "fetched_at": "2026-11-11T00:11:17+08:00"
     }
   },
   "hf": {
@@ -757,36 +757,36 @@
       "downloads": 290040,
       "last_modified": "2026-02-17T15:56:06.000Z",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:41+08:00"
+      "fetched_at": "2026-11-11T00:11:26+08:00"
     },
     "black-forest-labs/FLUX.1-dev": {
       "likes": 16064,
       "downloads": 498486,
       "last_modified": "2025-06-27T16:22:19.000Z",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:41+08:00"
+      "fetched_at": "2026-11-11T00:11:26+08:00"
     },
     "Qwen/Qwen-Image": {
       "likes": 2693,
       "downloads": 327391,
       "last_modified": "2025-08-18T02:42:19.000Z",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:41+08:00"
+      "fetched_at": "2026-11-11T00:11:26+08:00"
     },
     "Tongyi-MAI/Z-Image-Turbo": {
       "likes": 5583,
       "downloads": 723026,
       "last_modified": "2026-01-30T16:58:07.000Z",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:41+08:00"
+      "fetched_at": "2026-11-11T00:11:26+08:00"
     },
     "Wan-AI/Wan2.2-T2V-A14B": {
       "likes": 607,
       "downloads": 3398,
       "last_modified": "2025-08-07T09:43:34.000Z",
       "source": "api",
-      "fetched_at": "2026-11-11T00:01:41+08:00"
+      "fetched_at": "2026-11-11T00:11:26+08:00"
     }
   },
-  "generated": "2026-11-11 00:01 (UTC+8)"
+  "generated": "2026-11-11 00:11 (UTC+8)"
 }
