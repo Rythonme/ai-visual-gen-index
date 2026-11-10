@@ -1,0 +1,52 @@
+{
+  "project": {
+    "name": "AI 视觉生成资源榜",
+    "name_en": "AI Visual Generation Index",
+    "tagline": "生图 / 生视频工具与模型资源导航 · 热度与实用性双榜",
+    "description": "只做整理归纳与展示，不托管、不下载任何模型权重、数据集或素材，全部资源仅提供官方超链接。",
+    "owner": "Rythonme",
+    "repo": "Rythonme/ai-visual-gen-index",
+    "site_url": "https://rythonme.github.io/ai-visual-gen-index/",
+    "timezone": "Asia/Shanghai",
+    "weekly_cron": "0 2 * * 1",
+    "weekly_cron_human": "每周一 10:00（北京时间）"
+  },
+  "scoring": {
+    "version": "1.0",
+    "note": "所有分数为 0-100。热度分来自公开 API 数据；实用性分为人工可审计的六维打分；综合分加权合成。算法与权重全部公开，任何人可复算。",
+    "weights": {
+      "overall": { "heat": 0.45, "practical": 0.55 },
+      "heat": { "stars": 0.45, "growth": 0.20, "activity": 0.20, "community": 0.15 },
+      "practical": { "ease": 0.18, "cost": 0.18, "quality": 0.22, "cn": 0.12, "ecosystem": 0.18, "efficiency": 0.12 }
+    },
+    "stars_scale": 150000,
+    "growth_full_score_pct": 5.0,
+    "activity_full_score_days": 7,
+    "activity_zero_score_days": 730,
+    "practical_labels": {
+      "ease": "易上手",
+      "cost": "成本/许可友好",
+      "quality": "输出质量",
+      "cn": "中文支持",
+      "ecosystem": "生态与文档",
+      "efficiency": "硬件效率"
+    }
+  },
+  "categories": {
+    "image_model": { "label": "生图模型", "icon": "image", "desc": "开放权重 / 可本地部署的图像生成模型" },
+    "video_model": { "label": "生视频模型", "icon": "video", "desc": "开放权重 / 可本地部署的视频生成模型" },
+    "image_platform": { "label": "生图平台", "icon": "cloud", "desc": "闭源商业产品、在线服务与 API" },
+    "video_platform": { "label": "生视频平台", "icon": "film", "desc": "闭源商业产品、在线服务与 API" },
+    "tool": { "label": "工具框架", "icon": "tool", "desc": "本地推理前端、工作流、训练与推理框架" },
+    "edit": { "label": "控制增强", "icon": "sliders", "desc": "可控生成、编辑、超分与后处理组件" },
+    "resource": { "label": "资源评测", "icon": "compass", "desc": "模型社区、评测榜单、文档与学习资源" }
+  },
+  "boards": {
+    "overall": { "label": "综合榜", "desc": "热度 45% + 实用性 55%" },
+    "heat": { "label": "热度榜", "desc": "社区关注度、增长势头与维护活跃度" },
+    "practical": { "label": "实用榜", "desc": "易上手、成本、质量、中文、生态、效率六维" },
+    "momentum": { "label": "上升榜", "desc": "仅 GitHub 热度追踪项目 · 近期增长与活跃度" },
+    "open_source": { "label": "开源榜", "desc": "仅开放权重 / 开源项目，按综合分排名" }
+  },
+  "disclaimer": "本榜单为资源导航与社区热度观察，不构成对任何产品的推荐或性能背书；闭源产品的热度为人工基线，开源项目的热度由 GitHub / Hugging Face 公开 API 自动更新。评分含主观判断，欢迎通过 Issue / PR 复核。"
+}

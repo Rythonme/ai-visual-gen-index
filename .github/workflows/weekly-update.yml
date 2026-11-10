@@ -1,0 +1,68 @@
+name: 每周更新榜单
+
+# 每周一 UTC 02:00 = 北京时间 10:00。
+# 说明：GitHub 对 schedule 有少量延迟属正常；仓库超过 60 天无任何活动会自动暂停定时任务，
+# 手动触发一次 workflow_dispatch 即可恢复。
+on:
+  schedule:
+    - cron: '0 2 * * 1'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/tools.json'
+      - 'data/config.json'
+      - 'scripts/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-ranking
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 抓取公开指标并生成榜单
+        # 只读 GitHub / Hugging Face 公开元数据，不下载任何模型或素材
+        run: python scripts/build.py --verbose
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 校验外链可用性
+        # 超时/反爬记为 unknown，不阻断流程
+        run: python scripts/check_links.py
+        continue-on-error: true
+
+      - name: 带入链接校验结果重新生成
+        run: python scripts/build.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 检索可能的新资源（仅生成候选，不自动收录）
+        run: python scripts/discover.py
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 提交本周变更
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "本周榜单无变化，跳过提交"
+          else
+            git commit -m "chore: weekly ranking update $(date -u +%Y-%m-%d)"
+            git push
+          fi

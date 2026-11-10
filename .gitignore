@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local temp / logs
+*.log
+tmp/
+.tmp/
+*.bak
+
+# 注意：data/ 下的 rankings.json / history.json / metrics_cache.json /
+# link_status.json / candidates.json 都要提交到仓库（周更结果与离线兜底），不要忽略。

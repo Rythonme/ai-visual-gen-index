@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AI 生图 / 生视频工具与模型资源导航：热度与实用性双榜，每周自动更新，只提供官方链接，不下载任何素材。">
+<title>AI 视觉生成资源榜 · 生图 / 生视频工具模型排名</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+
+  <header class="hero">
+    <div class="hero-top">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">◈</div>
+        <div>
+          <h1>AI 视觉生成资源榜</h1>
+          <p class="tagline">生图 / 生视频工具与模型资源导航 · 热度 × 实用性双榜</p>
+        </div>
+      </div>
+      <nav class="topnav" aria-label="站内导航">
+        <a href="kanban.html">进展看板</a>
+        <a href="../README.md">项目说明</a>
+        <a href="../reports/README.md">周报</a>
+        <a id="repoLink" href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+      </nav>
+    </div>
+
+    <div class="hero-note">
+      <span class="dot"></span>
+      只做整理归纳与展示 · <strong>不下载任何模型权重或素材</strong> · 全部资源仅提供官方超链接
+    </div>
+
+    <div class="stats" id="stats"></div>
+    <div class="updated" id="updated"></div>
+  </header>
+
+  <section class="controls" aria-label="榜单筛选">
+    <div class="board-tabs" id="boardTabs"></div>
+    <div class="filter-row">
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="search" type="search" placeholder="搜索名称、团队、标签或描述…" autocomplete="off" aria-label="搜索资源">
+      </div>
+      <select id="typeFilter" aria-label="按类型筛选">
+        <option value="all">全部类型</option>
+        <option value="open">开源 / 开放权重</option>
+        <option value="closed">闭源平台</option>
+        <option value="resource">资源 / 评测</option>
+      </select>
+      <label class="toggle"><input type="checkbox" id="cnOnly"><span>仅中文友好</span></label>
+      <button id="resetBtn" class="reset" type="button">重置</button>
+    </div>
+    <div class="chips" id="catChips"></div>
+    <div class="result-line" id="resultLine"></div>
+  </section>
+
+  <main id="grid" class="grid" aria-live="polite"></main>
+  <div id="empty" class="empty" hidden>没有匹配的资源，试试清空搜索或切换分类。</div>
+
+  <section class="method">
+    <details>
+      <summary>排名是怎么算出来的？（算法完全公开）</summary>
+      <div class="method-body" id="methodBody"></div>
+    </details>
+    <details>
+      <summary>每周自动更新什么？哪些部分需要人工维护？</summary>
+      <div class="method-body">
+        <p><strong>自动（每周一 10:00 北京时间）</strong>：GitHub Actions 读取 GitHub / Hugging Face 公开 API 的元数据（Star、Fork、最近提交、许可证、官方简介、模型 likes 与下载量）→ 按公开算法重算四类榜单 → 自动更新 README 榜单区块、本站数据、周报与 26 周历史快照 → 自动提交并部署网站。全程只读元数据，不下载任何模型或素材。</p>
+        <p><strong>人工</strong>：闭源产品的热度基线、实用性六维评分、新增或下架条目，以及 `scripts/discover.py` 产出的新资源候选清单审核。发现脚本只提候选，绝不自动收录。</p>
+        <p><strong>兜底</strong>：API 限流或网络失败时自动回退到缓存 / 人工基线，并在每张卡片上标注数据来源，保证榜单每周都能生成。</p>
+      </div>
+    </details>
+  </section>
+
+  <footer class="footer">
+    <p id="disclaimer"></p>
+    <p class="footer-links">
+      <a href="kanban.html">项目进展看板</a> ·
+      <a href="../README.md">排名方法与使用说明</a> ·
+      <a href="../CONTRIBUTING.md">贡献指南</a> ·
+      <a href="../data/rankings.json">榜单 JSON</a> ·
+      <a href="../reports/README.md">每周报告</a>
+    </p>
+    <p class="footer-small">数据由 <code>scripts/build.py</code> 自动生成 · 代码 MIT / 数据 CC BY 4.0 · 与所列产品无隶属关系</p>
+  </footer>
+
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

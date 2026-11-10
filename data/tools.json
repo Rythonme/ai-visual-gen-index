@@ -1,0 +1,692 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-10",
+  "maintainer_note": "这是唯一需要人工维护的源文件。新增资源请复制一条并补齐字段；scores 六维各 1-5 分；有 GitHub 仓库的填 github（owner/repo），没有的填 heat_baseline 人工基线。详见 CONTRIBUTING.md。",
+  "tools": [
+    {
+      "id": "flux2", "name": "FLUX.2", "alias": "FLUX.2 [dev] / [klein]", "category": "image_model", "type": "open",
+      "org": "Black Forest Labs", "desc": "新一代统一生成与编辑架构，支持多参考图一致性、高质量文字渲染；klein 小模型可亚秒级出图，dev 版本偏向顶级画质。",
+      "links": {"home": "https://bfl.ai/", "github": "https://github.com/black-forest-labs/flux2", "model": "https://huggingface.co/black-forest-labs/FLUX.2-dev", "docs": "https://github.com/black-forest-labs/flux2#readme"},
+      "github": "black-forest-labs/flux2", "hf_model": "black-forest-labs/FLUX.2-dev", "license": "klein 4B Apache-2.0 / dev 非商业",
+      "tags": ["写实", "多参考编辑", "文字渲染"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 3, "quality": 5, "cn": 3, "ecosystem": 5, "efficiency": 2}, "seed_stars": 2830
+    },
+    {
+      "id": "flux1", "name": "FLUX.1", "alias": "FLUX.1 [dev] / [schnell] / Kontext", "category": "image_model", "type": "open",
+      "org": "Black Forest Labs", "desc": "仍是生态最成熟的开放权重图像模型家族之一，LoRA 与工作流资源极多；Kontext 支持指令式图像编辑。",
+      "links": {"home": "https://bfl.ai/", "github": "https://github.com/black-forest-labs/flux", "model": "https://huggingface.co/black-forest-labs/FLUX.1-dev", "docs": "https://github.com/black-forest-labs/flux#readme"},
+      "github": "black-forest-labs/flux", "hf_model": "black-forest-labs/FLUX.1-dev", "license": "schnell Apache-2.0 / dev 非商业",
+      "tags": ["LoRA 生态", "写实", "编辑"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 3, "quality": 5, "cn": 3, "ecosystem": 5, "efficiency": 3}, "seed_stars": 26046
+    },
+    {
+      "id": "qwen-image", "name": "Qwen-Image", "alias": "Qwen-Image / Qwen-Image-Edit", "category": "image_model", "type": "open",
+      "org": "阿里巴巴通义", "desc": "中文文字渲染与海报排版能力突出，生成与编辑同源；适合电商图、带字物料与中英双语场景。",
+      "links": {"home": "https://qwen.ai/", "github": "https://github.com/QwenLM/Qwen-Image", "model": "https://huggingface.co/Qwen/Qwen-Image", "docs": "https://qwenlm.github.io/blog/qwen-image/"},
+      "github": "QwenLM/Qwen-Image", "hf_model": "Qwen/Qwen-Image", "license": "Apache-2.0",
+      "tags": ["中文友好", "文字渲染", "可商用"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 5, "cn": 5, "ecosystem": 4, "efficiency": 3}, "seed_stars": 8442
+    },
+    {
+      "id": "z-image", "name": "Z-Image", "alias": "Z-Image-Turbo", "category": "image_model", "type": "open",
+      "org": "阿里巴巴通义", "desc": "6B 轻量高性价比模型，Turbo 版约 8 步即可出写实人像，消费级显卡可跑，Apache-2.0 可商用。",
+      "links": {"home": "https://tongyi.aliyun.com/wan/", "github": "https://github.com/Tongyi-MAI/Z-Image", "model": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo", "docs": "https://github.com/Tongyi-MAI/Z-Image#readme"},
+      "github": "Tongyi-MAI/Z-Image", "hf_model": "Tongyi-MAI/Z-Image-Turbo", "license": "Apache-2.0",
+      "tags": ["轻量", "中文友好", "可商用"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 5, "quality": 4, "cn": 5, "ecosystem": 4, "efficiency": 5}, "seed_stars": 12130
+    },
+    {
+      "id": "sdxl", "name": "Stable Diffusion XL", "alias": "SDXL / Pony / Illustrious", "category": "image_model", "type": "open",
+      "org": "Stability AI + 社区", "desc": "社区生态最大的图像基座，二次元与风格 LoRA、ControlNet 资源海量，老显卡也能跑，2026 年仍是微调首选。",
+      "links": {"home": "https://stability.ai/", "github": "https://github.com/Stability-AI/generative-models", "model": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0", "docs": "https://github.com/Stability-AI/generative-models#readme"},
+      "github": "Stability-AI/generative-models", "license": "OpenRAIL++ / 微调各异",
+      "tags": ["LoRA 生态", "二次元", "低显存"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 3, "cn": 4, "ecosystem": 5, "efficiency": 5}, "seed_stars": 16000
+    },
+    {
+      "id": "sd35", "name": "Stable Diffusion 3.5", "alias": "SD 3.5 Large / Medium", "category": "image_model", "type": "open",
+      "org": "Stability AI", "desc": "MMDiT 架构的官方开源系列，提示词遵循度与多主体构图较 SDXL 明显提升，有免费额度内的商用条款。",
+      "links": {"home": "https://stability.ai/", "github": "https://github.com/Stability-AI/sd3.5", "model": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large", "docs": "https://github.com/Stability-AI/sd3.5#readme"},
+      "github": "Stability-AI/sd3.5", "license": "Stability Community License",
+      "tags": ["开源", "多主体", "中等显存"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 3, "quality": 4, "cn": 3, "ecosystem": 4, "efficiency": 4}, "seed_stars": 1500
+    },
+    {
+      "id": "hunyuan-image", "name": "HunyuanImage 3.0", "alias": "腾讯混元图像", "category": "image_model", "type": "open",
+      "org": "腾讯混元", "desc": "原生多模态 MoE 架构文生图模型，中文语义理解与世界知识较强，开放权重与推理代码。",
+      "links": {"home": "https://hunyuan.tencent.com/", "github": "https://github.com/Tencent-Hunyuan/HunyuanImage-3.0", "model": "https://huggingface.co/tencent/HunyuanImage-3.0"},
+      "github": "Tencent-Hunyuan/HunyuanImage-3.0", "license": "自定义许可（需核对地域条款）",
+      "tags": ["中文友好", "知识密集", "大模型"], "added": "2026-11-10",
+      "scores": {"ease": 2, "cost": 2, "quality": 5, "cn": 5, "ecosystem": 3, "efficiency": 1}, "seed_stars": 3296
+    },
+    {
+      "id": "kolors", "name": "Kolors", "alias": "可图", "category": "image_model", "type": "open",
+      "org": "快手", "desc": "中英双语理解强的开源文生图模型，中文提示词与本土场景表现好，部署门槛较低。",
+      "links": {"home": "https://github.com/Kwai-Kolors/Kolors", "github": "https://github.com/Kwai-Kolors/Kolors", "model": "https://huggingface.co/Kwai-Kolors/Kolors"},
+      "github": "Kwai-Kolors/Kolors", "license": "Apache-2.0",
+      "tags": ["中文友好", "可商用", "低门槛"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 4, "cn": 5, "ecosystem": 4, "efficiency": 4}, "seed_stars": 4600
+    },
+    {
+      "id": "sana", "name": "SANA", "alias": "NVIDIA 线性 DiT", "category": "image_model", "type": "open",
+      "org": "NVIDIA", "desc": "线性注意力高效扩散模型，主打高分辨率与低算力成本，适合推理效率研究与边缘部署。",
+      "links": {"home": "https://nvlabs.github.io/Sana/", "github": "https://github.com/NVlabs/Sana", "model": "https://huggingface.co/Efficient-Large-Model/SANA1.6B_1024px"},
+      "github": "NVlabs/Sana", "license": "NVIDIA / Apache-2.0 组件",
+      "tags": ["高效", "高分辨率", "研究"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 4, "quality": 4, "cn": 2, "ecosystem": 3, "efficiency": 5}, "seed_stars": 9737
+    },
+    {
+      "id": "hidream", "name": "HiDream-I1", "alias": "HiDream 图像系列", "category": "image_model", "type": "open",
+      "org": "HiDream.ai", "desc": "MIT 许可的开源图像生成模型，画质与提示词遵循表现均衡，许可宽松适合二次开发。",
+      "links": {"home": "https://hidream.ai/", "github": "https://github.com/HiDream-ai/HiDream-I1", "model": "https://huggingface.co/HiDream-ai/HiDream-I1-Full"},
+      "github": "HiDream-ai/HiDream-I1", "license": "MIT",
+      "tags": ["MIT", "可商用", "画质"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 5, "quality": 4, "cn": 3, "ecosystem": 3, "efficiency": 2}, "seed_stars": 2500
+    },
+    {
+      "id": "glm-image", "name": "GLM-Image", "alias": "智谱自回归图像", "category": "image_model", "type": "open",
+      "org": "智谱 AI", "desc": "自回归路线的知识密集型图像生成模型，中文语境与文字、图表类内容有特色。",
+      "links": {"home": "https://open.bigmodel.cn/", "github": "https://github.com/zai-org/GLM-Image", "model": "https://huggingface.co/zai-org/GLM-Image"},
+      "github": "zai-org/GLM-Image", "license": "MIT",
+      "tags": ["中文友好", "知识密集", "新架构"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 4, "quality": 4, "cn": 5, "ecosystem": 3, "efficiency": 2}, "seed_stars": 900
+    },
+    {
+      "id": "longcat-image", "name": "LongCat-Image", "alias": "美团 LongCat 图像", "category": "image_model", "type": "open",
+      "org": "美团 LongCat", "desc": "美团开源的图像生成模型，中文场景与指令编辑友好，配套 LongCat-Video 形成多模态家族。",
+      "links": {"home": "https://github.com/meituan-longcat", "github": "https://github.com/meituan-longcat/LongCat-Image", "model": "https://huggingface.co/meituan-longcat"},
+      "github": "meituan-longcat/LongCat-Image", "license": "Apache-2.0",
+      "tags": ["中文友好", "可商用", "新晋"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 4, "quality": 4, "cn": 5, "ecosystem": 3, "efficiency": 3}, "seed_stars": 730
+    },
+    {
+      "id": "bagel", "name": "BAGEL", "alias": "统一多模态生成与理解", "category": "image_model", "type": "open",
+      "org": "ByteDance Seed", "desc": "统一理解与生成的开源多模态模型，图像编辑、视觉推理与生成在同一框架内完成。",
+      "links": {"home": "https://seed.bytedance.com/", "github": "https://github.com/ByteDance-Seed/Bagel", "model": "https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT"},
+      "github": "ByteDance-Seed/Bagel", "license": "Apache-2.0",
+      "tags": ["统一模型", "编辑", "研究"], "added": "2026-11-10",
+      "scores": {"ease": 2, "cost": 4, "quality": 4, "cn": 4, "ecosystem": 3, "efficiency": 2}, "seed_stars": 6205
+    },
+    {
+      "id": "kandinsky5", "name": "Kandinsky 5", "alias": "Image / Video Lite & Pro", "category": "image_model", "type": "open",
+      "org": "Kandinsky Lab", "desc": "CrossDiT 架构的图像与视频一体化家族，Lite 轻量版消费级显卡可跑，多语言提示词支持好。",
+      "links": {"home": "https://github.com/kandinskylab/kandinsky-5", "github": "https://github.com/kandinskylab/kandinsky-5", "model": "https://huggingface.co/kandinskylab"},
+      "github": "kandinskylab/kandinsky-5", "license": "Apache-2.0",
+      "tags": ["图视频一体", "轻量", "多语言"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 4, "quality": 4, "cn": 3, "ecosystem": 3, "efficiency": 4}, "seed_stars": 1100
+    },
+    {
+      "id": "janus-pro", "name": "Janus-Pro", "alias": "DeepSeek 统一多模态", "category": "image_model", "type": "open",
+      "org": "DeepSeek", "desc": "理解与生成解耦编码的统一多模态模型，图像生成能力偏研究向，社区复现与教程较多。",
+      "links": {"home": "https://github.com/deepseek-ai/Janus", "github": "https://github.com/deepseek-ai/Janus", "model": "https://huggingface.co/deepseek-ai/Janus-Pro-7B"},
+      "github": "deepseek-ai/Janus", "license": "DeepSeek License",
+      "tags": ["统一模型", "研究", "轻量"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 4, "quality": 3, "cn": 4, "ecosystem": 4, "efficiency": 4}, "seed_stars": 8000
+    },
+    {
+      "id": "pixart", "name": "PixArt-α / Σ", "alias": "高效 Transformer 文生图", "category": "image_model", "type": "open",
+      "org": "PixArt 团队", "desc": "训练成本低、生成质量高的经典 DiT 文生图系列，常被用作学术基线与轻量微调底模。",
+      "links": {"home": "https://pixart-alpha.github.io/", "github": "https://github.com/PixArt-alpha/PixArt", "model": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS"},
+      "github": "PixArt-alpha/PixArt", "license": "开源（详见仓库）",
+      "tags": ["学术基线", "轻量", "高分辨率"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 4, "quality": 3, "cn": 2, "ecosystem": 3, "efficiency": 4}, "seed_stars": 6500
+    },
+
+    {
+      "id": "wan22", "name": "Wan 2.2", "alias": "通义万相开源视频", "category": "video_model", "type": "open",
+      "org": "阿里巴巴通义万相", "desc": "开源视频生成的事实标杆之一，MoE 架构支持文生视频 / 图生视频，Apache-2.0 可商用，ComfyUI 生态插件最丰富。",
+      "links": {"home": "https://tongyi.aliyun.com/wan/", "github": "https://github.com/Wan-Video/Wan2.2", "model": "https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B", "docs": "https://github.com/Wan-Video/Wan2.2#readme"},
+      "github": "Wan-Video/Wan2.2", "hf_model": "Wan-AI/Wan2.2-T2V-A14B", "license": "Apache-2.0",
+      "tags": ["中文友好", "可商用", "生态最全"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 5, "cn": 5, "ecosystem": 5, "efficiency": 3}, "seed_stars": 18302
+    },
+    {
+      "id": "wan21", "name": "Wan 2.1", "alias": "万相视频上一代", "category": "video_model", "type": "open",
+      "org": "阿里巴巴通义万相", "desc": "1.3B 轻量版约 8GB 显存可跑，支持文生视频、图生视频、视频编辑与动态文字，教程与微调资源极多。",
+      "links": {"home": "https://tongyi.aliyun.com/wan/", "github": "https://github.com/Wan-Video/Wan2.1", "model": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B"},
+      "github": "Wan-Video/Wan2.1", "license": "Apache-2.0",
+      "tags": ["低显存", "中文友好", "教程多"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 5, "quality": 4, "cn": 5, "ecosystem": 5, "efficiency": 5}, "seed_stars": 16500
+    },
+    {
+      "id": "hunyuanvideo", "name": "HunyuanVideo", "alias": "腾讯混元视频", "category": "video_model", "type": "open",
+      "org": "腾讯混元", "desc": "电影感运动与人物稳定性强的开源视频大模型，支持复杂中文提示词，社区有量化版降低显存门槛。",
+      "links": {"home": "https://hunyuan.tencent.com/", "github": "https://github.com/Tencent-Hunyuan/HunyuanVideo", "model": "https://huggingface.co/tencent/HunyuanVideo"},
+      "github": "Tencent-Hunyuan/HunyuanVideo", "license": "腾讯混元自定义许可",
+      "tags": ["中文友好", "电影感", "人物稳定"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 3, "quality": 5, "cn": 5, "ecosystem": 4, "efficiency": 2}, "seed_stars": 12300
+    },
+    {
+      "id": "ltx-video", "name": "LTX-Video", "alias": "Lightricks 实时视频", "category": "video_model", "type": "open",
+      "org": "Lightricks", "desc": "主打速度与消费级显卡可用性，适合快速出草稿、图生视频与视频转视频迭代。",
+      "links": {"home": "https://ltx.io/", "github": "https://github.com/Lightricks/LTX-Video", "model": "https://huggingface.co/Lightricks/LTX-Video"},
+      "github": "Lightricks/LTX-Video", "license": "Lightricks 开放权重许可",
+      "tags": ["速度快", "低显存", "迭代草稿"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 3, "quality": 4, "cn": 2, "ecosystem": 4, "efficiency": 5}, "seed_stars": 10600
+    },
+    {
+      "id": "ltx2", "name": "LTX-2", "alias": "音视频一体生成", "category": "video_model", "type": "open",
+      "org": "Lightricks", "desc": "面向生产可用的音视频同步生成模型，原生音频与画面联合输出，开放权重。",
+      "links": {"home": "https://ltx.io/", "github": "https://github.com/Lightricks/LTX-2", "model": "https://huggingface.co/Lightricks/LTX-2"},
+      "github": "Lightricks/LTX-2", "license": "Lightricks 开放权重许可",
+      "tags": ["音画同步", "4K", "新晋"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 3, "quality": 5, "cn": 2, "ecosystem": 4, "efficiency": 2}, "seed_stars": 8100
+    },
+    {
+      "id": "cogvideox", "name": "CogVideoX", "alias": "智谱开源视频", "category": "video_model", "type": "open",
+      "org": "智谱 AI", "desc": "文生视频 / 图生视频双支持，长提示词遵循好，Diffusers 与 ComfyUI 均有现成流水线。",
+      "links": {"home": "https://open.bigmodel.cn/", "github": "https://github.com/zai-org/CogVideo", "model": "https://huggingface.co/THUDM/CogVideoX-5b"},
+      "github": "zai-org/CogVideo", "license": "Apache-2.0",
+      "tags": ["中文友好", "Diffusers", "长提示词"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 4, "cn": 5, "ecosystem": 4, "efficiency": 3}, "seed_stars": 12800
+    },
+    {
+      "id": "open-sora", "name": "Open-Sora", "alias": "开源视频生成全栈复现", "category": "video_model", "type": "open",
+      "org": "潞晨科技 HPC-AI Tech", "desc": "包含训练代码与完整数据管线的开源视频生成复现项目，适合研究与自训练，工程文档完整。",
+      "links": {"home": "https://github.com/hpcaitech/Open-Sora", "github": "https://github.com/hpcaitech/Open-Sora", "docs": "https://github.com/hpcaitech/Open-Sora#readme"},
+      "github": "hpcaitech/Open-Sora", "license": "Apache-2.0",
+      "tags": ["可训练", "研究", "全流程"], "added": "2026-11-10",
+      "scores": {"ease": 2, "cost": 4, "quality": 3, "cn": 4, "ecosystem": 4, "efficiency": 2}, "seed_stars": 29200
+    },
+    {
+      "id": "mochi1", "name": "Mochi 1", "alias": "Genmo 开源视频", "category": "video_model", "type": "open",
+      "org": "Genmo", "desc": "10B 参数 AsymmDiT 架构，Apache-2.0 宽松许可，运动平滑度好，适合草稿与风格化短片。",
+      "links": {"home": "https://www.genmo.ai/", "model": "https://huggingface.co/genmo/mochi-1-preview", "docs": "https://www.genmo.ai/blog/mochi-1-a-new-sota-in-open-text-to-video"},
+      "license": "Apache-2.0", "tags": ["可商用", "运动平滑", "草稿"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 5, "quality": 3, "cn": 2, "ecosystem": 3, "efficiency": 2}, "heat_baseline": 68
+    },
+    {
+      "id": "svd", "name": "Stable Video Diffusion", "alias": "SVD 图生视频", "category": "video_model", "type": "open",
+      "org": "Stability AI", "desc": "把单张静态图变成短镜头的经典图生视频模型，社区衍生工具极多，适合商品图动效。",
+      "links": {"home": "https://stability.ai/", "model": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt", "github": "https://github.com/Stability-AI/generative-models"},
+      "license": "Stability Community License", "tags": ["图生视频", "经典", "动效"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 3, "quality": 3, "cn": 3, "ecosystem": 4, "efficiency": 4}, "heat_baseline": 72
+    },
+    {
+      "id": "animatediff", "name": "AnimateDiff", "alias": "SD 动效插件", "category": "video_model", "type": "open",
+      "org": "社区开源", "desc": "给任意 SD 检查点加运动模块，把全部画风 LoRA 直接变成短视频循环，适合风格化内容。",
+      "links": {"home": "https://github.com/guoyww/AnimateDiff", "github": "https://github.com/guoyww/AnimateDiff", "model": "https://huggingface.co/guoyww/animatediff"},
+      "github": "guoyww/AnimateDiff", "license": "Apache-2.0",
+      "tags": ["风格化", "循环动画", "插件"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 3, "cn": 3, "ecosystem": 4, "efficiency": 5}, "seed_stars": 14000
+    },
+    {
+      "id": "framepack", "name": "FramePack", "alias": "长视频低显存方案", "category": "video_model", "type": "open",
+      "org": "lllyasviel", "desc": "用上下文压缩把长视频生成的显存占用压到可用范围，笔记本显卡也能生成较长片段。",
+      "links": {"home": "https://github.com/lllyasviel/FramePack", "github": "https://github.com/lllyasviel/FramePack", "model": "https://huggingface.co/lllyasviel/FramePackI2V_HY"},
+      "github": "lllyasviel/FramePack", "license": "Apache-2.0",
+      "tags": ["低显存", "长视频", "图生视频"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 4, "cn": 3, "ecosystem": 4, "efficiency": 5}, "seed_stars": 16000
+    },
+    {
+      "id": "diffsynth", "name": "DiffSynth-Studio", "alias": "魔搭扩散推理引擎", "category": "video_model", "type": "open",
+      "org": "阿里 ModelScope", "desc": "工程化扩散推理框架，对 Wan、HunyuanVideo、FLUX 等主流模型提供统一流水线与显存优化。",
+      "links": {"home": "https://modelscope.cn/", "github": "https://github.com/modelscope/DiffSynth-Studio", "docs": "https://github.com/modelscope/DiffSynth-Studio#readme"},
+      "github": "modelscope/DiffSynth-Studio", "license": "Apache-2.0",
+      "tags": ["中文友好", "推理引擎", "显存优化"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 5, "quality": 4, "cn": 5, "ecosystem": 4, "efficiency": 4}, "seed_stars": 12700
+    },
+    {
+      "id": "opens2v", "name": "Open-S2V-Nexus", "alias": "人物动作专项视频", "category": "video_model", "type": "open",
+      "org": "北大袁粒组 / Nexus", "desc": "面向舞蹈、武术、健身等高难度人体动作的开源视频数据与模型，强调解剖结构正确性。",
+      "links": {"home": "https://github.com/PKU-YuanGroup/OpenS2V-Nexus", "github": "https://github.com/PKU-YuanGroup/OpenS2V-Nexus"},
+      "github": "PKU-YuanGroup/OpenS2V-Nexus", "license": "开源（详见仓库）",
+      "tags": ["人体动作", "研究", "专项"], "added": "2026-11-10",
+      "scores": {"ease": 2, "cost": 4, "quality": 4, "cn": 4, "ecosystem": 2, "efficiency": 2}, "seed_stars": 1200
+    },
+    {
+      "id": "longcat-video", "name": "LongCat-Video", "alias": "美团长视频模型", "category": "video_model", "type": "open",
+      "org": "美团 LongCat", "desc": "面向长时长视频生成的开源模型，重点缓解短片断帧与画面漂移问题，中文场景友好。",
+      "links": {"home": "https://github.com/meituan-longcat", "github": "https://github.com/meituan-longcat/LongCat-Video", "model": "https://huggingface.co/meituan-longcat"},
+      "github": "meituan-longcat/LongCat-Video", "license": "Apache-2.0",
+      "tags": ["长视频", "中文友好", "新晋"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 4, "quality": 4, "cn": 5, "ecosystem": 3, "efficiency": 2}, "seed_stars": 2000
+    },
+    {
+      "id": "minimax-h3", "name": "MiniMax H3", "alias": "海螺视频开源模型", "category": "video_model", "type": "open",
+      "org": "MiniMax", "desc": "与海螺商业服务同源的开放视频模型，在多个人类偏好评测榜上表现靠前，支持 API 与本地推理。",
+      "links": {"home": "https://www.minimax.io/", "github": "https://github.com/MiniMax-AI/MiniMax-H3", "model": "https://huggingface.co/MiniMaxAI", "docs": "https://platform.minimax.io/docs/guides/video-generation"},
+      "github": "MiniMax-AI/MiniMax-H3", "license": "详见仓库",
+      "tags": ["中文友好", "高分评测", "API"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 4, "quality": 5, "cn": 5, "ecosystem": 4, "efficiency": 2}, "seed_stars": 3500
+    },
+    {
+      "id": "scail", "name": "SCAIL", "alias": "角色动画一致性", "category": "video_model", "type": "open",
+      "org": "智谱 zai-org", "desc": "姿态驱动的角色动画生成，强调 3D 一致性与角色不崩坏，适合动作短片制作。",
+      "links": {"home": "https://github.com/zai-org/SCAIL", "github": "https://github.com/zai-org/SCAIL"},
+      "github": "zai-org/SCAIL", "license": "开源（详见仓库）",
+      "tags": ["姿态驱动", "角色一致", "专项"], "added": "2026-11-10",
+      "scores": {"ease": 2, "cost": 3, "quality": 4, "cn": 3, "ecosystem": 2, "efficiency": 2}, "seed_stars": 900
+    },
+    {
+      "id": "wanwrapper", "name": "ComfyUI-WanVideoWrapper", "alias": "Wan 视频节点包", "category": "video_model", "type": "open",
+      "org": "kijai", "desc": "ComfyUI 中跑 Wan / HunyuanVideo / 各类视频微调模型的必备节点包，更新快、工作流模板丰富。",
+      "links": {"home": "https://github.com/kijai/ComfyUI-WanVideoWrapper", "github": "https://github.com/kijai/ComfyUI-WanVideoWrapper"},
+      "github": "kijai/ComfyUI-WanVideoWrapper", "license": "GPL-3.0",
+      "tags": ["ComfyUI", "工作流", "视频"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 5, "quality": 4, "cn": 3, "ecosystem": 5, "efficiency": 4}, "seed_stars": 6000
+    },
+
+    {
+      "id": "midjourney", "name": "Midjourney", "alias": "审美标杆 · 订阅制", "category": "image_platform", "type": "closed",
+      "org": "Midjourney", "desc": "商业插画、概念设计与品牌视觉的长期审美标杆，风格控制与人物一致性口碑稳定，网页与 Discord 使用。",
+      "links": {"home": "https://www.midjourney.com/", "docs": "https://docs.midjourney.com/"},
+      "license": "商业订阅", "tags": ["审美", "订阅制", "设计"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 2, "quality": 5, "cn": 3, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 96
+    },
+    {
+      "id": "gpt-image", "name": "OpenAI GPT Image", "alias": "ChatGPT 图像生成 / API", "category": "image_platform", "type": "closed",
+      "org": "OpenAI", "desc": "对话式生图与多轮改图体验突出，指令理解强；提供 API 与 ChatGPT 内直接用两种路径。",
+      "links": {"home": "https://openai.com/", "docs": "https://platform.openai.com/docs/guides/image-generation", "api": "https://platform.openai.com/docs/api-reference/images"},
+      "license": "商业 / API 计费", "tags": ["对话改图", "API", "指令遵循"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 2, "quality": 5, "cn": 4, "ecosystem": 5, "efficiency": 5}, "heat_baseline": 98
+    },
+    {
+      "id": "gemini-image", "name": "Google Gemini 图像", "alias": "Nano Banana 系列 / Imagen", "category": "image_platform", "type": "closed",
+      "org": "Google", "desc": "与 Gemini 对话深度集成的图像生成与编辑，人物一致性、局部修改和多图融合表现活跃，另有 API 与 Imagen 系列。",
+      "links": {"home": "https://gemini.google.com/", "docs": "https://ai.google.dev/gemini-api/docs/image-generation", "api": "https://deepmind.google/models/imagen/"},
+      "license": "商业 / API 计费", "tags": ["多轮编辑", "一致性", "API"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 3, "quality": 5, "cn": 4, "ecosystem": 5, "efficiency": 5}, "heat_baseline": 97
+    },
+    {
+      "id": "firefly", "name": "Adobe Firefly", "alias": "设计师工作流", "category": "image_platform", "type": "closed",
+      "org": "Adobe", "desc": "与 Photoshop / Illustrator 深度集成，训练数据来源与商业使用合规性是最大卖点，适合企业设计团队。",
+      "links": {"home": "https://firefly.adobe.com/", "docs": "https://www.adobe.com/products/firefly/features/ai-image-generator.html"},
+      "license": "商业订阅", "tags": ["商用合规", "PS 集成", "企业"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 2, "quality": 4, "cn": 3, "ecosystem": 5, "efficiency": 5}, "heat_baseline": 88
+    },
+    {
+      "id": "ideogram", "name": "Ideogram", "alias": "文字排版之王", "category": "image_platform", "type": "closed",
+      "org": "Ideogram", "desc": "画面内文字拼写准确率高，海报、Logo 与排版类物料的常用工具。",
+      "links": {"home": "https://ideogram.ai/", "docs": "https://ideogram.ai/"},
+      "license": "免费额度 + 订阅", "tags": ["文字渲染", "海报", "排版"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 3, "quality": 4, "cn": 2, "ecosystem": 3, "efficiency": 5}, "heat_baseline": 82
+    },
+    {
+      "id": "recraft", "name": "Recraft", "alias": "矢量与设计向", "category": "image_platform", "type": "closed",
+      "org": "Recraft", "desc": "面向品牌与平面设计，支持矢量输出、风格一致性与版式控制，设计师群体常用。",
+      "links": {"home": "https://www.recraft.ai/", "docs": "https://www.recraft.ai/"},
+      "license": "免费额度 + 订阅", "tags": ["矢量", "品牌设计", "版式"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 3, "quality": 4, "cn": 2, "ecosystem": 3, "efficiency": 5}, "heat_baseline": 76
+    },
+    {
+      "id": "bfl-playground", "name": "BFL Playground", "alias": "FLUX 官方在线体验", "category": "image_platform", "type": "closed",
+      "org": "Black Forest Labs", "desc": "FLUX 系列官方在线试用与 API 入口，适合先体验再决定本地部署哪个开源权重版本。",
+      "links": {"home": "https://playground.bfl.ai/", "docs": "https://docs.bfl.ai/"},
+      "license": "按量计费 / 订阅", "tags": ["官方", "API", "试用"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 3, "quality": 5, "cn": 2, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 78
+    },
+    {
+      "id": "seedream", "name": "Seedream / 即梦生图", "alias": "字节 Seed 图像", "category": "image_platform", "type": "closed",
+      "org": "字节跳动 Seed", "desc": "中文语义与本土审美优化好，与即梦视频、剪映生态联动，适合中文创作者批量出图。",
+      "links": {"home": "https://jimeng.jianying.com/", "docs": "https://seed.bytedance.com/"},
+      "license": "积分制 / 会员", "tags": ["中文友好", "本土审美", "生态联动"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 3, "quality": 5, "cn": 5, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 88
+    },
+    {
+      "id": "wanxiang-image", "name": "通义万相（生图）", "alias": "阿里在线生图", "category": "image_platform", "type": "closed",
+      "org": "阿里巴巴", "desc": "在线生图与图像编辑服务，中文提示词与中国元素表现好，与开源 Wan / Z-Image 系列可对照使用。",
+      "links": {"home": "https://tongyi.aliyun.com/wan/", "docs": "https://help.aliyun.com/zh/model-studio/"},
+      "license": "免费额度 + 按量", "tags": ["中文友好", "国风", "在线"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 4, "quality": 4, "cn": 5, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 84
+    },
+    {
+      "id": "leonardo", "name": "Leonardo.ai", "alias": "游戏与素材向", "category": "image_platform", "type": "closed",
+      "org": "Leonardo.Ai", "desc": "面向游戏美术与素材批量生成的在线平台，内置风格预设与实时画布，社区模板丰富。",
+      "links": {"home": "https://leonardo.ai/"}, "license": "免费额度 + 订阅", "tags": ["游戏美术", "模板", "在线"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 3, "quality": 4, "cn": 2, "ecosystem": 3, "efficiency": 5}, "heat_baseline": 74
+    },
+    {
+      "id": "cogview-platform", "name": "智谱 CogView / 清影生图", "alias": "智谱在线图像", "category": "image_platform", "type": "closed",
+      "org": "智谱 AI", "desc": "中文语境优化的在线图像生成与 API 服务，与开源 GLM-Image / CogVideoX 形成对照。",
+      "links": {"home": "https://open.bigmodel.cn/", "docs": "https://docs.bigmodel.cn/"},
+      "license": "按量计费", "tags": ["中文友好", "API", "国产"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 4, "quality": 4, "cn": 5, "ecosystem": 3, "efficiency": 5}, "heat_baseline": 72
+    },
+    {
+      "id": "hunyuan-image-platform", "name": "腾讯混元生图", "alias": "混元在线图像", "category": "image_platform", "type": "closed",
+      "org": "腾讯", "desc": "在线生图与中文语义理解服务，适合与开源 HunyuanImage 权重做效果/成本对照。",
+      "links": {"home": "https://hunyuan.tencent.com/"}, "license": "免费额度 + 按量",
+      "tags": ["中文友好", "国产", "在线"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 4, "quality": 4, "cn": 5, "ecosystem": 3, "efficiency": 5}, "heat_baseline": 73
+    },
+    {
+      "id": "grok-imagine", "name": "Grok Imagine", "alias": "xAI 图像与短视频", "category": "image_platform", "type": "closed",
+      "org": "xAI", "desc": "与 Grok 对话集成的图像生成与短片生成能力，迭代快、风格偏社媒传播向。",
+      "links": {"home": "https://grok.com/", "docs": "https://x.ai/"}, "license": "订阅 / 按量",
+      "tags": ["对话式", "社媒", "新晋"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 3, "quality": 4, "cn": 2, "ecosystem": 3, "efficiency": 5}, "heat_baseline": 80
+    },
+
+    {
+      "id": "sora", "name": "OpenAI Sora", "alias": "文生视频标杆", "category": "video_platform", "type": "closed",
+      "org": "OpenAI", "desc": "复杂镜头语言与多场景叙事的代表性产品，网页 / App / API 形态随官方调整，请以官网当前说明为准。",
+      "links": {"home": "https://openai.com/sora/", "docs": "https://platform.openai.com/docs/"},
+      "license": "订阅 / API 计费", "tags": ["镜头语言", "叙事", "标杆"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 2, "quality": 5, "cn": 3, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 95
+    },
+    {
+      "id": "veo-flow", "name": "Google Veo / Flow", "alias": "影视级视频与分镜工具", "category": "video_platform", "type": "closed",
+      "org": "Google DeepMind", "desc": "Veo 系列视频模型配合 Flow 分镜创作工具，运镜术语理解与原生音频支持突出，另有 Gemini API 入口。",
+      "links": {"home": "https://deepmind.google/models/veo/", "docs": "https://ai.google.dev/gemini-api/docs/video", "api": "https://labs.google/flow/about"},
+      "license": "订阅 / API 计费", "tags": ["运镜", "音画", "分镜"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 2, "quality": 5, "cn": 3, "ecosystem": 5, "efficiency": 5}, "heat_baseline": 94
+    },
+    {
+      "id": "runway", "name": "Runway", "alias": "专业影视创作套件", "category": "video_platform", "type": "closed",
+      "org": "Runway", "desc": "面向专业影视团队的生成与控制工具集，局部笔刷、运镜与镜头一致性控制能力强，配套编辑与团队协作。",
+      "links": {"home": "https://runwayml.com/", "docs": "https://docs.runwayml.com/"},
+      "license": "订阅 / 积分", "tags": ["专业控制", "影视", "编辑一体"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 2, "quality": 5, "cn": 2, "ecosystem": 5, "efficiency": 5}, "heat_baseline": 92
+    },
+    {
+      "id": "kling", "name": "可灵 Kling", "alias": "国产长叙事视频", "category": "video_platform", "type": "closed",
+      "org": "快手", "desc": "国产视频生成的代表产品之一，物理仿真、角色一致性与多镜头叙事见长，中文创作社区活跃。",
+      "links": {"home": "https://app.klingai.com/cn/", "docs": "https://app.klingai.com/global/quickstart/klingai-video-3-model-user-guide", "api": "https://klingai.com/"},
+      "license": "积分 / 订阅", "tags": ["中文友好", "角色一致", "短剧"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 3, "quality": 5, "cn": 5, "ecosystem": 5, "efficiency": 5}, "heat_baseline": 93
+    },
+    {
+      "id": "seedance", "name": "即梦 Seedance", "alias": "字节剧本驱动视频", "category": "video_platform", "type": "closed",
+      "org": "字节跳动", "desc": "强调分镜脚本与多镜头叙事，与剪映 / 即梦生态打通，适合短剧与剧情类内容生产。",
+      "links": {"home": "https://jimeng.jianying.com/", "docs": "https://seed.bytedance.com/"},
+      "license": "积分制 / 会员", "tags": ["中文友好", "分镜", "短剧"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 3, "quality": 5, "cn": 5, "ecosystem": 5, "efficiency": 5}, "heat_baseline": 92
+    },
+    {
+      "id": "hailuo", "name": "海螺 Hailuo AI", "alias": "MiniMax 视频", "category": "video_platform", "type": "closed",
+      "org": "MiniMax", "desc": "画面质感与物理模拟口碑好，特效模板丰富、出片快，另有开放模型与 API 可供工程集成。",
+      "links": {"home": "https://hailuoai.com/", "docs": "https://platform.minimax.io/docs/guides/video-generation"},
+      "license": "免费额度 + 订阅", "tags": ["中文友好", "电影感", "模板"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 3, "quality": 5, "cn": 5, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 89
+    },
+    {
+      "id": "vidu", "name": "Vidu", "alias": "多参考一致性视频", "category": "video_platform", "type": "closed",
+      "org": "生数科技", "desc": "以多参考主体一致性见长，适合角色稳定出镜的动画与短剧，支持多角色多语种对话段落。",
+      "links": {"home": "https://www.vidu.com/", "docs": "https://www.vidu.studio/"},
+      "license": "免费额度 + 订阅", "tags": ["中文友好", "主体一致", "动画"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 3, "quality": 4, "cn": 5, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 84
+    },
+    {
+      "id": "pixverse", "name": "PixVerse", "alias": "特效与艺术风格", "category": "video_platform", "type": "closed",
+      "org": "爱诗科技", "desc": "风格化特效、局部笔刷控制与社媒玩法丰富，海外创作者社区活跃，出片速度快。",
+      "links": {"home": "https://pixverse.ai/"}, "license": "免费额度 + 订阅",
+      "tags": ["特效", "风格化", "快速"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 3, "quality": 4, "cn": 4, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 83
+    },
+    {
+      "id": "luma", "name": "Luma Dream Machine", "alias": "流体与复杂运动", "category": "video_platform", "type": "closed",
+      "org": "Luma AI", "desc": "流体、粒子与复杂动作表现有特色，支持图生视频与镜头延展。",
+      "links": {"home": "https://lumalabs.ai/dream-machine", "docs": "https://lumalabs.ai/"},
+      "license": "免费额度 + 订阅", "tags": ["流体", "图生视频", "镜头延展"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 3, "quality": 4, "cn": 2, "ecosystem": 3, "efficiency": 5}, "heat_baseline": 82
+    },
+    {
+      "id": "pika", "name": "Pika", "alias": "创意特效短视频", "category": "video_platform", "type": "closed",
+      "org": "Pika Labs", "desc": "画面风格化与趣味特效模板见长，适合社交平台创意短片快速试验。",
+      "links": {"home": "https://pika.art/"}, "license": "免费额度 + 订阅",
+      "tags": ["特效", "社媒", "快速"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 3, "quality": 3, "cn": 2, "ecosystem": 3, "efficiency": 5}, "heat_baseline": 79
+    },
+    {
+      "id": "wanxiang-video", "name": "通义万相（视频）", "alias": "阿里在线视频 / API", "category": "video_platform", "type": "closed",
+      "org": "阿里巴巴", "desc": "在线文生视频 / 图生视频与 API 服务，电商短视频与虚拟人口播场景常用，和开源 Wan 系列互为参照。",
+      "links": {"home": "https://tongyi.aliyun.com/wan/", "docs": "https://help.aliyun.com/zh/model-studio/"},
+      "license": "免费额度 + 按量", "tags": ["中文友好", "电商", "API"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 4, "quality": 4, "cn": 5, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 86
+    },
+    {
+      "id": "hunyuan-video-platform", "name": "腾讯混元视频", "alias": "混元在线视频", "category": "video_platform", "type": "closed",
+      "org": "腾讯", "desc": "中文复杂语义与游戏 / 影视风格创作的在线视频服务，与开源 HunyuanVideo 权重可对照。",
+      "links": {"home": "https://hunyuan.tencent.com/"}, "license": "免费额度 + 按量",
+      "tags": ["中文友好", "游戏影视", "在线"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 4, "quality": 4, "cn": 5, "ecosystem": 3, "efficiency": 5}, "heat_baseline": 78
+    },
+    {
+      "id": "firefly-video", "name": "Adobe Firefly Video", "alias": "合规商用视频", "category": "video_platform", "type": "closed",
+      "org": "Adobe", "desc": "面向企业合规工作流的生成式视频，与 Premiere / Firefly 素材链路集成，版权策略明确。",
+      "links": {"home": "https://www.adobe.com/products/firefly/features/ai-video-generator.html", "docs": "https://www.adobe.com/products/firefly/plans.html"},
+      "license": "订阅 / 积分", "tags": ["商用合规", "企业", "剪辑集成"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 2, "quality": 4, "cn": 2, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 76
+    },
+    {
+      "id": "heygen", "name": "HeyGen", "alias": "数字人与口播", "category": "video_platform", "type": "closed",
+      "org": "HeyGen", "desc": "数字人播报、多语种口型同步与视频翻译的成熟商用方案，企业培训与营销视频常用。",
+      "links": {"home": "https://www.heygen.com/", "docs": "https://docs.heygen.com/"},
+      "license": "订阅 / 积分", "tags": ["数字人", "口型同步", "企业"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 2, "quality": 4, "cn": 4, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 85
+    },
+    {
+      "id": "synthesia", "name": "Synthesia", "alias": "企业培训数字人", "category": "video_platform", "type": "closed",
+      "org": "Synthesia", "desc": "面向企业培训与内部沟通的数字人视频平台，多语言模板与团队协作成熟。",
+      "links": {"home": "https://www.synthesia.io/"}, "license": "企业订阅",
+      "tags": ["数字人", "多语言", "企业"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 2, "quality": 4, "cn": 3, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 80
+    },
+
+    {
+      "id": "comfyui", "name": "ComfyUI", "alias": "节点式生成工作流", "category": "tool", "type": "open",
+      "org": "Comfy Org", "desc": "本地图像 / 视频生成的事实标准运行时，新模型几乎总是第一时间支持，节点图可复用、可批量、可 API 化。",
+      "links": {"home": "https://www.comfy.org/", "github": "https://github.com/Comfy-Org/ComfyUI", "docs": "https://docs.comfy.org/", "docs2": "https://comfyanonymous.github.io/ComfyUI_examples/"},
+      "github": "Comfy-Org/ComfyUI", "license": "GPL-3.0",
+      "tags": ["中文友好", "工作流", "生态核心"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 5, "quality": 5, "cn": 5, "ecosystem": 5, "efficiency": 4}, "seed_stars": 146098
+    },
+    {
+      "id": "diffusers", "name": "Hugging Face Diffusers", "alias": "扩散模型 Python 库", "category": "tool", "type": "open",
+      "org": "Hugging Face", "desc": "研究与工程接入扩散模型的事实标准库，Pipeline 统一、文档完善，与 HF 模型仓库无缝衔接。",
+      "links": {"home": "https://huggingface.co/docs/diffusers/", "github": "https://github.com/huggingface/diffusers", "docs": "https://huggingface.co/docs/diffusers/index"},
+      "github": "huggingface/diffusers", "license": "Apache-2.0",
+      "tags": ["Python", "研究", "标准库"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 5, "quality": 5, "cn": 3, "ecosystem": 5, "efficiency": 3}, "seed_stars": 32000
+    },
+    {
+      "id": "a1111", "name": "AUTOMATIC1111 WebUI", "alias": "SD 经典 WebUI", "category": "tool", "type": "open",
+      "org": "社区开源", "desc": "最经典的 SD 图形前端，插件生态庞大、教程最多，适合入门与 SDXL 时代工作流。",
+      "links": {"home": "https://github.com/AUTOMATIC1111/stable-diffusion-webui", "github": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"},
+      "github": "AUTOMATIC1111/stable-diffusion-webui", "license": "AGPL-3.0",
+      "tags": ["入门", "插件生态", "教程多"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 3, "cn": 4, "ecosystem": 5, "efficiency": 4}, "seed_stars": 42000
+    },
+    {
+      "id": "swarmui", "name": "SwarmUI", "alias": "多后端统一前端", "category": "tool", "type": "open",
+      "org": "Stability AI 社区", "desc": "以 ComfyUI 为后端的现代化 Web 前端，界面友好、批量与网格生成方便，支持多模型统一切换。",
+      "links": {"home": "https://github.com/Stability-AI/StableSwarmUI", "github": "https://github.com/Stability-AI/StableSwarmUI"},
+      "github": "Stability-AI/StableSwarmUI", "license": "MIT",
+      "tags": ["界面友好", "批量", "ComfyUI 后端"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 5, "quality": 4, "cn": 3, "ecosystem": 4, "efficiency": 4}, "seed_stars": 7000
+    },
+    {
+      "id": "invokeai", "name": "InvokeAI", "alias": "画布式创作", "category": "tool", "type": "open",
+      "org": "社区开源", "desc": "艺术家向的本地画布式生成与编辑应用，统一画布、图层与节点混合工作流。",
+      "links": {"home": "https://www.invoke.com/", "github": "https://github.com/invoke-ai/InvokeAI"},
+      "github": "invoke-ai/InvokeAI", "license": "Apache-2.0",
+      "tags": ["画布", "艺术家", "本地"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 4, "cn": 2, "ecosystem": 4, "efficiency": 3}, "seed_stars": 12000
+    },
+    {
+      "id": "fooocus", "name": "Fooocus", "alias": "极简出图", "category": "tool", "type": "open",
+      "org": "lllyasviel", "desc": "开箱即用的极简生图前端，几乎不用调参数就能出高质量图，适合新手。",
+      "links": {"home": "https://github.com/lllyasviel/Fooocus", "github": "https://github.com/lllyasviel/Fooocus"},
+      "github": "lllyasviel/Fooocus", "license": "GPL-3.0",
+      "tags": ["零配置", "新手", "轻量"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 5, "quality": 4, "cn": 4, "ecosystem": 4, "efficiency": 4}, "seed_stars": 40000
+    },
+    {
+      "id": "ai-toolkit", "name": "AI Toolkit", "alias": "LoRA 训练工具箱", "category": "tool", "type": "open",
+      "org": "ostris", "desc": "新模型 LoRA / 微调支持通常落地最早的训练工具，覆盖主流图像与视频底座。",
+      "links": {"home": "https://github.com/ostris/ai-toolkit", "github": "https://github.com/ostris/ai-toolkit"},
+      "github": "ostris/ai-toolkit", "license": "MIT",
+      "tags": ["LoRA 训练", "微调", "更新快"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 4, "quality": 4, "cn": 2, "ecosystem": 4, "efficiency": 2}, "seed_stars": 9000
+    },
+    {
+      "id": "comfyui-manager", "name": "ComfyUI-Manager", "alias": "节点包管理", "category": "tool", "type": "open",
+      "org": "ltdrdata", "desc": "ComfyUI 必备的节点包安装 / 更新 / 依赖管理插件，几乎是所有工作流的起点。",
+      "links": {"home": "https://github.com/ltdrdata/ComfyUI-Manager", "github": "https://github.com/ltdrdata/ComfyUI-Manager"},
+      "github": "ltdrdata/ComfyUI-Manager", "license": "GPL-3.0",
+      "tags": ["必备插件", "ComfyUI", "依赖管理"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 4, "cn": 4, "ecosystem": 5, "efficiency": 5}, "seed_stars": 13000
+    },
+    {
+      "id": "comfyui-gguf", "name": "ComfyUI-GGUF", "alias": "量化模型加载", "category": "tool", "type": "open",
+      "org": "city96", "desc": "让 ComfyUI 直接加载 GGUF 量化权重，把大模型塞进消费级显卡的关键组件。",
+      "links": {"home": "https://github.com/city96/ComfyUI-GGUF", "github": "https://github.com/city96/ComfyUI-GGUF"},
+      "github": "city96/ComfyUI-GGUF", "license": "GPL-3.0",
+      "tags": ["量化", "低显存", "ComfyUI"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 4, "cn": 3, "ecosystem": 5, "efficiency": 5}, "seed_stars": 5500
+    },
+    {
+      "id": "moneyprinterturbo", "name": "MoneyPrinterTurbo", "alias": "自动化短视频流水线", "category": "tool", "type": "open",
+      "org": "harry0703", "desc": "把文案、素材、配音、字幕自动拼成短视频的自托管流水线，中文文档齐全，适合批量内容生产。",
+      "links": {"home": "https://github.com/harry0703/MoneyPrinterTurbo", "github": "https://github.com/harry0703/MoneyPrinterTurbo"},
+      "github": "harry0703/MoneyPrinterTurbo", "license": "MIT",
+      "tags": ["中文友好", "自动化", "短视频"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 3, "cn": 5, "ecosystem": 4, "efficiency": 5}, "seed_stars": 38000
+    },
+    {
+      "id": "stability-matrix", "name": "Stability Matrix", "alias": "多前端统一管理", "category": "tool", "type": "open",
+      "org": "LykosAI", "desc": "一键安装与管理 ComfyUI / A1111 / Fooocus / InvokeAI 等多个前端，模型文件统一去重管理。",
+      "links": {"home": "https://lykos.ai/", "github": "https://github.com/LykosAI/StabilityMatrix"},
+      "github": "LykosAI/StabilityMatrix", "license": "AGPL-3.0",
+      "tags": ["一键安装", "多前端", "模型管理"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 5, "quality": 4, "cn": 2, "ecosystem": 4, "efficiency": 5}, "seed_stars": 8000
+    },
+
+    {
+      "id": "controlnet", "name": "ControlNet", "alias": "结构精准控图", "category": "edit", "type": "open",
+      "org": "lllyasviel", "desc": "用姿态、线稿、深度图、法线等条件精确控制构图，是工业生产级可控生成的基础组件。",
+      "links": {"home": "https://github.com/lllyasviel/ControlNet", "github": "https://github.com/lllyasviel/ControlNet"},
+      "github": "lllyasviel/ControlNet", "license": "Apache-2.0",
+      "tags": ["结构控制", "工业", "经典"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 5, "quality": 5, "cn": 4, "ecosystem": 5, "efficiency": 4}, "seed_stars": 35000
+    },
+    {
+      "id": "ip-adapter", "name": "IP-Adapter", "alias": "图像风格 / 主体参考", "category": "edit", "type": "open",
+      "org": "h94", "desc": "用参考图锁定风格、人物与构图，无需训练 LoRA 即可做品牌统一素材。",
+      "links": {"home": "https://github.com/tencent-ailab/IP-Adapter", "github": "https://github.com/tencent-ailab/IP-Adapter", "model": "https://huggingface.co/h94/IP-Adapter"},
+      "github": "tencent-ailab/IP-Adapter", "license": "Apache-2.0",
+      "tags": ["参考图", "风格迁移", "免训练"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 4, "cn": 3, "ecosystem": 4, "efficiency": 4}, "seed_stars": 15000
+    },
+    {
+      "id": "realesrgan", "name": "Real-ESRGAN", "alias": "图像超分", "category": "edit", "type": "open",
+      "org": "xinntao", "desc": "经典生成图放大与修复工具，出图后处理的常用最后一步，也可修复老照片。",
+      "links": {"home": "https://github.com/xinntao/Real-ESRGAN", "github": "https://github.com/xinntao/Real-ESRGAN"},
+      "github": "xinntao/Real-ESRGAN", "license": "BSD-3-Clause",
+      "tags": ["超分", "后处理", "经典"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 4, "cn": 3, "ecosystem": 4, "efficiency": 5}, "seed_stars": 32000
+    },
+    {
+      "id": "gfpgan", "name": "GFPGAN", "alias": "人脸修复", "category": "edit", "type": "open",
+      "org": "Tencent ARC", "desc": "人脸细节修复与清晰化，常与超分、换脸工作流组合使用。",
+      "links": {"home": "https://github.com/TencentARC/GFPGAN", "github": "https://github.com/TencentARC/GFPGAN"},
+      "github": "TencentARC/GFPGAN", "license": "Apache-2.0",
+      "tags": ["人脸修复", "后处理", "腾讯"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 4, "cn": 3, "ecosystem": 4, "efficiency": 5}, "seed_stars": 36000
+    },
+    {
+      "id": "rembg", "name": "rembg", "alias": "一键去背景", "category": "edit", "type": "open",
+      "org": "danielgatis", "desc": "本地一键抠图 / 去背景，命令行与 Python 均可调用，电商与素材批处理常用。",
+      "links": {"home": "https://github.com/danielgatis/rembg", "github": "https://github.com/danielgatis/rembg"},
+      "github": "danielgatis/rembg", "license": "MIT",
+      "tags": ["抠图", "批处理", "轻量"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 5, "quality": 4, "cn": 3, "ecosystem": 4, "efficiency": 5}, "seed_stars": 18000
+    },
+    {
+      "id": "sam", "name": "Segment Anything", "alias": "SAM 分割", "category": "edit", "type": "open",
+      "org": "Meta AI", "desc": "通用图像分割基础模型，是局部重绘、蒙版生成与视频编辑工作流的基础能力。",
+      "links": {"home": "https://github.com/facebookresearch/segment-anything", "github": "https://github.com/facebookresearch/segment-anything", "model": "https://huggingface.co/facebook/sam-vit-huge"},
+      "github": "facebookresearch/segment-anything", "license": "Apache-2.0",
+      "tags": ["分割", "蒙版", "基础模型"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 5, "quality": 5, "cn": 2, "ecosystem": 5, "efficiency": 4}, "seed_stars": 52000
+    },
+    {
+      "id": "instantid", "name": "InstantID", "alias": "单图身份保持", "category": "edit", "type": "open",
+      "org": "InstantX", "desc": "只用一张参考人像即可保持身份生成不同风格照片，无需逐人训练 LoRA。",
+      "links": {"home": "https://github.com/instantX-research/InstantID", "github": "https://github.com/instantX-research/InstantID", "model": "https://huggingface.co/InstantX/InstantID"},
+      "github": "instantX-research/InstantID", "license": "Apache-2.0",
+      "tags": ["身份保持", "免训练", "人像"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 5, "quality": 4, "cn": 3, "ecosystem": 4, "efficiency": 4}, "seed_stars": 14000
+    },
+    {
+      "id": "pulid", "name": "PuLID", "alias": "高保真人像定制", "category": "edit", "type": "open",
+      "org": "ToTheBeginning", "desc": "纯调谐无关的 ID 定制方案，身份相似度高且对原模型风格干扰小，支持 FLUX 系列。",
+      "links": {"home": "https://github.com/ToTheBeginning/PuLID", "github": "https://github.com/ToTheBeginning/PuLID"},
+      "github": "ToTheBeginning/PuLID", "license": "Apache-2.0",
+      "tags": ["身份保持", "FLUX", "人像"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 5, "quality": 5, "cn": 3, "ecosystem": 4, "efficiency": 3}, "seed_stars": 7000
+    },
+
+    {
+      "id": "hf-models", "name": "Hugging Face Models", "alias": "模型权重与社区中心", "category": "resource", "type": "resource",
+      "org": "Hugging Face", "desc": "图像 / 视频模型权重、Demo Space、下载量与点赞的主要公开来源；本项目的热度信号之一即来自其公开 API。",
+      "links": {"home": "https://huggingface.co/models?pipeline_tag=text-to-image", "docs": "https://huggingface.co/docs", "video": "https://huggingface.co/models?pipeline_tag=text-to-video"},
+      "license": "平台自有条款", "tags": ["模型库", "下载量", "社区"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 5, "quality": 5, "cn": 3, "ecosystem": 5, "efficiency": 5}, "heat_baseline": 98
+    },
+    {
+      "id": "civitai", "name": "Civitai", "alias": "LoRA / 微调模型社区", "category": "resource", "type": "resource",
+      "org": "Civitai", "desc": "最大的社区微调模型与 LoRA 集散地，可按底模筛选，查看示例图与工作流；商用前务必逐个核对许可。",
+      "links": {"home": "https://civitai.com/"}, "license": "逐个模型各异",
+      "tags": ["LoRA", "社区", "许可需核对"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 4, "quality": 5, "cn": 3, "ecosystem": 5, "efficiency": 5}, "heat_baseline": 94
+    },
+    {
+      "id": "modelscope", "name": "魔搭 ModelScope", "alias": "国产模型社区", "category": "resource", "type": "resource",
+      "org": "阿里 ModelScope", "desc": "国内访问友好的模型与数据集社区，国产图像 / 视频模型首发地之一，中文文档与教程齐全。",
+      "links": {"home": "https://modelscope.cn/models", "docs": "https://modelscope.cn/docs"},
+      "license": "平台 / 模型各异", "tags": ["中文友好", "国内访问", "国产模型"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 5, "quality": 4, "cn": 5, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 88
+    },
+    {
+      "id": "aa-image-arena", "name": "Artificial Analysis Image Arena", "alias": "图像盲测偏好榜", "category": "resource", "type": "resource",
+      "org": "Artificial Analysis", "desc": "基于盲测两两对比的图像生成 Elo 榜单，同时给出价格与速度，适合按成本筛选闭源模型。",
+      "links": {"home": "https://artificialanalysis.ai/image/leaderboard/text-to-image", "docs": "https://artificialanalysis.ai/"},
+      "license": "公开榜单", "tags": ["评测", "Elo", "价格对比"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 5, "quality": 5, "cn": 2, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 84
+    },
+    {
+      "id": "aa-video-arena", "name": "Artificial Analysis Video Arena", "alias": "视频盲测偏好榜", "category": "resource", "type": "resource",
+      "org": "Artificial Analysis", "desc": "文生视频 / 图生视频的盲测 Elo 榜，按有声 / 无声分榜，更新频繁，看榜务必记录日期。",
+      "links": {"home": "https://artificialanalysis.ai/video/leaderboard/text-to-video", "docs": "https://artificialanalysis.ai/"},
+      "license": "公开榜单", "tags": ["评测", "Elo", "更新快"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 5, "quality": 5, "cn": 2, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 86
+    },
+    {
+      "id": "lmarena", "name": "LMArena", "alias": "众包投票排行榜", "category": "resource", "type": "resource",
+      "org": "LMArena", "desc": "覆盖文生图、图生视频、图像编辑等多类人类偏好投票榜单，票数大、可看历史快照。",
+      "links": {"home": "https://lmarena.ai/leaderboard", "docs": "https://lmarena.ai/"},
+      "license": "公开榜单", "tags": ["评测", "人类偏好", "多榜"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 5, "quality": 5, "cn": 2, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 85
+    },
+    {
+      "id": "vbench", "name": "VBench / VBench-2.0", "alias": "视频质量自动评测", "category": "resource", "type": "resource",
+      "org": "Vchitect 团队", "desc": "把视频质量拆成主体一致性、运动平滑度、时序闪烁等多维度的自动评测基准，学术论文常用。",
+      "links": {"home": "https://vchitect.github.io/VBench-project/", "github": "https://github.com/Vchitect/VBench", "paper": "https://arxiv.org/abs/2311.17982"},
+      "license": "开源", "tags": ["评测", "学术", "多维指标"], "added": "2026-11-10",
+      "scores": {"ease": 3, "cost": 5, "quality": 5, "cn": 3, "ecosystem": 4, "efficiency": 3}, "heat_baseline": 78
+    },
+    {
+      "id": "comfy-examples", "name": "ComfyUI Examples", "alias": "官方工作流示例", "category": "resource", "type": "resource",
+      "org": "Comfy Org", "desc": "官方维护的示例工作流合集，覆盖主流图像与视频模型，导入即用，是学习节点工作流的最佳起点。",
+      "links": {"home": "https://comfyanonymous.github.io/ComfyUI_examples/", "docs": "https://docs.comfy.org/"},
+      "license": "文档", "tags": ["工作流", "教程", "官方"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 5, "quality": 4, "cn": 3, "ecosystem": 5, "efficiency": 5}, "heat_baseline": 76
+    },
+    {
+      "id": "replicate", "name": "Replicate", "alias": "模型 API / 在线运行", "category": "resource", "type": "resource",
+      "org": "Replicate", "desc": "一行 API 调用运行大量开源图像 / 视频模型，无需自建 GPU 环境，适合原型验证。",
+      "links": {"home": "https://replicate.com/explore", "docs": "https://replicate.com/docs"},
+      "license": "按量计费", "tags": ["API", "免部署", "原型"], "added": "2026-11-10",
+      "scores": {"ease": 5, "cost": 3, "quality": 4, "cn": 2, "ecosystem": 5, "efficiency": 5}, "heat_baseline": 82
+    },
+    {
+      "id": "fal", "name": "fal.ai", "alias": "生成模型推理云", "category": "resource", "type": "resource",
+      "org": "fal", "desc": "面向生成模型的低延迟推理平台，图像 / 视频模型覆盖广，常被应用侧直接集成。",
+      "links": {"home": "https://fal.ai/models", "docs": "https://docs.fal.ai/"},
+      "license": "按量计费", "tags": ["API", "低延迟", "应用集成"], "added": "2026-11-10",
+      "scores": {"ease": 4, "cost": 3, "quality": 4, "cn": 2, "ecosystem": 4, "efficiency": 5}, "heat_baseline": 79
+    }
+  ]
+}

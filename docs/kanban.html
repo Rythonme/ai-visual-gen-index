@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>项目进展看板 · AI 视觉生成资源榜</title>
+<style>
+:root{
+  --bg:#f6f7fb;--surface:#fff;--surface-2:#f1f3fa;--border:#e4e7f0;--border-strong:#d3d8e8;
+  --text:#1b2033;--text-2:#5b6480;--text-3:#8a92ab;--primary:#4f46e5;--primary-soft:#eeecff;
+  --accent:#0d9488;--accent-soft:#e2f7f2;--warm:#d97706;--warm-soft:#fef3e2;
+  --shadow:0 1px 2px rgba(24,32,60,.04),0 8px 24px rgba(24,32,60,.06);
+}
+@media (prefers-color-scheme: dark){
+:root{--bg:#0f1220;--surface:#181d30;--surface-2:#20263c;--border:#2b3350;--border-strong:#3a4466;
+--text:#eef1fb;--text-2:#aeb7d0;--text-3:#7f89a8;--primary:#a5a0ff;--primary-soft:#2b2a55;
+--accent:#5eead4;--accent-soft:#183c39;--warm:#fbbf24;--warm-soft:#3c3018;
+--shadow:0 1px 2px rgba(0,0,0,.2),0 8px 24px rgba(0,0,0,.25);}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.6;font-size:14px}
+a{color:var(--primary);text-decoration:none}a:hover{text-decoration:underline}
+.page{max-width:1240px;margin:0 auto;padding:26px 20px 60px}
+header.hero{padding:24px 28px;border:1px solid var(--border);border-radius:20px;background:radial-gradient(800px 280px at 5% -30%,rgba(124,92,255,.2),transparent 70%),var(--surface);box-shadow:var(--shadow)}
+.top{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:flex-start}
+h1{margin:0;font-size:25px;letter-spacing:-.4px}.sub{margin:4px 0 0;color:var(--text-2);font-size:13px}
+.nav{display:flex;gap:8px;flex-wrap:wrap}.nav a{padding:7px 12px;border:1px solid var(--border);border-radius:9px;background:var(--surface-2);color:var(--text-2);font-size:12.5px;font-weight:600}
+.nav a:hover{border-color:var(--primary);color:var(--primary);text-decoration:none}
+.principle{margin-top:16px;padding:9px 13px;background:var(--accent-soft);border-radius:9px;font-size:12.5px;color:var(--text-2)}
+.progress-wrap{margin-top:18px}.progress-label{display:flex;justify-content:space-between;font-size:12.5px;color:var(--text-2);margin-bottom:7px}
+.progress{height:10px;border-radius:99px;background:var(--surface-2);overflow:hidden;border:1px solid var(--border)}
+.progress i{display:block;height:100%;background:linear-gradient(90deg,#2dd4bf,#4f46e5);border-radius:99px}
+.counts{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.count{padding:8px 14px;border:1px solid var(--border);border-radius:10px;background:var(--surface-2);font-size:12.5px;color:var(--text-2)}
+.count b{font-size:18px;color:var(--text);margin-right:5px}
+.meta{margin-top:12px;font-size:12px;color:var(--text-3)}
+h2.section{font-size:16px;margin:28px 0 14px}
+.board{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:14px;align-items:start}
+.col{background:var(--surface);border:1px solid var(--border);border-radius:15px;padding:14px;box-shadow:var(--shadow)}
+.col-head{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+.col-head .pill{width:9px;height:9px;border-radius:50%}
+.col-head .n{margin-left:auto;font-size:12px;color:var(--text-3);font-weight:600}
+.task{border:1px solid var(--border);border-radius:12px;padding:13px;margin-bottom:10px;background:var(--surface)}
+.task:last-child{margin-bottom:0}
+.task .row{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.task h3{margin:0;font-size:13.5px;font-weight:700}
+.task .id{font-size:11px;color:var(--text-3);font-family:monospace}
+.badges{display:flex;gap:5px;flex-wrap:wrap;margin:8px 0}
+.badge{padding:2px 7px;border-radius:6px;font-size:10.5px;background:var(--surface-2);color:var(--text-2);border:1px solid var(--border)}
+.badge.p-高{background:var(--warm-soft);color:var(--warm);border-color:transparent}
+.badge.p-中{background:var(--primary-soft);color:var(--primary);border-color:transparent}
+.task p{margin:0;font-size:12px;color:var(--text-2);line-height:1.65}
+.task .files{margin-top:9px;font-size:11px;color:var(--text-3);word-break:break-all}
+.task .files code{background:var(--surface-2);padding:1px 4px;border-radius:4px;margin-right:4px;display:inline-block;margin-bottom:3px}
+.task .foot{margin-top:9px;font-size:11px;color:var(--text-3);display:flex;justify-content:space-between}
+.milestones{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-top:12px}
+.mile{border:1px solid var(--border);border-radius:12px;padding:13px;background:var(--surface)}
+.mile b{font-size:13px}.mile p{margin:5px 0 0;font-size:11.5px;color:var(--text-2)}
+.mile .st{float:right;font-size:11px;padding:2px 8px;border-radius:99px;background:var(--surface-2);color:var(--text-3)}
+footer{margin-top:30px;padding-top:18px;border-top:1px solid var(--border);font-size:12px;color:var(--text-3)}
+footer a{margin-right:10px}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <div class="top">
+      <div><h1 id="title">项目进展看板</h1><p class="sub" id="subtitle"></p></div>
+      <div class="nav" id="nav"></div>
+    </div>
+    <div class="principle" id="principle"></div>
+    <div class="progress-wrap">
+      <div class="progress-label"><span>整体进度</span><span id="progressText"></span></div>
+      <div class="progress"><i id="progressBar"></i></div>
+    </div>
+    <div class="counts" id="counts"></div>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <h2 class="section">任务卡片</h2>
+  <div class="board" id="board"></div>
+
+  <h2 class="section">里程碑</h2>
+  <div class="milestones" id="milestones"></div>
+
+  <footer>
+    <p id="footerLinks"></p>
+    <p>本看板读取独立的 <code>kanban_data.js</code>：任务状态变化只需改数据文件，刷新页面即生效，无需改动 HTML 结构。更新时间：<span id="updated"></span></p>
+  </footer>
+</div>
+
+<script src="kanban_data.js"></script>
+<script>
+(function(){
+  var D=window.__KANBAN_DATA__;if(!D){document.getElementById('board').innerHTML='<div class="col">看板数据未加载</div>';return;}
+  function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+  document.getElementById('title').textContent='项目进展看板 · '+D.project;
+  document.getElementById('subtitle').textContent=D.subtitle;
+  document.getElementById('principle').textContent='⚑ 项目约定：'+D.principle;
+  document.getElementById('updated').textContent=D.updated;
+  document.getElementById('meta').textContent='工作目录：'+D.workspace+' ｜ 仓库：'+D.repo+' ｜ 在线站点：'+D.site;
+  document.getElementById('nav').innerHTML='<a href="index.html">榜单网站 ↗</a><a href="../README.md">项目说明 ↗</a><a href="'+esc(D.repo)+'" target="_blank" rel="noopener">GitHub ↗</a>';
+
+  var cols=D.columns||[],tasks=D.tasks||[];
+  var done=tasks.filter(function(t){return t.status==='done';}).length;
+  var pct=tasks.length?Math.round(done/tasks.length*100):0;
+  document.getElementById('progressText').textContent=done+' / '+tasks.length+' 项完成（'+pct+'%）';
+  document.getElementById('progressBar').style.width=pct+'%';
+  document.getElementById('counts').innerHTML=cols.map(function(c){
+    var n=tasks.filter(function(t){return t.status===c.id;}).length;
+    return '<div class="count"><b>'+n+'</b>'+esc(c.label)+'</div>';
+  }).join('')+'<div class="count"><b>'+tasks.length+'</b>任务总数</div>';
+
+  document.getElementById('board').innerHTML=cols.map(function(c){
+    var list=tasks.filter(function(t){return t.status===c.id;});
+    return '<div class="col"><div class="col-head"><span class="pill" style="background:'+c.color+'"></span>'+esc(c.label)+
+      '<span class="n">'+list.length+' 项</span></div>'+(list.length?list.map(function(t){
+        return '<div class="task"><div class="row"><h3>'+esc(t.title)+'</h3><span class="id">'+esc(t.id)+'</span></div>'+
+          '<div class="badges"><span class="badge p-'+esc(t.priority)+'">'+esc(t.priority)+'优先</span>'+
+          '<span class="badge">'+esc(t.owner)+'</span><span class="badge">'+esc(t.updated)+'</span></div>'+
+          '<p>'+esc(t.desc)+'</p>'+
+          ((t.deliverables&&t.deliverables.length)?'<div class="files">产出：'+t.deliverables.map(function(x){return '<code>'+esc(x)+'</code>';}).join('')+'</div>':'')+
+          '<div class="foot"><span>状态：'+esc(c.label)+'</span><span>'+esc(t.updated)+'</span></div></div>';
+      }).join(''):'<p style="color:var(--text-3);font-size:12px">暂无任务</p>')+'</div>';
+  }).join('');
+
+  document.getElementById('milestones').innerHTML=(D.milestones||[]).map(function(m){
+    var label=m.status==='done'?'已完成':(m.status==='doing'?'进行中':'待办');
+    return '<div class="mile"><span class="st">'+label+' · '+esc(m.date)+'</span><b>'+esc(m.name)+'</b><p>'+esc(m.note)+'</p></div>';
+  }).join('');
+  document.getElementById('footerLinks').innerHTML=(D.links||[]).map(function(l){
+    return '<a href="'+esc(l.url)+'">'+esc(l.label)+' ↗</a>';
+  }).join('');
+})();
+</script>
+</body>
+</html>
