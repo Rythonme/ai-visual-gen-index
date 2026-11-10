@@ -2,7 +2,7 @@
 window.__KANBAN_DATA__ = {
   "project": "AI 视觉生成资源榜 · AI Visual Generation Index",
   "subtitle": "生图 / 生视频资源导航与双维度排名榜 · 每周自动更新",
-  "updated": "2026-11-11 00:50 (UTC+8)",
+  "updated": "2026-11-11 01:05 (UTC+8)",
   "repo": "https://github.com/Rythonme/ai-visual-gen-index",
   "site": "https://rythonme.github.io/ai-visual-gen-index/",
   "workspace": "F:\\00在研项目\\05_Github\\ai-visual-gen-index",
@@ -64,7 +64,7 @@ window.__KANBAN_DATA__ = {
     {
       "id": "T9", "title": "复核自动收录条目并转正 / 下架", "status": "todo", "priority": "中",
       "owner": "维护者", "updated": "2026-11-11",
-      "desc": "首批 8 条已自动收录进榜（Qwen-Image-2.1、MAGI-2-preview、SparkDiffusion、open-higgsfield 等），均带 pending 标记与保守默认分。需逐个核实范畴/官方链接/许可证，优质条目转正写入 tools.json 并给正式六维分，误收的从 auto_tools.json 删除。另季度复核 heat_baseline 与护栏关键词。",
+      "desc": "已有 12 条自动收录进榜（Qwen-Image-2.1、MAGI-2-preview、SparkDiffusion、open-higgsfield、TaoMate、StreamEval 等），均带 pending 标记与保守默认分。需逐个核实范畴/官方链接/许可证，优质条目转正写入 tools.json 并给正式六维分，误收的从 auto_tools.json 删除。另季度复核 heat_baseline 与护栏关键词。",
       "deliverables": ["reports/candidates.md 审核记录", "data/auto_tools.json 复核"]
     },
     {
@@ -76,7 +76,7 @@ window.__KANBAN_DATA__ = {
     {
       "id": "T11", "title": "新资源自动收录 + 每日实时刷新", "status": "done", "priority": "高",
       "owner": "WorkBuddy", "updated": "2026-11-11",
-      "desc": "按用户要求把「只出候选、绝不自动收录」改为自动进榜：人工层 tools.json 只读 + 自动层 auto_tools.json 增量写入，build.py 合并两层；护栏含 Star 阈值、生图生视频白名单、NSFW / 营销 / 接口封装 / 教程 / Claude Code 工具箱黑名单、简介长度、归档与 Fork 排除、去重、每轮 8 条与总量 60 条上限、官方机构优先的相关性排序；新增「新收录榜」与「自动收录 / 待复核」筛选；cron 由每周改为每日 08:30。本轮实测命中 32 个、自动收录 8 个、护栏拒绝 20 个，榜单由 90 增至 98 条。",
+      "desc": "按用户要求把「只出候选、绝不自动收录」改为自动进榜：人工层 tools.json 只读 + 自动层 auto_tools.json 增量写入，build.py 合并两层；护栏含 Star 阈值、生图生视频白名单、NSFW / 营销 / 接口封装 / 教程 / Claude Code 工具箱黑名单、简介长度、归档与 Fork 排除、去重、每轮 8 条与总量 60 条上限、官方机构优先的相关性排序；新增「新收录榜」与「自动收录 / 待复核」筛选；cron 由每周改为每日 08:30。本地实测命中 32 个、自动收录 8 个、护栏拒绝 20 个；推送后云端工作流自动再收录顺延的 4 个（命中 32 / 新增 4 / 已在榜 8），自动层达 12 条、榜单由 90 增至 102 条，62/62 仓库经 API 实取，线上站点已含新条目。",
       "deliverables": ["data/auto_tools.json", "data/config.json → auto_admit", "scripts/discover.py", "scripts/build.py", ".github/workflows/weekly-update.yml", "reports/candidates.md"]
     }
   ],
@@ -84,7 +84,7 @@ window.__KANBAN_DATA__ = {
     { "name": "M1 本地仓库完整可用", "status": "done", "date": "2026-11-10", "note": "90 条资源 / 五类榜单 / 周更链路 / 网站 / 看板全部完成并验证" },
     { "name": "M2 GitHub 上线 + Pages 可访问", "status": "done", "date": "2026-11-11", "note": "仓库已推送、Pages 已启用且站点 200 可访问" },
     { "name": "M3 首次自动更新闭环", "status": "done", "date": "2026-11-11", "note": "两条工作流 success，自动提交榜单/周报；58/58 仓库经 API 实取" },
-    { "name": "M4 新资源自动收录上线", "status": "done", "date": "2026-11-11", "note": "每日 08:30 检索收录；首批 8 条自动进榜，六类榜单含新收录榜；护栏实测拦截 20 个误收候选" }
+    { "name": "M4 新资源自动收录上线", "status": "done", "date": "2026-11-11", "note": "每日 08:30 检索收录；两轮共 12 条自动进榜、榜单 102 条，六类榜单含新收录榜；护栏实测拦截 20 个误收候选；云端自动收录工作流 success 并自动提交 dd4fa4e" }
   ],
   "links": [
     { "label": "GitHub 仓库", "url": "https://github.com/Rythonme/ai-visual-gen-index" },
