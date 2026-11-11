@@ -29,7 +29,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 ## 二、榜单（自动生成）
 
 <!-- BEGIN AUTO-GENERATED RANKING -->
-> **榜单数据更新时间：2026-11-11 00:51 (UTC+8)** ｜ 第 2026-W46 周 ｜ 共收录 **102** 项资源，其中开源/开放权重 **63** 项、自动收录待复核 **12** 项。
+> **榜单数据更新时间：2026-11-11 14:51 (UTC+8)** ｜ 第 2026-W46 周 ｜ 共收录 **102** 项资源，其中开源/开放权重 **63** 项、自动收录待复核 **12** 项。
 > 本区块由 `scripts/build.py` 自动生成，请勿手动编辑；完整可筛选榜单见 [在线网站](https://rythonme.github.io/ai-visual-gen-index/)。
 
 ### 🏆 综合榜 Top 20（热度 45% + 实用性 55%）
@@ -102,9 +102,9 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 | 5 | **Hugging Face Diffusers** | 工具框架 | 81.9 | 83.2 | **82.6** | [GitHub](https://github.com/huggingface/diffusers) · [官网](https://huggingface.co/docs/diffusers/) · [文档](https://huggingface.co/docs/diffusers/index) |
 | 6 | **DiffSynth-Studio** | 生视频模型 | 75.8 | 82.4 | **79.4** | [GitHub](https://github.com/modelscope/DiffSynth-Studio) · [官网](https://modelscope.cn/) · [文档](https://github.com/modelscope/DiffSynth-Studio#readme) |
 | 7 | **InvokeAI** | 工具框架 | 79.9 | 76.4 | **78.0** | [GitHub](https://github.com/invoke-ai/InvokeAI) · [官网](https://www.invoke.com/) |
-| 8 | **LTX-Video** | 生视频模型 | 75.1 | 74.0 | **74.5** | [GitHub](https://github.com/Lightricks/LTX-Video) · [官网](https://ltx.io/) · [模型](https://huggingface.co/Lightricks/LTX-Video) |
-| 9 | **SANA** | 生图模型 | 74.0 | 70.4 | **72.0** | [GitHub](https://github.com/NVlabs/Sana) · [官网](https://nvlabs.github.io/Sana/) · [模型](https://huggingface.co/Efficient-Large-Model/SANA1.6B_1024px) |
-| 10 | **LTX-2** | 生视频模型 | 75.1 | 67.6 | **71.0** | [GitHub](https://github.com/Lightricks/LTX-2) · [官网](https://ltx.io/) · [模型](https://huggingface.co/Lightricks/LTX-2) |
+| 8 | **SANA** | 生图模型 | 74.0 | 70.4 | **72.0** | [GitHub](https://github.com/NVlabs/Sana) · [官网](https://nvlabs.github.io/Sana/) · [模型](https://huggingface.co/Efficient-Large-Model/SANA1.6B_1024px) |
+| 9 | **LTX-2** | 生视频模型 | 75.1 | 67.6 | **71.0** | [GitHub](https://github.com/Lightricks/LTX-2) · [官网](https://ltx.io/) · [模型](https://huggingface.co/Lightricks/LTX-2) |
+| 10 | **AI Toolkit** | 工具框架 | 75.9 | 66.8 | **70.9** | [GitHub](https://github.com/ostris/ai-toolkit) · [官网](https://github.com/ostris/ai-toolkit) |
 
 </details>
 
@@ -133,8 +133,8 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 | 4 | **SparkDiffusion** | 生视频模型 | 60.4 | 57.6 | **58.9** | [GitHub](https://github.com/AlibabaResearch/SparkDiffusion) · [官网](https://github.com/AlibabaResearch/SparkDiffusion) |
 | 5 | **ComfyUI-Spectrum-MiniMax-H3** | 工具框架 | 60.2 | 57.6 | **58.8** | [GitHub](https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3) · [官网](https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3) |
 | 6 | **TaoMate** | 生视频模型 | 57.4 | 57.6 | **57.5** | [GitHub](https://github.com/TaoLiveAIGC/TaoMate) · [官网](https://github.com/TaoLiveAIGC/TaoMate) |
-| 7 | **qwenimage-ncnn-vulkan** | 控制增强 | 56.5 | 57.6 | **57.1** | [GitHub](https://github.com/nihui/qwenimage-ncnn-vulkan) · [官网](https://github.com/nihui/qwenimage-ncnn-vulkan) |
-| 8 | **ComfyUI-H3-Continuum** | 工具框架 | 56.3 | 57.6 | **57.0** | [GitHub](https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum) · [官网](https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum) |
+| 7 | **ComfyUI-H3-Continuum** | 工具框架 | 56.4 | 57.6 | **57.1** | [GitHub](https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum) · [官网](https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum) |
+| 8 | **qwenimage-ncnn-vulkan** | 控制增强 | 56.5 | 57.6 | **57.1** | [GitHub](https://github.com/nihui/qwenimage-ncnn-vulkan) · [官网](https://github.com/nihui/qwenimage-ncnn-vulkan) |
 | 9 | **MAGI-2-preview** | 生视频模型 | 56.3 | 57.6 | **57.0** | [GitHub](https://github.com/SandAI-org/MAGI-2-preview) · [官网](https://github.com/SandAI-org/MAGI-2-preview) |
 | 10 | **DreamX-Creator** | 生视频模型 | 53.9 | 57.6 | **55.9** | [GitHub](https://github.com/AMAP-ML/DreamX-Creator) · [官网](https://github.com/AMAP-ML/DreamX-Creator) |
 

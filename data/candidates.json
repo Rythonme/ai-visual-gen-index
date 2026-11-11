@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11 00:50 (UTC+8)",
+  "generated": "2026-11-11 14:51 (UTC+8)",
   "window": "近 120 天新建（created:>2026-07-14）",
   "queries": [
     "\"image generation\" in:description stars:>300",
@@ -13,47 +13,18 @@
   "note": "符合护栏的候选已自动收录进 data/auto_tools.json 并进入榜单；本文件保留被拒原因供复核。",
   "stats": {
     "hit": 32,
-    "admitted_this_run": 4,
+    "admitted_this_run": 0,
     "rejected": 20,
-    "already_known": 8,
+    "already_known": 12,
     "deferred": 0,
     "retired": 0,
     "total_auto": 12
   },
-  "admitted": [
-    {
-      "repo": "TaoLiveAIGC/TaoMate",
-      "stars": 518,
-      "category": "video_model",
-      "admitted_at": "2026-11-11 00:50",
-      "url": "https://github.com/TaoLiveAIGC/TaoMate"
-    },
-    {
-      "repo": "StreamEval/StreamEval",
-      "stars": 620,
-      "category": "resource",
-      "admitted_at": "2026-11-11 00:50",
-      "url": "https://github.com/StreamEval/StreamEval"
-    },
-    {
-      "repo": "xmarre/ComfyUI-Spectrum-MiniMax-H3",
-      "stars": 719,
-      "category": "tool",
-      "admitted_at": "2026-11-11 00:50",
-      "url": "https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3"
-    },
-    {
-      "repo": "ukr8b3g-cmyk/ComfyUI-H3-Continuum",
-      "stars": 309,
-      "category": "tool",
-      "admitted_at": "2026-11-11 00:50",
-      "url": "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum"
-    }
-  ],
+  "admitted": [],
   "rejected": [
     {
       "repo": "czg86389-hub/muse2api",
-      "stars": 1153,
+      "stars": 1174,
       "reason": "命中排除词「逆向」",
       "description": "把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-compatible API for Muse.ai with Chat, Image & Video generation."
     },
@@ -65,13 +36,13 @@
     },
     {
       "repo": "AbrahamPaulJ/nightmare-mobile",
-      "stars": 210,
-      "reason": "Stars 210 低于阈值 300",
+      "stars": 217,
+      "reason": "Stars 217 低于阈值 300",
       "description": "On-device, ComfyUI-style node graph for image/video diffusion on Android. Run MiniMax H3 and WAN 2.2 14B on the Qualcomm Hexagon NPU. SD1.5, SDXL, Flux, Z-Image"
     },
     {
       "repo": "lemomo-ai/lemo-opuscar",
-      "stars": 14389,
+      "stars": 14587,
       "reason": "命中排除词「claude code」",
       "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Cla"
     },
@@ -83,20 +54,20 @@
     },
     {
       "repo": "HaD0Yun/CozyClay",
-      "stars": 1693,
+      "stars": 1717,
       "reason": "命中排除词「previs」",
       "description": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model."
     },
     {
       "repo": "Rimagination/h3lite",
-      "stars": 476,
+      "stars": 477,
       "reason": "命中排除词「codex skill」",
       "description": "A hardware-aware Codex skill for local MiniMax H3 video generation through ComfyUI"
     },
     {
       "repo": "beckettharriman/openfill",
-      "stars": 267,
-      "reason": "Stars 267 低于阈值 300",
+      "stars": 273,
+      "reason": "Stars 273 低于阈值 300",
       "description": "Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI."
     },
     {
@@ -113,13 +84,13 @@
     },
     {
       "repo": "blendi-remade/prompt2rig",
-      "stars": 567,
+      "stars": 573,
       "reason": "命中排除词「rigged」",
       "description": "Type a motion, watch a rigged character perform it: fast video model + GVHMR + live Mixamo retargeting, by Patch"
     },
     {
       "repo": "qianshuixia/shrimpreel",
-      "stars": 419,
+      "stars": 425,
       "reason": "命中排除词「saas」",
       "description": "Open-source template for \"one photo → AI video that follows a viral template\" SaaS sites, one site per trending keyword. Cloudflare Workers + D1/R2/KV/Queues, T"
     },
@@ -137,14 +108,14 @@
     },
     {
       "repo": "TaiT-tt/tait-crt-interface-skill",
-      "stars": 546,
+      "stars": 547,
       "reason": "命中排除词「-skill」",
       "description": "TaiT-CRT-Interface-Skill is a Codex image generation skill that transforms user-uploaded portraits, photographs, or text descriptions into a retro illustration "
     },
     {
       "repo": "patch-gg/trompe",
-      "stars": 210,
-      "reason": "Stars 210 低于阈值 300",
+      "stars": 211,
+      "reason": "Stars 211 低于阈值 300",
       "description": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out."
     },
     {
@@ -161,8 +132,8 @@
     },
     {
       "repo": "CXP-2024/gpt-anime-denoise",
-      "stars": 206,
-      "reason": "Stars 206 低于阈值 300",
+      "stars": 207,
+      "reason": "Stars 207 低于阈值 300",
       "description": "Remove the fish-scale noise GPT image models leave in anime / TV-anime images (ESRGAN @60% + L0 smoothing)"
     },
     {
@@ -177,7 +148,7 @@
     {
       "repo": "czg86389-hub/muse2api",
       "url": "https://github.com/czg86389-hub/muse2api",
-      "stars": 1153,
+      "stars": 1174,
       "description": "把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-compatible API for Muse.ai with Chat, Image & Video generation.",
       "language": "Python",
       "license": "MIT",
@@ -187,7 +158,7 @@
     {
       "repo": "QwenLM/Qwen-Image-2.1",
       "url": "https://github.com/QwenLM/Qwen-Image-2.1",
-      "stars": 2193,
+      "stars": 2198,
       "description": "Qwen's most powerful open-source image generation model",
       "language": "Python",
       "license": "NOASSERTION",
@@ -207,7 +178,7 @@
     {
       "repo": "AlibabaResearch/SparkDiffusion",
       "url": "https://github.com/AlibabaResearch/SparkDiffusion",
-      "stars": 647,
+      "stars": 651,
       "description": "SparkDiffusion: Accelerating DiT video generation by 265× via joint Sparsity, Distillation, Quantization, etc.",
       "language": "Python",
       "license": "Apache-2.0",
@@ -237,7 +208,7 @@
     {
       "repo": "AbrahamPaulJ/nightmare-mobile",
       "url": "https://github.com/AbrahamPaulJ/nightmare-mobile",
-      "stars": 210,
+      "stars": 217,
       "description": "On-device, ComfyUI-style node graph for image/video diffusion on Android. Run MiniMax H3 and WAN 2.2 14B on the Qualcomm Hexagon NPU. SD1.5, SDXL, Flux, Z-Image, Anima, Qwen Image 2.1, Krea 2 & MOSS Image. Inpainting, ou",
       "language": "Kotlin",
       "license": "NOASSERTION",
@@ -247,7 +218,7 @@
     {
       "repo": "lemomo-ai/lemo-opuscar",
       "url": "https://github.com/lemomo-ai/lemo-opuscar",
-      "stars": 14389,
+      "stars": 14587,
       "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具",
       "language": "JavaScript",
       "license": "MIT",
@@ -267,7 +238,7 @@
     {
       "repo": "wide-trace/open-higgsfield",
       "url": "https://github.com/wide-trace/open-higgsfield",
-      "stars": 5610,
+      "stars": 5646,
       "description": "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.",
       "language": "TypeScript",
       "license": "",
@@ -277,17 +248,17 @@
     {
       "repo": "HaD0Yun/CozyClay",
       "url": "https://github.com/HaD0Yun/CozyClay",
-      "stars": 1693,
+      "stars": 1717,
       "description": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.",
       "language": "JavaScript",
       "license": "AGPL-3.0",
       "created_at": "2026-07-28",
-      "pushed_at": "2026-11-10"
+      "pushed_at": "2026-11-11"
     },
     {
       "repo": "Rimagination/h3lite",
       "url": "https://github.com/Rimagination/h3lite",
-      "stars": 476,
+      "stars": 477,
       "description": "A hardware-aware Codex skill for local MiniMax H3 video generation through ComfyUI",
       "language": "Python",
       "license": "MIT",
@@ -317,7 +288,7 @@
     {
       "repo": "beckettharriman/openfill",
       "url": "https://github.com/beckettharriman/openfill",
-      "stars": 267,
+      "stars": 273,
       "description": "Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI.",
       "language": "Python",
       "license": "Apache-2.0",
@@ -347,7 +318,7 @@
     {
       "repo": "blendi-remade/prompt2rig",
       "url": "https://github.com/blendi-remade/prompt2rig",
-      "stars": 567,
+      "stars": 573,
       "description": "Type a motion, watch a rigged character perform it: fast video model + GVHMR + live Mixamo retargeting, by Patch",
       "language": "JavaScript",
       "license": "Apache-2.0",
@@ -357,7 +328,7 @@
     {
       "repo": "qianshuixia/shrimpreel",
       "url": "https://github.com/qianshuixia/shrimpreel",
-      "stars": 419,
+      "stars": 425,
       "description": "Open-source template for \"one photo → AI video that follows a viral template\" SaaS sites, one site per trending keyword. Cloudflare Workers + D1/R2/KV/Queues, TanStack Start + Hono, Google sign-in, credit packs (Waffo/Do",
       "language": "TypeScript",
       "license": "MIT",
@@ -387,7 +358,7 @@
     {
       "repo": "nkxx188/ComfyUI-MiniMaxH3-Easy",
       "url": "https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy",
-      "stars": 893,
+      "stars": 895,
       "description": "The easiest way to use MiniMax H3. One compact workflow for T2V, I2V, first/last-frame, and reference video generation, with a unified multi-media input, powerful @ references, and inline dialogue blocks. Less wiring. Mo",
       "language": "JavaScript",
       "license": "MIT",
@@ -397,7 +368,7 @@
     {
       "repo": "TaiT-tt/tait-crt-interface-skill",
       "url": "https://github.com/TaiT-tt/tait-crt-interface-skill",
-      "stars": 546,
+      "stars": 547,
       "description": "TaiT-CRT-Interface-Skill is a Codex image generation skill that transforms user-uploaded portraits, photographs, or text descriptions into a retro illustration with the feel of an early CRT computer interface.",
       "language": "Python",
       "license": "",
@@ -407,7 +378,7 @@
     {
       "repo": "patch-gg/trompe",
       "url": "https://github.com/patch-gg/trompe",
-      "stars": 210,
+      "stars": 211,
       "description": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
       "language": "TypeScript",
       "license": "Apache-2.0",
@@ -427,7 +398,7 @@
     {
       "repo": "TaoLiveAIGC/TaoMate",
       "url": "https://github.com/TaoLiveAIGC/TaoMate",
-      "stars": 518,
+      "stars": 519,
       "description": "a real-time digital-human model for long-form audio-video generation",
       "language": "Python",
       "license": "NOASSERTION",
@@ -457,17 +428,17 @@
     {
       "repo": "CXP-2024/gpt-anime-denoise",
       "url": "https://github.com/CXP-2024/gpt-anime-denoise",
-      "stars": 206,
+      "stars": 207,
       "description": "Remove the fish-scale noise GPT image models leave in anime / TV-anime images (ESRGAN @60% + L0 smoothing)",
       "language": "HTML",
       "license": "NOASSERTION",
       "created_at": "2026-11-05",
-      "pushed_at": "2026-11-10"
+      "pushed_at": "2026-11-11"
     },
     {
       "repo": "xmarre/ComfyUI-Spectrum-MiniMax-H3",
       "url": "https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3",
-      "stars": 719,
+      "stars": 718,
       "description": "Training-free Spectrum acceleration for ComfyUI’s native MiniMax H3 audio-video model. Uses Chebyshev ridge feature forecasting to skip selected H3 transformer evaluations, with adaptive scheduling, sampler-aware support",
       "language": "Python",
       "license": "GPL-3.0",
@@ -477,7 +448,7 @@
     {
       "repo": "ukr8b3g-cmyk/ComfyUI-H3-Continuum",
       "url": "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum",
-      "stars": 309,
+      "stars": 311,
       "description": "Seamless long-form MiniMax H3 video generation for ComfyUI with native AV latent continuity, chunked sampling, session resume, and Spectrum/Sage/Sol compatibility.",
       "language": "Python",
       "license": "MIT",
