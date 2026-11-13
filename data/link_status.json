@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12 15:28 (UTC+8)",
+  "checked_at": "2026-11-13 14:59 (UTC+8)",
   "method": "HEAD 优先，405/403 回退 GET；超时与反爬记为 unknown 而非失效",
   "links": {
     "https://ai.google.dev/gemini-api/docs/image-generation": "ok",

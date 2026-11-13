@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-12 15:28 (UTC+8)",
+  "generated": "2026-11-13 14:59 (UTC+8)",
   "note": "本文件由 scripts/discover.py 自动维护；人工核实后可把条目移入 data/tools.json 转正，或直接删掉下架。",
   "config_version": "2.0",
-  "count": 12,
+  "count": 13,
   "tools": [
     {
       "id": "auto-qwenlm-qwen-image-2-1",
@@ -447,6 +447,43 @@
       "source_stars": 309,
       "source_relevance": 37.8,
       "source_created": "2026-08-10"
+    },
+    {
+      "id": "auto-minimax-ai-minimax-h3-image",
+      "name": "MiniMax-H3-Image",
+      "alias": "自动收录 · 待复核",
+      "category": "image_model",
+      "type": "open",
+      "org": "MiniMax-AI",
+      "desc": "MiniMax-H3-Image, an open-weight model for 16-megapixel image generation and editing.",
+      "links": {
+        "home": "https://github.com/MiniMax-AI/MiniMax-H3-Image",
+        "github": "https://github.com/MiniMax-AI/MiniMax-H3-Image"
+      },
+      "github": "MiniMax-AI/MiniMax-H3-Image",
+      "license": "详见仓库",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Python"
+      ],
+      "added": "2026-11-13",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 318,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-13 14:59",
+      "review_status": "pending",
+      "source_query": "\"image generation\" in:description stars:>300",
+      "source_stars": 318,
+      "source_relevance": 105.1,
+      "source_created": "2026-11-09"
     }
   ]
 }
