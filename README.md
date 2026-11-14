@@ -29,7 +29,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 ## 二、榜单（自动生成）
 
 <!-- BEGIN AUTO-GENERATED RANKING -->
-> **榜单数据更新时间：2026-11-13 15:00 (UTC+8)** ｜ 第 2026-W46 周 ｜ 共收录 **103** 项资源，其中开源/开放权重 **64** 项、自动收录待复核 **13** 项。
+> **榜单数据更新时间：2026-11-14 14:49 (UTC+8)** ｜ 第 2026-W46 周 ｜ 共收录 **103** 项资源，其中开源/开放权重 **64** 项、自动收录待复核 **13** 项。
 > 本区块由 `scripts/build.py` 自动生成，请勿手动编辑；完整可筛选榜单见 [在线网站](https://rythonme.github.io/ai-visual-gen-index/)。
 
 ### 🏆 综合榜 Top 20（热度 45% + 实用性 55%）
@@ -50,8 +50,8 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 | 12 | **通义万相（生图）** | 生图平台 | 84.0 | 88.4 | **86.4** | [官网](https://tongyi.aliyun.com/wan/) · [文档](https://help.aliyun.com/zh/model-studio/) |
 | 13 | **MoneyPrinterTurbo** | 工具框架 | 88.7 | 84.0 | **86.1** | [GitHub](https://github.com/harry0703/MoneyPrinterTurbo) · [官网](https://github.com/harry0703/MoneyPrinterTurbo) |
 | 14 | **Wan 2.1** | 生视频模型 | 71.6 | 95.6 | **84.8** | [GitHub](https://github.com/Wan-Video/Wan2.1) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B) |
-| 15 | **Wan 2.2** | 生视频模型 | 76.0 | 91.6 | **84.6** | [GitHub](https://github.com/Wan-Video/Wan2.2) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B) · [文档](https://github.com/Wan-Video/Wan2.2#readme) |
-| 16 | **Runway** | 生视频平台 | 92.0 | 78.4 | **84.5** | [官网](https://runwayml.com/) · [文档](https://docs.runwayml.com/) |
+| 15 | **Runway** | 生视频平台 | 92.0 | 78.4 | **84.5** | [官网](https://runwayml.com/) · [文档](https://docs.runwayml.com/) |
+| 16 | **Wan 2.2** | 生视频模型 | 75.9 | 91.6 | **84.5** | [GitHub](https://github.com/Wan-Video/Wan2.2) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B) · [文档](https://github.com/Wan-Video/Wan2.2#readme) |
 | 17 | **Vidu** | 生视频平台 | 84.0 | 84.8 | **84.4** | [官网](https://www.vidu.com/) · [文档](https://www.vidu.studio/) |
 | 18 | **ComfyUI-Manager** | 工具框架 | 77.6 | 89.6 | **84.2** | [GitHub](https://github.com/ltdrdata/ComfyUI-Manager) · [官网](https://github.com/ltdrdata/ComfyUI-Manager) |
 | 19 | **Adobe Firefly** | 生图平台 | 88.0 | 80.0 | **83.6** | [官网](https://firefly.adobe.com/) · [文档](https://firefly.adobe.com/generate/images) |
@@ -81,8 +81,8 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 | 1 | **Wan 2.1** | 生视频模型 | 71.6 | 95.6 | **84.8** | [GitHub](https://github.com/Wan-Video/Wan2.1) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B) |
 | 2 | **可灵 Kling** | 生视频平台 | 93.0 | 92.8 | **92.9** | [官网](https://app.klingai.com/cn/) · [文档](https://app.klingai.com/global/quickstart/klingai-video-3-model-user-guide) · [API](https://klingai.com/) |
 | 3 | **即梦 Seedance** | 生视频平台 | 92.0 | 92.8 | **92.4** | [官网](https://jimeng.jianying.com/) · [文档](https://seed.bytedance.com/) |
-| 4 | **Z-Image** | 生图模型 | 68.3 | 92.0 | **81.3** | [GitHub](https://github.com/Tongyi-MAI/Z-Image) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo) · [文档](https://github.com/Tongyi-MAI/Z-Image#readme) |
-| 5 | **Wan 2.2** | 生视频模型 | 76.0 | 91.6 | **84.6** | [GitHub](https://github.com/Wan-Video/Wan2.2) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B) · [文档](https://github.com/Wan-Video/Wan2.2#readme) |
+| 4 | **Z-Image** | 生图模型 | 68.2 | 92.0 | **81.3** | [GitHub](https://github.com/Tongyi-MAI/Z-Image) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo) · [文档](https://github.com/Tongyi-MAI/Z-Image#readme) |
+| 5 | **Wan 2.2** | 生视频模型 | 75.9 | 91.6 | **84.5** | [GitHub](https://github.com/Wan-Video/Wan2.2) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B) · [文档](https://github.com/Wan-Video/Wan2.2#readme) |
 | 6 | **Google Gemini 图像** | 生图平台 | 97.0 | 90.4 | **93.4** | [官网](https://gemini.google.com/) · [文档](https://ai.google.dev/gemini-api/docs/image-generation) · [API](https://deepmind.google/models/imagen/) |
 | 7 | **ComfyUI** | 工具框架 | 88.5 | 90.4 | **89.5** | [GitHub](https://github.com/Comfy-Org/ComfyUI) · [官网](https://www.comfy.org/) · [文档](https://docs.comfy.org/) · [示例](https://comfyanonymous.github.io/ComfyUI_examples/) |
 | 8 | **ComfyUI-Manager** | 工具框架 | 77.6 | 89.6 | **84.2** | [GitHub](https://github.com/ltdrdata/ComfyUI-Manager) · [官网](https://github.com/ltdrdata/ComfyUI-Manager) |
@@ -98,13 +98,13 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 | 1 | **ComfyUI** | 工具框架 | 88.5 | 90.4 | **89.5** | [GitHub](https://github.com/Comfy-Org/ComfyUI) · [官网](https://www.comfy.org/) · [文档](https://docs.comfy.org/) · [示例](https://comfyanonymous.github.io/ComfyUI_examples/) |
 | 2 | **MoneyPrinterTurbo** | 工具框架 | 88.7 | 84.0 | **86.1** | [GitHub](https://github.com/harry0703/MoneyPrinterTurbo) · [官网](https://github.com/harry0703/MoneyPrinterTurbo) |
 | 3 | **ComfyUI-Manager** | 工具框架 | 77.6 | 89.6 | **84.2** | [GitHub](https://github.com/ltdrdata/ComfyUI-Manager) · [官网](https://github.com/ltdrdata/ComfyUI-Manager) |
-| 4 | **rembg** | 控制增强 | 79.1 | 87.2 | **83.6** | [GitHub](https://github.com/danielgatis/rembg) · [官网](https://github.com/danielgatis/rembg) |
-| 5 | **Hugging Face Diffusers** | 工具框架 | 81.9 | 83.2 | **82.6** | [GitHub](https://github.com/huggingface/diffusers) · [官网](https://huggingface.co/docs/diffusers/) · [文档](https://huggingface.co/docs/diffusers/index) |
-| 6 | **DiffSynth-Studio** | 生视频模型 | 75.8 | 82.4 | **79.4** | [GitHub](https://github.com/modelscope/DiffSynth-Studio) · [官网](https://modelscope.cn/) · [文档](https://github.com/modelscope/DiffSynth-Studio#readme) |
-| 7 | **InvokeAI** | 工具框架 | 80.0 | 76.4 | **78.0** | [GitHub](https://github.com/invoke-ai/InvokeAI) · [官网](https://www.invoke.com/) |
-| 8 | **ComfyUI-WanVideoWrapper** | 生视频模型 | 72.4 | 81.2 | **77.2** | [GitHub](https://github.com/kijai/ComfyUI-WanVideoWrapper) · [官网](https://github.com/kijai/ComfyUI-WanVideoWrapper) |
-| 9 | **LongCat-Video** | 生视频模型 | 74.8 | 70.4 | **72.4** | [GitHub](https://github.com/meituan-longcat/LongCat-Video) · [官网](https://github.com/meituan-longcat) · [模型](https://huggingface.co/meituan-longcat) |
-| 10 | **SANA** | 生图模型 | 74.0 | 70.4 | **72.0** | [GitHub](https://github.com/NVlabs/Sana) · [官网](https://nvlabs.github.io/Sana/) · [模型](https://huggingface.co/Efficient-Large-Model/SANA1.6B_1024px) |
+| 4 | **Hugging Face Diffusers** | 工具框架 | 81.9 | 83.2 | **82.6** | [GitHub](https://github.com/huggingface/diffusers) · [官网](https://huggingface.co/docs/diffusers/) · [文档](https://huggingface.co/docs/diffusers/index) |
+| 5 | **DiffSynth-Studio** | 生视频模型 | 75.8 | 82.4 | **79.4** | [GitHub](https://github.com/modelscope/DiffSynth-Studio) · [官网](https://modelscope.cn/) · [文档](https://github.com/modelscope/DiffSynth-Studio#readme) |
+| 6 | **InvokeAI** | 工具框架 | 80.0 | 76.4 | **78.0** | [GitHub](https://github.com/invoke-ai/InvokeAI) · [官网](https://www.invoke.com/) |
+| 7 | **ComfyUI-WanVideoWrapper** | 生视频模型 | 72.4 | 81.2 | **77.2** | [GitHub](https://github.com/kijai/ComfyUI-WanVideoWrapper) · [官网](https://github.com/kijai/ComfyUI-WanVideoWrapper) |
+| 8 | **LongCat-Video** | 生视频模型 | 74.9 | 70.4 | **72.4** | [GitHub](https://github.com/meituan-longcat/LongCat-Video) · [官网](https://github.com/meituan-longcat) · [模型](https://huggingface.co/meituan-longcat) |
+| 9 | **SANA** | 生图模型 | 74.0 | 70.4 | **72.0** | [GitHub](https://github.com/NVlabs/Sana) · [官网](https://nvlabs.github.io/Sana/) · [模型](https://huggingface.co/Efficient-Large-Model/SANA1.6B_1024px) |
+| 10 | **LTX-2** | 生视频模型 | 75.1 | 67.6 | **71.0** | [GitHub](https://github.com/Lightricks/LTX-2) · [官网](https://ltx.io/) · [模型](https://huggingface.co/Lightricks/LTX-2) |
 
 </details>
 
@@ -115,19 +115,19 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 | 1 | **ComfyUI** | 工具框架 | 88.5 | 90.4 | **89.5** | [GitHub](https://github.com/Comfy-Org/ComfyUI) · [官网](https://www.comfy.org/) · [文档](https://docs.comfy.org/) · [示例](https://comfyanonymous.github.io/ComfyUI_examples/) |
 | 2 | **MoneyPrinterTurbo** | 工具框架 | 88.7 | 84.0 | **86.1** | [GitHub](https://github.com/harry0703/MoneyPrinterTurbo) · [官网](https://github.com/harry0703/MoneyPrinterTurbo) |
 | 3 | **Wan 2.1** | 生视频模型 | 71.6 | 95.6 | **84.8** | [GitHub](https://github.com/Wan-Video/Wan2.1) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B) |
-| 4 | **Wan 2.2** | 生视频模型 | 76.0 | 91.6 | **84.6** | [GitHub](https://github.com/Wan-Video/Wan2.2) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B) · [文档](https://github.com/Wan-Video/Wan2.2#readme) |
+| 4 | **Wan 2.2** | 生视频模型 | 75.9 | 91.6 | **84.5** | [GitHub](https://github.com/Wan-Video/Wan2.2) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B) · [文档](https://github.com/Wan-Video/Wan2.2#readme) |
 | 5 | **ComfyUI-Manager** | 工具框架 | 77.6 | 89.6 | **84.2** | [GitHub](https://github.com/ltdrdata/ComfyUI-Manager) · [官网](https://github.com/ltdrdata/ComfyUI-Manager) |
 | 6 | **rembg** | 控制增强 | 79.1 | 87.2 | **83.6** | [GitHub](https://github.com/danielgatis/rembg) · [官网](https://github.com/danielgatis/rembg) |
 | 7 | **AUTOMATIC1111 WebUI** | 工具框架 | 82.5 | 82.8 | **82.7** | [GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui) · [官网](https://github.com/AUTOMATIC1111/stable-diffusion-webui) |
 | 8 | **Hugging Face Diffusers** | 工具框架 | 81.9 | 83.2 | **82.6** | [GitHub](https://github.com/huggingface/diffusers) · [官网](https://huggingface.co/docs/diffusers/) · [文档](https://huggingface.co/docs/diffusers/index) |
 | 9 | **Fooocus** | 工具框架 | 74.3 | 87.2 | **81.4** | [GitHub](https://github.com/lllyasviel/Fooocus) · [官网](https://github.com/lllyasviel/Fooocus) |
-| 10 | **Z-Image** | 生图模型 | 68.3 | 92.0 | **81.3** | [GitHub](https://github.com/Tongyi-MAI/Z-Image) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo) · [文档](https://github.com/Tongyi-MAI/Z-Image#readme) |
+| 10 | **Z-Image** | 生图模型 | 68.2 | 92.0 | **81.3** | [GitHub](https://github.com/Tongyi-MAI/Z-Image) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo) · [文档](https://github.com/Tongyi-MAI/Z-Image#readme) |
 
 ### 🆕 新收录榜 Top 10（自动发现，按收录新鲜度 / 综合分）
 
 | # | 资源 | 分类 | 热度 | 实用 | 综合 | 官方链接 |
 |---|---|---|---|---|---|---|
-| 1 | **MiniMax-H3-Image** | 生图模型 | 55.8 | 57.6 | **56.8** | [GitHub](https://github.com/MiniMax-AI/MiniMax-H3-Image) · [官网](https://github.com/MiniMax-AI/MiniMax-H3-Image) |
+| 1 | **MiniMax-H3-Image** | 生图模型 | 56.2 | 57.6 | **57.0** | [GitHub](https://github.com/MiniMax-AI/MiniMax-H3-Image) · [官网](https://github.com/MiniMax-AI/MiniMax-H3-Image) |
 | 2 | **open-higgsfield** | 工具框架 | 71.2 | 57.6 | **63.7** | [GitHub](https://github.com/wide-trace/open-higgsfield) · [官网](https://github.com/wide-trace/open-higgsfield) |
 | 3 | **Qwen-Image-2.1** | 生图模型 | 65.5 | 57.6 | **61.2** | [GitHub](https://github.com/QwenLM/Qwen-Image-2.1) · [官网](https://github.com/QwenLM/Qwen-Image-2.1) |
 | 4 | **ComfyUI-MiniMaxH3-Easy** | 工具框架 | 61.4 | 57.6 | **59.3** | [GitHub](https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy) · [官网](https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy) |
@@ -136,7 +136,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 | 7 | **TaoMate** | 生视频模型 | 57.4 | 57.6 | **57.5** | [GitHub](https://github.com/TaoLiveAIGC/TaoMate) · [官网](https://github.com/TaoLiveAIGC/TaoMate) |
 | 8 | **qwenimage-ncnn-vulkan** | 控制增强 | 56.4 | 57.6 | **57.1** | [GitHub](https://github.com/nihui/qwenimage-ncnn-vulkan) · [官网](https://github.com/nihui/qwenimage-ncnn-vulkan) |
 | 9 | **ComfyUI-H3-Continuum** | 工具框架 | 56.3 | 57.6 | **57.0** | [GitHub](https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum) · [官网](https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum) |
-| 10 | **MAGI-2-preview** | 生视频模型 | 56.3 | 57.6 | **57.0** | [GitHub](https://github.com/SandAI-org/MAGI-2-preview) · [官网](https://github.com/SandAI-org/MAGI-2-preview) |
+| 10 | **MAGI-2-preview** | 生视频模型 | 56.2 | 57.6 | **57.0** | [GitHub](https://github.com/SandAI-org/MAGI-2-preview) · [官网](https://github.com/SandAI-org/MAGI-2-preview) |
 
 ### 分类速览（各类别综合分 Top 5）
 
@@ -144,9 +144,9 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 
 | # | 资源 | 分类 | 热度 | 实用 | 综合 | 官方链接 |
 |---|---|---|---|---|---|---|
-| 1 | **Z-Image** | 生图模型 | 68.3 | 92.0 | **81.3** | [GitHub](https://github.com/Tongyi-MAI/Z-Image) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo) · [文档](https://github.com/Tongyi-MAI/Z-Image#readme) |
-| 2 | **Stable Diffusion XL** | 生图模型 | 70.8 | 85.2 | **78.7** | [GitHub](https://github.com/Stability-AI/generative-models) · [官网](https://stability.ai/) · [模型](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) · [文档](https://github.com/Stability-AI/generative-models#readme) |
-| 3 | **Qwen-Image** | 生图模型 | 66.4 | 88.0 | **78.3** | [GitHub](https://github.com/QwenLM/Qwen-Image) · [官网](https://qwen.ai/) · [模型](https://huggingface.co/Qwen/Qwen-Image) · [文档](https://qwenlm.github.io/blog/qwen-image/) |
+| 1 | **Z-Image** | 生图模型 | 68.2 | 92.0 | **81.3** | [GitHub](https://github.com/Tongyi-MAI/Z-Image) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo) · [文档](https://github.com/Tongyi-MAI/Z-Image#readme) |
+| 2 | **Stable Diffusion XL** | 生图模型 | 70.7 | 85.2 | **78.7** | [GitHub](https://github.com/Stability-AI/generative-models) · [官网](https://stability.ai/) · [模型](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) · [文档](https://github.com/Stability-AI/generative-models#readme) |
+| 3 | **Qwen-Image** | 生图模型 | 66.3 | 88.0 | **78.2** | [GitHub](https://github.com/QwenLM/Qwen-Image) · [官网](https://qwen.ai/) · [模型](https://huggingface.co/Qwen/Qwen-Image) · [文档](https://qwenlm.github.io/blog/qwen-image/) |
 | 4 | **FLUX.1** | 生图模型 | 66.6 | 79.6 | **73.8** | [GitHub](https://github.com/black-forest-labs/flux) · [官网](https://bfl.ai/) · [模型](https://huggingface.co/black-forest-labs/FLUX.1-dev) · [文档](https://github.com/black-forest-labs/flux#readme) |
 | 5 | **SANA** | 生图模型 | 74.0 | 70.4 | **72.0** | [GitHub](https://github.com/NVlabs/Sana) · [官网](https://nvlabs.github.io/Sana/) · [模型](https://huggingface.co/Efficient-Large-Model/SANA1.6B_1024px) |
 
@@ -157,7 +157,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 | # | 资源 | 分类 | 热度 | 实用 | 综合 | 官方链接 |
 |---|---|---|---|---|---|---|
 | 1 | **Wan 2.1** | 生视频模型 | 71.6 | 95.6 | **84.8** | [GitHub](https://github.com/Wan-Video/Wan2.1) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B) |
-| 2 | **Wan 2.2** | 生视频模型 | 76.0 | 91.6 | **84.6** | [GitHub](https://github.com/Wan-Video/Wan2.2) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B) · [文档](https://github.com/Wan-Video/Wan2.2#readme) |
+| 2 | **Wan 2.2** | 生视频模型 | 75.9 | 91.6 | **84.5** | [GitHub](https://github.com/Wan-Video/Wan2.2) · [官网](https://tongyi.aliyun.com/wan/) · [模型](https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B) · [文档](https://github.com/Wan-Video/Wan2.2#readme) |
 | 3 | **DiffSynth-Studio** | 生视频模型 | 75.8 | 82.4 | **79.4** | [GitHub](https://github.com/modelscope/DiffSynth-Studio) · [官网](https://modelscope.cn/) · [文档](https://github.com/modelscope/DiffSynth-Studio#readme) |
 | 4 | **ComfyUI-WanVideoWrapper** | 生视频模型 | 72.4 | 81.2 | **77.2** | [GitHub](https://github.com/kijai/ComfyUI-WanVideoWrapper) · [官网](https://github.com/kijai/ComfyUI-WanVideoWrapper) |
 | 5 | **MiniMax H3** | 生视频模型 | 74.6 | 78.4 | **76.7** | [GitHub](https://github.com/MiniMax-AI/MiniMax-H3) · [官网](https://www.minimax.io/) · [模型](https://huggingface.co/MiniMaxAI) · [文档](https://platform.minimax.io/docs/guides/video-generation) |
