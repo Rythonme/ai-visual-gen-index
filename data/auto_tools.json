@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-14 14:48 (UTC+8)",
+  "generated": "2026-11-15 14:52 (UTC+8)",
   "note": "本文件由 scripts/discover.py 自动维护；人工核实后可把条目移入 data/tools.json 转正，或直接删掉下架。",
   "config_version": "2.0",
-  "count": 13,
+  "count": 14,
   "tools": [
     {
       "id": "auto-qwenlm-qwen-image-2-1",
@@ -484,6 +484,43 @@
       "source_stars": 318,
       "source_relevance": 105.1,
       "source_created": "2026-11-09"
+    },
+    {
+      "id": "auto-brave-plum-co-leonardo-ai-desktop",
+      "name": "leonardo-ai-desktop",
+      "alias": "自动收录 · 待复核",
+      "category": "edit",
+      "type": "open",
+      "org": "brave-plum-co",
+      "desc": "Leonardo AI 2026 desktop setup with text-to-image generation using fine-tuned models, canvas editor with inpainting and outpainting, plus real-time generation and image-to-motion f",
+      "links": {
+        "home": "https://github.com/brave-plum-co/leonardo-ai-desktop",
+        "github": "https://github.com/brave-plum-co/leonardo-ai-desktop"
+      },
+      "github": "brave-plum-co/leonardo-ai-desktop",
+      "license": "MIT",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "C++"
+      ],
+      "added": "2026-11-15",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 359,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-15 14:52",
+      "review_status": "pending",
+      "source_query": "\"image generation\" in:description stars:>300",
+      "source_stars": 359,
+      "source_relevance": 79.1,
+      "source_created": "2026-11-14"
     }
   ]
 }
