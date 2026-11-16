@@ -1,8 +1,8 @@
 /* 项目进展看板数据文件 —— 任务状态变化时只改这个文件，刷新页面即生效，不用动 kanban.html */
 window.__KANBAN_DATA__ = {
   "project": "AI 视觉生成资源榜 · AI Visual Generation Index",
-  "subtitle": "生图 / 生视频资源导航与双维度排名榜 · 每周自动更新",
-  "updated": "2026-11-11 01:05 (UTC+8)",
+  "subtitle": "生图 / 生视频资源导航与双维度排名榜 · 每日自动收录与刷新",
+  "updated": "2026-11-16 10:22 (UTC+8)",
   "repo": "https://github.com/Rythonme/ai-visual-gen-index",
   "site": "https://rythonme.github.io/ai-visual-gen-index/",
   "workspace": "F:\\00在研项目\\05_Github\\ai-visual-gen-index",
@@ -64,7 +64,7 @@ window.__KANBAN_DATA__ = {
     {
       "id": "T9", "title": "复核自动收录条目并转正 / 下架", "status": "todo", "priority": "中",
       "owner": "维护者", "updated": "2026-11-11",
-      "desc": "已有 12 条自动收录进榜（Qwen-Image-2.1、MAGI-2-preview、SparkDiffusion、open-higgsfield、TaoMate、StreamEval 等），均带 pending 标记与保守默认分。需逐个核实范畴/官方链接/许可证，优质条目转正写入 tools.json 并给正式六维分，误收的从 auto_tools.json 删除。另季度复核 heat_baseline 与护栏关键词。",
+      "desc": "截至 2026-11-16 已有 14 条自动收录进榜（Qwen-Image-2.1、MAGI-2-preview、SparkDiffusion、open-higgsfield、TaoMate、StreamEval 等），均带 pending 标记与保守默认分，榜单共 104 条资源。需逐个核实范畴/官方链接/许可证，优质条目转正写入 tools.json 并给正式六维分，误收的从 auto_tools.json 删除。另季度复核 heat_baseline 与护栏关键词。",
       "deliverables": ["reports/candidates.md 审核记录", "data/auto_tools.json 复核"]
     },
     {
@@ -78,13 +78,20 @@ window.__KANBAN_DATA__ = {
       "owner": "WorkBuddy", "updated": "2026-11-11",
       "desc": "按用户要求把「只出候选、绝不自动收录」改为自动进榜：人工层 tools.json 只读 + 自动层 auto_tools.json 增量写入，build.py 合并两层；护栏含 Star 阈值、生图生视频白名单、NSFW / 营销 / 接口封装 / 教程 / Claude Code 工具箱黑名单、简介长度、归档与 Fork 排除、去重、每轮 8 条与总量 60 条上限、官方机构优先的相关性排序；新增「新收录榜」与「自动收录 / 待复核」筛选；cron 由每周改为每日 08:30。本地实测命中 32 个、自动收录 8 个、护栏拒绝 20 个；推送后云端工作流自动再收录顺延的 4 个（命中 32 / 新增 4 / 已在榜 8），自动层达 12 条、榜单由 90 增至 102 条，62/62 仓库经 API 实取，线上站点已含新条目。",
       "deliverables": ["data/auto_tools.json", "data/config.json → auto_admit", "scripts/discover.py", "scripts/build.py", ".github/workflows/weekly-update.yml", "reports/candidates.md"]
+    },
+    {
+      "id": "T12", "title": "修复网页与榜单数据不同步", "status": "done", "priority": "高",
+      "owner": "WorkBuddy", "updated": "2026-11-16",
+      "desc": "发现 11-11 至 11-15 每日榜单均自动更新成功（数据到 104 条），但线上网站停在 11-11：机器人用 secrets.GITHUB_TOKEN 提交的 docs/data.js 变更不会再触发 push 事件工作流（GitHub 防循环机制），pages.yml 只监听 push 因此 5 天未部署。修复：pages.yml 新增 workflow_run 触发，监听「每日自动更新榜单」完成后自动部署，限制 conclusion == success 且 checkout 显式 ref: main；保留 push / workflow_dispatch 双保险。手动触发周更后实测：周更 success → 机器人提交 abeec0f → workflow_run 部署 success（head_sha=abeec0f）→ 线上 data.js 更新至 2026-11-16 10:18 / 2026-W47 / 104 条。",
+      "deliverables": [".github/workflows/pages.yml", ".github/workflows/weekly-update.yml", "reports/2026-W47.md", "logs/2026-11-16.md"]
     }
   ],
   "milestones": [
     { "name": "M1 本地仓库完整可用", "status": "done", "date": "2026-11-10", "note": "90 条资源 / 五类榜单 / 周更链路 / 网站 / 看板全部完成并验证" },
     { "name": "M2 GitHub 上线 + Pages 可访问", "status": "done", "date": "2026-11-11", "note": "仓库已推送、Pages 已启用且站点 200 可访问" },
     { "name": "M3 首次自动更新闭环", "status": "done", "date": "2026-11-11", "note": "两条工作流 success，自动提交榜单/周报；58/58 仓库经 API 实取" },
-    { "name": "M4 新资源自动收录上线", "status": "done", "date": "2026-11-11", "note": "每日 08:30 检索收录；两轮共 12 条自动进榜、榜单 102 条，六类榜单含新收录榜；护栏实测拦截 20 个误收候选；云端自动收录工作流 success 并自动提交 dd4fa4e" }
+    { "name": "M4 新资源自动收录上线", "status": "done", "date": "2026-11-11", "note": "每日 08:30 检索收录；两轮共 12 条自动进榜、榜单 102 条，六类榜单含新收录榜；护栏实测拦截 20 个误收候选；云端自动收录工作流 success 并自动提交 dd4fa4e" },
+    { "name": "M5 数据到网页全链路闭环", "status": "done", "date": "2026-11-16", "note": "每日 11-11~11-15 五次 schedule 均 success；修复 robot push 不触发部署的问题后，周更→自动提交→workflow_run 自动部署→线上数据同步全部实测通过；W47 周报生成，104 条资源 / 14 条自动收录 / 64/64 仓库 API 实取 / 外链 161 ok 0 fail" }
   ],
   "links": [
     { "label": "GitHub 仓库", "url": "https://github.com/Rythonme/ai-visual-gen-index" },

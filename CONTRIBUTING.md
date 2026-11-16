@@ -51,7 +51,7 @@ python scripts/check_links.py    # 校验新链接是否可达
 git add data/tools.json && git commit -m "feat: add <资源名>"
 ```
 
-push 后 GitHub Actions 会自动重算榜单并部署网站；也可以在 Actions 页手动触发「每周更新榜单」。
+push 后 GitHub Actions 会自动重算榜单并部署网站；也可以在 Actions 页手动触发「每日自动更新榜单」（周更完成后 `pages.yml` 会经 `workflow_run` 自动部署网站）。
 
 ## 自动收录条目的转正与下架
 

@@ -287,7 +287,7 @@ AI 生图 / 生视频的工具、模型、平台迭代极快，信息散落在 G
 | 更新内容 | Star / Fork / 最近提交 / 许可证 / 官方简介（GitHub）、likes 与下载量（Hugging Face）、六类榜单、README 榜单区块、周报、历史趋势、外链校验状态、自动收录报告 |
 | 人工边界 | 人工清单 `data/tools.json` **永不被脚本改写**；维护者负责把优质自动条目转正、下架误收条目、复核闭源热度基线与六维评分 |
 | 周报 | 每周一的每日运行即为该周周报节点，周报按 ISO 周覆盖生成 |
-| 网站部署 | `.github/workflows/pages.yml`，`docs/**` 变更或手动触发即部署 GitHub Pages |
+| 网站部署 | `.github/workflows/pages.yml` 通过 **`workflow_run`** 监听「每日自动更新榜单」成功后自动部署；另保留 `docs/**` push 与手动触发作双保险。**注意**：机器人用内置 `GITHUB_TOKEN` 提交的 push 不会再触发 `push` 事件工作流（GitHub 防循环机制），因此部署必须依赖 `workflow_run`，否则会出现「数据天天更新、网页停在旧版」 |
 
 **分层设计**：人工层 `data/tools.json`（只读、人工维护）＋ 自动层 `data/auto_tools.json`（脚本增量写入、可随时人工删改）→ `build.py` 合并，id 或仓库冲突时人工层优先，因此「转正」不会产生重复条目。
 
