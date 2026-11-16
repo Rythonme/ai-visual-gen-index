@@ -1,6 +1,9 @@
 name: 部署榜单网站
 
-# 与榜单更新解耦：weekly-update 提交 docs/data.js 后会自动触发本工作流。
+# 关键：每日榜单更新由 github-actions[bot] 用 secrets.GITHUB_TOKEN 提交，
+# GitHub 规定这类 push 不会再触发其它工作流（防无限循环），只靠 push 触发会导致
+# 数据每天更新、网站却停在旧版本。因此用 workflow_run 监听「每日自动更新榜单」
+# 完成后主动部署，push / workflow_dispatch 作为双保险。
 # 首次使用需在仓库 Settings → Pages → Build and deployment 选择 "GitHub Actions"。
 on:
   push:
@@ -8,6 +11,10 @@ on:
     paths:
       - 'docs/**'
       - '.github/workflows/pages.yml'
+  workflow_run:
+    workflows: ["每日自动更新榜单"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -21,6 +28,8 @@ concurrency:
 
 jobs:
   deploy:
+    # 榜单更新失败时不部署，避免把半成品数据推上线
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -28,6 +37,9 @@ jobs:
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
+        with:
+          # workflow_run 触发时显式取默认分支最新提交（即机器人刚 push 完的榜单数据）
+          ref: main
       - name: 配置 Pages
         uses: actions/configure-pages@v5
       - name: 上传站点
