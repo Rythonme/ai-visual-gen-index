@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16 10:18 (UTC+8)",
+  "checked_at": "2026-11-16 14:55 (UTC+8)",
   "method": "HEAD 优先，405/403 回退 GET；超时与反爬记为 unknown 而非失效",
   "links": {
     "https://ai.google.dev/gemini-api/docs/image-generation": "ok",
@@ -28,7 +28,7 @@
     "https://firefly.adobe.com/generate/video": "ok",
     "https://gemini.google.com/": "ok",
     "https://github.com/AUTOMATIC1111/stable-diffusion-webui": "ok",
-    "https://github.com/ByteDance-Seed/Bagel": "ok",
+    "https://github.com/ByteDance-Seed/Bagel": "fail",
     "https://github.com/Comfy-Org/ComfyUI": "ok",
     "https://github.com/HiDream-ai/HiDream-I1": "ok",
     "https://github.com/Kwai-Kolors/Kolors": "ok",
@@ -176,9 +176,11 @@
     "https://x.ai/": "ok"
   },
   "summary": {
-    "ok": 161,
-    "fail": 0,
+    "ok": 160,
+    "fail": 1,
     "unknown": 11
   },
-  "failed": []
+  "failed": [
+    "https://github.com/ByteDance-Seed/Bagel"
+  ]
 }
