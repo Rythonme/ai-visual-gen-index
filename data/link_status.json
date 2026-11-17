@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16 14:55 (UTC+8)",
+  "checked_at": "2026-11-17 16:13 (UTC+8)",
   "method": "HEAD 优先，405/403 回退 GET；超时与反爬记为 unknown 而非失效",
   "links": {
     "https://ai.google.dev/gemini-api/docs/image-generation": "ok",
@@ -28,7 +28,7 @@
     "https://firefly.adobe.com/generate/video": "ok",
     "https://gemini.google.com/": "ok",
     "https://github.com/AUTOMATIC1111/stable-diffusion-webui": "ok",
-    "https://github.com/ByteDance-Seed/Bagel": "fail",
+    "https://github.com/ByteDance-Seed/Bagel": "ok",
     "https://github.com/Comfy-Org/ComfyUI": "ok",
     "https://github.com/HiDream-ai/HiDream-I1": "ok",
     "https://github.com/Kwai-Kolors/Kolors": "ok",
@@ -90,7 +90,7 @@
     "https://grok.com/": "ok",
     "https://hailuoai.com/": "ok",
     "https://help.aliyun.com/zh/model-studio/": "ok",
-    "https://hidream.ai/": "ok",
+    "https://hidream.ai/": "unknown",
     "https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT": "ok",
     "https://huggingface.co/Efficient-Large-Model/SANA1.6B_1024px": "unknown",
     "https://huggingface.co/HiDream-ai/HiDream-I1-Full": "ok",
@@ -177,10 +177,8 @@
   },
   "summary": {
     "ok": 160,
-    "fail": 1,
-    "unknown": 11
+    "fail": 0,
+    "unknown": 12
   },
-  "failed": [
-    "https://github.com/ByteDance-Seed/Bagel"
-  ]
+  "failed": []
 }

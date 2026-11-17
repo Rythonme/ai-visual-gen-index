@@ -1,6 +1,6 @@
 # 新资源自动收录报告
 
-生成时间：2026-11-16 14:55 (UTC+8) ｜ 检索窗口：近 120 天新建（created:>2026-07-19）
+生成时间：2026-11-17 16:12 (UTC+8) ｜ 检索窗口：近 120 天新建（created:>2026-07-20）
 
 本轮命中 **37** 个仓库：**自动收录 0 个**、护栏拒绝 23 个、已在榜 14 个；自动收录层目前共 **14** 条。
 
@@ -16,29 +16,29 @@
 
 | 仓库 | Stars | 拒绝原因 |
 |---|---|---|
-| czg86389-hub/muse2api | 1,319 | 命中排除词「逆向」 |
-| wideeyededi/uncensored-nsfw-ai-video-api | 433 | 命中排除词「nsfw」 |
-| AbrahamPaulJ/nightmare-mobile | 238 | Stars 238 低于阈值 300 |
-| lemomo-ai/lemo-opuscar | 16,899 | 命中排除词「claude code」 |
+| czg86389-hub/muse2api | 1,349 | 命中排除词「逆向」 |
+| wideeyededi/uncensored-nsfw-ai-video-api | 435 | 命中排除词「nsfw」 |
+| AbrahamPaulJ/nightmare-mobile | 242 | Stars 242 低于阈值 300 |
+| lemomo-ai/lemo-opuscar | 17,431 | 命中排除词「claude code」 |
 | LynnReal-AI/LynnReal-Omni | 281 | Stars 281 低于阈值 300 |
-| HaD0Yun/CozyClay | 1,845 | 命中排除词「previs」 |
-| Rimagination/h3lite | 480 | 命中排除词「codex skill」 |
-| gufo-org/gufo | 1,188 | 命中排除词「openai-compatible」 |
-| beckettharriman/openfill | 295 | Stars 295 低于阈值 300 |
-| code-video-model/CodeVideoModel | 769 | 简介过短（30 < 45 字），信息不足 |
-| iamyoki/qwen-image-2.1-skill | 210 | Stars 210 低于阈值 300 |
-| blendi-remade/prompt2rig | 580 | 命中排除词「rigged」 |
-| qianshuixia/shrimpreel | 443 | 命中排除词「saas」 |
-| BMB12d3/minimax-h3-prompt-composer | 312 | 命中排除词「prompt composer」 |
-| Noniv/abyssal-garden | 1,239 | 未命中生图 / 生视频关键词 |
+| HaD0Yun/CozyClay | 1,850 | 命中排除词「previs」 |
+| Rimagination/h3lite | 479 | 命中排除词「codex skill」 |
+| gufo-org/gufo | 1,200 | 命中排除词「openai-compatible」 |
+| beckettharriman/openfill | 297 | Stars 297 低于阈值 300 |
+| code-video-model/CodeVideoModel | 775 | 简介过短（30 < 45 字），信息不足 |
+| iamyoki/qwen-image-2.1-skill | 211 | Stars 211 低于阈值 300 |
+| Noniv/abyssal-garden | 1,884 | 未命中生图 / 生视频关键词 |
+| blendi-remade/prompt2rig | 581 | 命中排除词「rigged」 |
+| qianshuixia/shrimpreel | 445 | 命中排除词「saas」 |
+| BMB12d3/minimax-h3-prompt-composer | 313 | 命中排除词「prompt composer」 |
 | apiframe-ai/seedance-2.0-api | 253 | Stars 253 低于阈值 300 |
-| blixvip/html-anime | 272 | Stars 272 低于阈值 300 |
-| cloveric/claude-drawing-skill | 257 | Stars 257 低于阈值 300 |
+| blixvip/html-anime | 275 | Stars 275 低于阈值 300 |
+| cloveric/claude-drawing-skill | 274 | Stars 274 低于阈值 300 |
+| TaiT-tt/tait-crt-interface-skill | 552 | 命中排除词「-skill」 |
 | patch-gg/trompe | 219 | Stars 219 低于阈值 300 |
-| TaiT-tt/tait-crt-interface-skill | 551 | 命中排除词「-skill」 |
+| NiluK/worldmodels101 | 209 | Stars 209 低于阈值 300 |
 | silverdugongenhance/PromptReel | 207 | Stars 207 低于阈值 300 |
-| NiluK/worldmodels101 | 206 | Stars 206 低于阈值 300 |
-| matlowai/ComfyUI-MAINodes | 249 | Stars 249 低于阈值 300 |
+| matlowai/ComfyUI-MAINodes | 250 | Stars 250 低于阈值 300 |
 
 ## 自动收录层当前条目
 
