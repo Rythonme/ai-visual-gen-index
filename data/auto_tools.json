@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-17 16:12 (UTC+8)",
+  "generated": "2026-11-18 15:46 (UTC+8)",
   "note": "本文件由 scripts/discover.py 自动维护；人工核实后可把条目移入 data/tools.json 转正，或直接删掉下架。",
   "config_version": "2.0",
-  "count": 14,
+  "count": 15,
   "tools": [
     {
       "id": "auto-qwenlm-qwen-image-2-1",
@@ -521,6 +521,43 @@
       "source_stars": 359,
       "source_relevance": 79.1,
       "source_created": "2026-11-14"
+    },
+    {
+      "id": "auto-beckettharriman-openfill",
+      "name": "openfill",
+      "alias": "自动收录 · 待复核",
+      "category": "tool",
+      "type": "open",
+      "org": "beckettharriman",
+      "desc": "Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI.",
+      "links": {
+        "home": "https://github.com/beckettharriman/openfill",
+        "github": "https://github.com/beckettharriman/openfill"
+      },
+      "github": "beckettharriman/openfill",
+      "license": "Apache-2.0",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Python"
+      ],
+      "added": "2026-11-18",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 301,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-18 15:46",
+      "review_status": "pending",
+      "source_query": "\"text-to-image\" in:name,description stars:>200",
+      "source_stars": 301,
+      "source_relevance": 77.6,
+      "source_created": "2026-10-14"
     }
   ]
 }

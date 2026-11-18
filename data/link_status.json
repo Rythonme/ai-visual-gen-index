@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17 16:13 (UTC+8)",
+  "checked_at": "2026-11-18 15:46 (UTC+8)",
   "method": "HEAD 优先，405/403 回退 GET；超时与反爬记为 unknown 而非失效",
   "links": {
     "https://ai.google.dev/gemini-api/docs/image-generation": "ok",
@@ -90,7 +90,7 @@
     "https://grok.com/": "ok",
     "https://hailuoai.com/": "ok",
     "https://help.aliyun.com/zh/model-studio/": "ok",
-    "https://hidream.ai/": "unknown",
+    "https://hidream.ai/": "ok",
     "https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT": "ok",
     "https://huggingface.co/Efficient-Large-Model/SANA1.6B_1024px": "unknown",
     "https://huggingface.co/HiDream-ai/HiDream-I1-Full": "ok",
@@ -176,9 +176,9 @@
     "https://x.ai/": "ok"
   },
   "summary": {
-    "ok": 160,
+    "ok": 161,
     "fail": 0,
-    "unknown": 12
+    "unknown": 11
   },
   "failed": []
 }
