@@ -6,39 +6,39 @@
   "stars": {
     "flux2": [
       2872,
-      2879
+      2881
     ],
     "flux1": [
       26060,
-      26067
+      26071
     ],
     "qwen-image": [
       8479,
-      8487
+      8488
     ],
     "z-image": [
       12155,
-      12164
+      12167
     ],
     "sdxl": [
       27340,
-      27343
+      27345
     ],
     "sd35": [
       1540,
-      1541
+      1542
     ],
     "hunyuan-image": [
       3300,
-      3301
+      3302
     ],
     "kolors": [
       4595,
-      4595
+      4593
     ],
     "sana": [
       9831,
-      9850
+      9857
     ],
     "hidream": [
       2508,
@@ -46,15 +46,15 @@
     ],
     "glm-image": [
       1080,
-      1084
+      1086
     ],
     "longcat-image": [
       731,
-      731
+      732
     ],
     "bagel": [
       6218,
-      6220
+      6222
     ],
     "kandinsky5": [
       846,
@@ -70,31 +70,31 @@
     ],
     "wan22": [
       18656,
-      18745
+      18766
     ],
     "wan21": [
       17436,
-      17455
+      17462
     ],
     "hunyuanvideo": [
       12771,
-      12792
+      12802
     ],
     "ltx-video": [
       11388,
-      11422
+      11435
     ],
     "ltx2": [
       10240,
-      10290
+      10305
     ],
     "cogvideox": [
       13206,
-      13211
+      13214
     ],
     "open-sora": [
       29934,
-      29946
+      29944
     ],
     "mochi1": [
       null,
@@ -110,11 +110,11 @@
     ],
     "framepack": [
       17356,
-      17362
+      17369
     ],
     "diffsynth": [
       13368,
-      13382
+      13394
     ],
     "opens2v": [
       232,
@@ -122,11 +122,11 @@
     ],
     "longcat-video": [
       9453,
-      9515
+      9578
     ],
     "minimax-h3": [
       11893,
-      11991
+      12027
     ],
     "scail": [
       1068,
@@ -134,7 +134,7 @@
     ],
     "wanwrapper": [
       6815,
-      6818
+      6819
     ],
     "midjourney": [
       null,
@@ -250,71 +250,71 @@
     ],
     "comfyui": [
       146888,
-      147419
+      147572
     ],
     "diffusers": [
       34919,
-      34937
+      34942
     ],
     "a1111": [
       165317,
-      165336
+      165341
     ],
     "swarmui": [
       4935,
-      4935
+      4936
     ],
     "invokeai": [
       29093,
-      29114
+      29121
     ],
     "fooocus": [
       53928,
-      53948
+      53960
     ],
     "ai-toolkit": [
       12631,
-      12657
+      12666
     ],
     "comfyui-manager": [
       16834,
-      16873
+      16883
     ],
     "comfyui-gguf": [
       4259,
-      4267
+      4273
     ],
     "moneyprinterturbo": [
       143641,
-      144289
+      144576
     ],
     "stability-matrix": [
       9029,
-      9046
+      9052
     ],
     "controlnet": [
       34157,
-      34157
+      34158
     ],
     "ip-adapter": [
       6716,
-      6720
+      6719
     ],
     "realesrgan": [
       37500,
-      37553
+      37565
     ],
     "gfpgan": [
       37701,
-      37721
+      37724
     ],
     "rembg": [
       25474,
-      25560
+      25575
     ],
     "sam": [
       55135,
-      55152
+      55155
     ],
     "instantid": [
       11995,
@@ -366,7 +366,7 @@
     ],
     "auto-qwenlm-qwen-image-2-1": [
       2218,
-      2243
+      2250
     ],
     "auto-sandai-org-magi-2-preview": [
       657,
@@ -374,7 +374,7 @@
     ],
     "auto-alibabaresearch-sparkdiffusion": [
       693,
-      726
+      733
     ],
     "auto-amap-ml-dreamx-creator": [
       319,
@@ -382,11 +382,11 @@
     ],
     "auto-wide-trace-open-higgsfield": [
       5912,
-      6277
+      6390
     ],
     "auto-nihui-qwenimage-ncnn-vulkan": [
       359,
-      362
+      363
     ],
     "auto-zylwithxy-hrdit": [
       317,
@@ -394,7 +394,7 @@
     ],
     "auto-nkxx188-comfyui-minimaxh3-easy": [
       907,
-      917
+      919
     ],
     "auto-taoliveaigc-taomate": [
       521,
@@ -406,7 +406,7 @@
     ],
     "auto-xmarre-comfyui-spectrum-minimax-h3": [
       719,
-      721
+      722
     ],
     "auto-ukr8b3g-cmyk-comfyui-h3-continuum": [
       317,
@@ -414,14 +414,14 @@
     ],
     "auto-minimax-ai-minimax-h3-image": [
       368,
-      412
+      423
     ],
     "auto-brave-plum-co-leonardo-ai-desktop": [
       359,
-      527
+      304
     ],
     "auto-beckettharriman-openfill": [
-      301
+      303
     ]
   },
   "rank": {
@@ -529,27 +529,27 @@
       ],
       "synthesia": [
         37,
-        30
+        29
       ],
       "ideogram": [
         38,
-        31
+        30
       ],
       "z-image": [
         27,
-        33
+        32
       ],
       "controlnet": [
         44,
-        35
+        50
       ],
       "fooocus": [
         26,
-        32
+        31
       ],
       "grok-imagine": [
         40,
-        34
+        33
       ],
       "comfyui-manager": [
         18,
@@ -558,7 +558,7 @@
       "fal": [],
       "luma": [
         45,
-        36
+        34
       ],
       "rembg": [
         20,
@@ -578,7 +578,7 @@
       ],
       "qwen-image": [
         34,
-        40
+        39
       ],
       "a1111": [
         22,
@@ -594,27 +594,27 @@
       ],
       "sdxl": [
         33,
-        39
+        38
       ],
       "pika": [
         52,
-        41
+        40
       ],
       "comfyui-gguf": [
         43,
-        48
+        47
       ],
       "framepack": [
         42,
-        49
+        48
       ],
       "cogvideox": [
         46,
-        50
+        49
       ],
       "firefly-video": [
         54,
-        44
+        43
       ],
       "recraft": [
         55,
@@ -622,19 +622,19 @@
       ],
       "stability-matrix": [
         29,
-        37
+        35
       ],
       "swarmui": [
         36,
-        29
+        42
       ],
       "kolors": [
         62,
-        54
+        65
       ],
       "diffsynth": [
         31,
-        38
+        36
       ],
       "flux1": [
         50,
@@ -642,11 +642,11 @@
       ],
       "ip-adapter": [
         68,
-        72
+        71
       ],
       "leonardo": [
         57,
-        47
+        46
       ],
       "instantid": [
         63,
@@ -654,51 +654,51 @@
       ],
       "animatediff": [
         66,
-        70
+        69
       ],
       "svd": [
         61,
-        51
+        53
       ],
       "wanwrapper": [
         39,
-        46
+        44
       ],
       "pulid": [
         64,
-        61
+        60
       ],
       "invokeai": [
         35,
-        42
+        41
       ],
       "hunyuanvideo": [
         47,
-        52
+        51
       ],
       "minimax-h3": [
         41,
-        43
+        37
       ],
       "ltx-video": [
         48,
-        53
+        52
       ],
       "janus-pro": [
         69,
-        75
+        73
       ],
       "sana": [
         58,
-        63
+        62
       ],
       "flux2": [
         65,
-        69
+        68
       ],
       "mochi1": [
         73,
-        68
+        67
       ],
       "sd35": [
         78,
@@ -706,27 +706,27 @@
       ],
       "ltx2": [
         59,
-        64
+        63
       ],
       "open-sora": [
         67,
-        71
+        70
       ],
       "ai-toolkit": [
         60,
-        65
+        64
       ],
       "longcat-video": [
         56,
-        60
+        54
       ],
       "hidream": [
         77,
-        81
+        80
       ],
       "longcat-image": [
         72,
-        67
+        76
       ],
       "kandinsky5": [
         71,
@@ -734,11 +734,11 @@
       ],
       "bagel": [
         70,
-        77
+        75
       ],
       "glm-image": [
         74,
-        78
+        77
       ],
       "pixart": [
         89,
@@ -746,35 +746,35 @@
       ],
       "hunyuan-image": [
         76,
-        80
+        79
       ],
       "opens2v": [
         92,
-        89
+        88
       ],
       "scail": [
         91,
-        88
+        87
       ],
       "auto-wide-trace-open-higgsfield": [
         75,
-        62
+        61
       ],
       "auto-qwenlm-qwen-image-2-1": [
         79,
-        79
+        78
       ],
       "auto-nkxx188-comfyui-minimaxh3-easy": [
         80,
-        84
+        82
       ],
       "auto-alibabaresearch-sparkdiffusion": [
         81,
-        74
+        72
       ],
       "auto-nihui-qwenimage-ncnn-vulkan": [
         88,
-        92
+        91
       ],
       "auto-sandai-org-magi-2-preview": [
         87,
@@ -782,7 +782,7 @@
       ],
       "auto-amap-ml-dreamx-creator": [
         90,
-        87
+        86
       ],
       "auto-zylwithxy-hrdit": [
         93,
@@ -790,26 +790,26 @@
       ],
       "auto-xmarre-comfyui-spectrum-minimax-h3": [
         82,
-        91
+        89
       ],
       "auto-taoliveaigc-taomate": [
         84,
-        82
+        81
       ],
       "auto-ukr8b3g-cmyk-comfyui-h3-continuum": [
         86,
-        86
+        85
       ],
       "auto-minimax-ai-minimax-h3-image": [
         85,
-        76
+        74
       ],
       "auto-brave-plum-co-leonardo-ai-desktop": [
         83,
-        73
+        92
       ],
       "auto-beckettharriman-openfill": [
-        85
+        84
       ]
     },
     "heat": {
@@ -903,7 +903,7 @@
       "fal": [],
       "pika": [
         27,
-        24
+        23
       ],
       "hunyuan-video-platform": [
         28,
@@ -941,15 +941,15 @@
       ],
       "comfyui": [
         11,
-        23
+        20
       ],
       "mochi1": [
         55,
-        41
+        42
       ],
       "sam": [
         63,
-        77
+        74
       ],
       "a1111": [
         19,
@@ -957,23 +957,23 @@
       ],
       "fooocus": [
         41,
-        52
+        50
       ],
       "moneyprinterturbo": [
         10,
-        20
+        24
       ],
       "gfpgan": [
         65,
-        80
+        77
       ],
       "controlnet": [
         69,
-        58
+        82
       ],
       "realesrgan": [
         67,
-        81
+        78
       ],
       "diffusers": [
         22,
@@ -981,15 +981,15 @@
       ],
       "open-sora": [
         42,
-        53
+        52
       ],
       "flux1": [
         56,
-        67
+        66
       ],
       "wan22": [
         33,
-        42
+        41
       ],
       "rembg": [
         26,
@@ -997,27 +997,27 @@
       ],
       "wan21": [
         50,
-        56
+        54
       ],
       "sdxl": [
         52,
-        57
+        56
       ],
       "framepack": [
         57,
-        66
+        63
       ],
       "ip-adapter": [
         89,
-        92
+        91
       ],
       "instantid": [
         85,
-        74
+        71
       ],
       "animatediff": [
         84,
-        90
+        89
       ],
       "comfyui-manager": [
         30,
@@ -1025,19 +1025,19 @@
       ],
       "cogvideox": [
         60,
-        69
+        67
       ],
       "diffsynth": [
         35,
-        48
+        46
       ],
       "hunyuanvideo": [
         38,
-        50
+        48
       ],
       "z-image": [
         54,
-        61
+        59
       ],
       "invokeai": [
         23,
@@ -1045,39 +1045,39 @@
       ],
       "ltx-video": [
         37,
-        49
+        47
       ],
       "sana": [
         44,
-        51
+        49
       ],
       "ai-toolkit": [
         34,
-        47
+        45
       ],
       "qwen-image": [
         59,
-        64
+        65
       ],
       "ltx2": [
         36,
-        45
+        43
       ],
       "stability-matrix": [
         45,
-        54
+        51
       ],
       "janus-pro": [
         72,
-        85
+        83
       ],
       "swarmui": [
         53,
-        38
+        57
       ],
       "pulid": [
         82,
-        70
+        68
       ],
       "pixart": [
         92,
@@ -1085,39 +1085,39 @@
       ],
       "bagel": [
         58,
-        65
+        64
       ],
       "wanwrapper": [
         47,
-        55
+        53
       ],
       "comfyui-gguf": [
         66,
-        79
+        76
       ],
       "kolors": [
         90,
-        84
+        92
       ],
       "minimax-h3": [
         40,
-        43
+        39
       ],
       "hunyuan-image": [
         62,
-        75
+        72
       ],
       "flux2": [
         64,
-        78
+        75
       ],
       "hidream": [
         86,
-        91
+        90
       ],
       "longcat-video": [
         39,
-        44
+        38
       ],
       "sd35": [
         93,
@@ -1125,23 +1125,23 @@
       ],
       "opens2v": [
         91,
-        87
+        84
       ],
       "kandinsky5": [
         73,
-        60
+        58
       ],
       "glm-image": [
         78,
-        88
+        85
       ],
       "scail": [
         76,
-        63
+        62
       ],
       "longcat-image": [
         83,
-        71
+        88
       ],
       "auto-wide-trace-open-higgsfield": [
         51,
@@ -1149,54 +1149,54 @@
       ],
       "auto-qwenlm-qwen-image-2-1": [
         61,
-        59
+        55
       ],
       "auto-nkxx188-comfyui-minimaxh3-easy": [
         68,
-        68
+        61
       ],
       "auto-alibabaresearch-sparkdiffusion": [
         70,
-        39
+        36
       ],
       "auto-nihui-qwenimage-ncnn-vulkan": [
         80,
-        86
+        81
       ],
       "auto-sandai-org-magi-2-preview": [
         81,
-        89
+        87
       ],
       "auto-amap-ml-dreamx-creator": [
         87,
-        76
+        73
       ],
       "auto-zylwithxy-hrdit": [
         88,
-        82
+        80
       ],
       "auto-xmarre-comfyui-spectrum-minimax-h3": [
         71,
-        83
+        79
       ],
       "auto-taoliveaigc-taomate": [
         75,
-        62
+        60
       ],
       "auto-ukr8b3g-cmyk-comfyui-h3-continuum": [
         79,
-        73
+        70
       ],
       "auto-minimax-ai-minimax-h3-image": [
         77,
-        46
+        44
       ],
       "auto-brave-plum-co-leonardo-ai-desktop": [
         74,
-        36
+        86
       ],
       "auto-beckettharriman-openfill": [
-        72
+        69
       ]
     },
     "practical": {
@@ -1257,11 +1257,11 @@
       ],
       "controlnet": [
         14,
-        13
+        14
       ],
       "qwen-image": [
         13,
-        14
+        13
       ],
       "fooocus": [
         16,
@@ -1305,11 +1305,11 @@
       ],
       "stability-matrix": [
         23,
-        26
+        25
       ],
       "swarmui": [
         26,
-        25
+        26
       ],
       "moneyprinterturbo": [
         27,
@@ -1536,19 +1536,19 @@
       ],
       "auto-qwenlm-qwen-image-2-1": [
         81,
-        84
+        83
       ],
       "auto-nkxx188-comfyui-minimaxh3-easy": [
         82,
-        86
+        85
       ],
       "auto-alibabaresearch-sparkdiffusion": [
         83,
-        82
+        81
       ],
       "auto-nihui-qwenimage-ncnn-vulkan": [
         90,
-        92
+        91
       ],
       "auto-sandai-org-magi-2-preview": [
         89,
@@ -1556,7 +1556,7 @@
       ],
       "auto-amap-ml-dreamx-creator": [
         91,
-        89
+        88
       ],
       "auto-zylwithxy-hrdit": [
         92,
@@ -1564,26 +1564,26 @@
       ],
       "auto-xmarre-comfyui-spectrum-minimax-h3": [
         84,
-        91
+        89
       ],
       "auto-taoliveaigc-taomate": [
         86,
-        85
+        84
       ],
       "auto-ukr8b3g-cmyk-comfyui-h3-continuum": [
         88,
-        88
+        87
       ],
       "auto-minimax-ai-minimax-h3-image": [
         87,
-        83
+        82
       ],
       "auto-brave-plum-co-leonardo-ai-desktop": [
         85,
-        81
+        92
       ],
       "auto-beckettharriman-openfill": [
-        87
+        86
       ]
     },
     "momentum": {
@@ -1614,25 +1614,25 @@
       "replicate": [],
       "comfyui": [
         1,
-        25
+        21
       ],
       "bfl-playground": [],
       "wan21": [
         41,
-        39
+        35
       ],
       "hunyuan-image-platform": [],
       "cogview-platform": [],
       "vbench": [],
       "wan22": [
         26,
-        22
+        19
       ],
       "synthesia": [],
       "ideogram": [],
       "z-image": [
         44,
-        42
+        40
       ],
       "controlnet": [
         55,
@@ -1640,26 +1640,26 @@
       ],
       "fooocus": [
         47,
-        49
+        44
       ],
       "grok-imagine": [],
       "comfyui-manager": [
         3,
-        31
+        28
       ],
       "fal": [],
       "luma": [],
       "rembg": [
         17,
-        26
+        24
       ],
       "sam": [
         56,
-        55
+        51
       ],
       "moneyprinterturbo": [
         2,
-        23
+        60
       ],
       "gfpgan": [
         57,
@@ -1667,7 +1667,7 @@
       ],
       "qwen-image": [
         43,
-        41
+        39
       ],
       "a1111": [
         42,
@@ -1675,88 +1675,88 @@
       ],
       "realesrgan": [
         58,
-        37
+        34
       ],
       "diffusers": [
         4,
-        46
+        42
       ],
       "sdxl": [
         46,
-        60
+        57
       ],
       "pika": [],
       "comfyui-gguf": [
         45,
-        34
+        25
       ],
       "framepack": [
         49,
-        54
+        43
       ],
       "cogvideox": [
         48,
-        51
+        46
       ],
       "firefly-video": [],
       "recraft": [],
       "stability-matrix": [
         5,
-        33
+        31
       ],
       "swarmui": [
         23,
-        5
+        58
       ],
       "kolors": [
         59,
-        62
+        63
       ],
       "diffsynth": [
         6,
-        40
+        33
       ],
       "flux1": [
         50,
-        64
+        52
       ],
       "ip-adapter": [
         62,
-        44
+        53
       ],
       "leonardo": [],
       "instantid": [
         60,
-        63
+        62
       ],
       "animatediff": [
         61,
-        48
+        50
       ],
       "svd": [],
       "wanwrapper": [
         8,
-        50
+        45
       ],
       "pulid": [
         51,
-        15
+        12
       ],
       "invokeai": [
         7,
-        43
+        41
       ],
       "hunyuanvideo": [
         25,
-        36
+        32
       ],
       "minimax-h3": [
         21,
-        19
+        16
       ],
       "ltx-video": [
         19,
-        27
+        23
       ],
       "janus-pro": [
         53,
@@ -1764,52 +1764,52 @@
       ],
       "sana": [
         10,
-        35
+        30
       ],
       "flux2": [
         40,
-        30
+        26
       ],
       "mochi1": [],
       "sd35": [
         54,
-        45
+        37
       ],
       "ltx2": [
         11,
-        21
+        18
       ],
       "open-sora": [
         38,
-        52
+        55
       ],
       "ai-toolkit": [
         12,
-        32
+        29
       ],
       "longcat-video": [
         9,
-        20
+        14
       ],
       "hidream": [
         52,
-        53
+        54
       ],
       "longcat-image": [
         35,
-        12
+        36
       ],
       "kandinsky5": [
         31,
-        10
+        8
       ],
       "bagel": [
         37,
-        57
+        48
       ],
       "glm-image": [
         39,
-        24
+        20
       ],
       "pixart": [
         63,
@@ -1817,31 +1817,31 @@
       ],
       "hunyuan-image": [
         33,
-        58
+        49
       ],
       "opens2v": [
         34,
-        11
+        9
       ],
       "scail": [
         36,
-        13
+        10
       ],
       "auto-nihui-qwenimage-ncnn-vulkan": [
         20,
-        18
+        17
       ],
       "auto-nkxx188-comfyui-minimaxh3-easy": [
         13,
-        17
+        15
       ],
       "auto-alibabaresearch-sparkdiffusion": [
         22,
-        6
+        2
       ],
       "auto-qwenlm-qwen-image-2-1": [
         24,
-        16
+        13
       ],
       "auto-wide-trace-open-higgsfield": [
         27,
@@ -1849,27 +1849,27 @@
       ],
       "auto-amap-ml-dreamx-creator": [
         29,
-        8
+        6
       ],
       "auto-zylwithxy-hrdit": [
         30,
-        9
+        7
       ],
       "auto-sandai-org-magi-2-preview": [
         32,
-        28
+        27
       ],
       "auto-xmarre-comfyui-spectrum-minimax-h3": [
         14,
-        29
+        22
       ],
       "auto-ukr8b3g-cmyk-comfyui-h3-continuum": [
         18,
-        14
+        11
       ],
       "auto-taoliveaigc-taomate": [
         28,
-        7
+        5
       ],
       "auto-minimax-ai-minimax-h3-image": [
         16,
@@ -1877,7 +1877,7 @@
       ],
       "auto-brave-plum-co-leonardo-ai-desktop": [
         15,
-        2
+        64
       ],
       "auto-beckettharriman-openfill": [
         4
@@ -1902,7 +1902,7 @@
       ],
       "fooocus": [
         9,
-        10
+        9
       ],
       "wan22": [
         4,
@@ -1910,7 +1910,7 @@
       ],
       "controlnet": [
         21,
-        12
+        22
       ],
       "comfyui-manager": [
         5,
@@ -1922,7 +1922,7 @@
       ],
       "z-image": [
         10,
-        11
+        10
       ],
       "rembg": [
         6,
@@ -1942,19 +1942,19 @@
       ],
       "sdxl": [
         13,
-        15
+        14
       ],
       "qwen-image": [
         14,
-        16
+        15
       ],
       "framepack": [
         19,
-        21
+        20
       ],
       "cogvideox": [
         22,
-        22
+        21
       ],
       "flux1": [
         26,
@@ -1962,19 +1962,19 @@
       ],
       "diffsynth": [
         12,
-        14
+        12
       ],
       "stability-matrix": [
         11,
-        13
+        11
       ],
       "comfyui-gguf": [
         20,
-        20
+        19
       ],
       "invokeai": [
         15,
-        17
+        16
       ],
       "instantid": [
         35,
@@ -1982,75 +1982,75 @@
       ],
       "kolors": [
         34,
-        26
+        37
       ],
       "svd": [
         33,
-        23
+        25
       ],
       "swarmui": [
         16,
-        9
+        17
       ],
       "animatediff": [
         38,
-        42
+        41
       ],
       "wanwrapper": [
         17,
-        19
+        18
       ],
       "minimax-h3": [
         18,
-        18
+        13
       ],
       "ip-adapter": [
         40,
-        44
+        43
       ],
       "hunyuanvideo": [
         23,
-        24
+        23
       ],
       "janus-pro": [
         41,
-        47
+        45
       ],
       "ltx-video": [
         24,
-        25
+        24
       ],
       "pulid": [
         36,
-        33
+        32
       ],
       "longcat-video": [
         29,
-        32
+        26
       ],
       "mochi1": [
         45,
-        40
+        39
       ],
       "sana": [
         30,
-        35
+        34
       ],
       "open-sora": [
         39,
-        43
+        42
       ],
       "ai-toolkit": [
         32,
-        37
+        36
       ],
       "ltx2": [
         31,
-        36
+        35
       ],
       "flux2": [
         37,
-        41
+        40
       ],
       "sd35": [
         50,
@@ -2058,19 +2058,19 @@
       ],
       "bagel": [
         42,
-        49
+        47
       ],
       "hidream": [
         49,
-        53
+        52
       ],
       "longcat-image": [
         44,
-        39
+        48
       ],
       "glm-image": [
         46,
-        50
+        49
       ],
       "pixart": [
         61,
@@ -2082,35 +2082,35 @@
       ],
       "hunyuan-image": [
         48,
-        52
+        51
       ],
       "scail": [
         63,
-        60
+        59
       ],
       "opens2v": [
         64,
-        61
+        60
       ],
       "auto-wide-trace-open-higgsfield": [
         47,
-        34
+        33
       ],
       "auto-qwenlm-qwen-image-2-1": [
         51,
-        51
+        50
       ],
       "auto-nkxx188-comfyui-minimaxh3-easy": [
         52,
-        56
+        54
       ],
       "auto-alibabaresearch-sparkdiffusion": [
         53,
-        46
+        44
       ],
       "auto-nihui-qwenimage-ncnn-vulkan": [
         60,
-        64
+        63
       ],
       "auto-sandai-org-magi-2-preview": [
         59,
@@ -2118,7 +2118,7 @@
       ],
       "auto-amap-ml-dreamx-creator": [
         62,
-        59
+        58
       ],
       "auto-zylwithxy-hrdit": [
         65,
@@ -2126,30 +2126,30 @@
       ],
       "auto-xmarre-comfyui-spectrum-minimax-h3": [
         54,
-        63
+        61
       ],
       "auto-taoliveaigc-taomate": [
         56,
-        54
+        53
       ],
       "auto-ukr8b3g-cmyk-comfyui-h3-continuum": [
         58,
-        58
+        57
       ],
       "auto-minimax-ai-minimax-h3-image": [
         57,
-        48
+        46
       ],
       "auto-brave-plum-co-leonardo-ai-desktop": [
         55,
-        45
+        64
       ],
       "auto-beckettharriman-openfill": [
-        57
+        56
       ]
     }
   },
-  "updated": "2026-11-18 15:47 (UTC+8)",
+  "updated": "2026-11-19 15:42 (UTC+8)",
   "prev_ids": [
     "flux2",
     "flux1",
@@ -2258,39 +2258,39 @@
     "auto-beckettharriman-openfill"
   ],
   "prev_overall": {
-    "flux2": 64.4,
+    "flux2": 64.5,
     "flux1": 69.2,
     "qwen-image": 73.9,
     "z-image": 76.9,
     "sdxl": 74.2,
-    "sd35": 57.0,
-    "hunyuan-image": 58.2,
-    "kolors": 69.8,
-    "sana": 67.9,
+    "sd35": 57.2,
+    "hunyuan-image": 58.3,
+    "kolors": 65.3,
+    "sana": 68.0,
     "hidream": 57.9,
-    "glm-image": 60.2,
-    "longcat-image": 65.1,
+    "glm-image": 60.6,
+    "longcat-image": 60.8,
     "bagel": 60.9,
     "kandinsky5": 65.2,
-    "janus-pro": 62.1,
+    "janus-pro": 62.0,
     "pixart": 52.3,
-    "wan22": 80.9,
-    "wan21": 80.4,
-    "hunyuanvideo": 70.6,
-    "ltx-video": 70.4,
-    "ltx2": 67.4,
+    "wan22": 81.1,
+    "wan21": 80.5,
+    "hunyuanvideo": 70.8,
+    "ltx-video": 70.7,
+    "ltx2": 67.6,
     "cogvideox": 71.1,
     "open-sora": 63.9,
     "mochi1": 64.9,
     "svd": 70.7,
     "animatediff": 64.0,
-    "framepack": 71.4,
-    "diffsynth": 75.2,
+    "framepack": 71.5,
+    "diffsynth": 75.3,
     "opens2v": 55.4,
-    "longcat-video": 69.1,
-    "minimax-h3": 73.6,
+    "longcat-video": 70.3,
+    "minimax-h3": 74.2,
     "scail": 55.7,
-    "wanwrapper": 72.8,
+    "wanwrapper": 72.9,
     "midjourney": 87.6,
     "gpt-image": 91.8,
     "gemini-image": 93.4,
@@ -2319,22 +2319,22 @@
     "firefly-video": 72.9,
     "heygen": 81.6,
     "synthesia": 78.0,
-    "comfyui": 85.7,
+    "comfyui": 85.9,
     "diffusers": 78.2,
     "a1111": 78.1,
-    "swarmui": 78.0,
-    "invokeai": 73.6,
+    "swarmui": 73.5,
+    "invokeai": 73.7,
     "fooocus": 76.9,
-    "ai-toolkit": 66.8,
+    "ai-toolkit": 66.9,
     "comfyui-manager": 80.2,
-    "comfyui-gguf": 71.6,
-    "moneyprinterturbo": 82.5,
-    "stability-matrix": 75.5,
-    "controlnet": 75.6,
+    "comfyui-gguf": 71.8,
+    "moneyprinterturbo": 82.8,
+    "stability-matrix": 75.6,
+    "controlnet": 71.1,
     "ip-adapter": 63.5,
     "realesrgan": 69.4,
-    "gfpgan": 69.4,
-    "rembg": 79.6,
+    "gfpgan": 69.5,
+    "rembg": 79.7,
     "sam": 69.8,
     "instantid": 69.4,
     "pulid": 68.8,
@@ -2348,56 +2348,56 @@
     "comfy-examples": 84.1,
     "replicate": 81.6,
     "fal": 76.2,
-    "auto-qwenlm-qwen-image-2-1": 58.7,
+    "auto-qwenlm-qwen-image-2-1": 59.2,
     "auto-sandai-org-magi-2-preview": 53.0,
-    "auto-alibabaresearch-sparkdiffusion": 63.0,
+    "auto-alibabaresearch-sparkdiffusion": 63.5,
     "auto-amap-ml-dreamx-creator": 55.8,
     "auto-wide-trace-open-higgsfield": 68.4,
-    "auto-nihui-qwenimage-ncnn-vulkan": 54.0,
+    "auto-nihui-qwenimage-ncnn-vulkan": 54.5,
     "auto-zylwithxy-hrdit": 54.9,
-    "auto-nkxx188-comfyui-minimaxh3-easy": 56.8,
-    "auto-taoliveaigc-taomate": 57.5,
+    "auto-nkxx188-comfyui-minimaxh3-easy": 57.2,
+    "auto-taoliveaigc-taomate": 57.4,
     "auto-streameval-streameval": 53.1,
-    "auto-xmarre-comfyui-spectrum-minimax-h3": 54.8,
+    "auto-xmarre-comfyui-spectrum-minimax-h3": 55.1,
     "auto-ukr8b3g-cmyk-comfyui-h3-continuum": 56.6,
     "auto-minimax-ai-minimax-h3-image": 61.9,
-    "auto-brave-plum-co-leonardo-ai-desktop": 63.4,
+    "auto-brave-plum-co-leonardo-ai-desktop": 53.1,
     "auto-beckettharriman-openfill": 56.7
   },
   "prev_stars": {
-    "flux2": 2879,
-    "flux1": 26066,
-    "qwen-image": 8487,
-    "z-image": 12164,
-    "sdxl": 27343,
-    "sd35": 1541,
-    "hunyuan-image": 3301,
-    "kolors": 4595,
-    "sana": 9850,
+    "flux2": 2881,
+    "flux1": 26071,
+    "qwen-image": 8488,
+    "z-image": 12167,
+    "sdxl": 27345,
+    "sd35": 1542,
+    "hunyuan-image": 3302,
+    "kolors": 4593,
+    "sana": 9857,
     "hidream": 2509,
-    "glm-image": 1084,
-    "longcat-image": 731,
-    "bagel": 6220,
+    "glm-image": 1086,
+    "longcat-image": 732,
+    "bagel": 6222,
     "kandinsky5": 846,
     "janus-pro": 17773,
     "pixart": 3320,
-    "wan22": 18745,
-    "wan21": 17455,
-    "hunyuanvideo": 12792,
-    "ltx-video": 11422,
-    "ltx2": 10290,
-    "cogvideox": 13211,
-    "open-sora": 29946,
+    "wan22": 18766,
+    "wan21": 17462,
+    "hunyuanvideo": 12802,
+    "ltx-video": 11435,
+    "ltx2": 10305,
+    "cogvideox": 13214,
+    "open-sora": 29944,
     "mochi1": 0,
     "svd": 0,
     "animatediff": 12298,
-    "framepack": 17362,
-    "diffsynth": 13382,
+    "framepack": 17369,
+    "diffsynth": 13394,
     "opens2v": 232,
-    "longcat-video": 9515,
-    "minimax-h3": 11991,
+    "longcat-video": 9578,
+    "minimax-h3": 12027,
     "scail": 1068,
-    "wanwrapper": 6818,
+    "wanwrapper": 6819,
     "midjourney": 0,
     "gpt-image": 0,
     "gemini-image": 0,
@@ -2426,23 +2426,23 @@
     "firefly-video": 0,
     "heygen": 0,
     "synthesia": 0,
-    "comfyui": 147419,
-    "diffusers": 34937,
-    "a1111": 165336,
-    "swarmui": 4935,
-    "invokeai": 29114,
-    "fooocus": 53948,
-    "ai-toolkit": 12657,
-    "comfyui-manager": 16873,
-    "comfyui-gguf": 4267,
-    "moneyprinterturbo": 144289,
-    "stability-matrix": 9046,
-    "controlnet": 34157,
-    "ip-adapter": 6720,
-    "realesrgan": 37553,
-    "gfpgan": 37721,
-    "rembg": 25560,
-    "sam": 55152,
+    "comfyui": 147572,
+    "diffusers": 34942,
+    "a1111": 165341,
+    "swarmui": 4936,
+    "invokeai": 29121,
+    "fooocus": 53960,
+    "ai-toolkit": 12666,
+    "comfyui-manager": 16883,
+    "comfyui-gguf": 4273,
+    "moneyprinterturbo": 144575,
+    "stability-matrix": 9052,
+    "controlnet": 34158,
+    "ip-adapter": 6719,
+    "realesrgan": 37565,
+    "gfpgan": 37724,
+    "rembg": 25575,
+    "sam": 55155,
     "instantid": 11995,
     "pulid": 3555,
     "hf-models": 0,
@@ -2455,20 +2455,20 @@
     "comfy-examples": 0,
     "replicate": 0,
     "fal": 0,
-    "auto-qwenlm-qwen-image-2-1": 2243,
+    "auto-qwenlm-qwen-image-2-1": 2250,
     "auto-sandai-org-magi-2-preview": 659,
-    "auto-alibabaresearch-sparkdiffusion": 726,
+    "auto-alibabaresearch-sparkdiffusion": 733,
     "auto-amap-ml-dreamx-creator": 319,
-    "auto-wide-trace-open-higgsfield": 6277,
-    "auto-nihui-qwenimage-ncnn-vulkan": 362,
+    "auto-wide-trace-open-higgsfield": 6390,
+    "auto-nihui-qwenimage-ncnn-vulkan": 363,
     "auto-zylwithxy-hrdit": 317,
-    "auto-nkxx188-comfyui-minimaxh3-easy": 917,
+    "auto-nkxx188-comfyui-minimaxh3-easy": 919,
     "auto-taoliveaigc-taomate": 521,
     "auto-streameval-streameval": 622,
-    "auto-xmarre-comfyui-spectrum-minimax-h3": 721,
+    "auto-xmarre-comfyui-spectrum-minimax-h3": 722,
     "auto-ukr8b3g-cmyk-comfyui-h3-continuum": 324,
-    "auto-minimax-ai-minimax-h3-image": 412,
-    "auto-brave-plum-co-leonardo-ai-desktop": 527,
-    "auto-beckettharriman-openfill": 301
+    "auto-minimax-ai-minimax-h3-image": 423,
+    "auto-brave-plum-co-leonardo-ai-desktop": 304,
+    "auto-beckettharriman-openfill": 303
   }
 }
