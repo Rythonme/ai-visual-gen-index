@@ -1,6 +1,6 @@
 # 新资源自动收录报告
 
-生成时间：2026-11-19 15:41 (UTC+8) ｜ 检索窗口：近 120 天新建（created:>2026-07-22）
+生成时间：2026-11-20 15:33 (UTC+8) ｜ 检索窗口：近 120 天新建（created:>2026-07-23）
 
 本轮命中 **40** 个仓库：**自动收录 0 个**、护栏拒绝 25 个、已在榜 15 个；自动收录层目前共 **15** 条。
 
@@ -16,31 +16,31 @@
 
 | 仓库 | Stars | 拒绝原因 |
 |---|---|---|
-| czg86389-hub/muse2api | 1,398 | 命中排除词「逆向」 |
-| wideeyededi/uncensored-nsfw-ai-video-api | 439 | 命中排除词「nsfw」 |
-| AbrahamPaulJ/nightmare-mobile | 269 | Stars 269 低于阈值 300 |
-| lemomo-ai/lemo-opuscar | 18,466 | 命中排除词「claude code」 |
+| czg86389-hub/muse2api | 1,419 | 命中排除词「逆向」 |
+| wideeyededi/uncensored-nsfw-ai-video-api | 442 | 命中排除词「nsfw」 |
+| AbrahamPaulJ/nightmare-mobile | 279 | Stars 279 低于阈值 300 |
+| lemomo-ai/lemo-opuscar | 18,841 | 命中排除词「claude code」 |
 | LynnReal-AI/LynnReal-Omni | 283 | Stars 283 低于阈值 300 |
-| HaD0Yun/CozyClay | 2,015 | 命中排除词「previs」 |
+| HaD0Yun/CozyClay | 2,020 | 命中排除词「previs」 |
 | Rimagination/h3lite | 479 | 命中排除词「codex skill」 |
-| gufo-org/gufo | 1,218 | 命中排除词「openai-compatible」 |
-| code-video-model/CodeVideoModel | 781 | 简介过短（30 < 45 字），信息不足 |
-| Noniv/abyssal-garden | 2,430 | 未命中生图 / 生视频关键词 |
-| iamyoki/qwen-image-2.1-skill | 211 | Stars 211 低于阈值 300 |
+| gufo-org/gufo | 1,228 | 命中排除词「openai-compatible」 |
+| Noniv/abyssal-garden | 2,528 | 未命中生图 / 生视频关键词 |
+| code-video-model/CodeVideoModel | 784 | 简介过短（30 < 45 字），信息不足 |
+| iamyoki/qwen-image-2.1-skill | 212 | Stars 212 低于阈值 300 |
 | dickpy/dsh-imagegen | 203 | Stars 203 低于阈值 300 |
-| blendi-remade/prompt2rig | 594 | 命中排除词「rigged」 |
-| qianshuixia/shrimpreel | 459 | 命中排除词「saas」 |
-| BMB12d3/minimax-h3-prompt-composer | 315 | 命中排除词「prompt composer」 |
-| apiframe-ai/seedance-2.0-api | 253 | Stars 253 低于阈值 300 |
-| cloveric/claude-drawing-skill | 309 | 命中排除词「skill for」 |
-| patch-gg/trompe | 225 | Stars 225 低于阈值 300 |
-| TaiT-tt/tait-crt-interface-skill | 557 | 命中排除词「-skill」 |
+| blendi-remade/prompt2rig | 611 | 命中排除词「rigged」 |
+| qianshuixia/shrimpreel | 461 | 命中排除词「saas」 |
+| BMB12d3/minimax-h3-prompt-composer | 314 | 命中排除词「prompt composer」 |
+| cloveric/claude-drawing-skill | 314 | 命中排除词「skill for」 |
+| apiframe-ai/seedance-2.0-api | 232 | Stars 232 低于阈值 300 |
+| patch-gg/trompe | 226 | Stars 226 低于阈值 300 |
+| TaiT-tt/tait-crt-interface-skill | 558 | 命中排除词「-skill」 |
 | NiluK/worldmodels101 | 210 | Stars 210 低于阈值 300 |
 | silverdugongenhance/PromptReel | 207 | Stars 207 低于阈值 300 |
 | fujc683/seedance-2-5-flash-camera-movements | 209 | Stars 209 低于阈值 300 |
 | fujc683/seedance-2-5-flash-api | 207 | Stars 207 低于阈值 300 |
 | fujc683/cheap-video-api | 202 | Stars 202 低于阈值 300 |
-| matlowai/ComfyUI-MAINodes | 253 | Stars 253 低于阈值 300 |
+| matlowai/ComfyUI-MAINodes | 254 | Stars 254 低于阈值 300 |
 
 ## 自动收录层当前条目
 
