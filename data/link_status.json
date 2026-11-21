@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-20 15:34 (UTC+8)",
+  "checked_at": "2026-11-21 15:30 (UTC+8)",
   "method": "HEAD 优先，405/403 回退 GET；超时与反爬记为 unknown 而非失效",
   "links": {
     "https://ai.google.dev/gemini-api/docs/image-generation": "ok",
@@ -143,14 +143,14 @@
     "https://modelscope.cn/models": "ok",
     "https://nvlabs.github.io/Sana/": "ok",
     "https://open.bigmodel.cn/": "ok",
-    "https://openai.com/": "unknown",
-    "https://openai.com/sora/": "unknown",
+    "https://openai.com/": "ok",
+    "https://openai.com/sora/": "ok",
     "https://pika.art/": "ok",
     "https://pixart-alpha.github.io/": "ok",
     "https://pixverse.ai/": "ok",
     "https://platform.minimax.io/docs/guides/video-generation": "ok",
     "https://platform.openai.com/docs/": "ok",
-    "https://platform.openai.com/docs/api-reference/images": "unknown",
+    "https://platform.openai.com/docs/api-reference/images": "ok",
     "https://platform.openai.com/docs/guides/image-generation": "ok",
     "https://playground.bfl.ai/": "unknown",
     "https://qwen.ai/": "ok",
@@ -176,9 +176,9 @@
     "https://x.ai/": "ok"
   },
   "summary": {
-    "ok": 161,
+    "ok": 164,
     "fail": 0,
-    "unknown": 11
+    "unknown": 8
   },
   "failed": []
 }
