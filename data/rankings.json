@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-21 15:30 (UTC+8)",
-  "generated_iso": "2026-11-21T15:30:29+08:00",
+  "generated": "2026-11-22 15:11 (UTC+8)",
+  "generated_iso": "2026-11-22T15:11:26+08:00",
   "week": "2026-W47",
   "project": {
     "name": "AI 视觉生成资源榜",
@@ -305,7 +305,7 @@
       "resource": 11
     },
     "new_this_week": 1,
-    "link_checked_at": "2026-11-21 15:30 (UTC+8)"
+    "link_checked_at": "2026-11-22 15:10 (UTC+8)"
   },
   "boards": {
     "overall": [
@@ -319,8 +319,8 @@
       "wanxiang-video",
       "sora",
       "veo-flow",
-      "wanxiang-image",
       "comfyui",
+      "wanxiang-image",
       "runway",
       "vidu",
       "firefly",
@@ -344,13 +344,12 @@
       "grok-imagine",
       "stability-matrix",
       "diffsynth",
-      "controlnet",
       "luma",
       "minimax-h3",
       "sdxl",
       "qwen-image",
-      "pika",
       "invokeai",
+      "pika",
       "swarmui",
       "wanwrapper",
       "firefly-video",
@@ -358,8 +357,9 @@
       "comfyui-gguf",
       "leonardo",
       "framepack",
-      "cogvideox",
       "longcat-video",
+      "cogvideox",
+      "controlnet",
       "hunyuanvideo",
       "ltx-video",
       "svd",
@@ -367,16 +367,16 @@
       "realesrgan",
       "gfpgan",
       "flux1",
+      "pulid",
       "auto-wide-trace-open-higgsfield",
       "ltx2",
       "sana",
       "ai-toolkit",
       "kolors",
       "kandinsky5",
+      "flux2",
       "instantid",
       "mochi1",
-      "flux2",
-      "pulid",
       "animatediff",
       "open-sora",
       "ip-adapter",
@@ -384,23 +384,23 @@
       "auto-minimax-ai-minimax-h3-image",
       "janus-pro",
       "longcat-image",
-      "bagel",
       "glm-image",
+      "bagel",
       "auto-qwenlm-qwen-image-2-1",
       "hunyuan-image",
       "auto-nkxx188-comfyui-minimaxh3-easy",
       "hidream",
+      "auto-ukr8b3g-cmyk-comfyui-h3-continuum",
       "sd35",
       "auto-beckettharriman-openfill",
-      "auto-ukr8b3g-cmyk-comfyui-h3-continuum",
       "auto-xmarre-comfyui-spectrum-minimax-h3",
       "opens2v",
       "auto-nihui-qwenimage-ncnn-vulkan",
       "auto-brave-plum-co-leonardo-ai-desktop",
       "auto-sandai-org-magi-2-preview",
       "auto-taoliveaigc-taomate",
-      "pixart",
       "auto-amap-ml-dreamx-creator",
+      "pixart",
       "scail",
       "auto-zylwithxy-hrdit"
     ],
@@ -424,8 +424,8 @@
       "moneyprinterturbo",
       "ideogram",
       "luma",
-      "auto-wide-trace-open-higgsfield",
       "comfyui",
+      "auto-wide-trace-open-higgsfield",
       "synthesia",
       "grok-imagine",
       "pika",
@@ -435,12 +435,12 @@
       "recraft",
       "leonardo",
       "hunyuan-image-platform",
+      "longcat-video",
       "diffusers",
       "a1111",
+      "minimax-h3",
       "cogview-platform",
       "svd",
-      "longcat-video",
-      "minimax-h3",
       "rembg",
       "auto-alibabaresearch-sparkdiffusion",
       "invokeai",
@@ -448,9 +448,9 @@
       "wan22",
       "ltx2",
       "mochi1",
+      "ai-toolkit",
       "diffsynth",
       "auto-minimax-ai-minimax-h3-image",
-      "ai-toolkit",
       "ltx-video",
       "hunyuanvideo",
       "sana",
@@ -461,37 +461,37 @@
       "wanwrapper",
       "wan21",
       "sdxl",
-      "controlnet",
       "swarmui",
-      "kandinsky5",
-      "z-image",
       "auto-nkxx188-comfyui-minimaxh3-easy",
+      "z-image",
+      "kandinsky5",
+      "auto-ukr8b3g-cmyk-comfyui-h3-continuum",
       "framepack",
-      "bagel",
       "qwen-image",
+      "bagel",
       "flux1",
       "cogvideox",
       "auto-beckettharriman-openfill",
-      "auto-ukr8b3g-cmyk-comfyui-h3-continuum",
-      "hunyuan-image",
+      "pulid",
       "auto-xmarre-comfyui-spectrum-minimax-h3",
+      "hunyuan-image",
       "flux2",
       "comfyui-gguf",
       "sam",
       "realesrgan",
       "gfpgan",
+      "controlnet",
       "auto-nihui-qwenimage-ncnn-vulkan",
       "janus-pro",
       "glm-image",
       "opens2v",
+      "scail",
       "auto-brave-plum-co-leonardo-ai-desktop",
       "auto-sandai-org-magi-2-preview",
-      "auto-taoliveaigc-taomate",
-      "scail",
       "longcat-image",
-      "pulid",
-      "animatediff",
+      "auto-taoliveaigc-taomate",
       "auto-amap-ml-dreamx-creator",
+      "animatediff",
       "instantid",
       "hidream",
       "ip-adapter",
@@ -513,8 +513,8 @@
       "seedream",
       "wanxiang-video",
       "wanxiang-image",
-      "controlnet",
       "qwen-image",
+      "controlnet",
       "rembg",
       "fooocus",
       "comfyui-gguf",
@@ -585,8 +585,8 @@
       "auto-minimax-ai-minimax-h3-image",
       "auto-qwenlm-qwen-image-2-1",
       "auto-nkxx188-comfyui-minimaxh3-easy",
-      "auto-beckettharriman-openfill",
       "auto-ukr8b3g-cmyk-comfyui-h3-continuum",
+      "auto-beckettharriman-openfill",
       "auto-xmarre-comfyui-spectrum-minimax-h3",
       "auto-nihui-qwenimage-ncnn-vulkan",
       "auto-brave-plum-co-leonardo-ai-desktop",
@@ -608,56 +608,56 @@
       "auto-nkxx188-comfyui-minimaxh3-easy",
       "longcat-video",
       "minimax-h3",
-      "auto-nihui-qwenimage-ncnn-vulkan",
+      "pulid",
       "auto-xmarre-comfyui-spectrum-minimax-h3",
+      "auto-nihui-qwenimage-ncnn-vulkan",
       "ltx2",
       "moneyprinterturbo",
       "wan22",
-      "comfyui",
       "glm-image",
+      "comfyui",
+      "auto-amap-ml-dreamx-creator",
       "comfyui-gguf",
       "ltx-video",
       "rembg",
       "flux2",
-      "diffsynth",
-      "comfyui-manager",
       "ai-toolkit",
-      "hunyuanvideo",
-      "stability-matrix",
-      "sana",
-      "auto-amap-ml-dreamx-creator",
-      "auto-sandai-org-magi-2-preview",
+      "comfyui-manager",
+      "diffsynth",
       "longcat-image",
+      "stability-matrix",
+      "hunyuanvideo",
+      "sana",
+      "auto-sandai-org-magi-2-preview",
       "realesrgan",
-      "wan21",
+      "scail",
       "sd35",
+      "wan21",
       "z-image",
       "hunyuan-image",
       "invokeai",
-      "diffusers",
+      "qwen-image",
       "wanwrapper",
       "framepack",
-      "qwen-image",
+      "diffusers",
       "cogvideox",
       "pixart",
-      "scail",
       "bagel",
       "fooocus",
       "sam",
       "animatediff",
       "gfpgan",
       "flux1",
+      "ip-adapter",
       "swarmui",
+      "open-sora",
+      "janus-pro",
       "hidream",
       "a1111",
-      "open-sora",
-      "ip-adapter",
-      "janus-pro",
       "sdxl",
       "controlnet",
-      "kolors",
       "instantid",
-      "pulid",
+      "kolors",
       "auto-brave-plum-co-leonardo-ai-desktop",
       "auto-taoliveaigc-taomate",
       "auto-zylwithxy-hrdit"
@@ -675,7 +675,6 @@
       "fooocus",
       "stability-matrix",
       "diffsynth",
-      "controlnet",
       "minimax-h3",
       "sdxl",
       "qwen-image",
@@ -684,8 +683,9 @@
       "wanwrapper",
       "comfyui-gguf",
       "framepack",
-      "cogvideox",
       "longcat-video",
+      "cogvideox",
+      "controlnet",
       "hunyuanvideo",
       "ltx-video",
       "svd",
@@ -693,16 +693,16 @@
       "realesrgan",
       "gfpgan",
       "flux1",
+      "pulid",
       "auto-wide-trace-open-higgsfield",
       "ltx2",
       "sana",
       "ai-toolkit",
       "kolors",
       "kandinsky5",
+      "flux2",
       "instantid",
       "mochi1",
-      "flux2",
-      "pulid",
       "animatediff",
       "open-sora",
       "ip-adapter",
@@ -710,23 +710,23 @@
       "auto-minimax-ai-minimax-h3-image",
       "janus-pro",
       "longcat-image",
-      "bagel",
       "glm-image",
+      "bagel",
       "auto-qwenlm-qwen-image-2-1",
       "hunyuan-image",
       "auto-nkxx188-comfyui-minimaxh3-easy",
       "hidream",
+      "auto-ukr8b3g-cmyk-comfyui-h3-continuum",
       "sd35",
       "auto-beckettharriman-openfill",
-      "auto-ukr8b3g-cmyk-comfyui-h3-continuum",
       "auto-xmarre-comfyui-spectrum-minimax-h3",
       "opens2v",
       "auto-nihui-qwenimage-ncnn-vulkan",
       "auto-brave-plum-co-leonardo-ai-desktop",
       "auto-sandai-org-magi-2-preview",
       "auto-taoliveaigc-taomate",
-      "pixart",
       "auto-amap-ml-dreamx-creator",
+      "pixart",
       "scail",
       "auto-zylwithxy-hrdit"
     ],
@@ -755,31 +755,31 @@
     "stars": {
       "flux2": [
         2872,
-        2886
+        2888
       ],
       "flux1": [
         26060,
-        26073
+        26076
       ],
       "qwen-image": [
         8479,
-        8488
+        8492
       ],
       "z-image": [
         12155,
-        12176
+        12179
       ],
       "sdxl": [
         27340,
-        27344
+        27345
       ],
       "sd35": [
         1540,
-        1543
+        1544
       ],
       "hunyuan-image": [
         3300,
-        3305
+        3306
       ],
       "kolors": [
         4595,
@@ -787,7 +787,7 @@
       ],
       "sana": [
         9831,
-        9862
+        9864
       ],
       "hidream": [
         2508,
@@ -795,11 +795,11 @@
       ],
       "glm-image": [
         1080,
-        1087
+        1089
       ],
       "longcat-image": [
         731,
-        733
+        734
       ],
       "bagel": [
         6218,
@@ -811,7 +811,7 @@
       ],
       "janus-pro": [
         17768,
-        17773
+        17775
       ],
       "pixart": [
         3316,
@@ -819,31 +819,31 @@
       ],
       "wan22": [
         18656,
-        18804
+        18817
       ],
       "wan21": [
         17436,
-        17470
+        17473
       ],
       "hunyuanvideo": [
         12771,
-        12816
+        12819
       ],
       "ltx-video": [
         11388,
-        11446
+        11458
       ],
       "ltx2": [
         10240,
-        10337
+        10340
       ],
       "cogvideox": [
         13206,
-        13218
+        13222
       ],
       "open-sora": [
         29934,
-        29943
+        29946
       ],
       "mochi1": [
         null,
@@ -855,15 +855,15 @@
       ],
       "animatediff": [
         12292,
-        12301
+        12300
       ],
       "framepack": [
         17356,
-        17376
+        17380
       ],
       "diffsynth": [
         13368,
-        13423
+        13426
       ],
       "opens2v": [
         232,
@@ -871,19 +871,19 @@
       ],
       "longcat-video": [
         9453,
-        9618
+        9636
       ],
       "minimax-h3": [
         11893,
-        12100
+        12122
       ],
       "scail": [
         1068,
-        1069
+        1071
       ],
       "wanwrapper": [
         6815,
-        6823
+        6825
       ],
       "midjourney": [
         null,
@@ -999,7 +999,7 @@
       ],
       "comfyui": [
         146888,
-        147874
+        148025
       ],
       "diffusers": [
         34919,
@@ -1007,7 +1007,7 @@
       ],
       "a1111": [
         165317,
-        165369
+        165371
       ],
       "swarmui": [
         4935,
@@ -1015,63 +1015,63 @@
       ],
       "invokeai": [
         29093,
-        29133
+        29140
       ],
       "fooocus": [
         53928,
-        53966
+        53968
       ],
       "ai-toolkit": [
         12631,
-        12678
+        12686
       ],
       "comfyui-manager": [
         16834,
-        16902
+        16906
       ],
       "comfyui-gguf": [
         4259,
-        4281
+        4285
       ],
       "moneyprinterturbo": [
         143641,
-        144873
+        145007
       ],
       "stability-matrix": [
         9029,
-        9060
+        9064
       ],
       "controlnet": [
         34157,
-        34157
+        34159
       ],
       "ip-adapter": [
         6716,
-        6718
+        6720
       ],
       "realesrgan": [
         37500,
-        37591
+        37606
       ],
       "gfpgan": [
         37701,
-        37724
+        37725
       ],
       "rembg": [
         25474,
-        25600
+        25617
       ],
       "sam": [
         55135,
-        55172
+        55171
       ],
       "instantid": [
         11995,
-        11993
+        11996
       ],
       "pulid": [
         3555,
-        3554
+        3555
       ],
       "hf-models": [
         null,
@@ -1115,7 +1115,7 @@
       ],
       "auto-qwenlm-qwen-image-2-1": [
         2218,
-        2261
+        2262
       ],
       "auto-sandai-org-magi-2-preview": [
         657,
@@ -1123,15 +1123,15 @@
       ],
       "auto-alibabaresearch-sparkdiffusion": [
         693,
-        749
+        759
       ],
       "auto-amap-ml-dreamx-creator": [
         319,
-        320
+        321
       ],
       "auto-wide-trace-open-higgsfield": [
         5912,
-        6490
+        6564
       ],
       "auto-nihui-qwenimage-ncnn-vulkan": [
         359,
@@ -1139,11 +1139,11 @@
       ],
       "auto-zylwithxy-hrdit": [
         317,
-        137
+        169
       ],
       "auto-nkxx188-comfyui-minimaxh3-easy": [
         907,
-        923
+        925
       ],
       "auto-taoliveaigc-taomate": [
         521,
@@ -1155,22 +1155,22 @@
       ],
       "auto-xmarre-comfyui-spectrum-minimax-h3": [
         719,
-        726
+        727
       ],
       "auto-ukr8b3g-cmyk-comfyui-h3-continuum": [
         317,
-        324
+        326
       ],
       "auto-minimax-ai-minimax-h3-image": [
         368,
-        438
+        444
       ],
       "auto-brave-plum-co-leonardo-ai-desktop": [
         359,
         303
       ],
       "auto-beckettharriman-openfill": [
-        311
+        321
       ]
     },
     "rank": {
@@ -1223,7 +1223,7 @@
         ],
         "wanxiang-image": [
           12,
-          11
+          12
         ],
         "runway": [
           15,
@@ -1253,7 +1253,7 @@
         "replicate": [],
         "comfyui": [
           5,
-          12
+          11
         ],
         "bfl-playground": [
           28,
@@ -1290,7 +1290,7 @@
         ],
         "controlnet": [
           44,
-          36
+          51
         ],
         "fooocus": [
           26,
@@ -1307,7 +1307,7 @@
         "fal": [],
         "luma": [
           45,
-          37
+          36
         ],
         "rembg": [
           20,
@@ -1327,7 +1327,7 @@
         ],
         "qwen-image": [
           34,
-          40
+          39
         ],
         "a1111": [
           22,
@@ -1343,7 +1343,7 @@
         ],
         "sdxl": [
           33,
-          39
+          38
         ],
         "pika": [
           52,
@@ -1351,11 +1351,11 @@
         ],
         "comfyui-gguf": [
           43,
-          47
+          46
         ],
         "framepack": [
           42,
-          49
+          48
         ],
         "cogvideox": [
           46,
@@ -1363,11 +1363,11 @@
         ],
         "firefly-video": [
           54,
-          45
+          44
         ],
         "recraft": [
           55,
-          46
+          45
         ],
         "stability-matrix": [
           29,
@@ -1375,11 +1375,11 @@
         ],
         "swarmui": [
           36,
-          43
+          42
         ],
         "kolors": [
           62,
-          63
+          64
         ],
         "diffsynth": [
           31,
@@ -1395,11 +1395,11 @@
         ],
         "leonardo": [
           57,
-          48
+          47
         ],
         "instantid": [
           63,
-          65
+          67
         ],
         "animatediff": [
           66,
@@ -1411,15 +1411,15 @@
         ],
         "wanwrapper": [
           39,
-          44
+          43
         ],
         "pulid": [
           64,
-          68
+          59
         ],
         "invokeai": [
           35,
-          42
+          40
         ],
         "hunyuanvideo": [
           47,
@@ -1427,7 +1427,7 @@
         ],
         "minimax-h3": [
           41,
-          38
+          37
         ],
         "ltx-video": [
           48,
@@ -1439,23 +1439,23 @@
         ],
         "sana": [
           58,
-          61
+          62
         ],
         "flux2": [
           65,
-          67
+          66
         ],
         "mochi1": [
           73,
-          66
+          68
         ],
         "sd35": [
           78,
-          82
+          83
         ],
         "ltx2": [
           59,
-          60
+          61
         ],
         "open-sora": [
           67,
@@ -1463,11 +1463,11 @@
         ],
         "ai-toolkit": [
           60,
-          62
+          63
         ],
         "longcat-video": [
           56,
-          51
+          49
         ],
         "hidream": [
           77,
@@ -1479,19 +1479,19 @@
         ],
         "kandinsky5": [
           71,
-          64
+          65
         ],
         "bagel": [
           70,
-          76
+          77
         ],
         "glm-image": [
           74,
-          77
+          76
         ],
         "pixart": [
           89,
-          91
+          92
         ],
         "hunyuan-image": [
           76,
@@ -1507,7 +1507,7 @@
         ],
         "auto-wide-trace-open-higgsfield": [
           75,
-          59
+          60
         ],
         "auto-qwenlm-qwen-image-2-1": [
           79,
@@ -1531,7 +1531,7 @@
         ],
         "auto-amap-ml-dreamx-creator": [
           90,
-          92
+          91
         ],
         "auto-zylwithxy-hrdit": [
           93,
@@ -1547,7 +1547,7 @@
         ],
         "auto-ukr8b3g-cmyk-comfyui-h3-continuum": [
           86,
-          84
+          82
         ],
         "auto-minimax-ai-minimax-h3-image": [
           85,
@@ -1558,7 +1558,7 @@
           88
         ],
         "auto-beckettharriman-openfill": [
-          83
+          84
         ]
       },
       "heat": {
@@ -1682,15 +1682,15 @@
         ],
         "cogview-platform": [
           48,
-          33
+          35
         ],
         "svd": [
           49,
-          34
+          36
         ],
         "comfyui": [
           11,
-          21
+          20
         ],
         "mochi1": [
           55,
@@ -1702,7 +1702,7 @@
         ],
         "a1111": [
           19,
-          32
+          33
         ],
         "fooocus": [
           41,
@@ -1718,7 +1718,7 @@
         ],
         "controlnet": [
           69,
-          57
+          76
         ],
         "realesrgan": [
           67,
@@ -1726,7 +1726,7 @@
         ],
         "diffusers": [
           22,
-          31
+          32
         ],
         "open-sora": [
           42,
@@ -1766,7 +1766,7 @@
         ],
         "animatediff": [
           84,
-          86
+          87
         ],
         "comfyui-manager": [
           30,
@@ -1778,7 +1778,7 @@
         ],
         "diffsynth": [
           35,
-          44
+          45
         ],
         "hunyuanvideo": [
           38,
@@ -1786,7 +1786,7 @@
         ],
         "z-image": [
           54,
-          60
+          59
         ],
         "invokeai": [
           23,
@@ -1802,11 +1802,11 @@
         ],
         "ai-toolkit": [
           34,
-          46
+          44
         ],
         "qwen-image": [
           59,
-          64
+          63
         ],
         "ltx2": [
           36,
@@ -1818,15 +1818,15 @@
         ],
         "janus-pro": [
           72,
-          77
+          78
         ],
         "swarmui": [
           53,
-          58
+          57
         ],
         "pulid": [
           82,
-          85
+          68
         ],
         "pixart": [
           92,
@@ -1834,7 +1834,7 @@
         ],
         "bagel": [
           58,
-          63
+          64
         ],
         "wanwrapper": [
           47,
@@ -1850,11 +1850,11 @@
         ],
         "minimax-h3": [
           40,
-          36
+          34
         ],
         "hunyuan-image": [
           62,
-          69
+          70
         ],
         "flux2": [
           64,
@@ -1866,7 +1866,7 @@
         ],
         "longcat-video": [
           39,
-          35
+          31
         ],
         "sd35": [
           93,
@@ -1874,19 +1874,19 @@
         ],
         "opens2v": [
           91,
-          79
+          80
         ],
         "kandinsky5": [
           73,
-          59
+          60
         ],
         "glm-image": [
           78,
-          78
+          79
         ],
         "scail": [
           76,
-          83
+          81
         ],
         "longcat-image": [
           83,
@@ -1894,7 +1894,7 @@
         ],
         "auto-wide-trace-open-higgsfield": [
           51,
-          20
+          21
         ],
         "auto-qwenlm-qwen-image-2-1": [
           61,
@@ -1902,7 +1902,7 @@
         ],
         "auto-nkxx188-comfyui-minimaxh3-easy": [
           68,
-          61
+          58
         ],
         "auto-alibabaresearch-sparkdiffusion": [
           70,
@@ -1910,15 +1910,15 @@
         ],
         "auto-nihui-qwenimage-ncnn-vulkan": [
           80,
-          76
+          77
         ],
         "auto-sandai-org-magi-2-preview": [
           81,
-          81
+          83
         ],
         "auto-amap-ml-dreamx-creator": [
           87,
-          87
+          86
         ],
         "auto-zylwithxy-hrdit": [
           88,
@@ -1926,23 +1926,23 @@
         ],
         "auto-xmarre-comfyui-spectrum-minimax-h3": [
           71,
-          70
+          69
         ],
         "auto-taoliveaigc-taomate": [
           75,
-          82
+          85
         ],
         "auto-ukr8b3g-cmyk-comfyui-h3-continuum": [
           79,
-          68
+          61
         ],
         "auto-minimax-ai-minimax-h3-image": [
           77,
-          45
+          46
         ],
         "auto-brave-plum-co-leonardo-ai-desktop": [
           74,
-          80
+          82
         ],
         "auto-beckettharriman-openfill": [
           67
@@ -2006,11 +2006,11 @@
         ],
         "controlnet": [
           14,
-          13
+          14
         ],
         "qwen-image": [
           13,
-          14
+          13
         ],
         "fooocus": [
           16,
@@ -2321,7 +2321,7 @@
         ],
         "auto-ukr8b3g-cmyk-comfyui-h3-continuum": [
           88,
-          86
+          85
         ],
         "auto-minimax-ai-minimax-h3-image": [
           87,
@@ -2332,7 +2332,7 @@
           89
         ],
         "auto-beckettharriman-openfill": [
-          85
+          86
         ]
       },
       "momentum": {
@@ -2363,115 +2363,115 @@
         "replicate": [],
         "comfyui": [
           1,
-          17
+          19
         ],
         "bfl-playground": [],
         "wan21": [
           41,
-          33
+          36
         ],
         "hunyuan-image-platform": [],
         "cogview-platform": [],
         "vbench": [],
         "wan22": [
           26,
-          16
+          17
         ],
         "synthesia": [],
         "ideogram": [],
         "z-image": [
           44,
-          35
+          37
         ],
         "controlnet": [
           55,
-          58
+          59
         ],
         "fooocus": [
           47,
-          46
+          47
         ],
         "grok-imagine": [],
         "comfyui-manager": [
           3,
-          24
+          26
         ],
         "fal": [],
         "luma": [],
         "rembg": [
           17,
-          21
+          23
         ],
         "sam": [
           56,
-          47
+          48
         ],
         "moneyprinterturbo": [
           2,
-          15
+          16
         ],
         "gfpgan": [
           57,
-          49
+          50
         ],
         "qwen-image": [
           43,
-          41
+          40
         ],
         "a1111": [
           42,
-          53
+          57
         ],
         "realesrgan": [
           58,
-          32
+          33
         ],
         "diffusers": [
           4,
-          38
+          43
         ],
         "sdxl": [
           46,
-          57
+          58
         ],
         "pika": [],
         "comfyui-gguf": [
           45,
-          19
+          21
         ],
         "framepack": [
           49,
-          40
+          42
         ],
         "cogvideox": [
           48,
-          42
+          44
         ],
         "firefly-video": [],
         "recraft": [],
         "stability-matrix": [
           5,
-          27
+          29
         ],
         "swarmui": [
           23,
-          51
+          53
         ],
         "kolors": [
           59,
-          59
+          61
         ],
         "diffsynth": [
           6,
-          23
+          27
         ],
         "flux1": [
           50,
-          50
+          51
         ],
         "ip-adapter": [
           62,
-          55
+          52
         ],
         "leonardo": [],
         "instantid": [
@@ -2480,24 +2480,24 @@
         ],
         "animatediff": [
           61,
-          48
+          49
         ],
         "svd": [],
         "wanwrapper": [
           8,
-          39
+          41
         ],
         "pulid": [
           51,
-          61
+          12
         ],
         "invokeai": [
           7,
-          37
+          39
         ],
         "hunyuanvideo": [
           25,
-          26
+          30
         ],
         "minimax-h3": [
           21,
@@ -2505,28 +2505,28 @@
         ],
         "ltx-video": [
           19,
-          20
+          22
         ],
         "janus-pro": [
           53,
-          56
+          55
         ],
         "sana": [
           10,
-          28
+          31
         ],
         "flux2": [
           40,
-          22
+          24
         ],
         "mochi1": [],
         "sd35": [
           54,
-          34
+          35
         ],
         "ltx2": [
           11,
-          14
+          15
         ],
         "open-sora": [
           38,
@@ -2542,11 +2542,11 @@
         ],
         "hidream": [
           52,
-          52
+          56
         ],
         "longcat-image": [
           35,
-          31
+          28
         ],
         "kandinsky5": [
           31,
@@ -2554,7 +2554,7 @@
         ],
         "bagel": [
           37,
-          45
+          46
         ],
         "glm-image": [
           39,
@@ -2562,11 +2562,11 @@
         ],
         "pixart": [
           63,
-          43
+          45
         ],
         "hunyuan-image": [
           33,
-          36
+          38
         ],
         "opens2v": [
           34,
@@ -2574,11 +2574,11 @@
         ],
         "scail": [
           36,
-          44
+          34
         ],
         "auto-nihui-qwenimage-ncnn-vulkan": [
           20,
-          12
+          14
         ],
         "auto-nkxx188-comfyui-minimaxh3-easy": [
           13,
@@ -2598,7 +2598,7 @@
         ],
         "auto-amap-ml-dreamx-creator": [
           29,
-          29
+          20
         ],
         "auto-zylwithxy-hrdit": [
           30,
@@ -2606,7 +2606,7 @@
         ],
         "auto-sandai-org-magi-2-preview": [
           32,
-          30
+          32
         ],
         "auto-xmarre-comfyui-spectrum-minimax-h3": [
           14,
@@ -2659,7 +2659,7 @@
         ],
         "controlnet": [
           21,
-          13
+          23
         ],
         "comfyui-manager": [
           5,
@@ -2691,15 +2691,15 @@
         ],
         "sdxl": [
           13,
-          15
+          14
         ],
         "qwen-image": [
           14,
-          16
+          15
         ],
         "framepack": [
           19,
-          21
+          20
         ],
         "cogvideox": [
           22,
@@ -2719,19 +2719,19 @@
         ],
         "comfyui-gguf": [
           20,
-          20
+          19
         ],
         "invokeai": [
           15,
-          17
+          16
         ],
         "instantid": [
           35,
-          37
+          39
         ],
         "kolors": [
           34,
-          35
+          36
         ],
         "svd": [
           33,
@@ -2739,7 +2739,7 @@
         ],
         "swarmui": [
           16,
-          18
+          17
         ],
         "animatediff": [
           38,
@@ -2747,11 +2747,11 @@
         ],
         "wanwrapper": [
           17,
-          19
+          18
         ],
         "minimax-h3": [
           18,
-          14
+          13
         ],
         "ip-adapter": [
           40,
@@ -2771,19 +2771,19 @@
         ],
         "pulid": [
           36,
-          40
+          31
         ],
         "longcat-video": [
           29,
-          23
+          21
         ],
         "mochi1": [
           45,
-          38
+          40
         ],
         "sana": [
           30,
-          33
+          34
         ],
         "open-sora": [
           39,
@@ -2791,23 +2791,23 @@
         ],
         "ai-toolkit": [
           32,
-          34
+          35
         ],
         "ltx2": [
           31,
-          32
+          33
         ],
         "flux2": [
           37,
-          39
+          38
         ],
         "sd35": [
           50,
-          54
+          55
         ],
         "bagel": [
           42,
-          48
+          49
         ],
         "hidream": [
           49,
@@ -2819,15 +2819,15 @@
         ],
         "glm-image": [
           46,
-          49
+          48
         ],
         "pixart": [
           61,
-          63
+          64
         ],
         "kandinsky5": [
           43,
-          36
+          37
         ],
         "hunyuan-image": [
           48,
@@ -2843,7 +2843,7 @@
         ],
         "auto-wide-trace-open-higgsfield": [
           47,
-          31
+          32
         ],
         "auto-qwenlm-qwen-image-2-1": [
           51,
@@ -2867,7 +2867,7 @@
         ],
         "auto-amap-ml-dreamx-creator": [
           62,
-          64
+          63
         ],
         "auto-zylwithxy-hrdit": [
           65,
@@ -2883,7 +2883,7 @@
         ],
         "auto-ukr8b3g-cmyk-comfyui-h3-continuum": [
           58,
-          56
+          54
         ],
         "auto-minimax-ai-minimax-h3-image": [
           57,
@@ -2894,7 +2894,7 @@
           60
         ],
         "auto-beckettharriman-openfill": [
-          55
+          56
         ]
       }
     }
@@ -2932,27 +2932,27 @@
         "efficiency": 2
       },
       "practical": 73.6,
-      "heat": 54.1,
+      "heat": 54.3,
       "heat_source": "GitHub API",
-      "overall": 64.8,
-      "momentum": 9.8,
-      "growth_pct": 0.49,
-      "stars": 2886,
-      "forks": 227,
-      "days_since_push": 253,
+      "overall": 64.9,
+      "momentum": 11.2,
+      "growth_pct": 0.56,
+      "stars": 2888,
+      "forks": 228,
+      "days_since_push": 254,
       "official_description": "Official inference repo for FLUX.2 models",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         2872,
-        2886
+        2888
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "flux1",
@@ -2989,24 +2989,24 @@
       "heat": 56.6,
       "heat_source": "GitHub API",
       "overall": 69.2,
-      "momentum": 1.0,
-      "growth_pct": 0.05,
-      "stars": 26073,
+      "momentum": 1.2,
+      "growth_pct": 0.06,
+      "stars": 26076,
       "forks": 1934,
-      "days_since_push": 477,
+      "days_since_push": 478,
       "official_description": "Official inference repo for FLUX.1 models",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         26060,
-        26073
+        26076
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "qwen-image",
@@ -3040,27 +3040,27 @@
         "efficiency": 3
       },
       "practical": 88.0,
-      "heat": 56.6,
+      "heat": 56.7,
       "heat_source": "GitHub API",
       "overall": 73.9,
-      "momentum": 2.2,
-      "growth_pct": 0.11,
-      "stars": 8488,
-      "forks": 568,
-      "days_since_push": 283,
+      "momentum": 3.0,
+      "growth_pct": 0.15,
+      "stars": 8492,
+      "forks": 569,
+      "days_since_push": 284,
       "official_description": "Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing.",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         8479,
-        8488
+        8492
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "z-image",
@@ -3094,27 +3094,27 @@
         "efficiency": 5
       },
       "practical": 92.0,
-      "heat": 58.7,
+      "heat": 58.8,
       "heat_source": "GitHub API",
-      "overall": 77.0,
-      "momentum": 3.4,
-      "growth_pct": 0.17,
-      "stars": 12176,
+      "overall": 77.1,
+      "momentum": 4.0,
+      "growth_pct": 0.2,
+      "stars": 12179,
       "forks": 836,
-      "days_since_push": 284,
+      "days_since_push": 285,
       "official_description": "",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         12155,
-        12176
+        12179
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "sdxl",
@@ -3151,24 +3151,24 @@
       "heat": 60.6,
       "heat_source": "GitHub API",
       "overall": 74.1,
-      "momentum": 0.2,
-      "growth_pct": 0.01,
-      "stars": 27344,
+      "momentum": 0.4,
+      "growth_pct": 0.02,
+      "stars": 27345,
       "forks": 3091,
-      "days_since_push": 339,
+      "days_since_push": 340,
       "official_description": "Generative Models by Stability AI",
       "repo_license": "MIT",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         27340,
-        27344
+        27345
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "sd35",
@@ -3202,27 +3202,27 @@
         "efficiency": 4
       },
       "practical": 74.0,
-      "heat": 36.8,
+      "heat": 37.0,
       "heat_source": "GitHub API",
-      "overall": 57.3,
-      "momentum": 3.8,
-      "growth_pct": 0.19,
-      "stars": 1543,
+      "overall": 57.4,
+      "momentum": 5.2,
+      "growth_pct": 0.26,
+      "stars": 1544,
       "forks": 150,
-      "days_since_push": 681,
+      "days_since_push": 682,
       "official_description": "",
       "repo_license": "MIT",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         1540,
-        1543
+        1544
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "hunyuan-image",
@@ -3258,24 +3258,24 @@
       "heat": 54.6,
       "heat_source": "GitHub API",
       "overall": 58.5,
-      "momentum": 3.0,
-      "growth_pct": 0.15,
-      "stars": 3305,
+      "momentum": 3.6,
+      "growth_pct": 0.18,
+      "stars": 3306,
       "forks": 194,
-      "days_since_push": 150,
+      "days_since_push": 151,
       "official_description": "HunyuanImage-3.0: A Powerful Native Multimodal Model for Image Generation",
       "repo_license": "NOASSERTION",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         3300,
-        3305
+        3306
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "kolors",
@@ -3315,7 +3315,7 @@
       "growth_pct": -0.04,
       "stars": 4593,
       "forks": 357,
-      "days_since_push": 738,
+      "days_since_push": 739,
       "official_description": "Kolors Team",
       "repo_license": "Apache-2.0",
       "data_source": "api",
@@ -3328,7 +3328,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "sana",
@@ -3361,27 +3361,27 @@
         "efficiency": 5
       },
       "practical": 70.4,
-      "heat": 65.3,
+      "heat": 65.4,
       "heat_source": "GitHub API",
-      "overall": 68.1,
-      "momentum": 6.4,
-      "growth_pct": 0.32,
-      "stars": 9862,
+      "overall": 68.2,
+      "momentum": 6.8,
+      "growth_pct": 0.34,
+      "stars": 9864,
       "forks": 816,
-      "days_since_push": 6,
+      "days_since_push": 0,
       "official_description": "SANA & Sol: Efficient Generative Models and Full-Stack Training & Inference Engines for Image, Video, and World Modeling",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "unknown",
       "spark": [
         9831,
-        9862
+        9864
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "hidream",
@@ -3421,7 +3421,7 @@
       "growth_pct": 0.04,
       "stars": 2509,
       "forks": 244,
-      "days_since_push": 492,
+      "days_since_push": 493,
       "official_description": "",
       "repo_license": "MIT",
       "data_source": "api",
@@ -3434,7 +3434,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "glm-image",
@@ -3467,27 +3467,27 @@
         "efficiency": 2
       },
       "practical": 70.4,
-      "heat": 48.9,
+      "heat": 49.6,
       "heat_source": "GitHub API",
-      "overall": 60.7,
-      "momentum": 13.0,
-      "growth_pct": 0.65,
-      "stars": 1087,
-      "forks": 105,
-      "days_since_push": 246,
+      "overall": 61.0,
+      "momentum": 16.6,
+      "growth_pct": 0.83,
+      "stars": 1089,
+      "forks": 106,
+      "days_since_push": 247,
       "official_description": "GLM-Image: Auto-regressive for Dense-knowledge and High-fidelity Image Generation.",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         1080,
-        1087
+        1089
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "longcat-image",
@@ -3520,27 +3520,27 @@
         "efficiency": 3
       },
       "practical": 72.8,
-      "heat": 46.6,
+      "heat": 47.1,
       "heat_source": "GitHub API",
-      "overall": 61.0,
-      "momentum": 5.4,
-      "growth_pct": 0.27,
-      "stars": 733,
+      "overall": 61.2,
+      "momentum": 8.2,
+      "growth_pct": 0.41,
+      "stars": 734,
       "forks": 63,
-      "days_since_push": 195,
+      "days_since_push": 196,
       "official_description": "",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         731,
-        733
+        734
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "bagel",
@@ -3580,7 +3580,7 @@
       "growth_pct": 0.08,
       "stars": 6223,
       "forks": 544,
-      "days_since_push": 200,
+      "days_since_push": 201,
       "official_description": "Open-source unified multimodal model",
       "repo_license": "Apache-2.0",
       "data_source": "api",
@@ -3593,7 +3593,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "kandinsky5",
@@ -3629,11 +3629,11 @@
       "heat": 58.8,
       "heat_source": "GitHub API",
       "overall": 65.2,
-      "momentum": 86.4,
+      "momentum": 86.3,
       "growth_pct": null,
       "stars": 846,
       "forks": 77,
-      "days_since_push": 105,
+      "days_since_push": 106,
       "official_description": "Kandinsky 5.0: A family of diffusion models for Video & Image generation",
       "repo_license": "MIT",
       "data_source": "api",
@@ -3646,7 +3646,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "janus-pro",
@@ -3682,24 +3682,24 @@
       "heat": 49.8,
       "heat_source": "GitHub API",
       "overall": 62.0,
-      "momentum": 0.6,
-      "growth_pct": 0.03,
-      "stars": 17773,
+      "momentum": 0.8,
+      "growth_pct": 0.04,
+      "stars": 17775,
       "forks": 2228,
-      "days_since_push": 657,
+      "days_since_push": 658,
       "official_description": "Janus-Series: Unified Multimodal Understanding and Generation Models",
       "repo_license": "MIT",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         17768,
-        17773
+        17775
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "pixart",
@@ -3739,7 +3739,7 @@
       "growth_pct": 0.09,
       "stars": 3319,
       "forks": 199,
-      "days_since_push": 751,
+      "days_since_push": 752,
       "official_description": "PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis",
       "repo_license": "Apache-2.0",
       "data_source": "api",
@@ -3752,7 +3752,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "wan22",
@@ -3786,27 +3786,27 @@
         "efficiency": 3
       },
       "practical": 91.6,
-      "heat": 69.0,
+      "heat": 69.2,
       "heat_source": "GitHub API",
-      "overall": 81.4,
-      "momentum": 15.8,
-      "growth_pct": 0.79,
-      "stars": 18804,
-      "forks": 2528,
-      "days_since_push": 61,
+      "overall": 81.5,
+      "momentum": 17.2,
+      "growth_pct": 0.86,
+      "stars": 18817,
+      "forks": 2529,
+      "days_since_push": 62,
       "official_description": "Wan: Open and Advanced Large-Scale Video Generative Models",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         18656,
-        18804
+        18817
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "wan21",
@@ -3842,24 +3842,24 @@
       "heat": 62.2,
       "heat_source": "GitHub API",
       "overall": 80.6,
-      "momentum": 3.8,
-      "growth_pct": 0.19,
-      "stars": 17470,
-      "forks": 4085,
-      "days_since_push": 260,
+      "momentum": 4.2,
+      "growth_pct": 0.21,
+      "stars": 17473,
+      "forks": 4087,
+      "days_since_push": 261,
       "official_description": "Wan: Open and Advanced Large-Scale Video Generative Models",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         17436,
-        17470
+        17473
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "hunyuanvideo",
@@ -3892,27 +3892,27 @@
         "efficiency": 2
       },
       "practical": 74.8,
-      "heat": 66.2,
+      "heat": 66.3,
       "heat_source": "GitHub API",
-      "overall": 70.9,
-      "momentum": 7.0,
-      "growth_pct": 0.35,
-      "stars": 12816,
-      "forks": 1400,
-      "days_since_push": 43,
+      "overall": 71.0,
+      "momentum": 7.6,
+      "growth_pct": 0.38,
+      "stars": 12819,
+      "forks": 1401,
+      "days_since_push": 44,
       "official_description": "HunyuanVideo: A Systematic Framework For Large Video Generation Model",
       "repo_license": "NOASSERTION",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         12771,
-        12816
+        12819
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "ltx-video",
@@ -3945,27 +3945,27 @@
         "efficiency": 5
       },
       "practical": 74.0,
-      "heat": 66.9,
+      "heat": 67.3,
       "heat_source": "GitHub API",
-      "overall": 70.8,
-      "momentum": 10.2,
-      "growth_pct": 0.51,
-      "stars": 11446,
-      "forks": 1253,
-      "days_since_push": 18,
+      "overall": 71.0,
+      "momentum": 12.2,
+      "growth_pct": 0.61,
+      "stars": 11458,
+      "forks": 1255,
+      "days_since_push": 19,
       "official_description": "Official repository for LTX-Video",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         11388,
-        11446
+        11458
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "ltx2",
@@ -3998,27 +3998,27 @@
         "efficiency": 2
       },
       "practical": 67.6,
-      "heat": 69.0,
+      "heat": 69.1,
       "heat_source": "GitHub API",
-      "overall": 68.2,
-      "momentum": 19.0,
-      "growth_pct": 0.95,
-      "stars": 10337,
-      "forks": 1652,
-      "days_since_push": 1,
+      "overall": 68.3,
+      "momentum": 19.6,
+      "growth_pct": 0.98,
+      "stars": 10340,
+      "forks": 1651,
+      "days_since_push": 2,
       "official_description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         10240,
-        10337
+        10340
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "cogvideox",
@@ -4051,27 +4051,27 @@
         "efficiency": 3
       },
       "practical": 83.6,
-      "heat": 55.9,
+      "heat": 56.0,
       "heat_source": "GitHub API",
-      "overall": 71.1,
-      "momentum": 1.8,
-      "growth_pct": 0.09,
-      "stars": 13218,
+      "overall": 71.2,
+      "momentum": 2.4,
+      "growth_pct": 0.12,
+      "stars": 13222,
       "forks": 1400,
-      "days_since_push": 381,
+      "days_since_push": 382,
       "official_description": "text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         13206,
-        13218
+        13222
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "open-sora",
@@ -4107,24 +4107,24 @@
       "heat": 64.1,
       "heat_source": "GitHub API",
       "overall": 63.8,
-      "momentum": 0.6,
-      "growth_pct": 0.03,
-      "stars": 29943,
-      "forks": 3099,
-      "days_since_push": 226,
+      "momentum": 0.8,
+      "growth_pct": 0.04,
+      "stars": 29946,
+      "forks": 3100,
+      "days_since_push": 227,
       "official_description": "Open-Sora: Democratizing Efficient Video Production for All",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         29934,
-        29943
+        29946
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "mochi1",
@@ -4174,7 +4174,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "svd",
@@ -4224,7 +4224,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "animatediff",
@@ -4262,22 +4262,22 @@
       "overall": 64.1,
       "momentum": 1.4,
       "growth_pct": 0.07,
-      "stars": 12301,
+      "stars": 12300,
       "forks": 1108,
-      "days_since_push": 843,
+      "days_since_push": 844,
       "official_description": "Official implementation of AnimateDiff.",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         12292,
-        12301
+        12300
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "framepack",
@@ -4310,27 +4310,27 @@
         "efficiency": 5
       },
       "practical": 83.6,
-      "heat": 56.8,
+      "heat": 56.9,
       "heat_source": "GitHub API",
-      "overall": 71.5,
-      "momentum": 2.4,
-      "growth_pct": 0.12,
-      "stars": 17376,
-      "forks": 1751,
-      "days_since_push": 401,
+      "overall": 71.6,
+      "momentum": 2.8,
+      "growth_pct": 0.14,
+      "stars": 17380,
+      "forks": 1752,
+      "days_since_push": 402,
       "official_description": "Lets make video diffusion practical!",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         17356,
-        17376
+        17380
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "diffsynth",
@@ -4363,27 +4363,27 @@
         "efficiency": 4
       },
       "practical": 82.4,
-      "heat": 67.5,
+      "heat": 67.6,
       "heat_source": "GitHub API",
       "overall": 75.7,
-      "momentum": 8.2,
-      "growth_pct": 0.41,
-      "stars": 13423,
+      "momentum": 8.6,
+      "growth_pct": 0.43,
+      "stars": 13426,
       "forks": 1345,
-      "days_since_push": 1,
+      "days_since_push": 2,
       "official_description": "Enjoy the magic of Diffusion models!",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         13368,
-        13423
+        13426
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "opens2v",
@@ -4418,11 +4418,11 @@
       "heat": 48.8,
       "heat_source": "GitHub API",
       "overall": 55.4,
-      "momentum": 75.4,
+      "momentum": 75.2,
       "growth_pct": null,
       "stars": 232,
       "forks": 9,
-      "days_since_push": 185,
+      "days_since_push": 186,
       "official_description": "[NeurIPS 2025 D&B🔥] OpenS2V-Nexus: A Detailed Benchmark and Million-Scale Dataset for Subject-to-Video Generation",
       "repo_license": "Apache-2.0",
       "data_source": "api",
@@ -4435,7 +4435,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "longcat-video",
@@ -4468,27 +4468,27 @@
         "efficiency": 2
       },
       "practical": 70.4,
-      "heat": 71.9,
+      "heat": 72.7,
       "heat_source": "GitHub API",
-      "overall": 71.1,
-      "momentum": 35.0,
-      "growth_pct": 1.75,
-      "stars": 9618,
-      "forks": 1708,
-      "days_since_push": 6,
+      "overall": 71.4,
+      "momentum": 38.8,
+      "growth_pct": 1.94,
+      "stars": 9636,
+      "forks": 1712,
+      "days_since_push": 7,
       "official_description": "",
       "repo_license": "MIT",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         9453,
-        9618
+        9636
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "minimax-h3",
@@ -4522,27 +4522,27 @@
         "efficiency": 2
       },
       "practical": 78.4,
-      "heat": 71.4,
+      "heat": 72.2,
       "heat_source": "GitHub API",
-      "overall": 75.2,
-      "momentum": 34.8,
-      "growth_pct": 1.74,
-      "stars": 12100,
-      "forks": 901,
-      "days_since_push": 23,
+      "overall": 75.6,
+      "momentum": 38.6,
+      "growth_pct": 1.93,
+      "stars": 12122,
+      "forks": 905,
+      "days_since_push": 24,
       "official_description": "",
       "repo_license": "",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         11893,
-        12100
+        12122
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "scail",
@@ -4574,27 +4574,27 @@
         "efficiency": 2
       },
       "practical": 54.8,
-      "heat": 47.1,
+      "heat": 47.9,
       "heat_source": "GitHub API",
-      "overall": 51.3,
-      "momentum": 1.8,
-      "growth_pct": 0.09,
-      "stars": 1069,
-      "forks": 61,
-      "days_since_push": 198,
+      "overall": 51.7,
+      "momentum": 5.6,
+      "growth_pct": 0.28,
+      "stars": 1071,
+      "forks": 62,
+      "days_since_push": 199,
       "official_description": "SCAIL: Towards Studio-Grade Character Animation via In-Context Learning of 3D-Consistent Pose Representations (CVPR 2026 Findings)",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         1068,
-        1069
+        1071
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "wanwrapper",
@@ -4626,27 +4626,27 @@
         "efficiency": 4
       },
       "practical": 81.2,
-      "heat": 62.9,
+      "heat": 63.0,
       "heat_source": "GitHub API",
       "overall": 73.0,
-      "momentum": 2.4,
-      "growth_pct": 0.12,
-      "stars": 6823,
+      "momentum": 3.0,
+      "growth_pct": 0.15,
+      "stars": 6825,
       "forks": 718,
-      "days_since_push": 8,
+      "days_since_push": 9,
       "official_description": "",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         6815,
-        6823
+        6825
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "midjourney",
@@ -4695,7 +4695,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "gpt-image",
@@ -4745,7 +4745,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "gemini-image",
@@ -4795,7 +4795,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "firefly",
@@ -4844,7 +4844,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "ideogram",
@@ -4893,7 +4893,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "recraft",
@@ -4942,7 +4942,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "bfl-playground",
@@ -4991,7 +4991,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "seedream",
@@ -5040,7 +5040,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "wanxiang-image",
@@ -5089,7 +5089,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "leonardo",
@@ -5137,7 +5137,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "cogview-platform",
@@ -5186,7 +5186,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "hunyuan-image-platform",
@@ -5234,7 +5234,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "grok-imagine",
@@ -5283,7 +5283,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "sora",
@@ -5332,7 +5332,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "veo-flow",
@@ -5382,7 +5382,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "runway",
@@ -5431,7 +5431,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "kling",
@@ -5481,7 +5481,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "seedance",
@@ -5530,7 +5530,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "hailuo",
@@ -5579,7 +5579,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "vidu",
@@ -5628,7 +5628,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "pixverse",
@@ -5676,7 +5676,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "luma",
@@ -5725,7 +5725,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "pika",
@@ -5773,7 +5773,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "wanxiang-video",
@@ -5822,7 +5822,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "hunyuan-video-platform",
@@ -5870,7 +5870,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "firefly-video",
@@ -5919,7 +5919,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "heygen",
@@ -5968,7 +5968,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "synthesia",
@@ -6016,7 +6016,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "comfyui",
@@ -6050,13 +6050,13 @@
         "efficiency": 4
       },
       "practical": 90.4,
-      "heat": 81.2,
+      "heat": 81.6,
       "heat_source": "GitHub API",
-      "overall": 86.3,
-      "momentum": 13.4,
-      "growth_pct": 0.67,
-      "stars": 147874,
-      "forks": 17611,
+      "overall": 86.4,
+      "momentum": 15.4,
+      "growth_pct": 0.77,
+      "stars": 148025,
+      "forks": 17627,
       "days_since_push": 0,
       "official_description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "repo_license": "GPL-3.0",
@@ -6064,13 +6064,13 @@
       "link_state": "ok",
       "spark": [
         146888,
-        147874
+        148025
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "diffusers",
@@ -6110,7 +6110,7 @@
       "growth_pct": 0.13,
       "stars": 34963,
       "forks": 7504,
-      "days_since_push": 0,
+      "days_since_push": 1,
       "official_description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
       "repo_license": "Apache-2.0",
       "data_source": "api",
@@ -6123,7 +6123,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "a1111",
@@ -6155,27 +6155,27 @@
         "efficiency": 4
       },
       "practical": 82.8,
-      "heat": 72.4,
+      "heat": 72.3,
       "heat_source": "GitHub API",
       "overall": 78.1,
       "momentum": 0.6,
       "growth_pct": 0.03,
-      "stars": 165369,
-      "forks": 31077,
-      "days_since_push": 264,
+      "stars": 165371,
+      "forks": 31079,
+      "days_since_push": 265,
       "official_description": "Stable Diffusion web UI",
       "repo_license": "AGPL-3.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         165317,
-        165369
+        165371
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "swarmui",
@@ -6207,14 +6207,14 @@
         "efficiency": 4
       },
       "practical": 84.8,
-      "heat": 59.8,
+      "heat": 59.7,
       "heat_source": "GitHub API",
       "overall": 73.5,
       "momentum": 0.8,
       "growth_pct": 0.04,
       "stars": 4937,
       "forks": 402,
-      "days_since_push": 37,
+      "days_since_push": 38,
       "official_description": "StableSwarmUI, A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility.",
       "repo_license": "MIT",
       "data_source": "api",
@@ -6227,7 +6227,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "invokeai",
@@ -6259,13 +6259,13 @@
         "efficiency": 3
       },
       "practical": 76.4,
-      "heat": 70.5,
+      "heat": 70.6,
       "heat_source": "GitHub API",
-      "overall": 73.7,
-      "momentum": 2.8,
-      "growth_pct": 0.14,
-      "stars": 29133,
-      "forks": 3127,
+      "overall": 73.8,
+      "momentum": 3.2,
+      "growth_pct": 0.16,
+      "stars": 29140,
+      "forks": 3129,
       "days_since_push": 0,
       "official_description": "Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products.",
       "repo_license": "Apache-2.0",
@@ -6273,13 +6273,13 @@
       "link_state": "unknown",
       "spark": [
         29093,
-        29133
+        29140
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "fooocus",
@@ -6316,22 +6316,22 @@
       "overall": 76.9,
       "momentum": 1.4,
       "growth_pct": 0.07,
-      "stars": 53966,
-      "forks": 8618,
-      "days_since_push": 354,
+      "stars": 53968,
+      "forks": 8619,
+      "days_since_push": 355,
       "official_description": "Focus on prompting and generating",
       "repo_license": "GPL-3.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         53928,
-        53966
+        53968
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "ai-toolkit",
@@ -6363,27 +6363,27 @@
         "efficiency": 2
       },
       "practical": 66.8,
-      "heat": 67.4,
+      "heat": 67.7,
       "heat_source": "GitHub API",
-      "overall": 67.1,
-      "momentum": 7.4,
-      "growth_pct": 0.37,
-      "stars": 12678,
+      "overall": 67.2,
+      "momentum": 8.8,
+      "growth_pct": 0.44,
+      "stars": 12686,
       "forks": 1625,
-      "days_since_push": 2,
+      "days_since_push": 3,
       "official_description": "The ultimate training toolkit for finetuning diffusion models",
       "repo_license": "MIT",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         12631,
-        12678
+        12686
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "comfyui-manager",
@@ -6415,12 +6415,12 @@
         "efficiency": 5
       },
       "practical": 89.6,
-      "heat": 69.3,
+      "heat": 69.4,
       "heat_source": "GitHub API",
       "overall": 80.5,
-      "momentum": 8.0,
-      "growth_pct": 0.4,
-      "stars": 16902,
+      "momentum": 8.6,
+      "growth_pct": 0.43,
+      "stars": 16906,
       "forks": 2626,
       "days_since_push": 0,
       "official_description": "ComfyUI-Manager is an extension designed to enhance the usability of ComfyUI. It offers management functions to install, remove, disable, and enable various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.",
@@ -6429,13 +6429,13 @@
       "link_state": "ok",
       "spark": [
         16834,
-        16902
+        16906
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "comfyui-gguf",
@@ -6467,27 +6467,27 @@
         "efficiency": 5
       },
       "practical": 87.2,
-      "heat": 53.7,
+      "heat": 54.1,
       "heat_source": "GitHub API",
-      "overall": 72.1,
-      "momentum": 10.4,
-      "growth_pct": 0.52,
-      "stars": 4281,
+      "overall": 72.3,
+      "momentum": 12.2,
+      "growth_pct": 0.61,
+      "stars": 4285,
       "forks": 462,
-      "days_since_push": 312,
+      "days_since_push": 313,
       "official_description": "GGUF Quantization support for native ComfyUI models",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         4259,
-        4281
+        4285
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "moneyprinterturbo",
@@ -6519,13 +6519,13 @@
         "efficiency": 5
       },
       "practical": 84.0,
-      "heat": 82.2,
+      "heat": 82.6,
       "heat_source": "GitHub API",
-      "overall": 83.2,
-      "momentum": 17.2,
-      "growth_pct": 0.86,
-      "stars": 144873,
-      "forks": 23294,
+      "overall": 83.4,
+      "momentum": 19.0,
+      "growth_pct": 0.95,
+      "stars": 145007,
+      "forks": 23326,
       "days_since_push": 0,
       "official_description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "repo_license": "MIT",
@@ -6533,13 +6533,13 @@
       "link_state": "ok",
       "spark": [
         143641,
-        144873
+        145007
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "stability-matrix",
@@ -6571,27 +6571,27 @@
         "efficiency": 5
       },
       "practical": 84.8,
-      "heat": 64.7,
+      "heat": 64.9,
       "heat_source": "GitHub API",
       "overall": 75.8,
-      "momentum": 6.8,
-      "growth_pct": 0.34,
-      "stars": 9060,
-      "forks": 625,
-      "days_since_push": 4,
+      "momentum": 7.8,
+      "growth_pct": 0.39,
+      "stars": 9064,
+      "forks": 626,
+      "days_since_push": 0,
       "official_description": "Multi-Platform Package Manager for Stable Diffusion",
       "repo_license": "AGPL-3.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         9029,
-        9060
+        9064
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "controlnet",
@@ -6623,27 +6623,27 @@
         "efficiency": 4
       },
       "practical": 88.0,
-      "heat": 60.5,
+      "heat": 50.6,
       "heat_source": "GitHub API",
-      "overall": 75.6,
-      "momentum": 0.0,
-      "growth_pct": null,
-      "stars": 34157,
+      "overall": 71.2,
+      "momentum": 0.2,
+      "growth_pct": 0.01,
+      "stars": 34159,
       "forks": 3008,
-      "days_since_push": 999,
+      "days_since_push": 1000,
       "official_description": "Let us control diffusion models!",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         34157,
-        34157
+        34159
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "ip-adapter",
@@ -6676,27 +6676,27 @@
         "efficiency": 4
       },
       "practical": 81.2,
-      "heat": 41.8,
+      "heat": 41.9,
       "heat_source": "GitHub API",
       "overall": 63.5,
-      "momentum": 0.6,
-      "growth_pct": 0.03,
-      "stars": 6718,
+      "momentum": 1.2,
+      "growth_pct": 0.06,
+      "stars": 6720,
       "forks": 432,
-      "days_since_push": 876,
+      "days_since_push": 877,
       "official_description": "The image prompt adapter is designed to enable a pretrained text-to-image diffusion model to generate images with image prompt. ",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         6716,
-        6718
+        6720
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "realesrgan",
@@ -6728,27 +6728,27 @@
         "efficiency": 5
       },
       "practical": 83.6,
-      "heat": 52.4,
+      "heat": 52.6,
       "heat_source": "GitHub API",
-      "overall": 69.6,
-      "momentum": 4.8,
-      "growth_pct": 0.24,
-      "stars": 37591,
-      "forks": 4552,
-      "days_since_push": 836,
+      "overall": 69.7,
+      "momentum": 5.6,
+      "growth_pct": 0.28,
+      "stars": 37606,
+      "forks": 4555,
+      "days_since_push": 837,
       "official_description": "Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.",
       "repo_license": "BSD-3-Clause",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         37500,
-        37591
+        37606
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "gfpgan",
@@ -6785,22 +6785,22 @@
       "overall": 69.5,
       "momentum": 1.2,
       "growth_pct": 0.06,
-      "stars": 37724,
-      "forks": 6285,
-      "days_since_push": 847,
+      "stars": 37725,
+      "forks": 6283,
+      "days_since_push": 848,
       "official_description": "GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration.",
       "repo_license": "NOASSERTION",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         37701,
-        37724
+        37725
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "rembg",
@@ -6832,27 +6832,27 @@
         "efficiency": 5
       },
       "practical": 87.2,
-      "heat": 70.9,
+      "heat": 71.2,
       "heat_source": "GitHub API",
-      "overall": 79.9,
-      "momentum": 9.8,
-      "growth_pct": 0.49,
-      "stars": 25600,
-      "forks": 2507,
-      "days_since_push": 15,
+      "overall": 80.0,
+      "momentum": 11.2,
+      "growth_pct": 0.56,
+      "stars": 25617,
+      "forks": 2509,
+      "days_since_push": 16,
       "official_description": "Rembg is a tool to remove images background",
       "repo_license": "MIT",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         25474,
-        25600
+        25617
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "sam",
@@ -6890,22 +6890,22 @@
       "overall": 69.9,
       "momentum": 1.4,
       "growth_pct": 0.07,
-      "stars": 55172,
-      "forks": 6417,
-      "days_since_push": 793,
+      "stars": 55171,
+      "forks": 6416,
+      "days_since_push": 794,
       "official_description": "The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         55135,
-        55172
+        55171
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "instantid",
@@ -6941,24 +6941,24 @@
       "heat": 44.9,
       "heat_source": "GitHub API",
       "overall": 64.9,
-      "momentum": 0.0,
-      "growth_pct": -0.02,
-      "stars": 11993,
+      "momentum": 0.2,
+      "growth_pct": 0.01,
+      "stars": 11996,
       "forks": 890,
-      "days_since_push": 856,
+      "days_since_push": 857,
       "official_description": "InstantID: Zero-shot Identity-Preserving Generation in Seconds 🔥",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         11995,
-        11993
+        11996
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "pulid",
@@ -6990,27 +6990,27 @@
         "efficiency": 3
       },
       "practical": 79.6,
-      "heat": 45.7,
+      "heat": 55.6,
       "heat_source": "GitHub API",
-      "overall": 64.3,
-      "momentum": 0.0,
-      "growth_pct": -0.03,
-      "stars": 3554,
+      "overall": 68.8,
+      "momentum": 34.9,
+      "growth_pct": null,
+      "stars": 3555,
       "forks": 273,
-      "days_since_push": 477,
+      "days_since_push": 478,
       "official_description": "[NeurIPS 2024] Official code for PuLID: Pure and Lightning ID Customization via Contrastive Alignment",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "ok",
       "spark": [
         3555,
-        3554
+        3555
       ],
       "auto_admitted": false,
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "hf-models",
@@ -7060,7 +7060,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "civitai",
@@ -7108,7 +7108,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "modelscope",
@@ -7157,7 +7157,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "aa-image-arena",
@@ -7206,7 +7206,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "aa-video-arena",
@@ -7255,7 +7255,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "lmarena",
@@ -7304,7 +7304,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "vbench",
@@ -7354,7 +7354,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "comfy-examples",
@@ -7403,7 +7403,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "replicate",
@@ -7452,7 +7452,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "fal",
@@ -7501,7 +7501,7 @@
       "admitted_at": "",
       "review_status": "",
       "is_recent": false,
-      "recency": 81.7
+      "recency": 80.0
     },
     {
       "id": "auto-qwenlm-qwen-image-2-1",
@@ -7533,27 +7533,27 @@
         "efficiency": 3
       },
       "practical": 57.6,
-      "heat": 63.2,
+      "heat": 63.3,
       "heat_source": "GitHub API",
-      "overall": 60.1,
-      "momentum": 38.8,
-      "growth_pct": 1.94,
-      "stars": 2261,
+      "overall": 60.2,
+      "momentum": 39.6,
+      "growth_pct": 1.98,
+      "stars": 2262,
       "forks": 167,
-      "days_since_push": 37,
+      "days_since_push": 38,
       "official_description": "Qwen's most powerful open-source image generation model",
       "repo_license": "NOASSERTION",
       "data_source": "api",
       "link_state": "unknown",
       "spark": [
         2218,
-        2261
+        2262
       ],
       "auto_admitted": true,
       "admitted_at": "2026-11-11 00:42",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 83.3
+      "recency": 81.7
     },
     {
       "id": "auto-sandai-org-magi-2-preview",
@@ -7585,14 +7585,14 @@
         "efficiency": 3
       },
       "practical": 57.6,
-      "heat": 47.3,
+      "heat": 47.2,
       "heat_source": "GitHub API",
-      "overall": 53.0,
+      "overall": 52.9,
       "momentum": 6.0,
       "growth_pct": 0.3,
       "stars": 659,
       "forks": 21,
-      "days_since_push": 106,
+      "days_since_push": 107,
       "official_description": "MAGI-2-preview: Scaling Video Generation Models Efficiently",
       "repo_license": "Apache-2.0",
       "data_source": "api",
@@ -7605,7 +7605,7 @@
       "admitted_at": "2026-11-11 00:42",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 83.3
+      "recency": 81.7
     },
     {
       "id": "auto-alibabaresearch-sparkdiffusion",
@@ -7641,23 +7641,23 @@
       "heat_source": "GitHub API",
       "overall": 63.5,
       "momentum": 100.0,
-      "growth_pct": 8.08,
-      "stars": 749,
+      "growth_pct": 9.52,
+      "stars": 759,
       "forks": 84,
-      "days_since_push": 25,
+      "days_since_push": 26,
       "official_description": "SparkDiffusion: Accelerating DiT video generation by 265× via joint Sparsity, Distillation, Quantization, etc.",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "unknown",
       "spark": [
         693,
-        749
+        759
       ],
       "auto_admitted": true,
       "admitted_at": "2026-11-11 00:42",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 83.3
+      "recency": 81.7
     },
     {
       "id": "auto-amap-ml-dreamx-creator",
@@ -7689,27 +7689,27 @@
         "efficiency": 3
       },
       "practical": 57.6,
-      "heat": 45.0,
+      "heat": 46.3,
       "heat_source": "GitHub API",
-      "overall": 51.9,
-      "momentum": 6.2,
-      "growth_pct": 0.31,
-      "stars": 320,
+      "overall": 52.5,
+      "momentum": 12.6,
+      "growth_pct": 0.63,
+      "stars": 321,
       "forks": 16,
-      "days_since_push": 78,
+      "days_since_push": 79,
       "official_description": "Democratizing Native Audio-Video Generation at 2K Resolution",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "unknown",
       "spark": [
         319,
-        320
+        321
       ],
       "auto_admitted": true,
       "admitted_at": "2026-11-11 00:42",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 83.3
+      "recency": 81.7
     },
     {
       "id": "auto-wide-trace-open-higgsfield",
@@ -7745,23 +7745,23 @@
       "heat_source": "GitHub API",
       "overall": 68.4,
       "momentum": 100.0,
-      "growth_pct": 9.78,
-      "stars": 6490,
-      "forks": 1385,
-      "days_since_push": 65,
+      "growth_pct": 11.03,
+      "stars": 6564,
+      "forks": 1395,
+      "days_since_push": 66,
       "official_description": "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.",
       "repo_license": "",
       "data_source": "api",
       "link_state": "unknown",
       "spark": [
         5912,
-        6490
+        6564
       ],
       "auto_admitted": true,
       "admitted_at": "2026-11-11 00:42",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 83.3
+      "recency": 81.7
     },
     {
       "id": "auto-nihui-qwenimage-ncnn-vulkan",
@@ -7793,14 +7793,14 @@
         "efficiency": 3
       },
       "practical": 57.6,
-      "heat": 50.7,
+      "heat": 50.6,
       "heat_source": "GitHub API",
       "overall": 54.5,
       "momentum": 22.2,
       "growth_pct": 1.11,
       "stars": 363,
       "forks": 21,
-      "days_since_push": 19,
+      "days_since_push": 20,
       "official_description": "ncnn implementation of Qwen-Image-2.1, with text-to-image, image editing, multi-reference image input and transparent RGBA output",
       "repo_license": "Apache-2.0",
       "data_source": "api",
@@ -7813,7 +7813,7 @@
       "admitted_at": "2026-11-11 00:42",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 83.3
+      "recency": 81.7
     },
     {
       "id": "auto-zylwithxy-hrdit",
@@ -7845,27 +7845,27 @@
         "efficiency": 3
       },
       "practical": 57.6,
-      "heat": 38.5,
+      "heat": 39.3,
       "heat_source": "GitHub API",
-      "overall": 49.0,
+      "overall": 49.4,
       "momentum": 0.0,
-      "growth_pct": -56.78,
-      "stars": 137,
+      "growth_pct": -46.69,
+      "stars": 169,
       "forks": 3,
-      "days_since_push": 80,
+      "days_since_push": 81,
       "official_description": "[ECCV 2026] Official implementation of \"HRDiT: Training-Free High-Resolution Image Generation with Off-the-Shelf Diffusion Transformer Models\"",
       "repo_license": "MIT",
       "data_source": "api",
       "link_state": "unknown",
       "spark": [
         317,
-        137
+        169
       ],
       "auto_admitted": true,
       "admitted_at": "2026-11-11 00:42",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 83.3
+      "recency": 81.7
     },
     {
       "id": "auto-nkxx188-comfyui-minimaxh3-easy",
@@ -7897,27 +7897,27 @@
         "efficiency": 3
       },
       "practical": 57.6,
-      "heat": 58.5,
+      "heat": 59.4,
       "heat_source": "GitHub API",
-      "overall": 58.0,
-      "momentum": 35.2,
-      "growth_pct": 1.76,
-      "stars": 923,
+      "overall": 58.4,
+      "momentum": 39.6,
+      "growth_pct": 1.98,
+      "stars": 925,
       "forks": 62,
-      "days_since_push": 8,
+      "days_since_push": 9,
       "official_description": "The easiest way to use MiniMax H3. One compact workflow for T2V, I2V, first/last-frame, and reference video generation, with a unified multi-media input, powerful @ references, and inline dialogue blocks. Less wiring. More creative control.",
       "repo_license": "MIT",
       "data_source": "api",
       "link_state": "unknown",
       "spark": [
         907,
-        923
+        925
       ],
       "auto_admitted": true,
       "admitted_at": "2026-11-11 00:42",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 83.3
+      "recency": 81.7
     },
     {
       "id": "auto-taoliveaigc-taomate",
@@ -7949,14 +7949,14 @@
         "efficiency": 3
       },
       "practical": 57.6,
-      "heat": 47.2,
+      "heat": 47.1,
       "heat_source": "GitHub API",
       "overall": 52.9,
       "momentum": 0.0,
       "growth_pct": -0.19,
       "stars": 520,
       "forks": 47,
-      "days_since_push": 73,
+      "days_since_push": 74,
       "official_description": "a real-time digital-human model for long-form audio-video generation",
       "repo_license": "NOASSERTION",
       "data_source": "api",
@@ -7969,7 +7969,7 @@
       "admitted_at": "2026-11-11 00:50",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 83.3
+      "recency": 81.7
     },
     {
       "id": "auto-streameval-streameval",
@@ -8008,7 +8008,7 @@
       "growth_pct": 0.16,
       "stars": 622,
       "forks": 9,
-      "days_since_push": 26,
+      "days_since_push": 27,
       "official_description": "🔥 The first-ever interactive streaming video generation benchmark.",
       "repo_license": "Apache-2.0",
       "data_source": "api",
@@ -8021,7 +8021,7 @@
       "admitted_at": "2026-11-11 00:50",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 83.3
+      "recency": 81.7
     },
     {
       "id": "auto-xmarre-comfyui-spectrum-minimax-h3",
@@ -8053,27 +8053,27 @@
         "efficiency": 3
       },
       "practical": 57.6,
-      "heat": 54.2,
+      "heat": 54.7,
       "heat_source": "GitHub API",
-      "overall": 56.1,
-      "momentum": 19.4,
-      "growth_pct": 0.97,
-      "stars": 726,
+      "overall": 56.3,
+      "momentum": 22.2,
+      "growth_pct": 1.11,
+      "stars": 727,
       "forks": 49,
-      "days_since_push": 3,
+      "days_since_push": 4,
       "official_description": "Training-free Spectrum acceleration for ComfyUI’s native MiniMax H3 audio-video model. Uses Chebyshev ridge feature forecasting to skip selected H3 transformer evaluations, with adaptive scheduling, sampler-aware support for Euler, ER-SDE, RES, SEEDS and SA-Solver, CPU/VRAM history storage, and fail-closed native fallbacks.",
       "repo_license": "GPL-3.0",
       "data_source": "api",
       "link_state": "unknown",
       "spark": [
         719,
-        726
+        727
       ],
       "auto_admitted": true,
       "admitted_at": "2026-11-11 00:50",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 83.3
+      "recency": 81.7
     },
     {
       "id": "auto-ukr8b3g-cmyk-comfyui-h3-continuum",
@@ -8105,27 +8105,27 @@
         "efficiency": 3
       },
       "practical": 57.6,
-      "heat": 55.4,
+      "heat": 57.9,
       "heat_source": "GitHub API",
-      "overall": 56.6,
-      "momentum": 44.2,
-      "growth_pct": 2.21,
-      "stars": 324,
+      "overall": 57.7,
+      "momentum": 56.8,
+      "growth_pct": 2.84,
+      "stars": 326,
       "forks": 29,
-      "days_since_push": 2,
+      "days_since_push": 3,
       "official_description": "Seamless long-form MiniMax H3 video generation for ComfyUI with native AV latent continuity, chunked sampling, session resume, and Spectrum/Sage/Sol compatibility.",
       "repo_license": "MIT",
       "data_source": "api",
       "link_state": "unknown",
       "spark": [
         317,
-        324
+        326
       ],
       "auto_admitted": true,
       "admitted_at": "2026-11-11 00:50",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 83.3
+      "recency": 81.7
     },
     {
       "id": "auto-minimax-ai-minimax-h3-image",
@@ -8157,27 +8157,27 @@
         "efficiency": 3
       },
       "practical": 57.6,
-      "heat": 67.5,
+      "heat": 67.6,
       "heat_source": "GitHub API",
       "overall": 62.1,
       "momentum": 100.0,
-      "growth_pct": 19.02,
-      "stars": 438,
-      "forks": 26,
-      "days_since_push": 9,
+      "growth_pct": 20.65,
+      "stars": 444,
+      "forks": 27,
+      "days_since_push": 10,
       "official_description": "MiniMax-H3-Image, an open-weight model for 16-megapixel image generation and editing.",
       "repo_license": "NOASSERTION",
       "data_source": "api",
       "link_state": "unknown",
       "spark": [
         368,
-        438
+        444
       ],
       "auto_admitted": true,
       "admitted_at": "2026-11-13 14:59",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 86.7
+      "recency": 85.0
     },
     {
       "id": "auto-brave-plum-co-leonardo-ai-desktop",
@@ -8216,7 +8216,7 @@
       "growth_pct": -15.6,
       "stars": 303,
       "forks": 0,
-      "days_since_push": 4,
+      "days_since_push": 5,
       "official_description": "Leonardo AI 2026 desktop setup with text-to-image generation using fine-tuned models, canvas editor with inpainting and outpainting, plus real-time generation and image-to-motion for Windows 11",
       "repo_license": "MIT",
       "data_source": "api",
@@ -8229,7 +8229,7 @@
       "admitted_at": "2026-11-15 14:52",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 90.0
+      "recency": 88.3
     },
     {
       "id": "auto-beckettharriman-openfill",
@@ -8261,26 +8261,26 @@
         "efficiency": 3
       },
       "practical": 57.6,
-      "heat": 55.8,
+      "heat": 55.9,
       "heat_source": "GitHub API",
       "overall": 56.8,
       "momentum": 100.0,
       "growth_pct": null,
-      "stars": 311,
+      "stars": 321,
       "forks": 18,
-      "days_since_push": 0,
+      "days_since_push": 1,
       "official_description": "Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI.",
       "repo_license": "Apache-2.0",
       "data_source": "api",
       "link_state": "unknown",
       "spark": [
-        311
+        321
       ],
       "auto_admitted": true,
       "admitted_at": "2026-11-18 15:46",
       "review_status": "pending",
       "is_recent": true,
-      "recency": 96.7
+      "recency": 95.0
     }
   ],
   "disclaimer": "本榜单为资源导航与社区热度观察，不构成对任何产品的推荐或性能背书；闭源产品的热度为人工基线，开源项目的热度由 GitHub / Hugging Face 公开 API 每日自动更新；新资源经公开护栏自动收录并标注「待复核」，可能存在误收。评分含主观判断，欢迎通过 Issue / PR 复核或下架。"
