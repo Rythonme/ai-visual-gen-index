@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-22 15:10 (UTC+8)",
+  "generated": "2026-11-23 15:56 (UTC+8)",
   "note": "本文件由 scripts/discover.py 自动维护；人工核实后可把条目移入 data/tools.json 转正，或直接删掉下架。",
   "config_version": "2.0",
-  "count": 15,
+  "count": 20,
   "tools": [
     {
       "id": "auto-qwenlm-qwen-image-2-1",
@@ -558,6 +558,187 @@
       "source_stars": 301,
       "source_relevance": 77.6,
       "source_created": "2026-10-14"
+    },
+    {
+      "id": "auto-abrahampaulj-nightmare-mobile",
+      "name": "nightmare-mobile",
+      "alias": "自动收录 · 待复核",
+      "category": "edit",
+      "type": "open",
+      "org": "AbrahamPaulJ",
+      "desc": "On-device, ComfyUI-style node graph for image/video diffusion on Android. Run MiniMax H3 and WAN 2.2 14B on the Qualcomm Hexagon NPU. SD1.5, SDXL, Flux, Z-Image, Anima, Qwen Image ",
+      "links": {
+        "home": "https://github.com/AbrahamPaulJ/nightmare-mobile",
+        "github": "https://github.com/AbrahamPaulJ/nightmare-mobile"
+      },
+      "github": "AbrahamPaulJ/nightmare-mobile",
+      "license": "详见仓库",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Kotlin"
+      ],
+      "added": "2026-11-23",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 305,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-23 15:56",
+      "review_status": "pending",
+      "source_query": "\"diffusion\" \"comfyui\" in:description stars:>150",
+      "source_stars": 305,
+      "source_relevance": 109.7,
+      "source_created": "2026-09-07"
+    },
+    {
+      "id": "auto-aroralayla99-capcut-seedance-win",
+      "name": "capcut-seedance-win",
+      "alias": "自动收录 · 待复核",
+      "category": "video_model",
+      "type": "open",
+      "org": "Aroralayla99",
+      "desc": "CapCut Seedance - AI video generation tool for text-to-video synthesis, image animation and motion effects on Windows 10/11",
+      "links": {
+        "home": "https://github.com/Aroralayla99/capcut-seedance-win",
+        "github": "https://github.com/Aroralayla99/capcut-seedance-win"
+      },
+      "github": "Aroralayla99/capcut-seedance-win",
+      "license": "详见仓库",
+      "tags": [
+        "自动收录",
+        "待复核"
+      ],
+      "added": "2026-11-23",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 427,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-23 15:56",
+      "review_status": "pending",
+      "source_query": "\"video generation\" in:description stars:>300",
+      "source_stars": 427,
+      "source_relevance": 82.6,
+      "source_created": "2026-11-21"
+    },
+    {
+      "id": "auto-cloudcode04-runway-ml-pro-win",
+      "name": "runway-ml-pro-win",
+      "alias": "自动收录 · 待复核",
+      "category": "video_model",
+      "type": "open",
+      "org": "Cloudcode04",
+      "desc": "Runway - AI video generation platform for text-to-video synthesis, image animation and motion brush editing on Windows 10/11",
+      "links": {
+        "home": "https://github.com/Cloudcode04/runway-ml-pro-win",
+        "github": "https://github.com/Cloudcode04/runway-ml-pro-win"
+      },
+      "github": "Cloudcode04/runway-ml-pro-win",
+      "license": "详见仓库",
+      "tags": [
+        "自动收录",
+        "待复核"
+      ],
+      "added": "2026-11-23",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 422,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-23 15:56",
+      "review_status": "pending",
+      "source_query": "\"video generation\" in:description stars:>300",
+      "source_stars": 422,
+      "source_relevance": 82.5,
+      "source_created": "2026-11-21"
+    },
+    {
+      "id": "auto-jiefedorov81-runway-ml-pro-win",
+      "name": "runway-ml-pro-win",
+      "alias": "自动收录 · 待复核",
+      "category": "video_model",
+      "type": "open",
+      "org": "JieFedorov81",
+      "desc": "Runway - AI video generation platform for text-to-video synthesis, image animation and motion brush editing on Windows 10/11",
+      "links": {
+        "home": "https://github.com/JieFedorov81/runway-ml-pro-win",
+        "github": "https://github.com/JieFedorov81/runway-ml-pro-win"
+      },
+      "github": "JieFedorov81/runway-ml-pro-win",
+      "license": "详见仓库",
+      "tags": [
+        "自动收录",
+        "待复核"
+      ],
+      "added": "2026-11-23",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 421,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-23 15:56",
+      "review_status": "pending",
+      "source_query": "\"video generation\" in:description stars:>300",
+      "source_stars": 421,
+      "source_relevance": 82.5,
+      "source_created": "2026-11-21"
+    },
+    {
+      "id": "auto-josephyoung28-capcut-seedance-win",
+      "name": "capcut-seedance-win",
+      "alias": "自动收录 · 待复核",
+      "category": "video_model",
+      "type": "open",
+      "org": "josephyoung28",
+      "desc": "CapCut Seedance - AI video generation tool for text-to-video synthesis, image animation and motion effects on Windows 10/11",
+      "links": {
+        "home": "https://github.com/josephyoung28/capcut-seedance-win",
+        "github": "https://github.com/josephyoung28/capcut-seedance-win"
+      },
+      "github": "josephyoung28/capcut-seedance-win",
+      "license": "详见仓库",
+      "tags": [
+        "自动收录",
+        "待复核"
+      ],
+      "added": "2026-11-23",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 411,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-23 15:56",
+      "review_status": "pending",
+      "source_query": "\"video generation\" in:description stars:>300",
+      "source_stars": 411,
+      "source_relevance": 82.3,
+      "source_created": "2026-11-21"
     }
   ]
 }
