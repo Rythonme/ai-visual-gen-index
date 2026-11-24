@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-23 15:56 (UTC+8)",
+  "generated": "2026-11-24 18:10 (UTC+8)",
   "note": "本文件由 scripts/discover.py 自动维护；人工核实后可把条目移入 data/tools.json 转正，或直接删掉下架。",
   "config_version": "2.0",
-  "count": 20,
+  "count": 21,
   "tools": [
     {
       "id": "auto-qwenlm-qwen-image-2-1",
@@ -739,6 +739,42 @@
       "source_stars": 411,
       "source_relevance": 82.3,
       "source_created": "2026-11-21"
+    },
+    {
+      "id": "auto-fujc683-seedance-2-5-flash-camera-movements",
+      "name": "seedance-2-5-flash-camera-movements",
+      "alias": "自动收录 · 待复核",
+      "category": "video_model",
+      "type": "open",
+      "org": "fujc683",
+      "desc": "12 camera moves for text-to-video, with copy-paste prompt phrases.",
+      "links": {
+        "home": "https://github.com/fujc683/seedance-2-5-flash-camera-movements",
+        "github": "https://github.com/fujc683/seedance-2-5-flash-camera-movements"
+      },
+      "github": "fujc683/seedance-2-5-flash-camera-movements",
+      "license": "详见仓库",
+      "tags": [
+        "自动收录",
+        "待复核"
+      ],
+      "added": "2026-11-24",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 438,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-24 18:10",
+      "review_status": "pending",
+      "source_query": "\"text-to-video\" in:name,description stars:>200",
+      "source_stars": 438,
+      "source_relevance": 62.8,
+      "source_created": "2026-11-16"
     }
   ]
 }
