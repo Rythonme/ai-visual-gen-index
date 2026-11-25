@@ -1,44 +1,43 @@
 # 新资源自动收录报告
 
-生成时间：2026-11-24 18:10 (UTC+8) ｜ 检索窗口：近 120 天新建（created:>2026-07-27）
+生成时间：2026-11-25 16:55 (UTC+8) ｜ 检索窗口：近 120 天新建（created:>2026-07-28）
 
-本轮命中 **39** 个仓库：**自动收录 1 个**、护栏拒绝 24 个、已在榜 14 个；自动收录层目前共 **21** 条。
+本轮命中 **38** 个仓库：**自动收录 0 个**、护栏拒绝 23 个、已在榜 15 个；自动收录层目前共 **21** 条。
 
 > 符合护栏的候选已由 `scripts/discover.py` 自动写入 `data/auto_tools.json` 并进入榜单，带「自动收录 · 待复核」标记。**人工清单 `data/tools.json` 不会被脚本改写**。维护者可把优质条目转正（移入 tools.json）或删掉下架，方法见 CONTRIBUTING.md。
 
-## 本轮自动收录（1）
+## 本轮自动收录（0）
 
 | # | 仓库 | Stars | 推断分类 | 收录时间 | 链接 |
 |---|---|---|---|---|---|
-| 1 | fujc683/seedance-2-5-flash-camera-movements | 438 | video_model | 2026-11-24 18:10 | [GitHub](https://github.com/fujc683/seedance-2-5-flash-camera-movements) |
+| — | 本轮无符合条件的新仓库 | — | — | — | — |
 
-## 被护栏拒绝（24）
+## 被护栏拒绝（23）
 
 | 仓库 | Stars | 拒绝原因 |
 |---|---|---|
-| czg86389-hub/muse2api | 1,657 | 命中排除词「逆向」 |
-| wideeyededi/uncensored-nsfw-ai-video-api | 450 | 命中排除词「nsfw」 |
-| lemomo-ai/lemo-opuscar | 20,460 | 命中排除词「claude code」 |
-| LynnReal-AI/LynnReal-Omni | 285 | Stars 285 低于阈值 300 |
-| HaD0Yun/CozyClay | 2,087 | 命中排除词「previs」 |
-| Rimagination/h3lite | 489 | 命中排除词「codex skill」 |
-| gufo-org/gufo | 1,261 | 命中排除词「openai-compatible」 |
-| Noniv/abyssal-garden | 2,900 | 未命中生图 / 生视频关键词 |
+| czg86389-hub/muse2api | 1,688 | 命中排除词「逆向」 |
+| wideeyededi/uncensored-nsfw-ai-video-api | 452 | 命中排除词「nsfw」 |
+| lemomo-ai/lemo-opuscar | 20,853 | 命中排除词「claude code」 |
+| LynnReal-AI/LynnReal-Omni | 286 | Stars 286 低于阈值 300 |
+| Rimagination/h3lite | 494 | 命中排除词「codex skill」 |
+| gufo-org/gufo | 1,270 | 命中排除词「openai-compatible」 |
+| Noniv/abyssal-garden | 2,953 | 未命中生图 / 生视频关键词 |
 | code-video-model/CodeVideoModel | 789 | 简介过短（30 < 45 字），信息不足 |
 | iamyoki/qwen-image-2.1-skill | 215 | Stars 215 低于阈值 300 |
 | dickpy/dsh-imagegen | 208 | Stars 208 低于阈值 300 |
 | blendi-remade/prompt2rig | 622 | 命中排除词「rigged」 |
-| qianshuixia/shrimpreel | 469 | 命中排除词「saas」 |
+| qianshuixia/shrimpreel | 470 | 命中排除词「saas」 |
+| cloveric/claude-drawing-skill | 403 | 命中排除词「skill for」 |
 | BMB12d3/minimax-h3-prompt-composer | 315 | 命中排除词「prompt composer」 |
-| cloveric/claude-drawing-skill | 389 | 命中排除词「skill for」 |
-| apiframe-ai/seedance-2.0-api | 232 | Stars 232 低于阈值 300 |
+| apiframe-ai/seedance-2.0-api | 231 | Stars 231 低于阈值 300 |
 | patch-gg/trompe | 228 | Stars 228 低于阈值 300 |
-| TaiT-tt/tait-crt-interface-skill | 560 | 命中排除词「-skill」 |
+| TaiT-tt/tait-crt-interface-skill | 561 | 命中排除词「-skill」 |
 | NiluK/worldmodels101 | 212 | Stars 212 低于阈值 300 |
 | silverdugongenhance/PromptReel | 207 | Stars 207 低于阈值 300 |
 | fujc683/cheap-video-api | 440 | 命中排除词「-api」 |
 | fujc683/seedance-2-5-flash-api | 438 | 命中排除词「-api」 |
-| lemomo-ai/lemo-animi | 216 | Stars 216 低于阈值 300 |
+| lemomo-ai/lemo-animi | 229 | Stars 229 低于阈值 300 |
 | matlowai/ComfyUI-MAINodes | 259 | Stars 259 低于阈值 300 |
 
 ## 自动收录层当前条目
