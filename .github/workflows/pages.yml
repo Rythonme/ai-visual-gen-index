@@ -1,9 +1,12 @@
 name: 部署榜单网站
 
-# 关键：每日榜单更新由 github-actions[bot] 用 secrets.GITHUB_TOKEN 提交，
+# 关键 1：每日榜单更新由 github-actions[bot] 用 secrets.GITHUB_TOKEN 提交，
 # GitHub 规定这类 push 不会再触发其它工作流（防无限循环），只靠 push 触发会导致
 # 数据每天更新、网站却停在旧版本。因此用 workflow_run 监听「每日自动更新榜单」
 # 完成后主动部署，push / workflow_dispatch 作为双保险。
+# 关键 2：GitHub 的 artifact 服务是最终一致的，上传成功后 API 列表可能短暂查不到，
+# 导致 deploy-pages 报 "No artifacts named github-pages were found"（2026-11-25 实测故障）。
+# 上传与部署之间加了可见性轮询，并保留一次自动重试兜底。
 # 首次使用需在仓库 Settings → Pages → Build and deployment 选择 "GitHub Actions"。
 on:
   push:
@@ -16,11 +19,18 @@ on:
     types: [completed]
     branches: [main]
   workflow_dispatch:
+    inputs:
+      retry:
+        description: '内部自动重试标记（0=首次，1=已重试；手动触发请保持 0）'
+        required: false
+        default: '0'
+        type: string
 
 permissions:
   contents: read
   pages: write
   id-token: write
+  actions: write      # 读取 artifact 元数据 + 部署失败时自动重跑一次
 
 concurrency:
   group: pages
@@ -31,6 +41,7 @@ jobs:
     # 榜单更新失败时不部署，避免把半成品数据推上线
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -46,6 +57,35 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
+      - name: 等待 artifact 元数据可见
+        # 上传成功 ≠ API 立刻可查。deploy-pages 会立刻按名字查 artifact，
+        # 查不到就直接失败。这里轮询到可见为止，最多 24 × 5s = 120s。
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          url="https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts?per_page=100"
+          for i in $(seq 1 24); do
+            n=$(curl -sS -f -H "Authorization: Bearer $GH_TOKEN" \
+                  -H "Accept: application/vnd.github+json" "$url" \
+                | jq -r '[.artifacts[] | select(.name=="github-pages" and .expired==false)] | length' 2>/dev/null || echo 0)
+            if [ "${n:-0}" -ge 1 ]; then
+              echo "artifact 元数据已可见（第 $i 次检查）"
+              exit 0
+            fi
+            echo "第 $i 次检查：尚未可见，5 秒后重试"
+            sleep 5
+          done
+          echo "::warning::artifact 元数据 120 秒内未可见，仍尝试部署（失败时由下一步自动重跑）"
       - name: 部署
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: 部署失败时自动重跑一次
+        # 仅重试一次：重跑时带 retry=1，该步骤不再执行，避免无限循环。
+        if: failure() && inputs.retry != '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          echo "::warning::本次部署失败，等待 90 秒后自动重跑一次"
+          sleep 90
+          gh workflow run pages.yml --ref main -f retry=1
