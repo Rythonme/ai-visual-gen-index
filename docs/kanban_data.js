@@ -2,7 +2,7 @@
 window.__KANBAN_DATA__ = {
   "project": "AI 视觉生成资源榜 · AI Visual Generation Index",
   "subtitle": "生图 / 生视频资源导航与双维度排名榜 · 每日自动收录与刷新",
-  "updated": "2026-11-16 10:22 (UTC+8)",
+  "updated": "2026-11-25 17:20 (UTC+8)",
   "repo": "https://github.com/Rythonme/ai-visual-gen-index",
   "site": "https://rythonme.github.io/ai-visual-gen-index/",
   "workspace": "F:\\00在研项目\\05_Github\\ai-visual-gen-index",
@@ -64,7 +64,7 @@ window.__KANBAN_DATA__ = {
     {
       "id": "T9", "title": "复核自动收录条目并转正 / 下架", "status": "todo", "priority": "中",
       "owner": "维护者", "updated": "2026-11-11",
-      "desc": "截至 2026-11-16 已有 14 条自动收录进榜（Qwen-Image-2.1、MAGI-2-preview、SparkDiffusion、open-higgsfield、TaoMate、StreamEval 等），均带 pending 标记与保守默认分，榜单共 104 条资源。需逐个核实范畴/官方链接/许可证，优质条目转正写入 tools.json 并给正式六维分，误收的从 auto_tools.json 删除。另季度复核 heat_baseline 与护栏关键词。",
+      "desc": "截至 2026-11-25 已有 21 条自动收录进榜（Qwen-Image-2.1、MAGI-2-preview、SparkDiffusion、open-higgsfield、TaoMate、StreamEval 等），均带 pending 标记与保守默认分，榜单共 111 条资源（开源/开放权重 72）。需逐个核实范畴/官方链接/许可证，优质条目转正写入 tools.json 并给正式六维分，误收的从 auto_tools.json 删除。另季度复核 heat_baseline 与护栏关键词。",
       "deliverables": ["reports/candidates.md 审核记录", "data/auto_tools.json 复核"]
     },
     {
@@ -84,6 +84,12 @@ window.__KANBAN_DATA__ = {
       "owner": "WorkBuddy", "updated": "2026-11-16",
       "desc": "发现 11-11 至 11-15 每日榜单均自动更新成功（数据到 104 条），但线上网站停在 11-11：机器人用 secrets.GITHUB_TOKEN 提交的 docs/data.js 变更不会再触发 push 事件工作流（GitHub 防循环机制），pages.yml 只监听 push 因此 5 天未部署。修复：pages.yml 新增 workflow_run 触发，监听「每日自动更新榜单」完成后自动部署，限制 conclusion == success 且 checkout 显式 ref: main；保留 push / workflow_dispatch 双保险。手动触发周更后实测：周更 success → 机器人提交 abeec0f → workflow_run 部署 success（head_sha=abeec0f）→ 线上 data.js 更新至 2026-11-16 10:18 / 2026-W47 / 104 条。",
       "deliverables": [".github/workflows/pages.yml", ".github/workflows/weekly-update.yml", "reports/2026-W47.md", "logs/2026-11-16.md"]
+    },
+    {
+      "id": "T13", "title": "排查并修复 Pages 部署偶发失败", "status": "done", "priority": "高",
+      "owner": "WorkBuddy", "updated": "2026-11-25",
+      "desc": "用户收到 11-25 16:56 的「部署榜单网站: All jobs have failed」通知。排查：11-16~11-24 九次部署全部 success，11-25 周更 success 但 workflow_run 部署失败在「部署」步骤。日志显示上传站点成功（artifact ID 15006606459 / 82620 bytes），但 0.4 秒后 deploy-pages 查元数据返回 Found 0 artifact(s) → No artifacts named github-pages were found，属 GitHub artifact 服务最终一致性延迟/临时故障，非代码或权限问题；线上数据因此落后一天（停在 11-24 18:11）。修复：上传与部署之间新增 artifact 元数据可见性轮询（最多 24×5s）、部署失败自动重跑一次（workflow_dispatch 带 retry=1 防循环）、补 actions: write 权限与 15 分钟超时。修复后部署实测 success，等待步骤「第 1 次检查即可见」，重试步骤正确 skipped，线上数据追平至 2026-11-25 16:56 / W48 / 111 条。",
+      "deliverables": [".github/workflows/pages.yml", "logs/2026-11-25.md", "reports/2026-W48.md"]
     }
   ],
   "milestones": [
@@ -91,7 +97,8 @@ window.__KANBAN_DATA__ = {
     { "name": "M2 GitHub 上线 + Pages 可访问", "status": "done", "date": "2026-11-11", "note": "仓库已推送、Pages 已启用且站点 200 可访问" },
     { "name": "M3 首次自动更新闭环", "status": "done", "date": "2026-11-11", "note": "两条工作流 success，自动提交榜单/周报；58/58 仓库经 API 实取" },
     { "name": "M4 新资源自动收录上线", "status": "done", "date": "2026-11-11", "note": "每日 08:30 检索收录；两轮共 12 条自动进榜、榜单 102 条，六类榜单含新收录榜；护栏实测拦截 20 个误收候选；云端自动收录工作流 success 并自动提交 dd4fa4e" },
-    { "name": "M5 数据到网页全链路闭环", "status": "done", "date": "2026-11-16", "note": "每日 11-11~11-15 五次 schedule 均 success；修复 robot push 不触发部署的问题后，周更→自动提交→workflow_run 自动部署→线上数据同步全部实测通过；W47 周报生成，104 条资源 / 14 条自动收录 / 64/64 仓库 API 实取 / 外链 161 ok 0 fail" }
+    { "name": "M5 数据到网页全链路闭环", "status": "done", "date": "2026-11-16", "note": "每日 11-11~11-15 五次 schedule 均 success；修复 robot push 不触发部署的问题后，周更→自动提交→workflow_run 自动部署→线上数据同步全部实测通过；W47 周报生成，104 条资源 / 14 条自动收录 / 64/64 仓库 API 实取 / 外链 161 ok 0 fail" },
+    { "name": "M6 部署自愈能力上线", "status": "done", "date": "2026-11-25", "note": "11-16~11-25 连续 10 天自动更新稳定；定位并根治 artifact 元数据竞态导致的单次部署失败，新增可见性轮询 + 失败自动重跑一次；W48 周报生成，111 条资源 / 21 条自动收录 / 71/71 仓库 API 实取 / 外链 164 ok 0 fail" }
   ],
   "links": [
     { "label": "GitHub 仓库", "url": "https://github.com/Rythonme/ai-visual-gen-index" },
