@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-25 16:55 (UTC+8)",
+  "generated": "2026-11-26 16:41 (UTC+8)",
   "note": "本文件由 scripts/discover.py 自动维护；人工核实后可把条目移入 data/tools.json 转正，或直接删掉下架。",
   "config_version": "2.0",
-  "count": 21,
+  "count": 22,
   "tools": [
     {
       "id": "auto-qwenlm-qwen-image-2-1",
@@ -775,6 +775,43 @@
       "source_stars": 438,
       "source_relevance": 62.8,
       "source_created": "2026-11-16"
+    },
+    {
+      "id": "auto-rinste-turbo-mlx",
+      "name": "turbo-mlx",
+      "alias": "自动收录 · 待复核",
+      "category": "video_model",
+      "type": "open",
+      "org": "rinste",
+      "desc": "Local AI image & video generation for Apple Silicon: a native macOS app with an MLX Swift engine. FLUX.2 Klein, Z-Image Turbo, Qwen-Image 2512, Ming-Image and LTX-2.3 (video with s",
+      "links": {
+        "home": "https://github.com/rinste/turbo-mlx",
+        "github": "https://github.com/rinste/turbo-mlx"
+      },
+      "github": "rinste/turbo-mlx",
+      "license": "MIT",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Swift"
+      ],
+      "added": "2026-11-26",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 301,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-26 16:41",
+      "review_status": "pending",
+      "source_query": "\"video generation\" in:description stars:>300",
+      "source_stars": 301,
+      "source_relevance": 77.6,
+      "source_created": "2026-09-27"
     }
   ]
 }
