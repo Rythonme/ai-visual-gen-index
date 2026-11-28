@@ -2,10 +2,10 @@
   "repos": {
     "Comfy-Org/ComfyUI": {
       "full_name": "Comfy-Org/ComfyUI",
-      "stars": 148832,
-      "forks": 17735,
-      "open_issues": 5664,
-      "pushed_at": "2026-11-27T07:28:00Z",
+      "stars": 148965,
+      "forks": 17759,
+      "open_issues": 5660,
+      "pushed_at": "2026-11-28T06:23:15Z",
       "created_at": "2023-01-17T03:15:56Z",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "license": "GPL-3.0",
@@ -13,13 +13,13 @@
       "archived": false,
       "html_url": "https://github.com/Comfy-Org/ComfyUI",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:18+08:00"
+      "fetched_at": "2026-11-28T16:12:37+08:00"
     },
     "facebookresearch/segment-anything": {
       "full_name": "facebookresearch/segment-anything",
-      "stars": 55183,
-      "forks": 6418,
-      "open_issues": 598,
+      "stars": 55190,
+      "forks": 6417,
+      "open_issues": 599,
       "pushed_at": "2024-09-18T17:46:55Z",
       "created_at": "2023-03-23T17:03:03Z",
       "description": "The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
@@ -28,12 +28,12 @@
       "archived": false,
       "html_url": "https://github.com/facebookresearch/segment-anything",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:18+08:00"
+      "fetched_at": "2026-11-28T16:12:37+08:00"
     },
     "AUTOMATIC1111/stable-diffusion-webui": {
       "full_name": "AUTOMATIC1111/stable-diffusion-webui",
-      "stars": 165390,
-      "forks": 31026,
+      "stars": 165397,
+      "forks": 30981,
       "open_issues": 2511,
       "pushed_at": "2026-03-02T07:00:53Z",
       "created_at": "2022-08-22T14:05:26Z",
@@ -43,12 +43,12 @@
       "archived": false,
       "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:18+08:00"
+      "fetched_at": "2026-11-28T16:12:37+08:00"
     },
     "lllyasviel/Fooocus": {
       "full_name": "lllyasviel/Fooocus",
-      "stars": 53981,
-      "forks": 8616,
+      "stars": 53983,
+      "forks": 8612,
       "open_issues": 315,
       "pushed_at": "2025-12-01T19:17:07Z",
       "created_at": "2023-08-09T18:43:40Z",
@@ -58,14 +58,14 @@
       "archived": false,
       "html_url": "https://github.com/lllyasviel/Fooocus",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:18+08:00"
+      "fetched_at": "2026-11-28T16:12:37+08:00"
     },
     "harry0703/MoneyPrinterTurbo": {
       "full_name": "harry0703/MoneyPrinterTurbo",
-      "stars": 145924,
-      "forks": 23499,
-      "open_issues": 93,
-      "pushed_at": "2026-11-27T06:30:42Z",
+      "stars": 146060,
+      "forks": 23545,
+      "open_issues": 96,
+      "pushed_at": "2026-11-28T00:04:34Z",
       "created_at": "2024-03-11T02:57:34Z",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "license": "MIT",
@@ -73,13 +73,13 @@
       "archived": false,
       "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:19+08:00"
+      "fetched_at": "2026-11-28T16:12:38+08:00"
     },
     "TencentARC/GFPGAN": {
       "full_name": "TencentARC/GFPGAN",
-      "stars": 37739,
-      "forks": 6284,
-      "open_issues": 404,
+      "stars": 37737,
+      "forks": 6283,
+      "open_issues": 405,
       "pushed_at": "2024-07-26T18:44:02Z",
       "created_at": "2021-03-19T06:18:20Z",
       "description": "GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration.",
@@ -88,12 +88,12 @@
       "archived": false,
       "html_url": "https://github.com/TencentARC/GFPGAN",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:19+08:00"
+      "fetched_at": "2026-11-28T16:12:38+08:00"
     },
     "lllyasviel/ControlNet": {
       "full_name": "lllyasviel/ControlNet",
-      "stars": 34159,
-      "forks": 3008,
+      "stars": 34161,
+      "forks": 3009,
       "open_issues": 461,
       "pushed_at": "2024-02-25T09:49:39Z",
       "created_at": "2023-02-01T02:43:30Z",
@@ -103,14 +103,14 @@
       "archived": false,
       "html_url": "https://github.com/lllyasviel/ControlNet",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:19+08:00"
+      "fetched_at": "2026-11-28T16:12:38+08:00"
     },
     "huggingface/diffusers": {
       "full_name": "huggingface/diffusers",
-      "stars": 34983,
-      "forks": 7520,
-      "open_issues": 1648,
-      "pushed_at": "2026-11-26T15:37:01Z",
+      "stars": 34986,
+      "forks": 7517,
+      "open_issues": 1641,
+      "pushed_at": "2026-11-28T02:52:28Z",
       "created_at": "2022-05-30T16:04:02Z",
       "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
       "license": "Apache-2.0",
@@ -118,13 +118,13 @@
       "archived": false,
       "html_url": "https://github.com/huggingface/diffusers",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:20+08:00"
+      "fetched_at": "2026-11-28T16:12:38+08:00"
     },
     "xinntao/Real-ESRGAN": {
       "full_name": "xinntao/Real-ESRGAN",
-      "stars": 37693,
-      "forks": 4563,
-      "open_issues": 649,
+      "stars": 37713,
+      "forks": 4565,
+      "open_issues": 650,
       "pushed_at": "2024-08-06T13:15:18Z",
       "created_at": "2021-07-19T03:23:30Z",
       "description": "Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.",
@@ -133,12 +133,12 @@
       "archived": false,
       "html_url": "https://github.com/xinntao/Real-ESRGAN",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:20+08:00"
+      "fetched_at": "2026-11-28T16:12:39+08:00"
     },
     "hpcaitech/Open-Sora": {
       "full_name": "hpcaitech/Open-Sora",
-      "stars": 29956,
-      "forks": 3106,
+      "stars": 29957,
+      "forks": 3107,
       "open_issues": 15,
       "pushed_at": "2026-04-09T01:52:40Z",
       "created_at": "2024-02-20T03:01:34Z",
@@ -148,11 +148,11 @@
       "archived": false,
       "html_url": "https://github.com/hpcaitech/Open-Sora",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:20+08:00"
+      "fetched_at": "2026-11-28T16:12:39+08:00"
     },
     "black-forest-labs/flux": {
       "full_name": "black-forest-labs/flux",
-      "stars": 26083,
+      "stars": 26086,
       "forks": 1935,
       "open_issues": 222,
       "pushed_at": "2025-07-31T13:58:55Z",
@@ -163,11 +163,11 @@
       "archived": false,
       "html_url": "https://github.com/black-forest-labs/flux",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:20+08:00"
+      "fetched_at": "2026-11-28T16:12:39+08:00"
     },
     "Wan-Video/Wan2.2": {
       "full_name": "Wan-Video/Wan2.2",
-      "stars": 18968,
+      "stars": 18983,
       "forks": 2562,
       "open_issues": 355,
       "pushed_at": "2026-09-21T06:16:22Z",
@@ -178,12 +178,12 @@
       "archived": false,
       "html_url": "https://github.com/Wan-Video/Wan2.2",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:21+08:00"
+      "fetched_at": "2026-11-28T16:12:40+08:00"
     },
     "danielgatis/rembg": {
       "full_name": "danielgatis/rembg",
-      "stars": 25701,
-      "forks": 2517,
+      "stars": 25721,
+      "forks": 2522,
       "open_issues": 0,
       "pushed_at": "2026-11-24T13:54:32Z",
       "created_at": "2020-08-10T14:38:24Z",
@@ -193,12 +193,12 @@
       "archived": false,
       "html_url": "https://github.com/danielgatis/rembg",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:21+08:00"
+      "fetched_at": "2026-11-28T16:12:40+08:00"
     },
     "Wan-Video/Wan2.1": {
       "full_name": "Wan-Video/Wan2.1",
-      "stars": 17504,
-      "forks": 4112,
+      "stars": 17509,
+      "forks": 4117,
       "open_issues": 394,
       "pushed_at": "2026-03-05T09:38:07Z",
       "created_at": "2025-02-25T11:49:33Z",
@@ -208,11 +208,11 @@
       "archived": false,
       "html_url": "https://github.com/Wan-Video/Wan2.1",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:21+08:00"
+      "fetched_at": "2026-11-28T16:12:40+08:00"
     },
     "Stability-AI/generative-models": {
       "full_name": "Stability-AI/generative-models",
-      "stars": 27350,
+      "stars": 27349,
       "forks": 3092,
       "open_issues": 336,
       "pushed_at": "2025-12-16T08:36:18Z",
@@ -223,11 +223,11 @@
       "archived": false,
       "html_url": "https://github.com/Stability-AI/generative-models",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:22+08:00"
+      "fetched_at": "2026-11-28T16:12:40+08:00"
     },
     "lllyasviel/FramePack": {
       "full_name": "lllyasviel/FramePack",
-      "stars": 17403,
+      "stars": 17408,
       "forks": 1754,
       "open_issues": 499,
       "pushed_at": "2025-10-16T01:28:50Z",
@@ -238,7 +238,7 @@
       "archived": false,
       "html_url": "https://github.com/lllyasviel/FramePack",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:22+08:00"
+      "fetched_at": "2026-11-28T16:12:41+08:00"
     },
     "guoyww/AnimateDiff": {
       "full_name": "guoyww/AnimateDiff",
@@ -253,14 +253,14 @@
       "archived": false,
       "html_url": "https://github.com/guoyww/AnimateDiff",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:22+08:00"
+      "fetched_at": "2026-11-28T16:12:41+08:00"
     },
     "ltdrdata/ComfyUI-Manager": {
       "full_name": "Comfy-Org/ComfyUI-Manager",
-      "stars": 16956,
-      "forks": 2637,
-      "open_issues": 392,
-      "pushed_at": "2026-11-26T23:56:31Z",
+      "stars": 16959,
+      "forks": 2639,
+      "open_issues": 401,
+      "pushed_at": "2026-11-28T06:52:56Z",
       "created_at": "2023-04-23T14:36:09Z",
       "description": "ComfyUI-Manager is an extension designed to enhance the usability of ComfyUI. It offers management functions to install, remove, disable, and enable various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.",
       "license": "GPL-3.0",
@@ -268,12 +268,12 @@
       "archived": false,
       "html_url": "https://github.com/Comfy-Org/ComfyUI-Manager",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:23+08:00"
+      "fetched_at": "2026-11-28T16:12:42+08:00"
     },
     "zai-org/CogVideo": {
       "full_name": "zai-org/CogVideo",
-      "stars": 13234,
-      "forks": 1402,
+      "stars": 13235,
+      "forks": 1404,
       "open_issues": 117,
       "pushed_at": "2025-11-04T11:19:04Z",
       "created_at": "2022-05-29T06:46:18Z",
@@ -283,14 +283,14 @@
       "archived": false,
       "html_url": "https://github.com/zai-org/CogVideo",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:23+08:00"
+      "fetched_at": "2026-11-28T16:12:42+08:00"
     },
     "modelscope/DiffSynth-Studio": {
       "full_name": "modelscope/DiffSynth-Studio",
-      "stars": 13444,
-      "forks": 1346,
-      "open_issues": 581,
-      "pushed_at": "2026-11-27T08:48:49Z",
+      "stars": 13448,
+      "forks": 1347,
+      "open_issues": 577,
+      "pushed_at": "2026-11-27T12:35:27Z",
       "created_at": "2023-12-07T16:52:15Z",
       "description": "Enjoy the magic of Diffusion models!",
       "license": "Apache-2.0",
@@ -298,11 +298,11 @@
       "archived": false,
       "html_url": "https://github.com/modelscope/DiffSynth-Studio",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:24+08:00"
+      "fetched_at": "2026-11-28T16:12:42+08:00"
     },
     "Tencent-Hunyuan/HunyuanVideo": {
       "full_name": "Tencent-Hunyuan/HunyuanVideo",
-      "stars": 12836,
+      "stars": 12839,
       "forks": 1410,
       "open_issues": 187,
       "pushed_at": "2026-10-08T08:57:37Z",
@@ -313,7 +313,7 @@
       "archived": false,
       "html_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:24+08:00"
+      "fetched_at": "2026-11-28T16:12:43+08:00"
     },
     "Tongyi-MAI/Z-Image": {
       "full_name": "Tongyi-MAI/Z-Image",
@@ -328,14 +328,14 @@
       "archived": false,
       "html_url": "https://github.com/Tongyi-MAI/Z-Image",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:24+08:00"
+      "fetched_at": "2026-11-28T16:12:43+08:00"
     },
     "invoke-ai/InvokeAI": {
       "full_name": "invoke-ai/InvokeAI",
-      "stars": 29169,
-      "forks": 3130,
-      "open_issues": 297,
-      "pushed_at": "2026-11-27T08:28:25Z",
+      "stars": 29177,
+      "forks": 3132,
+      "open_issues": 303,
+      "pushed_at": "2026-11-28T04:34:57Z",
       "created_at": "2022-08-17T01:04:27Z",
       "description": "Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products.",
       "license": "Apache-2.0",
@@ -343,11 +343,11 @@
       "archived": false,
       "html_url": "https://github.com/invoke-ai/InvokeAI",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:24+08:00"
+      "fetched_at": "2026-11-28T16:12:43+08:00"
     },
     "Lightricks/LTX-Video": {
       "full_name": "Lightricks/LTX-Video",
-      "stars": 11508,
+      "stars": 11516,
       "forks": 1259,
       "open_issues": 110,
       "pushed_at": "2026-11-02T19:25:43Z",
@@ -358,14 +358,14 @@
       "archived": false,
       "html_url": "https://github.com/Lightricks/LTX-Video",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:25+08:00"
+      "fetched_at": "2026-11-28T16:12:43+08:00"
     },
     "NVlabs/Sana": {
       "full_name": "NVlabs/Sana",
-      "stars": 9911,
-      "forks": 816,
-      "open_issues": 139,
-      "pushed_at": "2026-11-27T05:20:27Z",
+      "stars": 9916,
+      "forks": 817,
+      "open_issues": 138,
+      "pushed_at": "2026-11-27T14:24:24Z",
       "created_at": "2024-10-11T20:19:45Z",
       "description": "SANA & Sol: Efficient Generative Models and Full-Stack Training & Inference Engines for Image, Video, World Modeling and Robotics ",
       "license": "Apache-2.0",
@@ -373,12 +373,12 @@
       "archived": false,
       "html_url": "https://github.com/NVlabs/Sana",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:25+08:00"
+      "fetched_at": "2026-11-28T16:12:44+08:00"
     },
     "ostris/ai-toolkit": {
       "full_name": "ostris/ai-toolkit",
-      "stars": 12722,
-      "forks": 1636,
+      "stars": 12731,
+      "forks": 1638,
       "open_issues": 86,
       "pushed_at": "2026-11-27T02:55:30Z",
       "created_at": "2023-07-05T18:45:11Z",
@@ -388,11 +388,11 @@
       "archived": false,
       "html_url": "https://github.com/ostris/ai-toolkit",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:25+08:00"
+      "fetched_at": "2026-11-28T16:12:44+08:00"
     },
     "QwenLM/Qwen-Image": {
       "full_name": "QwenLM/Qwen-Image",
-      "stars": 8501,
+      "stars": 8504,
       "forks": 571,
       "open_issues": 241,
       "pushed_at": "2026-02-10T07:37:37Z",
@@ -403,12 +403,12 @@
       "archived": false,
       "html_url": "https://github.com/QwenLM/Qwen-Image",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:26+08:00"
+      "fetched_at": "2026-11-28T16:12:44+08:00"
     },
     "Lightricks/LTX-2": {
       "full_name": "Lightricks/LTX-2",
-      "stars": 10427,
-      "forks": 1666,
+      "stars": 10443,
+      "forks": 1665,
       "open_issues": 43,
       "pushed_at": "2026-11-24T17:23:51Z",
       "created_at": "2026-01-03T13:16:29Z",
@@ -418,7 +418,7 @@
       "archived": false,
       "html_url": "https://github.com/Lightricks/LTX-2",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:26+08:00"
+      "fetched_at": "2026-11-28T16:12:44+08:00"
     },
     "deepseek-ai/Janus": {
       "full_name": "deepseek-ai/Janus",
@@ -433,11 +433,11 @@
       "archived": false,
       "html_url": "https://github.com/deepseek-ai/Janus",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:26+08:00"
+      "fetched_at": "2026-11-28T16:12:45+08:00"
     },
     "LykosAI/StabilityMatrix": {
       "full_name": "LykosAI/StabilityMatrix",
-      "stars": 9085,
+      "stars": 9091,
       "forks": 629,
       "open_issues": 175,
       "pushed_at": "2026-11-24T02:27:37Z",
@@ -448,11 +448,11 @@
       "archived": false,
       "html_url": "https://github.com/LykosAI/StabilityMatrix",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:26+08:00"
+      "fetched_at": "2026-11-28T16:12:45+08:00"
     },
     "ToTheBeginning/PuLID": {
       "full_name": "ToTheBeginning/PuLID",
-      "stars": 3558,
+      "stars": 3559,
       "forks": 274,
       "open_issues": 160,
       "pushed_at": "2025-07-31T18:08:38Z",
@@ -463,7 +463,7 @@
       "archived": false,
       "html_url": "https://github.com/ToTheBeginning/PuLID",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:27+08:00"
+      "fetched_at": "2026-11-28T16:12:46+08:00"
     },
     "PixArt-alpha/PixArt": {
       "full_name": "PixArt-alpha/PixArt-alpha",
@@ -478,7 +478,7 @@
       "archived": false,
       "html_url": "https://github.com/PixArt-alpha/PixArt-alpha",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:27+08:00"
+      "fetched_at": "2026-11-28T16:12:46+08:00"
     },
     "ByteDance-Seed/Bagel": {
       "full_name": "ByteDance-Seed/Bagel",
@@ -493,11 +493,11 @@
       "archived": false,
       "html_url": "https://github.com/ByteDance-Seed/Bagel",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:28+08:00"
+      "fetched_at": "2026-11-28T16:12:46+08:00"
     },
     "kijai/ComfyUI-WanVideoWrapper": {
       "full_name": "kijai/ComfyUI-WanVideoWrapper",
-      "stars": 6837,
+      "stars": 6839,
       "forks": 722,
       "open_issues": 1291,
       "pushed_at": "2026-11-13T01:07:15Z",
@@ -508,7 +508,7 @@
       "archived": false,
       "html_url": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:28+08:00"
+      "fetched_at": "2026-11-28T16:12:46+08:00"
     },
     "city96/ComfyUI-GGUF": {
       "full_name": "city96/ComfyUI-GGUF",
@@ -523,7 +523,7 @@
       "archived": false,
       "html_url": "https://github.com/city96/ComfyUI-GGUF",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:28+08:00"
+      "fetched_at": "2026-11-28T16:12:47+08:00"
     },
     "Kwai-Kolors/Kolors": {
       "full_name": "Kwai-Kolors/Kolors",
@@ -538,12 +538,12 @@
       "archived": false,
       "html_url": "https://github.com/Kwai-Kolors/Kolors",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:29+08:00"
+      "fetched_at": "2026-11-28T16:12:47+08:00"
     },
     "MiniMax-AI/MiniMax-H3": {
       "full_name": "MiniMax-AI/MiniMax-H3",
-      "stars": 12277,
-      "forks": 925,
+      "stars": 12298,
+      "forks": 924,
       "open_issues": 53,
       "pushed_at": "2026-10-28T10:13:58Z",
       "created_at": "2026-07-30T08:41:09Z",
@@ -553,7 +553,7 @@
       "archived": false,
       "html_url": "https://github.com/MiniMax-AI/MiniMax-H3",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:29+08:00"
+      "fetched_at": "2026-11-28T16:12:47+08:00"
     },
     "Tencent-Hunyuan/HunyuanImage-3.0": {
       "full_name": "Tencent-Hunyuan/HunyuanImage-3.0",
@@ -568,12 +568,12 @@
       "archived": false,
       "html_url": "https://github.com/Tencent-Hunyuan/HunyuanImage-3.0",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:29+08:00"
+      "fetched_at": "2026-11-28T16:12:48+08:00"
     },
     "black-forest-labs/flux2": {
       "full_name": "black-forest-labs/flux2",
-      "stars": 2902,
-      "forks": 229,
+      "stars": 2908,
+      "forks": 230,
       "open_issues": 43,
       "pushed_at": "2026-03-12T15:06:20Z",
       "created_at": "2025-11-24T23:28:49Z",
@@ -583,11 +583,11 @@
       "archived": false,
       "html_url": "https://github.com/black-forest-labs/flux2",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:29+08:00"
+      "fetched_at": "2026-11-28T16:12:48+08:00"
     },
     "HiDream-ai/HiDream-I1": {
       "full_name": "HiDream-ai/HiDream-I1",
-      "stars": 2510,
+      "stars": 2511,
       "forks": 244,
       "open_issues": 57,
       "pushed_at": "2025-07-16T14:38:13Z",
@@ -598,12 +598,12 @@
       "archived": false,
       "html_url": "https://github.com/HiDream-ai/HiDream-I1",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:30+08:00"
+      "fetched_at": "2026-11-28T16:12:48+08:00"
     },
     "meituan-longcat/LongCat-Video": {
       "full_name": "meituan-longcat/LongCat-Video",
-      "stars": 9776,
-      "forks": 1732,
+      "stars": 9786,
+      "forks": 1734,
       "open_issues": 96,
       "pushed_at": "2026-11-15T02:57:51Z",
       "created_at": "2025-10-25T06:49:49Z",
@@ -613,7 +613,7 @@
       "archived": false,
       "html_url": "https://github.com/meituan-longcat/LongCat-Video",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:30+08:00"
+      "fetched_at": "2026-11-28T16:12:49+08:00"
     },
     "Stability-AI/sd3.5": {
       "full_name": "Stability-AI/sd3.5",
@@ -628,11 +628,11 @@
       "archived": false,
       "html_url": "https://github.com/Stability-AI/sd3.5",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:31+08:00"
+      "fetched_at": "2026-11-28T16:12:49+08:00"
     },
     "PKU-YuanGroup/OpenS2V-Nexus": {
       "full_name": "PKU-YuanGroup/OpenS2V-Nexus",
-      "stars": 232,
+      "stars": 234,
       "forks": 9,
       "open_issues": 14,
       "pushed_at": "2026-05-19T14:43:29Z",
@@ -643,7 +643,7 @@
       "archived": false,
       "html_url": "https://github.com/PKU-YuanGroup/OpenS2V-Nexus",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:31+08:00"
+      "fetched_at": "2026-11-28T16:12:49+08:00"
     },
     "kandinskylab/kandinsky-5": {
       "full_name": "kandinskylab/kandinsky-5",
@@ -658,7 +658,7 @@
       "archived": false,
       "html_url": "https://github.com/kandinskylab/kandinsky-5",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:31+08:00"
+      "fetched_at": "2026-11-28T16:12:49+08:00"
     },
     "zai-org/GLM-Image": {
       "full_name": "zai-org/GLM-Image",
@@ -673,7 +673,7 @@
       "archived": false,
       "html_url": "https://github.com/zai-org/GLM-Image",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:31+08:00"
+      "fetched_at": "2026-11-28T16:12:50+08:00"
     },
     "zai-org/SCAIL": {
       "full_name": "zai-org/SCAIL",
@@ -688,7 +688,7 @@
       "archived": false,
       "html_url": "https://github.com/zai-org/SCAIL",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:32+08:00"
+      "fetched_at": "2026-11-28T16:12:50+08:00"
     },
     "meituan-longcat/LongCat-Image": {
       "full_name": "meituan-longcat/LongCat-Image",
@@ -703,11 +703,11 @@
       "archived": false,
       "html_url": "https://github.com/meituan-longcat/LongCat-Image",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:32+08:00"
+      "fetched_at": "2026-11-28T16:12:50+08:00"
     },
     "tencent-ailab/IP-Adapter": {
       "full_name": "tencent-ailab/IP-Adapter",
-      "stars": 6720,
+      "stars": 6721,
       "forks": 433,
       "open_issues": 301,
       "pushed_at": "2024-06-28T02:47:03Z",
@@ -718,12 +718,12 @@
       "archived": false,
       "html_url": "https://github.com/tencent-ailab/IP-Adapter",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:22+08:00"
+      "fetched_at": "2026-11-28T16:12:41+08:00"
     },
     "instantX-research/InstantID": {
       "full_name": "instantX-research/InstantID",
-      "stars": 11995,
-      "forks": 889,
+      "stars": 11994,
+      "forks": 888,
       "open_issues": 187,
       "pushed_at": "2024-07-18T04:12:48Z",
       "created_at": "2023-12-11T13:16:04Z",
@@ -733,11 +733,11 @@
       "archived": false,
       "html_url": "https://github.com/instantX-research/InstantID",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:23+08:00"
+      "fetched_at": "2026-11-28T16:12:41+08:00"
     },
     "Stability-AI/StableSwarmUI": {
       "full_name": "Stability-AI/StableSwarmUI",
-      "stars": 4937,
+      "stars": 4938,
       "forks": 402,
       "open_issues": 67,
       "pushed_at": "2026-10-15T03:59:33Z",
@@ -748,12 +748,12 @@
       "archived": false,
       "html_url": "https://github.com/Stability-AI/StableSwarmUI",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:27+08:00"
+      "fetched_at": "2026-11-28T16:12:45+08:00"
     },
     "wide-trace/open-higgsfield": {
       "full_name": "wide-trace/open-higgsfield",
-      "stars": 7005,
-      "forks": 1492,
+      "stars": 7100,
+      "forks": 1500,
       "open_issues": 39,
       "pushed_at": "2026-09-17T01:53:26Z",
       "created_at": "2026-08-26T06:09:58Z",
@@ -763,11 +763,11 @@
       "archived": false,
       "html_url": "https://github.com/wide-trace/open-higgsfield",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:28+08:00"
+      "fetched_at": "2026-11-28T16:12:47+08:00"
     },
     "QwenLM/Qwen-Image-2.1": {
       "full_name": "QwenLM/Qwen-Image-2.1",
-      "stars": 2283,
+      "stars": 2285,
       "forks": 167,
       "open_issues": 25,
       "pushed_at": "2026-10-14T10:08:25Z",
@@ -778,11 +778,11 @@
       "archived": false,
       "html_url": "https://github.com/QwenLM/Qwen-Image-2.1",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:30+08:00"
+      "fetched_at": "2026-11-28T16:12:48+08:00"
     },
     "nkxx188/ComfyUI-MiniMaxH3-Easy": {
       "full_name": "nkxx188/ComfyUI-MiniMaxH3-Easy",
-      "stars": 937,
+      "stars": 938,
       "forks": 64,
       "open_issues": 3,
       "pushed_at": "2026-11-13T03:26:44Z",
@@ -793,12 +793,12 @@
       "archived": false,
       "html_url": "https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:32+08:00"
+      "fetched_at": "2026-11-28T16:12:50+08:00"
     },
     "SandAI-org/MAGI-2-preview": {
       "full_name": "SandAI-org/MAGI-2-preview",
-      "stars": 836,
-      "forks": 35,
+      "stars": 874,
+      "forks": 36,
       "open_issues": 5,
       "pushed_at": "2026-08-06T11:44:20Z",
       "created_at": "2026-08-04T12:47:38Z",
@@ -808,11 +808,11 @@
       "archived": false,
       "html_url": "https://github.com/SandAI-org/MAGI-2-preview",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:33+08:00"
+      "fetched_at": "2026-11-28T16:12:51+08:00"
     },
     "AlibabaResearch/SparkDiffusion": {
       "full_name": "AlibabaResearch/SparkDiffusion",
-      "stars": 801,
+      "stars": 815,
       "forks": 86,
       "open_issues": 12,
       "pushed_at": "2026-10-26T10:12:59Z",
@@ -823,7 +823,7 @@
       "archived": false,
       "html_url": "https://github.com/AlibabaResearch/SparkDiffusion",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:33+08:00"
+      "fetched_at": "2026-11-28T16:12:51+08:00"
     },
     "nihui/qwenimage-ncnn-vulkan": {
       "full_name": "nihui/qwenimage-ncnn-vulkan",
@@ -838,7 +838,7 @@
       "archived": false,
       "html_url": "https://github.com/nihui/qwenimage-ncnn-vulkan",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:35+08:00"
+      "fetched_at": "2026-11-28T16:12:53+08:00"
     },
     "AMAP-ML/DreamX-Creator": {
       "full_name": "AMAP-ML/DreamX-Creator",
@@ -853,7 +853,7 @@
       "archived": false,
       "html_url": "https://github.com/AMAP-ML/DreamX-Creator",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:35+08:00"
+      "fetched_at": "2026-11-28T16:12:53+08:00"
     },
     "zylwithxy/HRDiT": {
       "full_name": "zylwithxy/HRDiT",
@@ -868,7 +868,7 @@
       "archived": false,
       "html_url": "https://github.com/zylwithxy/HRDiT",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:36+08:00"
+      "fetched_at": "2026-11-28T16:12:54+08:00"
     },
     "xmarre/ComfyUI-Spectrum-MiniMax-H3": {
       "full_name": "xmarre/ComfyUI-Spectrum-MiniMax-H3",
@@ -883,7 +883,7 @@
       "archived": false,
       "html_url": "https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:32+08:00"
+      "fetched_at": "2026-11-28T16:12:51+08:00"
     },
     "StreamEval/StreamEval": {
       "full_name": "StreamEval/StreamEval",
@@ -898,7 +898,7 @@
       "archived": false,
       "html_url": "https://github.com/StreamEval/StreamEval",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:33+08:00"
+      "fetched_at": "2026-11-28T16:12:51+08:00"
     },
     "TaoLiveAIGC/TaoMate": {
       "full_name": "TaoLiveAIGC/TaoMate",
@@ -913,14 +913,14 @@
       "archived": false,
       "html_url": "https://github.com/TaoLiveAIGC/TaoMate",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:34+08:00"
+      "fetched_at": "2026-11-28T16:12:52+08:00"
     },
     "ukr8b3g-cmyk/ComfyUI-H3-Continuum": {
       "full_name": "ukr8b3g-cmyk/ComfyUI-H3-Continuum",
-      "stars": 334,
+      "stars": 335,
       "forks": 31,
-      "open_issues": 10,
-      "pushed_at": "2026-11-18T15:13:09Z",
+      "open_issues": 11,
+      "pushed_at": "2026-11-27T17:02:06Z",
       "created_at": "2026-08-10T07:23:20Z",
       "description": "Seamless long-form MiniMax H3 video generation for ComfyUI with native AV latent continuity, chunked sampling, session resume, and Spectrum/Sage/Sol compatibility.",
       "license": "MIT",
@@ -928,12 +928,12 @@
       "archived": false,
       "html_url": "https://github.com/ukr8b3g-cmyk/ComfyUI-H3-Continuum",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:36+08:00"
+      "fetched_at": "2026-11-28T16:12:54+08:00"
     },
     "MiniMax-AI/MiniMax-H3-Image": {
       "full_name": "MiniMax-AI/MiniMax-H3-Image",
-      "stars": 475,
-      "forks": 27,
+      "stars": 479,
+      "forks": 28,
       "open_issues": 6,
       "pushed_at": "2026-11-11T18:48:54Z",
       "created_at": "2026-11-09T17:11:00Z",
@@ -943,7 +943,7 @@
       "archived": false,
       "html_url": "https://github.com/MiniMax-AI/MiniMax-H3-Image",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:35+08:00"
+      "fetched_at": "2026-11-28T16:12:53+08:00"
     },
     "brave-plum-co/leonardo-ai-desktop": {
       "full_name": "brave-plum-co/leonardo-ai-desktop",
@@ -962,9 +962,9 @@
     },
     "beckettharriman/openfill": {
       "full_name": "beckettharriman/openfill",
-      "stars": 358,
-      "forks": 22,
-      "open_issues": 4,
+      "stars": 363,
+      "forks": 23,
+      "open_issues": 7,
       "pushed_at": "2026-11-26T20:05:02Z",
       "created_at": "2026-10-14T20:51:20Z",
       "description": "Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3. Free, local, on your own GPU through ComfyUI.",
@@ -973,7 +973,7 @@
       "archived": false,
       "html_url": "https://github.com/beckettharriman/openfill",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:37+08:00"
+      "fetched_at": "2026-11-28T16:12:55+08:00"
     },
     "Aroralayla99/capcut-seedance-win": {
       "full_name": "Aroralayla99/capcut-seedance-win",
@@ -1037,7 +1037,7 @@
     },
     "AbrahamPaulJ/nightmare-mobile": {
       "full_name": "AbrahamPaulJ/nightmare-mobile",
-      "stars": 323,
+      "stars": 330,
       "forks": 30,
       "open_issues": 13,
       "pushed_at": "2026-11-24T15:48:36Z",
@@ -1048,7 +1048,7 @@
       "archived": false,
       "html_url": "https://github.com/AbrahamPaulJ/nightmare-mobile",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:37+08:00"
+      "fetched_at": "2026-11-28T16:12:54+08:00"
     },
     "fujc683/seedance-2-5-flash-camera-movements": {
       "full_name": "fujc683/seedance-2-5-flash-camera-movements",
@@ -1063,11 +1063,11 @@
       "archived": false,
       "html_url": "https://github.com/fujc683/seedance-2-5-flash-camera-movements",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:34+08:00"
+      "fetched_at": "2026-11-28T16:12:52+08:00"
     },
     "rinste/turbo-mlx": {
       "full_name": "rinste/turbo-mlx",
-      "stars": 313,
+      "stars": 326,
       "forks": 39,
       "open_issues": 20,
       "pushed_at": "2026-11-03T17:28:25Z",
@@ -1078,7 +1078,7 @@
       "archived": false,
       "html_url": "https://github.com/rinste/turbo-mlx",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:37+08:00"
+      "fetched_at": "2026-11-28T16:12:55+08:00"
     },
     "haticescott326/comfyui": {
       "full_name": "haticescott326/comfyui",
@@ -1094,44 +1094,59 @@
       "html_url": "https://github.com/haticescott326/comfyui",
       "source": "api",
       "fetched_at": "2026-11-27T16:52:36+08:00"
+    },
+    "lemomo-ai/lemo-animi": {
+      "full_name": "lemomo-ai/lemo-animi",
+      "stars": 305,
+      "forks": 32,
+      "open_issues": 1,
+      "pushed_at": "2026-11-23T04:53:46Z",
+      "created_at": "2026-11-16T05:03:11Z",
+      "description": "Stop-motion shorts from one line, made with Codex: eight material styles, puppets drawn by an image model and moved frame by frame in code. 一句话，用 Codex 做一支定格动画短片。",
+      "license": "NOASSERTION",
+      "language": "Python",
+      "archived": false,
+      "html_url": "https://github.com/lemomo-ai/lemo-animi",
+      "source": "api",
+      "fetched_at": "2026-11-28T16:12:54+08:00"
     }
   },
   "hf": {
     "black-forest-labs/FLUX.2-dev": {
-      "likes": 2629,
-      "downloads": 267944,
+      "likes": 2632,
+      "downloads": 277267,
       "last_modified": "2026-11-19T14:20:59.000Z",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:37+08:00"
+      "fetched_at": "2026-11-28T16:12:55+08:00"
     },
     "black-forest-labs/FLUX.1-dev": {
-      "likes": 16395,
-      "downloads": 400392,
+      "likes": 16407,
+      "downloads": 396030,
       "last_modified": "2026-11-19T14:41:01.000Z",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:37+08:00"
+      "fetched_at": "2026-11-28T16:12:55+08:00"
     },
     "Qwen/Qwen-Image": {
-      "likes": 2707,
-      "downloads": 381298,
+      "likes": 2708,
+      "downloads": 391115,
       "last_modified": "2025-08-18T02:42:19.000Z",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:37+08:00"
+      "fetched_at": "2026-11-28T16:12:55+08:00"
     },
     "Tongyi-MAI/Z-Image-Turbo": {
-      "likes": 5662,
-      "downloads": 828057,
+      "likes": 5666,
+      "downloads": 843960,
       "last_modified": "2026-01-30T16:58:07.000Z",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:37+08:00"
+      "fetched_at": "2026-11-28T16:12:55+08:00"
     },
     "Wan-AI/Wan2.2-T2V-A14B": {
       "likes": 644,
-      "downloads": 5472,
+      "downloads": 5491,
       "last_modified": "2025-08-07T09:43:34.000Z",
       "source": "api",
-      "fetched_at": "2026-11-27T16:52:37+08:00"
+      "fetched_at": "2026-11-28T16:12:55+08:00"
     }
   },
-  "generated": "2026-11-27 16:52 (UTC+8)"
+  "generated": "2026-11-28 16:12 (UTC+8)"
 }

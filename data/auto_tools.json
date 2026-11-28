@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-27 16:51 (UTC+8)",
+  "generated": "2026-11-28 16:12 (UTC+8)",
   "note": "本文件由 scripts/discover.py 自动维护；人工核实后可把条目移入 data/tools.json 转正，或直接删掉下架。",
   "config_version": "2.0",
-  "count": 23,
+  "count": 24,
   "tools": [
     {
       "id": "auto-qwenlm-qwen-image-2-1",
@@ -848,6 +848,43 @@
       "source_stars": 308,
       "source_relevance": 89.8,
       "source_created": "2026-11-24"
+    },
+    {
+      "id": "auto-lemomo-ai-lemo-animi",
+      "name": "lemo-animi",
+      "alias": "自动收录 · 待复核",
+      "category": "image_model",
+      "type": "open",
+      "org": "lemomo-ai",
+      "desc": "Stop-motion shorts from one line, made with Codex: eight material styles, puppets drawn by an image model and moved frame by frame in code. 一句话，用 Codex 做一支定格动画短片。",
+      "links": {
+        "home": "https://github.com/lemomo-ai/lemo-animi",
+        "github": "https://github.com/lemomo-ai/lemo-animi"
+      },
+      "github": "lemomo-ai/lemo-animi",
+      "license": "详见仓库",
+      "tags": [
+        "自动收录",
+        "待复核",
+        "Python"
+      ],
+      "added": "2026-11-28",
+      "scores": {
+        "ease": 3,
+        "cost": 4,
+        "quality": 3,
+        "cn": 2,
+        "ecosystem": 2,
+        "efficiency": 3
+      },
+      "seed_stars": 305,
+      "auto_admitted": true,
+      "admitted_at": "2026-11-28 16:12",
+      "review_status": "pending",
+      "source_query": "\"image model\" in:name,description stars:>200",
+      "source_stars": 305,
+      "source_relevance": 59.7,
+      "source_created": "2026-11-16"
     }
   ]
 }
